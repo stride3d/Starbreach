@@ -1,0 +1,7 @@
+!Texture
+Id: 5f78ce62-0244-4e40-a263-576da37cc6dd
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Cells/cell1R_D.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

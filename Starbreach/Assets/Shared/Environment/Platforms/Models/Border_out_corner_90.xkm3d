@@ -1,0 +1,18 @@
+!Model
+Id: e2199908-ce19-4e35-843e-6ade71089032
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Platforms/Borders/Border_out_corner_90.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    a35b5dbd088a7628d9122d5d51e70688:
+        Name: Ledge
+        MaterialInstance:
+            Material: 9e3f4553-c2c6-4b3c-8bbe-99e49d11c87b:Environment/Platforms/Materials/Borders/Ledge_Rusted_MT
+    fe5ff525de41bfeff0a17ddd12db3c2c:
+        Name: Border
+        MaterialInstance:
+            Material: dade43d9-ff9b-456f-a9e7-78f5a26afb39:Environment/Platforms/Materials/Borders/Border_MT
+Skeleton: null
+~SourceHashes:
+    1f693d358b5c37b42cca75a002de56ff~../../../../../Resources/Platforms/Borders/Border_out_corner_90.fbx: 63ae439e4b7a079f2e52f39c4bec43aa

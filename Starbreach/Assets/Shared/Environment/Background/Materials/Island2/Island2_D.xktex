@@ -1,0 +1,11 @@
+!Texture
+Id: 5339889e-8072-4dd7-8b50-03c37e71ad8e
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Background/Island2/Isl2_D.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    Alpha: None
+    PremultiplyAlpha: false

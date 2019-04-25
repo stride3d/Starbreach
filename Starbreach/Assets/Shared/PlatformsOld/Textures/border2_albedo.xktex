@@ -1,0 +1,7 @@
+!Texture
+Id: dbcc4468-dd8d-4555-929d-e957f20c1e7c
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/border/border2_albedo.tga
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

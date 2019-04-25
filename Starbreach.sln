@@ -1,0 +1,112 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starbreach.Windows", "Starbreach.Windows\Starbreach.Windows.csproj", "{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starbreach", "Starbreach\Starbreach.csproj", "{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VFXPackage", "VFXPackage\VFXPackage.csproj", "{ED36EE06-A604-4E33-B6F3-F49447853079}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AppStore|Any CPU = AppStore|Any CPU
+		AppStore|Mixed Platforms = AppStore|Mixed Platforms
+		AppStore|Windows = AppStore|Windows
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Windows = Debug|Windows
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Windows = Release|Windows
+		Testing|Any CPU = Testing|Any CPU
+		Testing|Mixed Platforms = Testing|Mixed Platforms
+		Testing|Windows = Testing|Windows
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.AppStore|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.AppStore|Mixed Platforms.Build.0 = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.AppStore|Windows.ActiveCfg = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.AppStore|Windows.Build.0 = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Debug|Windows.ActiveCfg = Debug|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Debug|Windows.Build.0 = Debug|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Debug|Windows.Deploy.0 = Debug|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Release|Windows.ActiveCfg = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Release|Windows.Build.0 = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Release|Windows.Deploy.0 = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Testing|Any CPU.ActiveCfg = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Testing|Any CPU.Build.0 = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Testing|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Testing|Mixed Platforms.Build.0 = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Testing|Windows.ActiveCfg = Release|Any CPU
+		{DB769CC4-C8BC-49A4-A9AF-DA67C1267F26}.Testing|Windows.Build.0 = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.AppStore|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.AppStore|Mixed Platforms.Build.0 = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.AppStore|Windows.ActiveCfg = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.AppStore|Windows.Build.0 = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Debug|Windows.ActiveCfg = Debug|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Debug|Windows.Build.0 = Debug|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Release|Windows.ActiveCfg = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Release|Windows.Build.0 = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Testing|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Testing|Any CPU.Build.0 = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Testing|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Testing|Mixed Platforms.Build.0 = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Testing|Windows.ActiveCfg = Release|Any CPU
+		{7FDAE97A-8B8E-4D00-B555-6D0DCD398CE0}.Testing|Windows.Build.0 = Release|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.AppStore|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.AppStore|Mixed Platforms.Build.0 = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.AppStore|Windows.ActiveCfg = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.AppStore|Windows.Build.0 = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Debug|Windows.ActiveCfg = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Debug|Windows.Build.0 = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Release|Windows.ActiveCfg = Release|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Release|Windows.Build.0 = Release|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Testing|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Testing|Any CPU.Build.0 = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Testing|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Testing|Mixed Platforms.Build.0 = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Testing|Windows.ActiveCfg = Debug|Any CPU
+		{ED36EE06-A604-4E33-B6F3-F49447853079}.Testing|Windows.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D12DFDBB-8FFE-4F21-A199-3C57737D03A2}
+	EndGlobalSection
+EndGlobal

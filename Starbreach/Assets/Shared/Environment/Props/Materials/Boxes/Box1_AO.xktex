@@ -1,0 +1,8 @@
+!Texture
+Id: 2d5bbbbe-a88c-47d2-a0da-ecdb44a3dedf
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Boxes/Box1_AO.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

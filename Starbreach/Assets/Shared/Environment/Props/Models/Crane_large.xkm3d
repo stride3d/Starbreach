@@ -1,0 +1,14 @@
+!Model
+Id: 821a1210-f5e0-4389-9e42-72886ebccaf5
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/Crane/Crane_v2.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    3048d14b16e8eb8e18b94acd80ce68ee:
+        Name: default
+        MaterialInstance:
+            Material: 69a82a65-317c-412c-bee3-78b819d91d22:Environment/Props/Materials/Crane/Crane_MT
+Skeleton: null
+~SourceHashes:
+    fe6945ebcf926cc63ab1a42c3d607a7a~../../../../../Resources/Props/Crane/Crane_v2.FBX: 2ab033f7b8141e1a00cc5d2407c4a32f

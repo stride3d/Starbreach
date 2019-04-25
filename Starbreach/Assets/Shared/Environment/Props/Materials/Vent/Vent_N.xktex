@@ -1,0 +1,8 @@
+!Texture
+Id: 067589c4-36c3-424e-8666-de02804a08ba
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Vent/Vent_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

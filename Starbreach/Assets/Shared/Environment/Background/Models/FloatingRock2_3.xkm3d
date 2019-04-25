@@ -1,0 +1,14 @@
+!Model
+Id: e1555e64-a386-4bc0-93b5-f9d0a4ec9051
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Background/FloatingRocks/FloatingRock2_3.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    80d5e5c4c8ee2172f9d3ea704d65fd39:
+        Name: FloatingRocks2
+        MaterialInstance:
+            Material: 747dcb65-a432-45d6-a55d-80d3417ccfdf:Environment/Background/Materials/FloatingRocks/FloatingRocks2_NoMineral_MT
+Skeleton: null
+~SourceHashes:
+    72f37d8027d0e225df06d7a3137ff395~../../../../../Resources/Background/FloatingRocks/FloatingRock2_3.FBX: 010028709f216ca91cfe4399778f7fab

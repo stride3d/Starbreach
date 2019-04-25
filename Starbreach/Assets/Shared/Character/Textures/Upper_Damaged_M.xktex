@@ -1,0 +1,8 @@
+!Texture
+Id: 4104a63d-4635-4723-986b-eff61aae8b0b
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/MainCharacter_Damaged/MainCharacter_Upper_Damaged_M.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

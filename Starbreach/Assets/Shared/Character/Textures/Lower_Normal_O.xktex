@@ -1,0 +1,9 @@
+!Texture
+Id: 80bf10b3-66c2-4537-b1c7-fd3b9d9df6a7
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/Lower [Occlusion].tga
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

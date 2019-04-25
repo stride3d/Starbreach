@@ -1,0 +1,9 @@
+!Texture
+Id: 48c68375-a097-48b2-bcd3-a28968ad1b2c
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Walls/Wall1/Wall1_D.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    Alpha: None
+    PremultiplyAlpha: false

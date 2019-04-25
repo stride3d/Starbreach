@@ -1,0 +1,14 @@
+!Model
+Id: 284e6a20-861f-4586-9827-682ebf856c18
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: comet.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    b7e17100e61847668b1cdb558b1cdb55:
+        Name: default
+        MaterialInstance:
+            Material: 92077e04-5418-4a38-ba09-cafadb41578b:Props/Comet/textures/Comet
+Skeleton: null
+~SourceHashes:
+    8bc3b76a8f78f271b032fdfd5a62d433~comet.FBX: 4489348340e6c6a548cb9fd19d57a7dd

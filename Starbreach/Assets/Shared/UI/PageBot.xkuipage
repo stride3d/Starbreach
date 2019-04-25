@@ -1,0 +1,210 @@
+!UIPageAsset
+Id: 3d62a6cf-e329-4096-8dfb-7feafc65f772
+SerializedVersion: {Xenko: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1024.0, Y: 512.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 018dd458-7711-4882-a082-d41106dedd67
+    Parts:
+        -   UIElement: !Grid
+                Id: 018dd458-7711-4882-a082-d41106dedd67
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    96e950371b454f44878768c81c2e191f: !Grid ref!! 3750e996-451b-444f-8787-68c81c2e191f
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !ContentDecorator
+                Id: 16f6065d-cb84-4b34-b1c7-7a919e430624
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                HorizontalAlignment*: Left
+                VerticalAlignment: Center
+                Margin: {}
+                Name: hero
+                Padding: {}
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 8
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: e093ca40-112d-4315-897b-c9e11e9c3296
+                InstanceId: 0da376d7-867a-414c-b38f-42cb74fdc290
+        -   UIElement: !Grid
+                Id: 3750e996-451b-444f-8787-68c81c2e191f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    5d06f61684cb344bb1c77a919e430624: !ContentDecorator ref!! 16f6065d-cb84-4b34-b1c7-7a919e430624
+                    cfd509ae7e29b04eb50431f66a1b4342: !ContentDecorator ref!! ae09d5cf-297e-4eb0-b504-31f66a1b4342
+                    3ea6e57dd3da624494796a48ae7f4aed: !ContentDecorator ref!! 7de5a63e-dad3-4462-9479-6a48ae7f4aed
+                RowDefinitions:
+                    03ae62e01e2c1b429c29f930fbb4b32b: {}
+                    c2e245a462edb5489d9f20af835a842d:
+                        Type: Auto
+                    419a7eeadc449344b6a11c5ed9f2a712:
+                        Type: Fixed
+                        SizeValue: 60.0
+                    9f2219eb25c3ec4791c7b7a41fa73a80:
+                        Type: Auto
+                    e2965fd791161a4bb2750cefa182f42f: {}
+                ColumnDefinitions:
+                    1335c2af6d9cc7478654432dba456d14:
+                        Type: Auto
+                    662cdee71b926945a0dc5c6d00224e60:
+                        Type: Auto
+                    7812a0c41be41149b6ece94e56cdcaa4:
+                        Type: Auto
+                LayerDefinitions: {}
+        -   UIElement: !Grid
+                Id: 4dac6bf4-8782-48b7-b3cb-7396de6d92e4
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Stretch
+                Margin: {}
+                Name: lifebarGrid
+                Children:
+                    afa033583dd1b841b297a7d77bdb6868: !ImageElement ref!! 5833a0af-d13d-41b8-b297-a7d77bdb6868
+                RowDefinitions: {}
+                ColumnDefinitions:
+                    9483c3d1e1fd1748a33883a1d10c139b:
+                        SizeValue*: 100.0
+                    ba3a67a7cac7f549885f9d57aaee6668:
+                        SizeValue*: 0.0
+                LayerDefinitions: {}
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 789d1aae-6a58-41a2-8bf1-f8ec0994ee16
+                InstanceId: c583b1ff-9eb4-4138-852c-463493f0a362
+        -   UIElement: !ImageElement
+                Id: 5833a0af-d13d-41b8-b297-a7d77bdb6868
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Stretch
+                Margin: {}
+                Name: lifeFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 5
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 10b3873b-8a29-465d-9d9a-7c72125ba2ad
+                InstanceId: 91990d59-11de-47ee-a967-1086433da4a4
+        -   UIElement: !ContentDecorator
+                Id: 7de5a63e-dad3-4462-9479-6a48ae7f4aed
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 434.0
+                Height*: 50.0
+                HorizontalAlignment*: Left
+                DepthAlignment: Stretch
+                Margin*: {}
+                Name*: chargebar
+                Padding: {Top: -5.0, Right: 5.0, Bottom: 5.0}
+                Content: !ContentDecorator ref!! b7311df4-5680-4d1b-bde8-f6689b3f6762
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 6
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: cc1c547b-59fc-4fae-90ad-58005f3c4d78
+                InstanceId: 265620e1-a397-425e-b2d6-fe4d1390115f
+        -   UIElement: !ContentDecorator
+                Id: a07f09df-4d9e-4b6a-ad9b-9048a03e531f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                DepthAlignment: Stretch
+                Margin: {}
+                Name: lifebarBackground
+                Padding: {}
+                Content: !Grid ref!! 4dac6bf4-8782-48b7-b3cb-7396de6d92e4
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 4
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 07ede8d9-715d-458c-9d2b-d03f6e538b8b
+                InstanceId: 3f06c8a6-2e9e-4ce2-9ed1-5f327bae9d1c
+        -   UIElement: !ImageElement
+                Id: a5cdb619-8360-4c58-a1a8-e594f97070bc
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Stretch
+                Margin: {}
+                Name*: chargeFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame*: 1
+                Color*: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 10b3873b-8a29-465d-9d9a-7c72125ba2ad
+                InstanceId: 3857e569-80ff-479b-b229-f772419415ee
+        -   UIElement: !ContentDecorator
+                Id: ae09d5cf-297e-4eb0-b504-31f66a1b4342
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 434.0
+                Height*: 50.0
+                HorizontalAlignment*: Left
+                DepthAlignment: Stretch
+                Margin*: {}
+                Name: lifebar
+                Padding: {Top: -5.0, Right: 5.0, Bottom: 5.0}
+                Content: !ContentDecorator ref!! a07f09df-4d9e-4b6a-ad9b-9048a03e531f
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 6
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: cc1c547b-59fc-4fae-90ad-58005f3c4d78
+                InstanceId: 938bdf4e-ee0b-447c-b6e9-0b0ba4b68e26
+        -   UIElement: !ContentDecorator
+                Id: b7311df4-5680-4d1b-bde8-f6689b3f6762
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber*: 2
+                DepthAlignment: Stretch
+                Margin: {}
+                Name*: chargebarBackground
+                Padding: {}
+                Content: !Grid ref!! e0c3467c-399b-4d9a-81cf-8cbdaab16788
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 4
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 07ede8d9-715d-458c-9d2b-d03f6e538b8b
+                InstanceId: b3da55a9-4c9e-4905-b76c-f3052ad3876e
+        -   UIElement: !Grid
+                Id: e0c3467c-399b-4d9a-81cf-8cbdaab16788
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Stretch
+                Margin*: {}
+                Name*: chargebarGrid
+                Children:
+                    19b6cda56083584ca1a8e594f97070bc: !ImageElement ref!! a5cdb619-8360-4c58-a1a8-e594f97070bc
+                RowDefinitions: {}
+                ColumnDefinitions:
+                    9483c3d1e1fd1748a33883a1d10c139b:
+                        SizeValue*: 100.0
+                    ba3a67a7cac7f549885f9d57aaee6668:
+                        SizeValue*: 0.0
+                LayerDefinitions: {}
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 789d1aae-6a58-41a2-8bf1-f8ec0994ee16
+                InstanceId: f3de812d-f0e4-4dd9-8480-d4972f0d7dc5

@@ -1,0 +1,150 @@
+!PrefabAsset
+Id: e1164942-e691-4b2b-baf5-95d11fe6d716
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 2fbd0a2c-0a41-4079-9140-62862ef77192
+    Parts:
+        -   Entity:
+                Id: 2fbd0a2c-0a41-4079-9140-62862ef77192
+                Name: BulletHole
+                Components:
+                    54ee1d701f5ac045a7c28e344d497057: !TransformComponent
+                        Id: 701dee54-5a1f-45c0-a7c2-8e344d497057
+                        Position: {X: -0.0981434, Y: 0.0, Z: 0.5368307}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    60814874cfa3a64a89916d0f963cccd6: !ParticleSystemComponent
+                        Id: 74488160-a3cf-4aa6-8991-6d0f963cccd6
+                        Control:
+                            ResetSeconds: 5.0
+                            Control: Play
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Speed: 1.0
+                        ParticleSystem:
+                            Settings: {}
+                            BoundingShape: null
+                            Emitters:
+                                521c907b72b6834b9d48d92a6bf8e435:
+                                    EmitterName: Burns
+                                    ParticleLifetime: {X: 4.0, Y: 8.0}
+                                    ShapeBuilder: !ShapeBuilderQuad
+                                        SamplerPosition: null
+                                        SamplerSize: null
+                                        SamplerRotation: null
+                                    Material: !ParticleMaterialComputeColor
+                                        ZOffset: 0.3
+                                        ComputeColor: !ComputeBinaryColor
+                                            Operator: Multiply
+                                            LeftChild: !ComputeTextureColor
+                                                Texture: 8ab2edfe-0ead-489f-a899-97a8112807f7:Textures/Smoke02
+                                                FallbackValue:
+                                                    Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                                Scale: {X: 1.0, Y: 1.0}
+                                                Offset: {X: 0.0, Y: 0.0}
+                                                Swizzle: null
+                                            RightChild: !ComputeColor
+                                                Value: {R: 0.0, G: 0.0, B: 0.0, A: 1.0}
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        9df7798dc9990c428193ecef2e239385: !SpawnerPerSecond
+                                            LoopCondition: Looping
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 100.0
+                                    Initializers:
+                                        7c224fce36d98f44b7c26299c92cba5c: !InitialPositionSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            ScaleUniform: 1.0
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            PositionMin: {X: -0.5, Y: 0.0, Z: -0.5}
+                                            PositionMax: {X: 0.5, Y: 0.0, Z: 0.5}
+                                            Interpolate: false
+                                    Updaters: {}
+                                baf8b3df9268df43801ec26aa3319b64:
+                                    EmitterName: BulletHoles
+                                    ParticleLifetime: {X: 8.0, Y: 10.0}
+                                    ShapeBuilder: !ShapeBuilderQuad
+                                        SamplerPosition: null
+                                        SamplerSize: null
+                                        SamplerRotation: null
+                                    Material: !ParticleMaterialComputeColor
+                                        ZOffset: 0.3
+                                        ComputeColor: !ComputeBinaryColor
+                                            Operator: Add
+                                            LeftChild: !ComputeFloat4
+                                                Value: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+                                            RightChild: !ComputeTextureColor
+                                                Texture: 12575e84-8b35-4683-82d3-1f40a6348473:Textures/BulletHole
+                                                FallbackValue:
+                                                    Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                                Scale: {X: 1.0, Y: 1.0}
+                                                Offset: {X: 0.0, Y: 0.0}
+                                                Swizzle: null
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        803a0da2aad47744906ea363fa84f20a: !SpawnerPerSecond
+                                            LoopCondition: Looping
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 20.0
+                                    Initializers:
+                                        82a8489872a87f43b6cb9fd28a5a4beb: !InitialSizeSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            RandomSize: {X: 0.35, Y: 0.55}
+                                        e45d4ea9945e824898135a8e911ebc47: !InitialPositionSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            ScaleUniform: 1.0
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            PositionMin: {X: -0.5, Y: 0.0, Z: -0.5}
+                                            PositionMax: {X: 0.5, Y: 0.0, Z: 0.5}
+                                            Interpolate: false
+                                        62d96e98c4c2d847a37e0816cc022395: !Initial3DRotationSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            RotationQuaternionMin: {X: 0.0, Y: -0.6427876, Z: 0.0, W: 0.766044438}
+                                            RotationQuaternionMax: {X: 0.0, Y: 0.6427876, Z: 0.0, W: 0.766044438}
+                                    Updaters: {}

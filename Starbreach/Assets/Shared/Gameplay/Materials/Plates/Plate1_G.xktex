@@ -1,0 +1,6 @@
+!Texture
+Id: 1af02094-68b8-481b-97a9-cc484c439e0c
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Gameplay/Plate/Plate1_G.png
+Type: !GrayscaleTextureType {}

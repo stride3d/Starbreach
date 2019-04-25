@@ -1,0 +1,9 @@
+!Texture
+Id: 199d5f31-8f7e-4ca3-969e-0572b1170ff1
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Tube/Tube_E.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

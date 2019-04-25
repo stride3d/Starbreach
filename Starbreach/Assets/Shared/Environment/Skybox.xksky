@@ -1,0 +1,5 @@
+!SkyboxAsset
+Id: cc4a543b-c042-480d-b174-3257cb336b15
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+CubeMap: 47179bd7-ee99-43df-a944-bb572838c0c9:Environment/EnvironmentMap

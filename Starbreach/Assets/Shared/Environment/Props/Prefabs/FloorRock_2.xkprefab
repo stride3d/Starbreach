@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: cbbd86c4-cb0d-4f6d-ae3c-e862223411cc
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 44ab4ca8-1844-4589-b1c1-d09ab32d0eae
+    Parts:
+        -   Entity:
+                Id: 44ab4ca8-1844-4589-b1c1-d09ab32d0eae
+                Name: FloorRock_2
+                Components:
+                    e4b86247ad2fae183c070ab5297ac2c4: !TransformComponent
+                        Id: 69d62d63-fee8-4c5e-a6f2-d36c91bb0eb8
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c8f4c5bab19682b003ccfa636f439a63: !ModelComponent
+                        Id: 4c5d70ca-48e1-4037-98cd-375b3518dea1
+                        Model: 1cbe9f48-9b2a-4ffa-9247-5295373b9315:Environment/Props/Models/FloorRock_2
+                        Materials: {}

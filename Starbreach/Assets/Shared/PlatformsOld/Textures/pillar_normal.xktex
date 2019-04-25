@@ -1,0 +1,6 @@
+!Texture
+Id: e1d3d5fb-c616-4293-8daf-58249eb7e2ad
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/Pillar/pillar_normal.tga
+Type: !NormalMapTextureType {}

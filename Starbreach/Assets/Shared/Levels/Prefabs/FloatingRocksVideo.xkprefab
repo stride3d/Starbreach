@@ -1,0 +1,1329 @@
+!PrefabAsset
+Id: bbdbd698-8c47-4c49-b79e-c7721b626b34
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! fa77249e-546c-4c5a-963c-3eb3df9c66f0
+        - ref!! b53990e9-7cd7-40e4-884d-0c3910cdb3d2
+        - ref!! def87cdf-e3e2-4fd3-a0e5-a08c7f43f65d
+        - ref!! 86b49dca-1602-4518-8f2b-99f2c0d7781a
+        - ref!! 6a3c09a1-ca78-451b-aced-736d61e8c23e
+        - ref!! cf4d5061-10c4-4bd8-8dcf-a531cedf70ae
+        - ref!! 0bf7f70c-9ca8-49a8-a8a0-e4419fd6cad6
+        - ref!! ae58bcee-186b-4d62-bde9-42e41c54538f
+        - ref!! 299ac365-002a-43b6-82da-f0c24f887f53
+        - ref!! 1afd9697-e6bb-4621-9632-31e5e0a0049b
+        - ref!! 3bd00af8-b980-45a4-be7a-29ab3fe34ad0
+        - ref!! 0c7de2c9-0051-4fe5-9c46-2479b5989418
+        - ref!! 215340cd-12d0-4fe5-8dc2-ba50f185e1c1
+        - ref!! 60cb23b7-5f70-4adb-820c-ff92cdd6b693
+        - ref!! 090dbb08-a2ef-44af-a3ef-923f2aacb055
+        - ref!! f90cc49d-6df9-41b1-b6b2-91f7531191c6
+        - ref!! d9b58605-ff06-455d-8e67-d22b81c33c72
+        - ref!! bf6de033-444b-4bd5-bd8f-c3185f3c9733
+        - ref!! 87e24d5c-0b55-4cab-8600-c47ae9d96a88
+        - ref!! dabeae09-2425-4673-a352-1c49b5ed279f
+        - ref!! acfc3ecc-4a35-4e8a-a3d0-de99c812599c
+        - ref!! 5d80a4f6-8b07-4edc-9610-37233ead6ba2
+        - ref!! f4cfce88-7467-439e-b338-c8e77c426d4b
+        - ref!! b093dae9-c2bd-4afb-aafd-ea42a546cf94
+        - ref!! 4e76192f-e800-41b4-8880-3db21a52bb4e
+        - ref!! 7071cfca-a27a-4407-b191-2be2842aa8ec
+        - ref!! 17e8fdd5-3746-4d02-9d96-c5099eb60671
+        - ref!! 15312ec6-4c78-4637-b900-45ab32cd1858
+        - ref!! 46ac8a3f-e946-4281-a708-641e22396bc5
+        - ref!! 0100abfd-bed7-40e7-81b9-ad88fc31ae5f
+        - ref!! f63a4c88-b3cb-459a-8d04-76d2e246c8f8
+        - ref!! 8b7cefb2-98f0-41df-9c8e-452d0fac711f
+        - ref!! 194efa68-8776-4370-b223-6e7f8681cba6
+        - ref!! d3efeb11-e580-4ca8-bb88-f39517020a6b
+        - ref!! ff38e382-95bc-4373-bde5-256ff0532b72
+        - ref!! 41e04cf3-3ab4-457f-9ebf-98f7e807774d
+        - ref!! a0d78a85-e687-4dc6-977c-36e8247dbb8b
+        - ref!! a0b15e32-390c-403b-9a79-af068ef67667
+        - ref!! 4ca8d53a-d1f6-4ef2-bd81-3da18791cd2c
+        - ref!! 66cda794-a1ab-424f-8126-cb21829b8333
+        - ref!! 5ee4758f-462e-465e-9cbb-9325dfeb9dcd
+        - ref!! 61ee4915-3476-445e-9881-d5bd266e5c4e
+        - ref!! fedb4f1e-0894-48b5-8f8c-cc886a428695
+        - ref!! 0f92d7aa-f5a8-41e6-87e1-b752119f6137
+        - ref!! 767f0fbb-6a04-4982-825f-57331584d723
+        - ref!! 0dc3e7f1-5734-4538-bd1c-ba308ad3f71f
+        - ref!! ba3f410b-7d6e-4f02-b154-0b4d9ab5cd74
+        - ref!! 50e1697c-18a8-4f90-bb2b-4b6a9a0f27ee
+        - ref!! 044b3240-4f86-49ba-9222-3a64e9b615e6
+        - ref!! 9bde73dd-b83f-4ab5-b19e-4a46a1bb94a4
+        - ref!! 56fed0c6-be39-423b-8f1d-afc65dbea65e
+        - ref!! 0037312e-e519-4f9d-ba94-2084d01c2405
+        - ref!! be2bdad3-447b-4afa-8ffb-52c0a7f92f7d
+        - ref!! 826b3d97-4caa-4c62-9f7a-463c9e8d7c17
+        - ref!! 4782f360-2f8d-496a-8a95-85cd9c697f4b
+        - ref!! ed961637-43cd-44dc-992e-5e37dc800a8d
+        - ref!! 3726d081-3e45-4ee5-b415-6d9542957c28
+        - ref!! e96b8613-d4f3-4090-b926-d86852e0dd2e
+        - ref!! 6d4ef719-206f-4b80-940b-9944f13c0818
+        - ref!! 9dedb689-72b9-44ab-b22b-5c652b9e946b
+        - ref!! d4c3412b-d163-42b4-88cc-f7e13eac45da
+        - ref!! 195bfd5a-91c1-40cf-9c0d-d56575eee42e
+        - ref!! 1651caf5-9030-4b6d-86c3-1865d831b41d
+        - ref!! 11ad57f1-dcf6-47b0-96b3-62899a291667
+        - ref!! 661c40bb-900a-42be-8c92-f9c7711f23ee
+        - ref!! 335ac97c-1d48-4c5f-afd8-d6e589b4b94b
+    Parts:
+        -   Folder: Background
+            Entity:
+                Id: 0037312e-e519-4f9d-ba94-2084d01c2405
+                Name: FloatingRock2_3
+                Components:
+                    2dd20f6a087b1c11acdfacf28a0ea16d: !TransformComponent
+                        Id: 11bd625c-ceed-43f0-8a22-b0d64aca3bca
+                        Position*: {X: 33.8752975, Y: -1.5, Z: -143.1644}
+                        Rotation*: {X: 0.0, Y: -0.9865515, Z: 0.0, W: 0.163450539}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    da2ee4d13edd8daff07d8952ff3a4dcc: !ModelComponent
+                        Id: 8e01c0bc-a093-4cb2-a43a-529de29e7c77
+                        Model: e1555e64-a386-4bc0-93b5-f9d0a4ec9051:Environment/Background/Models/FloatingRock2_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 84e0f4f9-ff6e-40e3-9790-b150bb5dcaee:Environment/Background/Prefabs/FloatingRocks2_3
+                BasePartId: 80111dc1-fd93-4f0e-831e-e6232fa142d5
+                InstanceId: a8ee5340-387b-484f-9c02-0134ae88b322
+        -   Folder: Background
+            Entity:
+                Id: 0100abfd-bed7-40e7-81b9-ad88fc31ae5f
+                Name: FloatingRock1_2
+                Components:
+                    f7d435da00a4f0db8567f052b2dd775b: !TransformComponent
+                        Id: 38a9473b-977f-4957-8917-987d786d8c0b
+                        Position*: {X: -41.6247253, Y: 19.9999981, Z: -77.16441}
+                        Rotation*: {X: 0.0, Y: -0.7580468, Z: 0.0, W: -0.6522002}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dfee743743e4c3abf742a67210a57784: !ModelComponent
+                        Id: 23bd3ced-b99e-464d-92ee-edfb93f90852
+                        Model: 6a331abf-6ede-4170-9bb4-ae1d6e7896ea:Environment/Background/Models/FloatingRock1_2
+                        Materials: {}
+            Base:
+                BasePartAsset: cb48cca7-c22e-4485-a6e6-07aa698fbf3e:Environment/Background/Prefabs/FloatingRocks1_2
+                BasePartId: 9b604468-8d1b-431d-adf9-79f53eaab11f
+                InstanceId: 0905b72f-5a17-4854-9163-b11faa528928
+        -   Folder: Background
+            Entity:
+                Id: 044b3240-4f86-49ba-9222-3a64e9b615e6
+                Name: FloatingRock1_1
+                Components:
+                    4eb1e899f0420cb437485b0c397af954: !TransformComponent
+                        Id: 6e10900a-bcbb-46eb-b404-8108125abd8c
+                        Position*: {X: -36.3491821, Y: 10.5, Z: -6.76170349}
+                        Rotation*: {X: 0.0, Y: -0.9432111, Z: 0.0, W: 0.33219406}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8178b4303bd1ecfde7f3858f4b9e328d: !ModelComponent
+                        Id: 99182495-59c6-45e2-8121-1894c9078fc0
+                        Model: b5ed7a0b-a015-43af-bd56-7d0964e9eb9a:Environment/Background/Models/FloatingRock1_1
+                        Materials: {}
+            Base:
+                BasePartAsset: 29d13e5f-59dc-48d3-90fd-5b98939827d3:Environment/Background/Prefabs/FloatingRocks1_1
+                BasePartId: 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+                InstanceId: 77e0ee77-6ffe-465e-94a4-d413e9d3e111
+        -   Folder: Background
+            Entity:
+                Id: 090dbb08-a2ef-44af-a3ef-923f2aacb055
+                Name: FloatingRock1_1
+                Components:
+                    4eb1e899f0420cb437485b0c397af954: !TransformComponent
+                        Id: ee7fb6dd-410e-40c0-9853-bd5238e886e1
+                        Position*: {X: 33.3280029, Y: 5.0, Z: -111.64415}
+                        Rotation*: {X: 0.0, Y: -0.9344705, Z: 0.0, W: -0.356040537}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8178b4303bd1ecfde7f3858f4b9e328d: !ModelComponent
+                        Id: 2441efc0-06d6-4d09-b342-ac2c605ca6bb
+                        Model: b5ed7a0b-a015-43af-bd56-7d0964e9eb9a:Environment/Background/Models/FloatingRock1_1
+                        Materials: {}
+            Base:
+                BasePartAsset: 29d13e5f-59dc-48d3-90fd-5b98939827d3:Environment/Background/Prefabs/FloatingRocks1_1
+                BasePartId: 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+                InstanceId: 3566be22-4e5c-401e-81fe-019f28ee0fa4
+        -   Folder: Background
+            Entity:
+                Id: 0bf7f70c-9ca8-49a8-a8a0-e4419fd6cad6
+                Name: FloatingRock1_3
+                Components:
+                    9f77ddc721fcf761064fcaea91cd58c2: !TransformComponent
+                        Id: a67666ce-ea5a-43a5-9530-5cf779f49738
+                        Position*: {X: 28.4405518, Y: 13.0000019, Z: -117.196274}
+                        Rotation*: {X: 0.0, Y: -0.9756751, Z: 0.0, W: -0.219221592}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    003b6267d30ac19d0238e9954e151363: !ModelComponent
+                        Id: 2debad09-a49e-4a76-8de3-6d0e17375f6d
+                        Model: 9cefcfc9-d76f-4a63-9224-7cad03209790:Environment/Background/Models/FloatingRock1_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 9316ed7f-c095-4823-b523-c529a4056673:Environment/Background/Prefabs/FloatingRocks1_3
+                BasePartId: 7e626d1c-b6a5-4e91-8a1c-5e2d92a77ee9
+                InstanceId: c9fc6859-1ce2-4221-bcf9-5c10fa6d00c5
+        -   Folder: Background
+            Entity:
+                Id: 0c7de2c9-0051-4fe5-9c46-2479b5989418
+                Name: FloatingRock1_2
+                Components:
+                    f7d435da00a4f0db8567f052b2dd775b: !TransformComponent
+                        Id: f093da1c-0c7a-45ad-a242-bed583844b39
+                        Position*: {X: 19.42205, Y: 8.500001, Z: -158.998322}
+                        Rotation*: {X: 0.0, Y: -0.9978026, Z: 0.0, W: -0.06625663}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dfee743743e4c3abf742a67210a57784: !ModelComponent
+                        Id: 97ec64a3-83f6-42ea-958e-927bead024cd
+                        Model: 6a331abf-6ede-4170-9bb4-ae1d6e7896ea:Environment/Background/Models/FloatingRock1_2
+                        Materials: {}
+            Base:
+                BasePartAsset: cb48cca7-c22e-4485-a6e6-07aa698fbf3e:Environment/Background/Prefabs/FloatingRocks1_2
+                BasePartId: 9b604468-8d1b-431d-adf9-79f53eaab11f
+                InstanceId: 42bc16d4-6029-4a9e-827b-55ebea0a3bb6
+        -   Folder: Background
+            Entity:
+                Id: 0dc3e7f1-5734-4538-bd1c-ba308ad3f71f
+                Name: FloatingRock1_2
+                Components:
+                    f7d435da00a4f0db8567f052b2dd775b: !TransformComponent
+                        Id: 4ca99272-29e3-4656-b61f-3a7853d706d2
+                        Position*: {X: -57.9833679, Y: 14.4999981, Z: -146.96196}
+                        Rotation*: {X: 0.0, Y: -0.6040171, Z: 0.0, W: -0.7969713}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dfee743743e4c3abf742a67210a57784: !ModelComponent
+                        Id: 45f55391-e37a-4b64-a9c4-20c8e1425514
+                        Model: 6a331abf-6ede-4170-9bb4-ae1d6e7896ea:Environment/Background/Models/FloatingRock1_2
+                        Materials: {}
+            Base:
+                BasePartAsset: cb48cca7-c22e-4485-a6e6-07aa698fbf3e:Environment/Background/Prefabs/FloatingRocks1_2
+                BasePartId: 9b604468-8d1b-431d-adf9-79f53eaab11f
+                InstanceId: 529cdc6b-f01e-4456-9a05-0147ebe5fc32
+        -   Folder: Background
+            Entity:
+                Id: 0f92d7aa-f5a8-41e6-87e1-b752119f6137
+                Name: FloatingRock1_3
+                Components:
+                    9f77ddc721fcf761064fcaea91cd58c2: !TransformComponent
+                        Id: f1df478f-f5e7-42a2-aa13-b4062dc0231e
+                        Position*: {X: 52.0148163, Y: -40.9999962, Z: -116.960587}
+                        Rotation*: {X: 0.0, Y: 0.133481324, Z: 0.0, W: -0.991051257}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    003b6267d30ac19d0238e9954e151363: !ModelComponent
+                        Id: a1fd71ef-d90f-441c-a84e-7eda0cc1917c
+                        Model: 9cefcfc9-d76f-4a63-9224-7cad03209790:Environment/Background/Models/FloatingRock1_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 9316ed7f-c095-4823-b523-c529a4056673:Environment/Background/Prefabs/FloatingRocks1_3
+                BasePartId: 7e626d1c-b6a5-4e91-8a1c-5e2d92a77ee9
+                InstanceId: 95ed3295-c02d-4b27-b1bf-2e2ae2729588
+        -   Folder: Background
+            Entity:
+                Id: 11ad57f1-dcf6-47b0-96b3-62899a291667
+                Name: FloatingRock1_2
+                Components:
+                    f7d435da00a4f0db8567f052b2dd775b: !TransformComponent
+                        Id: e4b69cd2-3107-4909-bd12-543e132ad4ef
+                        Position*: {X: -45.1852722, Y: -8.999999, Z: -112.00499}
+                        Rotation*: {X: 0.0, Y: -0.9812006, Z: 0.0, W: 0.192990735}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dfee743743e4c3abf742a67210a57784: !ModelComponent
+                        Id: 901c7408-514b-451a-a62b-6a7a7cc02ed3
+                        Model: 6a331abf-6ede-4170-9bb4-ae1d6e7896ea:Environment/Background/Models/FloatingRock1_2
+                        Materials: {}
+            Base:
+                BasePartAsset: cb48cca7-c22e-4485-a6e6-07aa698fbf3e:Environment/Background/Prefabs/FloatingRocks1_2
+                BasePartId: 9b604468-8d1b-431d-adf9-79f53eaab11f
+                InstanceId: e1f95418-ad7e-4c5f-a849-29e1c5cbf7c6
+        -   Folder: Background
+            Entity:
+                Id: 15312ec6-4c78-4637-b900-45ab32cd1858
+                Name: FloatingRock1_3
+                Components:
+                    9f77ddc721fcf761064fcaea91cd58c2: !TransformComponent
+                        Id: 6df3da13-dd2c-4e2a-b4e8-42346372fab6
+                        Position*: {X: -56.5261536, Y: 3.5, Z: -127.069977}
+                        Rotation*: {X: 0.0, Y: -0.2099698, Z: 0.0, W: -0.977707863}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    003b6267d30ac19d0238e9954e151363: !ModelComponent
+                        Id: b89f6611-3954-4847-a85f-02a74ab4ca60
+                        Model: 9cefcfc9-d76f-4a63-9224-7cad03209790:Environment/Background/Models/FloatingRock1_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 9316ed7f-c095-4823-b523-c529a4056673:Environment/Background/Prefabs/FloatingRocks1_3
+                BasePartId: 7e626d1c-b6a5-4e91-8a1c-5e2d92a77ee9
+                InstanceId: 83708af1-dfb0-44df-b20f-be2c976a1fc5
+        -   Folder: Background
+            Entity:
+                Id: 1651caf5-9030-4b6d-86c3-1865d831b41d
+                Name: FloatingRock1_2
+                Components:
+                    f7d435da00a4f0db8567f052b2dd775b: !TransformComponent
+                        Id: 0651d5e6-a64f-4d8c-9410-8221dcfa0220
+                        Position*: {X: -21.6247253, Y: -8.999999, Z: -113.6644}
+                        Rotation*: {X: 0.0, Y: -0.730135441, Z: 0.0, W: 0.683302462}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dfee743743e4c3abf742a67210a57784: !ModelComponent
+                        Id: 09fede69-611d-4041-97d5-1d783720c558
+                        Model: 6a331abf-6ede-4170-9bb4-ae1d6e7896ea:Environment/Background/Models/FloatingRock1_2
+                        Materials: {}
+            Base:
+                BasePartAsset: cb48cca7-c22e-4485-a6e6-07aa698fbf3e:Environment/Background/Prefabs/FloatingRocks1_2
+                BasePartId: 9b604468-8d1b-431d-adf9-79f53eaab11f
+                InstanceId: 831220f5-ce80-4bb0-b21c-e0fd99683aed
+        -   Folder: Background
+            Entity:
+                Id: 17e8fdd5-3746-4d02-9d96-c5099eb60671
+                Name: FloatingRock1_3
+                Components:
+                    9f77ddc721fcf761064fcaea91cd58c2: !TransformComponent
+                        Id: b442479d-de94-4815-9e5a-9a8f52bbd1b8
+                        Position*: {X: 17.3545456, Y: -33.4999962, Z: -16.0693588}
+                        Rotation*: {X: 0.0, Y: 0.0157865584, Z: 0.0, W: -0.9998754}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    003b6267d30ac19d0238e9954e151363: !ModelComponent
+                        Id: 95e9af44-a3f9-48aa-a443-a8098990b330
+                        Model: 9cefcfc9-d76f-4a63-9224-7cad03209790:Environment/Background/Models/FloatingRock1_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 9316ed7f-c095-4823-b523-c529a4056673:Environment/Background/Prefabs/FloatingRocks1_3
+                BasePartId: 7e626d1c-b6a5-4e91-8a1c-5e2d92a77ee9
+                InstanceId: 2ded9a0b-15b0-4d91-8d1b-91d628744a13
+        -   Folder: Background
+            Entity:
+                Id: 194efa68-8776-4370-b223-6e7f8681cba6
+                Name: FloatingRock1_1
+                Components:
+                    4eb1e899f0420cb437485b0c397af954: !TransformComponent
+                        Id: f90ba3d1-e6b9-4f34-b76d-321eaccdbdd1
+                        Position*: {X: -89.8974152, Y: 0.0, Z: -103.724945}
+                        Rotation*: {X: 0.0, Y: -0.6860165, Z: 0.0, W: -0.727586}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8178b4303bd1ecfde7f3858f4b9e328d: !ModelComponent
+                        Id: 6fee2d16-8c8b-4b93-9f3b-89db15145576
+                        Model: b5ed7a0b-a015-43af-bd56-7d0964e9eb9a:Environment/Background/Models/FloatingRock1_1
+                        Materials: {}
+            Base:
+                BasePartAsset: 29d13e5f-59dc-48d3-90fd-5b98939827d3:Environment/Background/Prefabs/FloatingRocks1_1
+                BasePartId: 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+                InstanceId: 8feb82d7-6bbf-40d7-a895-9c2ccf68eb8e
+        -   Folder: Background
+            Entity:
+                Id: 195bfd5a-91c1-40cf-9c0d-d56575eee42e
+                Name: FloatingRock1_3
+                Components:
+                    9f77ddc721fcf761064fcaea91cd58c2: !TransformComponent
+                        Id: 4ee1c6a9-18f4-4c02-bc64-a0788d3e89f4
+                        Position*: {X: -75.1697845, Y: 7.0, Z: -128.11644}
+                        Rotation*: {X: 0.0, Y: -0.9984739, Z: 0.0, W: 0.0552258939}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    003b6267d30ac19d0238e9954e151363: !ModelComponent
+                        Id: 02887df6-bd12-45b0-b97e-57ba8f3e9c5d
+                        Model: 9cefcfc9-d76f-4a63-9224-7cad03209790:Environment/Background/Models/FloatingRock1_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 9316ed7f-c095-4823-b523-c529a4056673:Environment/Background/Prefabs/FloatingRocks1_3
+                BasePartId: 7e626d1c-b6a5-4e91-8a1c-5e2d92a77ee9
+                InstanceId: dcc2e211-c5fd-4555-b612-3e348e277534
+        -   Folder: Background
+            Entity:
+                Id: 1afd9697-e6bb-4621-9632-31e5e0a0049b
+                Name: FloatingRock1_2
+                Components:
+                    f7d435da00a4f0db8567f052b2dd775b: !TransformComponent
+                        Id: ef08be36-4e91-4b6c-8b6a-2e3289a9e881
+                        Position*: {X: 27.8752823, Y: 8.500001, Z: -97.1644}
+                        Rotation*: {X: 0.0, Y: -0.88150233, Z: 0.0, W: 0.472179651}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dfee743743e4c3abf742a67210a57784: !ModelComponent
+                        Id: 83cb6e6f-a170-42ce-b97f-d0b0f30688c6
+                        Model: 6a331abf-6ede-4170-9bb4-ae1d6e7896ea:Environment/Background/Models/FloatingRock1_2
+                        Materials: {}
+            Base:
+                BasePartAsset: cb48cca7-c22e-4485-a6e6-07aa698fbf3e:Environment/Background/Prefabs/FloatingRocks1_2
+                BasePartId: 9b604468-8d1b-431d-adf9-79f53eaab11f
+                InstanceId: f688833d-0b26-44c7-aead-0ef57361aeeb
+        -   Folder: Background
+            Entity:
+                Id: 215340cd-12d0-4fe5-8dc2-ba50f185e1c1
+                Name: FloatingRock1_1
+                Components:
+                    4eb1e899f0420cb437485b0c397af954: !TransformComponent
+                        Id: 1355419e-9d38-4d1e-84af-646a9c581260
+                        Position*: {X: -36.1247253, Y: 5.0, Z: -107.664413}
+                        Rotation*: {X: 0.0, Y: -0.9812333, Z: 0.0, W: 0.192824259}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8178b4303bd1ecfde7f3858f4b9e328d: !ModelComponent
+                        Id: 97797234-0e81-4056-8cb4-31e84202f4bf
+                        Model: b5ed7a0b-a015-43af-bd56-7d0964e9eb9a:Environment/Background/Models/FloatingRock1_1
+                        Materials: {}
+            Base:
+                BasePartAsset: 29d13e5f-59dc-48d3-90fd-5b98939827d3:Environment/Background/Prefabs/FloatingRocks1_1
+                BasePartId: 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+                InstanceId: f2f556cd-bc02-416a-9d5f-ba2aa780e0b0
+        -   Folder: Background
+            Entity:
+                Id: 299ac365-002a-43b6-82da-f0c24f887f53
+                Name: FloatingRock1_3
+                Components:
+                    9f77ddc721fcf761064fcaea91cd58c2: !TransformComponent
+                        Id: eccc165f-dea7-483c-b1f6-1d486de82be3
+                        Position*: {X: 58.7216339, Y: -23.9999943, Z: -4.686928}
+                        Rotation*: {X: 0.0, Y: -0.00631445646, Z: 0.0, W: -0.999980032}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    003b6267d30ac19d0238e9954e151363: !ModelComponent
+                        Id: 7dfac415-30e5-4336-85c0-ff121e2322d9
+                        Model: 9cefcfc9-d76f-4a63-9224-7cad03209790:Environment/Background/Models/FloatingRock1_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 9316ed7f-c095-4823-b523-c529a4056673:Environment/Background/Prefabs/FloatingRocks1_3
+                BasePartId: 7e626d1c-b6a5-4e91-8a1c-5e2d92a77ee9
+                InstanceId: 56990ef5-b81f-4461-830c-32c20ba279e5
+        -   Folder: Background
+            Entity:
+                Id: 335ac97c-1d48-4c5f-afd8-d6e589b4b94b
+                Name: FloatingRock1_1
+                Components:
+                    4eb1e899f0420cb437485b0c397af954: !TransformComponent
+                        Id: 2919c511-e8c5-4463-bc3a-3eaa415d731f
+                        Position*: {X: 0.2157898, Y: 4.5, Z: -164.379974}
+                        Rotation*: {X: 0.0, Y: 0.6400965, Z: 0.0, W: -0.7682945}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8178b4303bd1ecfde7f3858f4b9e328d: !ModelComponent
+                        Id: 6310ef66-aae8-4540-8104-2e6a2ea3e94c
+                        Model: b5ed7a0b-a015-43af-bd56-7d0964e9eb9a:Environment/Background/Models/FloatingRock1_1
+                        Materials: {}
+            Base:
+                BasePartAsset: 29d13e5f-59dc-48d3-90fd-5b98939827d3:Environment/Background/Prefabs/FloatingRocks1_1
+                BasePartId: 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+                InstanceId: 68d1c778-7e25-4855-83c9-c6643d2bae1b
+        -   Folder: Background
+            Entity:
+                Id: 3726d081-3e45-4ee5-b415-6d9542957c28
+                Name: FloatingRock2_2
+                Components:
+                    5e4b0e71b6336787d1cda626d11089be: !TransformComponent
+                        Id: e3ef3a6e-07be-46ac-9f70-d535c4c686dc
+                        Position*: {X: 65.99843, Y: -1.5, Z: -58.14554}
+                        Rotation*: {X: 0.0, Y: -0.342596918, Z: 0.0, W: -0.93948245}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    be4998ad68c8459667a7284a8d99157b: !ModelComponent
+                        Id: c920169b-f442-48ec-8d02-5c58ed670fe0
+                        Model: 4a2f9278-e0c6-44fb-9c01-be4b1d8df07d:Environment/Background/Models/FloatingRock2_2
+                        Materials: {}
+            Base:
+                BasePartAsset: 015d5639-6ba5-4172-a09e-83d0c9decb1f:Environment/Background/Prefabs/FloatingRocks2_2
+                BasePartId: acd14fa1-66b9-41ba-a956-d373b2a8694b
+                InstanceId: dff8a923-a50d-4372-90fb-aa2b2759b02b
+        -   Folder: Background
+            Entity:
+                Id: 3bd00af8-b980-45a4-be7a-29ab3fe34ad0
+                Name: FloatingRock1_2
+                Components:
+                    f7d435da00a4f0db8567f052b2dd775b: !TransformComponent
+                        Id: 5ea06612-a90c-4fc5-816b-ed057ffa8e9a
+                        Position*: {X: 47.2736359, Y: -28.4999962, Z: -15.9443512}
+                        Rotation*: {X: 0.0, Y: -0.9571977, Z: 0.0, W: -0.28943485}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dfee743743e4c3abf742a67210a57784: !ModelComponent
+                        Id: 1bbcc851-69e0-4b1f-b26b-2c757ceb5a0c
+                        Model: 6a331abf-6ede-4170-9bb4-ae1d6e7896ea:Environment/Background/Models/FloatingRock1_2
+                        Materials: {}
+            Base:
+                BasePartAsset: cb48cca7-c22e-4485-a6e6-07aa698fbf3e:Environment/Background/Prefabs/FloatingRocks1_2
+                BasePartId: 9b604468-8d1b-431d-adf9-79f53eaab11f
+                InstanceId: 3cf966fc-96ca-4b94-b222-76aabab3a7df
+        -   Folder: Background
+            Entity:
+                Id: 41e04cf3-3ab4-457f-9ebf-98f7e807774d
+                Name: FloatingRock2_3
+                Components:
+                    2dd20f6a087b1c11acdfacf28a0ea16d: !TransformComponent
+                        Id: 159f30e1-c86e-4ddf-97cf-f7d7971a6ffc
+                        Position*: {X: 43.4978333, Y: 4.5, Z: -152.468933}
+                        Rotation*: {X: 0.0, Y: -0.999984741, Z: 0.0, W: -0.00552551355}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    da2ee4d13edd8daff07d8952ff3a4dcc: !ModelComponent
+                        Id: 785b59b7-9e2e-4d23-a125-ede24e148b70
+                        Model: e1555e64-a386-4bc0-93b5-f9d0a4ec9051:Environment/Background/Models/FloatingRock2_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 84e0f4f9-ff6e-40e3-9790-b150bb5dcaee:Environment/Background/Prefabs/FloatingRocks2_3
+                BasePartId: 80111dc1-fd93-4f0e-831e-e6232fa142d5
+                InstanceId: 9eb26325-0d6f-4928-8445-3a3d13044844
+        -   Folder: Background
+            Entity:
+                Id: 46ac8a3f-e946-4281-a708-641e22396bc5
+                Name: FloatingRock1_2
+                Components:
+                    f7d435da00a4f0db8567f052b2dd775b: !TransformComponent
+                        Id: cf5c11cf-667a-4bdd-81a3-b81b5d14d5ed
+                        Position*: {X: 38.0, Y: 19.9999981, Z: -19.4999981}
+                        Rotation*: {X: 0.0, Y: -0.652200162, Z: 0.0, W: 0.7580468}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dfee743743e4c3abf742a67210a57784: !ModelComponent
+                        Id: 537d635f-3983-4940-aa01-10cf90aea4a9
+                        Model: 6a331abf-6ede-4170-9bb4-ae1d6e7896ea:Environment/Background/Models/FloatingRock1_2
+                        Materials:
+                            731accdf357b60435b1c1d6309587617*~0: 43c89a20-2b17-43a1-84c0-ef4dac24663e:Environment/Background/Materials/FloatingRocks/FloatingRocks1_MT
+            Base:
+                BasePartAsset: cb48cca7-c22e-4485-a6e6-07aa698fbf3e:Environment/Background/Prefabs/FloatingRocks1_2
+                BasePartId: 9b604468-8d1b-431d-adf9-79f53eaab11f
+                InstanceId: 90bbbb94-0eaa-4e65-be74-249940447277
+        -   Folder: Background
+            Entity:
+                Id: 4782f360-2f8d-496a-8a95-85cd9c697f4b
+                Name: FloatingRock2_2
+                Components:
+                    5e4b0e71b6336787d1cda626d11089be: !TransformComponent
+                        Id: 385ebdee-7768-46a5-979c-1f709ec41112
+                        Position*: {X: -69.62315, Y: -1.5, Z: -38.5189133}
+                        Rotation*: {X: 0.0, Y: -0.93948245, Z: 0.0, W: 0.342596948}
+                        Scale*: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    be4998ad68c8459667a7284a8d99157b: !ModelComponent
+                        Id: 2fc2c65d-960e-4846-bdfb-5323065484f3
+                        Model: 4a2f9278-e0c6-44fb-9c01-be4b1d8df07d:Environment/Background/Models/FloatingRock2_2
+                        Materials: {}
+            Base:
+                BasePartAsset: 015d5639-6ba5-4172-a09e-83d0c9decb1f:Environment/Background/Prefabs/FloatingRocks2_2
+                BasePartId: acd14fa1-66b9-41ba-a956-d373b2a8694b
+                InstanceId: a3f479d9-6d49-43e8-94da-2dac13dab650
+        -   Folder: Background
+            Entity:
+                Id: 4ca8d53a-d1f6-4ef2-bd81-3da18791cd2c
+                Name: FloatingRock2_2
+                Components:
+                    5e4b0e71b6336787d1cda626d11089be: !TransformComponent
+                        Id: 033124b0-3d23-4f58-a928-8c39eebf577d
+                        Position*: {X: -13.8704758, Y: 0.0, Z: -170.874969}
+                        Rotation*: {X: 0.0, Y: -0.3477825, Z: 0.0, W: -0.9375752}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    be4998ad68c8459667a7284a8d99157b: !ModelComponent
+                        Id: 96acd17f-f789-4fac-83af-a223304d2411
+                        Model: 4a2f9278-e0c6-44fb-9c01-be4b1d8df07d:Environment/Background/Models/FloatingRock2_2
+                        Materials: {}
+            Base:
+                BasePartAsset: 015d5639-6ba5-4172-a09e-83d0c9decb1f:Environment/Background/Prefabs/FloatingRocks2_2
+                BasePartId: acd14fa1-66b9-41ba-a956-d373b2a8694b
+                InstanceId: 62e01c9b-d016-4efc-a06d-4e1e9e7710fc
+        -   Folder: Background
+            Entity:
+                Id: 4e76192f-e800-41b4-8880-3db21a52bb4e
+                Name: FloatingRock1_3
+                Components:
+                    9f77ddc721fcf761064fcaea91cd58c2: !TransformComponent
+                        Id: e0bc22da-72a2-4335-8ae7-58d90d294200
+                        Position*: {X: -20.47168, Y: -33.4999962, Z: -75.19459}
+                        Rotation*: {X: 0.0, Y: -0.9998754, Z: 0.0, W: -0.01578644}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    003b6267d30ac19d0238e9954e151363: !ModelComponent
+                        Id: 7d967bbb-face-4740-92be-2f159b16e7e7
+                        Model: 9cefcfc9-d76f-4a63-9224-7cad03209790:Environment/Background/Models/FloatingRock1_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 9316ed7f-c095-4823-b523-c529a4056673:Environment/Background/Prefabs/FloatingRocks1_3
+                BasePartId: 7e626d1c-b6a5-4e91-8a1c-5e2d92a77ee9
+                InstanceId: ac216092-5188-459e-97d1-bab7c8237737
+        -   Folder: Background
+            Entity:
+                Id: 50e1697c-18a8-4f90-bb2b-4b6a9a0f27ee
+                Name: FloatingRock1_1
+                Components:
+                    4eb1e899f0420cb437485b0c397af954: !TransformComponent
+                        Id: 462bc20a-c010-45c6-8587-69fb078fb4e9
+                        Position*: {X: -29.12471, Y: 10.5, Z: -64.6644}
+                        Rotation*: {X: 0.0, Y: -0.7812687, Z: 0.0, W: -0.6241949}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8178b4303bd1ecfde7f3858f4b9e328d: !ModelComponent
+                        Id: d813dc8a-a692-4d57-b466-5764eae9f3ee
+                        Model: b5ed7a0b-a015-43af-bd56-7d0964e9eb9a:Environment/Background/Models/FloatingRock1_1
+                        Materials: {}
+            Base:
+                BasePartAsset: 29d13e5f-59dc-48d3-90fd-5b98939827d3:Environment/Background/Prefabs/FloatingRocks1_1
+                BasePartId: 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+                InstanceId: cae81217-d826-4fb1-ac11-a68a7bd055c7
+        -   Folder: Background
+            Entity:
+                Id: 56fed0c6-be39-423b-8f1d-afc65dbea65e
+                Name: FloatingRock1_1
+                Components:
+                    4eb1e899f0420cb437485b0c397af954: !TransformComponent
+                        Id: d37be3e6-e426-459b-afa8-60d24cd44bb2
+                        Position*: {X: 32.7244568, Y: 10.5, Z: -89.90268}
+                        Rotation*: {X: 0.0, Y: -0.33219403, Z: 0.0, W: -0.9432111}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8178b4303bd1ecfde7f3858f4b9e328d: !ModelComponent
+                        Id: 295eb770-6a33-4a3f-bed3-47c991f38fc9
+                        Model: b5ed7a0b-a015-43af-bd56-7d0964e9eb9a:Environment/Background/Models/FloatingRock1_1
+                        Materials: {}
+            Base:
+                BasePartAsset: 29d13e5f-59dc-48d3-90fd-5b98939827d3:Environment/Background/Prefabs/FloatingRocks1_1
+                BasePartId: 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+                InstanceId: 411b3714-faa3-4fe4-9639-a5c29355a73d
+        -   Folder: Background
+            Entity:
+                Id: 5d80a4f6-8b07-4edc-9610-37233ead6ba2
+                Name: FloatingRock2_1
+                Components:
+                    e1c1c29771d528372e8df9fe0ec258df: !TransformComponent
+                        Id: 61afd33f-c6f0-43dc-b919-bc5e0c76e4bf
+                        Position*: {X: -25.62471, Y: 3.5, Z: -88.16443}
+                        Rotation*: {X: 0.0, Y: -0.830342531, Z: 0.0, W: 0.557253242}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cd6c3efe59d092dd1a8bf308dac643d1: !ModelComponent
+                        Id: 5d866350-f32e-49de-b32f-af980c502271
+                        Model: d023b593-355e-4956-b6c2-76cc69aa956c:Environment/Background/Models/FloatingRock2_1
+                        Materials: {}
+            Base:
+                BasePartAsset: cd1fe62d-b637-416f-85bb-1b017bd85424:Environment/Background/Prefabs/FloatingRocks2_1
+                BasePartId: d8012c4c-375c-4001-ba06-8834ca57a8a6
+                InstanceId: cc401477-8c90-4ad2-ba84-2d374de499af
+        -   Folder: Background
+            Entity:
+                Id: 5ee4758f-462e-465e-9cbb-9325dfeb9dcd
+                Name: FloatingRock2_1
+                Components:
+                    e1c1c29771d528372e8df9fe0ec258df: !TransformComponent
+                        Id: bd0ccdb1-a6c0-4c35-92ca-5a2b69160e25
+                        Position*: {X: 51.960495, Y: 13.4999981, Z: -100.323166}
+                        Rotation*: {X: 0.0, Y: -0.468696862, Z: 0.0, W: -0.8833591}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cd6c3efe59d092dd1a8bf308dac643d1: !ModelComponent
+                        Id: d0da4c69-cee7-4732-bc16-438a03963aad
+                        Model: d023b593-355e-4956-b6c2-76cc69aa956c:Environment/Background/Models/FloatingRock2_1
+                        Materials: {}
+            Base:
+                BasePartAsset: cd1fe62d-b637-416f-85bb-1b017bd85424:Environment/Background/Prefabs/FloatingRocks2_1
+                BasePartId: d8012c4c-375c-4001-ba06-8834ca57a8a6
+                InstanceId: fedb6498-fa20-4d6c-a7a9-113d8a9e9ef9
+        -   Folder: Background
+            Entity:
+                Id: 60cb23b7-5f70-4adb-820c-ff92cdd6b693
+                Name: FloatingRock1_1
+                Components:
+                    4eb1e899f0420cb437485b0c397af954: !TransformComponent
+                        Id: bc0a449e-775b-4485-96ca-cb20b611bf31
+                        Position*: {X: 57.77362, Y: -31.9999962, Z: -79.94435}
+                        Rotation*: {X: 0.0, Y: -0.830184042, Z: 0.0, W: -0.557489336}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8178b4303bd1ecfde7f3858f4b9e328d: !ModelComponent
+                        Id: 5a025006-fa28-47d4-b4ec-b41f5cd0fd6e
+                        Model: b5ed7a0b-a015-43af-bd56-7d0964e9eb9a:Environment/Background/Models/FloatingRock1_1
+                        Materials: {}
+            Base:
+                BasePartAsset: 29d13e5f-59dc-48d3-90fd-5b98939827d3:Environment/Background/Prefabs/FloatingRocks1_1
+                BasePartId: 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+                InstanceId: 5cadc902-37d9-4913-aa1c-44d3495f445b
+        -   Folder: Background
+            Entity:
+                Id: 61ee4915-3476-445e-9881-d5bd266e5c4e
+                Name: FloatingRock1_3
+                Components:
+                    9f77ddc721fcf761064fcaea91cd58c2: !TransformComponent
+                        Id: 6ed99f1b-fa6d-410f-be48-8f940415f880
+                        Position*: {X: 41.8752823, Y: -3.99999976, Z: -125.6644}
+                        Rotation*: {X: 0.0, Y: -0.935469151, Z: 0.0, W: -0.353408366}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    003b6267d30ac19d0238e9954e151363: !ModelComponent
+                        Id: 54fd3b5a-1ebe-40b4-97d3-5f7280a08616
+                        Model: 9cefcfc9-d76f-4a63-9224-7cad03209790:Environment/Background/Models/FloatingRock1_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 9316ed7f-c095-4823-b523-c529a4056673:Environment/Background/Prefabs/FloatingRocks1_3
+                BasePartId: 7e626d1c-b6a5-4e91-8a1c-5e2d92a77ee9
+                InstanceId: c788417e-b7e3-4da9-b5b2-5856ad8f3a94
+        -   Folder: Background
+            Entity:
+                Id: 661c40bb-900a-42be-8c92-f9c7711f23ee
+                Name: FloatingRock1_1
+                Components:
+                    4eb1e899f0420cb437485b0c397af954: !TransformComponent
+                        Id: 18ad23d8-2864-45d4-934c-7e1e7b6abff9
+                        Position*: {X: 23.37532, Y: 4.5, Z: -143.664444}
+                        Rotation*: {X: 0.0, Y: 0.136132821, Z: 0.0, W: -0.9906906}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8178b4303bd1ecfde7f3858f4b9e328d: !ModelComponent
+                        Id: 9adea6a0-d53c-4427-b8c2-fb469c88bf17
+                        Model: b5ed7a0b-a015-43af-bd56-7d0964e9eb9a:Environment/Background/Models/FloatingRock1_1
+                        Materials: {}
+            Base:
+                BasePartAsset: 29d13e5f-59dc-48d3-90fd-5b98939827d3:Environment/Background/Prefabs/FloatingRocks1_1
+                BasePartId: 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+                InstanceId: 8a3ba895-8d6e-4de0-bbb6-ea1a0ed727a6
+        -   Folder: Background
+            Entity:
+                Id: 66cda794-a1ab-424f-8126-cb21829b8333
+                Name: FloatingRock2_1
+                Components:
+                    e1c1c29771d528372e8df9fe0ec258df: !TransformComponent
+                        Id: 57553437-d684-4453-9a9e-0d774cf75a15
+                        Position*: {X: -53.6247253, Y: 13.4999981, Z: -112.664383}
+                        Rotation*: {X: 0.0, Y: -0.8653669, Z: 0.0, W: -0.5011389}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cd6c3efe59d092dd1a8bf308dac643d1: !ModelComponent
+                        Id: 37cf9165-c8c8-48d7-bb17-40b9b7503f33
+                        Model: d023b593-355e-4956-b6c2-76cc69aa956c:Environment/Background/Models/FloatingRock2_1
+                        Materials: {}
+            Base:
+                BasePartAsset: cd1fe62d-b637-416f-85bb-1b017bd85424:Environment/Background/Prefabs/FloatingRocks2_1
+                BasePartId: d8012c4c-375c-4001-ba06-8834ca57a8a6
+                InstanceId: 48f4b3d6-e51b-4bee-83d9-b129520dece2
+        -   Folder: Background
+            Entity:
+                Id: 6a3c09a1-ca78-451b-aced-736d61e8c23e
+                Name: FloatingRock2_1
+                Components:
+                    e1c1c29771d528372e8df9fe0ec258df: !TransformComponent
+                        Id: cc98529c-1938-4670-803e-b573ac293684
+                        Position*: {X: 8.875282, Y: 0.0, Z: -124.1644}
+                        Rotation*: {X: 0.0, Y: -0.996094644, Z: 0.0, W: 0.08829185}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cd6c3efe59d092dd1a8bf308dac643d1: !ModelComponent
+                        Id: 53a06eb4-32b2-45c5-aa2d-6bfe9de7f33b
+                        Model: d023b593-355e-4956-b6c2-76cc69aa956c:Environment/Background/Models/FloatingRock2_1
+                        Materials: {}
+            Base:
+                BasePartAsset: cd1fe62d-b637-416f-85bb-1b017bd85424:Environment/Background/Prefabs/FloatingRocks2_1
+                BasePartId: d8012c4c-375c-4001-ba06-8834ca57a8a6
+                InstanceId: a641d0f6-4b68-4d95-8c3c-0dc657f7212f
+        -   Folder: Background
+            Entity:
+                Id: 6d4ef719-206f-4b80-940b-9944f13c0818
+                Name: FloatingRock2_1
+                Components:
+                    e1c1c29771d528372e8df9fe0ec258df: !TransformComponent
+                        Id: 529efebb-13fe-491c-b7b9-f0c5dd3ec344
+                        Position*: {X: -80.58824, Y: 7.999999, Z: -29.63755}
+                        Rotation*: {X: 0.0, Y: -0.529547453, Z: 0.0, W: 0.8482803}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cd6c3efe59d092dd1a8bf308dac643d1: !ModelComponent
+                        Id: 4e92538e-219f-40b3-b8ef-b196b59ad119
+                        Model: d023b593-355e-4956-b6c2-76cc69aa956c:Environment/Background/Models/FloatingRock2_1
+                        Materials: {}
+            Base:
+                BasePartAsset: cd1fe62d-b637-416f-85bb-1b017bd85424:Environment/Background/Prefabs/FloatingRocks2_1
+                BasePartId: d8012c4c-375c-4001-ba06-8834ca57a8a6
+                InstanceId: dde436cb-bc5d-4846-bba6-6b1719f249b2
+        -   Folder: Background
+            Entity:
+                Id: 7071cfca-a27a-4407-b191-2be2842aa8ec
+                Name: FloatingRock1_3
+                Components:
+                    9f77ddc721fcf761064fcaea91cd58c2: !TransformComponent
+                        Id: 4524bbde-d60d-491e-9301-9bfb784076b7
+                        Position*: {X: 27.75026, Y: 3.5, Z: -67.2453156}
+                        Rotation*: {X: 0.0, Y: -0.6958559, Z: 0.0, W: -0.718181431}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    003b6267d30ac19d0238e9954e151363: !ModelComponent
+                        Id: 82d868a6-551d-4f0f-a37b-eb8fd0ecad3e
+                        Model: 9cefcfc9-d76f-4a63-9224-7cad03209790:Environment/Background/Models/FloatingRock1_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 9316ed7f-c095-4823-b523-c529a4056673:Environment/Background/Prefabs/FloatingRocks1_3
+                BasePartId: 7e626d1c-b6a5-4e91-8a1c-5e2d92a77ee9
+                InstanceId: af21c411-4631-4d30-b7a4-fed79c214d69
+        -   Folder: Background
+            Entity:
+                Id: 767f0fbb-6a04-4982-825f-57331584d723
+                Name: FloatingRock1_2
+                Components:
+                    f7d435da00a4f0db8567f052b2dd775b: !TransformComponent
+                        Id: 387ef57f-12bf-49ea-b447-7458384485cf
+                        Position*: {X: 6.37529, Y: 14.4999981, Z: -145.6644}
+                        Rotation*: {X: 0.0, Y: -0.93441, Z: 0.0, W: -0.3561994}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dfee743743e4c3abf742a67210a57784: !ModelComponent
+                        Id: 863715da-0bd2-4885-ba8f-6ec61fc64cbb
+                        Model: 6a331abf-6ede-4170-9bb4-ae1d6e7896ea:Environment/Background/Models/FloatingRock1_2
+                        Materials: {}
+            Base:
+                BasePartAsset: cb48cca7-c22e-4485-a6e6-07aa698fbf3e:Environment/Background/Prefabs/FloatingRocks1_2
+                BasePartId: 9b604468-8d1b-431d-adf9-79f53eaab11f
+                InstanceId: 4516b1ff-44da-4a3d-9acc-59703840b2cc
+        -   Folder: Background
+            Entity:
+                Id: 826b3d97-4caa-4c62-9f7a-463c9e8d7c17
+                Name: FloatingRock2_2
+                Components:
+                    5e4b0e71b6336787d1cda626d11089be: !TransformComponent
+                        Id: 8a5d0b1e-52a1-4e8e-9af2-8a143a7ea771
+                        Position*: {X: -11.1247406, Y: -1.5, Z: -116.6644}
+                        Rotation*: {X: 0.0, Y: -0.7881188, Z: 0.0, W: -0.6155232}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    be4998ad68c8459667a7284a8d99157b: !ModelComponent
+                        Id: 9a67ebc3-db10-4dfe-8ea5-c3bbbd37dadd
+                        Model: 4a2f9278-e0c6-44fb-9c01-be4b1d8df07d:Environment/Background/Models/FloatingRock2_2
+                        Materials: {}
+            Base:
+                BasePartAsset: 015d5639-6ba5-4172-a09e-83d0c9decb1f:Environment/Background/Prefabs/FloatingRocks2_2
+                BasePartId: acd14fa1-66b9-41ba-a956-d373b2a8694b
+                InstanceId: b5054698-6b40-44f0-96b7-1ffc3dccf436
+        -   Folder: Background
+            Entity:
+                Id: 86b49dca-1602-4518-8f2b-99f2c0d7781a
+                Name: FloatingRock2_2
+                Components:
+                    5e4b0e71b6336787d1cda626d11089be: !TransformComponent
+                        Id: 45b1b78f-752e-49a1-a25f-15e1538903ca
+                        Position*: {X: 55.11378, Y: 8.0, Z: -148.382629}
+                        Rotation*: {X: 0.0, Y: -0.2476192, Z: 0.0, W: -0.9688574}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    be4998ad68c8459667a7284a8d99157b: !ModelComponent
+                        Id: eb791f3e-a5ba-4a3f-a20a-d8e42f9857fd
+                        Model: 4a2f9278-e0c6-44fb-9c01-be4b1d8df07d:Environment/Background/Models/FloatingRock2_2
+                        Materials: {}
+            Base:
+                BasePartAsset: 015d5639-6ba5-4172-a09e-83d0c9decb1f:Environment/Background/Prefabs/FloatingRocks2_2
+                BasePartId: acd14fa1-66b9-41ba-a956-d373b2a8694b
+                InstanceId: 7c0d560d-cb82-403d-aa66-b956329522b6
+        -   Folder: Background
+            Entity:
+                Id: 87e24d5c-0b55-4cab-8600-c47ae9d96a88
+                Name: FloatingRock2_3
+                Components:
+                    2dd20f6a087b1c11acdfacf28a0ea16d: !TransformComponent
+                        Id: 911b30dc-034f-466e-8e87-3ec975043e40
+                        Position*: {X: 42.738266, Y: 9.5, Z: -69.6898956}
+                        Rotation*: {X: 0.0, Y: -0.5858675, Z: 0.0, W: -0.8104068}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    da2ee4d13edd8daff07d8952ff3a4dcc: !ModelComponent
+                        Id: a8c1939b-4ef9-4f9a-8bf9-4c9c8df5c454
+                        Model: e1555e64-a386-4bc0-93b5-f9d0a4ec9051:Environment/Background/Models/FloatingRock2_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 84e0f4f9-ff6e-40e3-9790-b150bb5dcaee:Environment/Background/Prefabs/FloatingRocks2_3
+                BasePartId: 80111dc1-fd93-4f0e-831e-e6232fa142d5
+                InstanceId: 8ecd9587-7a90-458a-9fa6-9493911b5201
+        -   Folder: Background
+            Entity:
+                Id: 8b7cefb2-98f0-41df-9c8e-452d0fac711f
+                Name: FloatingRock1_1
+                Components:
+                    4eb1e899f0420cb437485b0c397af954: !TransformComponent
+                        Id: ae4ba1e5-1a0f-4e2f-9ecf-425cea8dbfb7
+                        Position*: {X: -49.1246948, Y: 0.0, Z: -97.16441}
+                        Rotation*: {X: 0.0, Y: -0.9672256, Z: 0.0, W: -0.253918558}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8178b4303bd1ecfde7f3858f4b9e328d: !ModelComponent
+                        Id: 2bd1caba-2598-4adb-ab37-12f75e340d6e
+                        Model: b5ed7a0b-a015-43af-bd56-7d0964e9eb9a:Environment/Background/Models/FloatingRock1_1
+                        Materials: {}
+            Base:
+                BasePartAsset: 29d13e5f-59dc-48d3-90fd-5b98939827d3:Environment/Background/Prefabs/FloatingRocks1_1
+                BasePartId: 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+                InstanceId: ac1e998d-76f3-4206-8774-70d77cac0449
+        -   Folder: Background
+            Entity:
+                Id: 9bde73dd-b83f-4ab5-b19e-4a46a1bb94a4
+                Name: FloatingRock1_1
+                Components:
+                    4eb1e899f0420cb437485b0c397af954: !TransformComponent
+                        Id: 0a7a553d-fc33-461a-a0ab-b63dd0f7c9c3
+                        Position*: {X: -43.12905, Y: -26.4999962, Z: -80.1688}
+                        Rotation*: {X: 0.0, Y: -0.9018476, Z: 0.0, W: -0.432054281}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8178b4303bd1ecfde7f3858f4b9e328d: !ModelComponent
+                        Id: 9c49ef6e-0943-4e36-8aa9-9c795c704b01
+                        Model: b5ed7a0b-a015-43af-bd56-7d0964e9eb9a:Environment/Background/Models/FloatingRock1_1
+                        Materials: {}
+            Base:
+                BasePartAsset: 29d13e5f-59dc-48d3-90fd-5b98939827d3:Environment/Background/Prefabs/FloatingRocks1_1
+                BasePartId: 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+                InstanceId: 7a137652-eded-45c6-a26d-26dddf7c000b
+        -   Folder: Background
+            Entity:
+                Id: 9dedb689-72b9-44ab-b22b-5c652b9e946b
+                Name: FloatingRock2_1
+                Components:
+                    e1c1c29771d528372e8df9fe0ec258df: !TransformComponent
+                        Id: 374150f4-a647-4ee4-aaa8-0dae4acad5ae
+                        Position*: {X: 76.96354, Y: 7.999999, Z: -67.02687}
+                        Rotation*: {X: 0.0, Y: -0.8482803, Z: 0.0, W: -0.5295475}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cd6c3efe59d092dd1a8bf308dac643d1: !ModelComponent
+                        Id: 81dfa8b1-2627-4821-bb93-a110451505fc
+                        Model: d023b593-355e-4956-b6c2-76cc69aa956c:Environment/Background/Models/FloatingRock2_1
+                        Materials: {}
+            Base:
+                BasePartAsset: cd1fe62d-b637-416f-85bb-1b017bd85424:Environment/Background/Prefabs/FloatingRocks2_1
+                BasePartId: d8012c4c-375c-4001-ba06-8834ca57a8a6
+                InstanceId: 7fe4cd72-f396-411b-8d3a-05addcadecc3
+        -   Folder: Background
+            Entity:
+                Id: a0b15e32-390c-403b-9a79-af068ef67667
+                Name: FloatingRock2_2
+                Components:
+                    5e4b0e71b6336787d1cda626d11089be: !TransformComponent
+                        Id: 2a8aca96-f5dd-4e43-a3c8-15c98b5d18cd
+                        Position*: {X: -52.12474, Y: 0.0, Z: -84.1644}
+                        Rotation*: {X: 0.0, Y: -0.791507661, Z: 0.0, W: -0.611159265}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    be4998ad68c8459667a7284a8d99157b: !ModelComponent
+                        Id: 95356a09-d00b-4b3c-9e06-67c006c50aaf
+                        Model: 4a2f9278-e0c6-44fb-9c01-be4b1d8df07d:Environment/Background/Models/FloatingRock2_2
+                        Materials: {}
+            Base:
+                BasePartAsset: 015d5639-6ba5-4172-a09e-83d0c9decb1f:Environment/Background/Prefabs/FloatingRocks2_2
+                BasePartId: acd14fa1-66b9-41ba-a956-d373b2a8694b
+                InstanceId: 9f8c85aa-25dc-4041-8604-3a874542299f
+        -   Folder: Background
+            Entity:
+                Id: a0d78a85-e687-4dc6-977c-36e8247dbb8b
+                Name: FloatingRock2_2
+                Components:
+                    5e4b0e71b6336787d1cda626d11089be: !TransformComponent
+                        Id: 72f618ff-677e-4c06-9f8c-d49f0257faf1
+                        Position*: {X: 48.5, Y: 0.0, Z: -12.5}
+                        Rotation*: {X: 0.0, Y: -0.6111592, Z: 0.0, W: 0.791507661}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    be4998ad68c8459667a7284a8d99157b: !ModelComponent
+                        Id: 50ad044a-cb74-440c-bdb7-aaa7f3533ecc
+                        Model: 4a2f9278-e0c6-44fb-9c01-be4b1d8df07d:Environment/Background/Models/FloatingRock2_2
+                        Materials: {}
+            Base:
+                BasePartAsset: 015d5639-6ba5-4172-a09e-83d0c9decb1f:Environment/Background/Prefabs/FloatingRocks2_2
+                BasePartId: acd14fa1-66b9-41ba-a956-d373b2a8694b
+                InstanceId: ec486a36-0da8-4c0c-b974-429d46e3cf02
+        -   Folder: Background
+            Entity:
+                Id: acfc3ecc-4a35-4e8a-a3d0-de99c812599c
+                Name: FloatingRock2_2
+                Components:
+                    5e4b0e71b6336787d1cda626d11089be: !TransformComponent
+                        Id: 517e97ea-f51d-495f-ac63-fc21c1d9d6e5
+                        Position*: {X: 34.1632843, Y: 5.00000048, Z: -163.392944}
+                        Rotation*: {X: 0.0, Y: -0.9768715, Z: 0.0, W: -0.213827386}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    be4998ad68c8459667a7284a8d99157b: !ModelComponent
+                        Id: c71d35fe-9802-4c08-ace9-d5dfbdddadc1
+                        Model: 4a2f9278-e0c6-44fb-9c01-be4b1d8df07d:Environment/Background/Models/FloatingRock2_2
+                        Materials: {}
+            Base:
+                BasePartAsset: 015d5639-6ba5-4172-a09e-83d0c9decb1f:Environment/Background/Prefabs/FloatingRocks2_2
+                BasePartId: acd14fa1-66b9-41ba-a956-d373b2a8694b
+                InstanceId: 8d43a8d8-c6a7-4f7a-ae7a-5998898ed4e7
+        -   Folder: Background
+            Entity:
+                Id: ae58bcee-186b-4d62-bde9-42e41c54538f
+                Name: FloatingRock1_3
+                Components:
+                    9f77ddc721fcf761064fcaea91cd58c2: !TransformComponent
+                        Id: b6ea34e0-4f7a-475c-ac47-4878066233fd
+                        Position*: {X: 39.1327057, Y: 13.0000019, Z: -108.612411}
+                        Rotation*: {X: 0.0, Y: -0.7115577, Z: 0.0, W: -0.702627659}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    003b6267d30ac19d0238e9954e151363: !ModelComponent
+                        Id: 2169fcd2-1a48-4f95-9548-00b3ee3fa8ff
+                        Model: 9cefcfc9-d76f-4a63-9224-7cad03209790:Environment/Background/Models/FloatingRock1_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 9316ed7f-c095-4823-b523-c529a4056673:Environment/Background/Prefabs/FloatingRocks1_3
+                BasePartId: 7e626d1c-b6a5-4e91-8a1c-5e2d92a77ee9
+                InstanceId: 2b1c6840-62c0-4bf6-8b94-96ebb15c5231
+        -   Folder: Background
+            Entity:
+                Id: b093dae9-c2bd-4afb-aafd-ea42a546cf94
+                Name: FloatingRock1_3
+                Components:
+                    9f77ddc721fcf761064fcaea91cd58c2: !TransformComponent
+                        Id: 4bb37eea-a055-437f-ba44-0a617234e9da
+                        Position*: {X: -31.37497, Y: 3.5, Z: -29.4190826}
+                        Rotation*: {X: 0.0, Y: -0.7181814, Z: 0.0, W: 0.695856}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    003b6267d30ac19d0238e9954e151363: !ModelComponent
+                        Id: 25d3a403-8807-44ce-8a07-50fe7927d0f2
+                        Model: 9cefcfc9-d76f-4a63-9224-7cad03209790:Environment/Background/Models/FloatingRock1_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 9316ed7f-c095-4823-b523-c529a4056673:Environment/Background/Prefabs/FloatingRocks1_3
+                BasePartId: 7e626d1c-b6a5-4e91-8a1c-5e2d92a77ee9
+                InstanceId: 3b070aed-6290-4a6f-a373-c8bf2713bbfd
+        -   Folder: Background
+            Entity:
+                Id: b53990e9-7cd7-40e4-884d-0c3910cdb3d2
+                Name: FloatingRock2_3
+                Components:
+                    2dd20f6a087b1c11acdfacf28a0ea16d: !TransformComponent
+                        Id: f7bc2820-7605-497b-94e4-f695f0870d7f
+                        Position*: {X: -0.274459839, Y: 5.0, Z: -151.3829}
+                        Rotation*: {X: 0.0, Y: -0.946512938, Z: 0.0, W: 0.3226657}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    da2ee4d13edd8daff07d8952ff3a4dcc: !ModelComponent
+                        Id: 528ff669-a3c1-45b3-86cf-4f5313f10c1e
+                        Model: e1555e64-a386-4bc0-93b5-f9d0a4ec9051:Environment/Background/Models/FloatingRock2_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 84e0f4f9-ff6e-40e3-9790-b150bb5dcaee:Environment/Background/Prefabs/FloatingRocks2_3
+                BasePartId: 80111dc1-fd93-4f0e-831e-e6232fa142d5
+                InstanceId: 04ca51ac-1af2-4eac-b2a5-00109e616bb5
+        -   Folder: Background
+            Entity:
+                Id: ba3f410b-7d6e-4f02-b154-0b4d9ab5cd74
+                Name: FloatingRock1_1
+                Components:
+                    4eb1e899f0420cb437485b0c397af954: !TransformComponent
+                        Id: d2081aca-65f3-40bb-9191-9352f024bc6e
+                        Position*: {X: 25.5, Y: 10.5, Z: -32.0}
+                        Rotation*: {X: 0.0, Y: -0.62419486, Z: 0.0, W: 0.7812687}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8178b4303bd1ecfde7f3858f4b9e328d: !ModelComponent
+                        Id: f0d35a05-05ce-463a-92e8-6926d1348b16
+                        Model: b5ed7a0b-a015-43af-bd56-7d0964e9eb9a:Environment/Background/Models/FloatingRock1_1
+                        Materials:
+                            766d9f4ec02ddc621d9b71c3e661dd5a*~0: 43c89a20-2b17-43a1-84c0-ef4dac24663e:Environment/Background/Materials/FloatingRocks/FloatingRocks1_MT
+            Base:
+                BasePartAsset: 29d13e5f-59dc-48d3-90fd-5b98939827d3:Environment/Background/Prefabs/FloatingRocks1_1
+                BasePartId: 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+                InstanceId: 9a897a82-529d-4278-aa0d-f6e3268d4f71
+        -   Folder: Background
+            Entity:
+                Id: be2bdad3-447b-4afa-8ffb-52c0a7f92f7d
+                Name: FloatingRock2_3
+                Components:
+                    2dd20f6a087b1c11acdfacf28a0ea16d: !TransformComponent
+                        Id: b7a82adf-0a81-4365-ae38-b1315c3e682f
+                        Position*: {X: 16.3792648, Y: -1.5, Z: -111.284485}
+                        Rotation*: {X: 0.0, Y: -0.923427045, Z: 0.0, W: -0.383773953}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    da2ee4d13edd8daff07d8952ff3a4dcc: !ModelComponent
+                        Id: 038a2050-e9f3-4a4d-9bb7-79c783e12534
+                        Model: e1555e64-a386-4bc0-93b5-f9d0a4ec9051:Environment/Background/Models/FloatingRock2_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 84e0f4f9-ff6e-40e3-9790-b150bb5dcaee:Environment/Background/Prefabs/FloatingRocks2_3
+                BasePartId: 80111dc1-fd93-4f0e-831e-e6232fa142d5
+                InstanceId: 1db73f99-4463-471e-9c02-78d8ff574d88
+        -   Folder: Background
+            Entity:
+                Id: bf6de033-444b-4bd5-bd8f-c3185f3c9733
+                Name: FloatingRock2_3
+                Components:
+                    2dd20f6a087b1c11acdfacf28a0ea16d: !TransformComponent
+                        Id: 48f31e65-4040-41d1-90a3-56b4c496ce68
+                        Position*: {X: -22.9162445, Y: -27.4999962, Z: -90.18262}
+                        Rotation*: {X: 0.0, Y: -0.987315059, Z: 0.0, W: -0.158773184}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    da2ee4d13edd8daff07d8952ff3a4dcc: !ModelComponent
+                        Id: c40cad59-e353-4009-9ce5-3c704c8b21b3
+                        Model: e1555e64-a386-4bc0-93b5-f9d0a4ec9051:Environment/Background/Models/FloatingRock2_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 84e0f4f9-ff6e-40e3-9790-b150bb5dcaee:Environment/Background/Prefabs/FloatingRocks2_3
+                BasePartId: 80111dc1-fd93-4f0e-831e-e6232fa142d5
+                InstanceId: 3cd08a2d-9c60-4fee-ab2c-7bdedeccc170
+        -   Folder: Background
+            Entity:
+                Id: cf4d5061-10c4-4bd8-8dcf-a531cedf70ae
+                Name: FloatingRock2_1
+                Components:
+                    e1c1c29771d528372e8df9fe0ec258df: !TransformComponent
+                        Id: dbc8d74e-c59a-451d-accb-68c3fe13d41f
+                        Position*: {X: 47.48535, Y: 0.0, Z: -139.302856}
+                        Rotation*: {X: 0.0, Y: -0.891722262, Z: 0.0, W: -0.452583164}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cd6c3efe59d092dd1a8bf308dac643d1: !ModelComponent
+                        Id: 92be2d61-12bc-42b7-b589-12043e719111
+                        Model: d023b593-355e-4956-b6c2-76cc69aa956c:Environment/Background/Models/FloatingRock2_1
+                        Materials: {}
+            Base:
+                BasePartAsset: cd1fe62d-b637-416f-85bb-1b017bd85424:Environment/Background/Prefabs/FloatingRocks2_1
+                BasePartId: d8012c4c-375c-4001-ba06-8834ca57a8a6
+                InstanceId: 943d4c0e-65a9-43f6-afaf-aa075d727191
+        -   Folder: Background
+            Entity:
+                Id: d3efeb11-e580-4ca8-bb88-f39517020a6b
+                Name: FloatingRock2_3
+                Components:
+                    2dd20f6a087b1c11acdfacf28a0ea16d: !TransformComponent
+                        Id: 21a0e51e-e941-4a5b-94a8-064db27dd96f
+                        Position*: {X: -22.5, Y: 4.5, Z: -14.5}
+                        Rotation*: {X: 0.0, Y: 0.5248522, Z: 0.0, W: 0.851193368}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    da2ee4d13edd8daff07d8952ff3a4dcc: !ModelComponent
+                        Id: 6c170994-03f2-4c09-be50-bca00d2453f1
+                        Model: e1555e64-a386-4bc0-93b5-f9d0a4ec9051:Environment/Background/Models/FloatingRock2_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 84e0f4f9-ff6e-40e3-9790-b150bb5dcaee:Environment/Background/Prefabs/FloatingRocks2_3
+                BasePartId: 80111dc1-fd93-4f0e-831e-e6232fa142d5
+                InstanceId: 41bbf9e1-9f44-4ebd-a441-17b84bdcafb8
+        -   Folder: Background
+            Entity:
+                Id: d4c3412b-d163-42b4-88cc-f7e13eac45da
+                Name: FloatingRock1_3
+                Components:
+                    9f77ddc721fcf761064fcaea91cd58c2: !TransformComponent
+                        Id: fcc55601-fcb4-4e8e-9f18-0bcd8956ce17
+                        Position*: {X: -5.62472534, Y: 7.0, Z: -136.664429}
+                        Rotation*: {X: 0.0, Y: -0.817741, Z: 0.0, W: 0.5755863}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    003b6267d30ac19d0238e9954e151363: !ModelComponent
+                        Id: cb376c99-6041-47d7-96f1-5f945592c055
+                        Model: 9cefcfc9-d76f-4a63-9224-7cad03209790:Environment/Background/Models/FloatingRock1_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 9316ed7f-c095-4823-b523-c529a4056673:Environment/Background/Prefabs/FloatingRocks1_3
+                BasePartId: 7e626d1c-b6a5-4e91-8a1c-5e2d92a77ee9
+                InstanceId: d7d9773f-d072-42dd-9c94-d08de2f237af
+        -   Folder: Background
+            Entity:
+                Id: d9b58605-ff06-455d-8e67-d22b81c33c72
+                Name: FloatingRock2_3
+                Components:
+                    2dd20f6a087b1c11acdfacf28a0ea16d: !TransformComponent
+                        Id: 636e1117-05bb-41d4-a998-e1dfb7704203
+                        Position*: {X: -46.36299, Y: 9.5, Z: -26.9745178}
+                        Rotation*: {X: 0.0, Y: -0.8104068, Z: 0.0, W: 0.5858676}
+                        Scale*: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    da2ee4d13edd8daff07d8952ff3a4dcc: !ModelComponent
+                        Id: b9d14ba4-6da3-47a4-a6d3-785f420f64f8
+                        Model: e1555e64-a386-4bc0-93b5-f9d0a4ec9051:Environment/Background/Models/FloatingRock2_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 84e0f4f9-ff6e-40e3-9790-b150bb5dcaee:Environment/Background/Prefabs/FloatingRocks2_3
+                BasePartId: 80111dc1-fd93-4f0e-831e-e6232fa142d5
+                InstanceId: aad3d31a-7bcf-4bfe-b0db-b20c6df54b9f
+        -   Folder: Background
+            Entity:
+                Id: dabeae09-2425-4673-a352-1c49b5ed279f
+                Name: FloatingRock2_2
+                Components:
+                    5e4b0e71b6336787d1cda626d11089be: !TransformComponent
+                        Id: 5ba1a528-4b43-482c-8065-2e66c0c2dbe9
+                        Position*: {X: 17.3733368, Y: 5.00000048, Z: -100.953964}
+                        Rotation*: {X: 0.0, Y: -0.941892564, Z: 0.0, W: 0.335914224}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    be4998ad68c8459667a7284a8d99157b: !ModelComponent
+                        Id: b00f91b5-b857-4eed-8d42-98198152f6c1
+                        Model: 4a2f9278-e0c6-44fb-9c01-be4b1d8df07d:Environment/Background/Models/FloatingRock2_2
+                        Materials: {}
+            Base:
+                BasePartAsset: 015d5639-6ba5-4172-a09e-83d0c9decb1f:Environment/Background/Prefabs/FloatingRocks2_2
+                BasePartId: acd14fa1-66b9-41ba-a956-d373b2a8694b
+                InstanceId: 51cac7ff-e71b-4fe5-b192-d975ff208bd3
+        -   Folder: Background
+            Entity:
+                Id: def87cdf-e3e2-4fd3-a0e5-a08c7f43f65d
+                Name: FloatingRock2_2
+                Components:
+                    5e4b0e71b6336787d1cda626d11089be: !TransformComponent
+                        Id: 1a925d52-a09b-4c5e-80cb-7239ba108d67
+                        Position*: {X: -25.6247253, Y: 8.0, Z: -105.164383}
+                        Rotation*: {X: 0.0, Y: -0.723106444, Z: 0.0, W: -0.6907366}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    be4998ad68c8459667a7284a8d99157b: !ModelComponent
+                        Id: bf5c90f5-9162-40b7-8c1c-3dd160860558
+                        Model: 4a2f9278-e0c6-44fb-9c01-be4b1d8df07d:Environment/Background/Models/FloatingRock2_2
+                        Materials: {}
+            Base:
+                BasePartAsset: 015d5639-6ba5-4172-a09e-83d0c9decb1f:Environment/Background/Prefabs/FloatingRocks2_2
+                BasePartId: acd14fa1-66b9-41ba-a956-d373b2a8694b
+                InstanceId: b0a69ff0-d359-4851-b6b9-44c9f0b593b8
+        -   Folder: Background
+            Entity:
+                Id: e96b8613-d4f3-4090-b926-d86852e0dd2e
+                Name: FloatingRock2_1
+                Components:
+                    e1c1c29771d528372e8df9fe0ec258df: !TransformComponent
+                        Id: 630ce0c8-0fa8-4dd3-8c47-4df3380557fa
+                        Position*: {X: -32.1247253, Y: 7.999999, Z: -93.16443}
+                        Rotation*: {X: 0.0, Y: -1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cd6c3efe59d092dd1a8bf308dac643d1: !ModelComponent
+                        Id: 37b2ec0d-b739-4ea2-9548-2f1c8083aeb1
+                        Model: d023b593-355e-4956-b6c2-76cc69aa956c:Environment/Background/Models/FloatingRock2_1
+                        Materials: {}
+            Base:
+                BasePartAsset: cd1fe62d-b637-416f-85bb-1b017bd85424:Environment/Background/Prefabs/FloatingRocks2_1
+                BasePartId: d8012c4c-375c-4001-ba06-8834ca57a8a6
+                InstanceId: c169ba82-464a-4a29-bc03-159b0a629bde
+        -   Folder: Background
+            Entity:
+                Id: ed961637-43cd-44dc-992e-5e37dc800a8d
+                Name: FloatingRock2_2
+                Components:
+                    5e4b0e71b6336787d1cda626d11089be: !TransformComponent
+                        Id: b2342c87-c712-4e29-b5a2-ab572129a0f6
+                        Position*: {X: -11.3718338, Y: -38.4999962, Z: -113.442757}
+                        Rotation*: {X: 0.0, Y: -0.906567, Z: 0.0, W: -0.422061771}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    be4998ad68c8459667a7284a8d99157b: !ModelComponent
+                        Id: 68f9bcaa-5dff-442f-a10b-ca1f4adebf27
+                        Model: 4a2f9278-e0c6-44fb-9c01-be4b1d8df07d:Environment/Background/Models/FloatingRock2_2
+                        Materials: {}
+            Base:
+                BasePartAsset: 015d5639-6ba5-4172-a09e-83d0c9decb1f:Environment/Background/Prefabs/FloatingRocks2_2
+                BasePartId: acd14fa1-66b9-41ba-a956-d373b2a8694b
+                InstanceId: 1dfb5373-d4a1-4651-93f8-f4d373062f3a
+        -   Folder: Background
+            Entity:
+                Id: f4cfce88-7467-439e-b338-c8e77c426d4b
+                Name: FloatingRock2_1
+                Components:
+                    e1c1c29771d528372e8df9fe0ec258df: !TransformComponent
+                        Id: 0c75ac61-3564-42a9-b2b2-75575076aa2e
+                        Position*: {X: 78.5667953, Y: 3.5, Z: -80.94034}
+                        Rotation*: {X: 0.0, Y: -0.999455333, Z: 0.0, W: 0.0330012}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cd6c3efe59d092dd1a8bf308dac643d1: !ModelComponent
+                        Id: 42b5515a-dd97-44f5-8937-f4acb35c8b6a
+                        Model: d023b593-355e-4956-b6c2-76cc69aa956c:Environment/Background/Models/FloatingRock2_1
+                        Materials: {}
+            Base:
+                BasePartAsset: cd1fe62d-b637-416f-85bb-1b017bd85424:Environment/Background/Prefabs/FloatingRocks2_1
+                BasePartId: d8012c4c-375c-4001-ba06-8834ca57a8a6
+                InstanceId: c4c8f5da-2cf7-44cf-96fe-1be3b1760998
+        -   Folder: Background
+            Entity:
+                Id: f63a4c88-b3cb-459a-8d04-76d2e246c8f8
+                Name: FloatingRock1_2
+                Components:
+                    f7d435da00a4f0db8567f052b2dd775b: !TransformComponent
+                        Id: f5213c79-7767-429c-b315-011f7bf185c6
+                        Position*: {X: 49.24311, Y: 19.9999981, Z: -90.00035}
+                        Rotation*: {X: 0.0, Y: -0.2976652, Z: 0.0, W: -0.9546703}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dfee743743e4c3abf742a67210a57784: !ModelComponent
+                        Id: 86fc7737-a869-4d6b-9fbb-273b76d0faca
+                        Model: 6a331abf-6ede-4170-9bb4-ae1d6e7896ea:Environment/Background/Models/FloatingRock1_2
+                        Materials: {}
+            Base:
+                BasePartAsset: cb48cca7-c22e-4485-a6e6-07aa698fbf3e:Environment/Background/Prefabs/FloatingRocks1_2
+                BasePartId: 9b604468-8d1b-431d-adf9-79f53eaab11f
+                InstanceId: d5f42155-d9c2-4a02-ac6a-99ac95e2d21b
+        -   Folder: Background
+            Entity:
+                Id: f90cc49d-6df9-41b1-b6b2-91f7531191c6
+                Name: FloatingRock2_3
+                Components:
+                    2dd20f6a087b1c11acdfacf28a0ea16d: !TransformComponent
+                        Id: cdf145dd-2cb5-403b-8ddc-d495a77fb32d
+                        Position*: {X: 3.37528229, Y: 9.5, Z: -114.164429}
+                        Rotation*: {X: 0.0, Y: -0.9261288, Z: 0.0, W: -0.377207428}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    da2ee4d13edd8daff07d8952ff3a4dcc: !ModelComponent
+                        Id: 50b83ed9-a8f3-4883-a59c-4a3684a5a861
+                        Model: e1555e64-a386-4bc0-93b5-f9d0a4ec9051:Environment/Background/Models/FloatingRock2_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 84e0f4f9-ff6e-40e3-9790-b150bb5dcaee:Environment/Background/Prefabs/FloatingRocks2_3
+                BasePartId: 80111dc1-fd93-4f0e-831e-e6232fa142d5
+                InstanceId: fc660bc9-a2df-4b23-b70b-bbd00ad50406
+        -   Folder: Background
+            Entity:
+                Id: fa77249e-546c-4c5a-963c-3eb3df9c66f0
+                Name: FloatingRock2_3
+                Components:
+                    2dd20f6a087b1c11acdfacf28a0ea16d: !TransformComponent
+                        Id: 6d9366ca-f01d-4a65-9581-43398c547b37
+                        Position*: {X: -1.92002869, Y: 5.0, Z: -128.15}
+                        Rotation*: {X: 0.0, Y: -0.6320416, Z: 0.0, W: 0.77493453}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    da2ee4d13edd8daff07d8952ff3a4dcc: !ModelComponent
+                        Id: 6cdcd927-99ed-4b5d-a4fc-128df005a4d0
+                        Model: e1555e64-a386-4bc0-93b5-f9d0a4ec9051:Environment/Background/Models/FloatingRock2_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 84e0f4f9-ff6e-40e3-9790-b150bb5dcaee:Environment/Background/Prefabs/FloatingRocks2_3
+                BasePartId: 80111dc1-fd93-4f0e-831e-e6232fa142d5
+                InstanceId: b1f1201a-6102-4794-a5bc-7e828f6bc8ee
+        -   Folder: Background
+            Entity:
+                Id: fedb4f1e-0894-48b5-8f8c-cc886a428695
+                Name: FloatingRock1_3
+                Components:
+                    9f77ddc721fcf761064fcaea91cd58c2: !TransformComponent
+                        Id: 81108f9f-9d89-47e7-90c0-1c4dbc1ff59b
+                        Position*: {X: -73.140976, Y: -3.99999976, Z: -101.905518}
+                        Rotation*: {X: 0.0, Y: -0.6063935, Z: 0.0, W: -0.795164645}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    003b6267d30ac19d0238e9954e151363: !ModelComponent
+                        Id: 4abf9e02-2a1e-4e9a-a206-14a03fed0c08
+                        Model: 9cefcfc9-d76f-4a63-9224-7cad03209790:Environment/Background/Models/FloatingRock1_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 9316ed7f-c095-4823-b523-c529a4056673:Environment/Background/Prefabs/FloatingRocks1_3
+                BasePartId: 7e626d1c-b6a5-4e91-8a1c-5e2d92a77ee9
+                InstanceId: 27de48a5-6a78-49c6-b5d8-0f786815573b
+        -   Folder: Background
+            Entity:
+                Id: ff38e382-95bc-4373-bde5-256ff0532b72
+                Name: FloatingRock2_3
+                Components:
+                    2dd20f6a087b1c11acdfacf28a0ea16d: !TransformComponent
+                        Id: a8c44e1a-ec06-4d95-a021-249c413a40fa
+                        Position*: {X: 18.87529, Y: 4.5, Z: -82.1644}
+                        Rotation*: {X: 0.0, Y: -0.851193368, Z: 0.0, W: 0.524852157}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    da2ee4d13edd8daff07d8952ff3a4dcc: !ModelComponent
+                        Id: b8aedcc8-5aa2-469f-ade8-ca2315ca4db2
+                        Model: e1555e64-a386-4bc0-93b5-f9d0a4ec9051:Environment/Background/Models/FloatingRock2_3
+                        Materials: {}
+            Base:
+                BasePartAsset: 84e0f4f9-ff6e-40e3-9790-b150bb5dcaee:Environment/Background/Prefabs/FloatingRocks2_3
+                BasePartId: 80111dc1-fd93-4f0e-831e-e6232fa142d5
+                InstanceId: 14c2a809-bc1b-452f-bd05-807a1a1cff07

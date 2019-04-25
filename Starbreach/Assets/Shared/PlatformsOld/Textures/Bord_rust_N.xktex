@@ -1,0 +1,6 @@
+!Texture
+Id: d6c4cd38-5005-45b0-a204-e02fe2212497
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/border/rusted/Bord_rust_N.tga
+Type: !NormalMapTextureType {}

@@ -1,0 +1,9 @@
+!Texture
+Id: 69f6805a-ec86-4a2c-9760-32963eb7716b
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Satellite/Satellite_E.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

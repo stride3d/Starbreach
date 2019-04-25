@@ -1,0 +1,7 @@
+!Texture
+Id: eedef891-c0e2-4d32-b694-0832309148b5
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Gameplay/Plate/Plate2_On_E.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

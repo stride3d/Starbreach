@@ -1,0 +1,7 @@
+!Texture
+Id: 29d3f490-ec61-46b0-a328-f763d4982e51
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Props/Wall2/Textures/P_wall2_A2.tga
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

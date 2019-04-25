@@ -1,0 +1,14 @@
+!Model
+Id: ed1b5a97-2888-497c-b2d5-5c9392ce011b
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/EnemyDrone/DroneFr3.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    95397d326ecc49babadb0fd8612cf87f:
+        Name: Material
+        MaterialInstance:
+            Material: 4756b860-c10e-475a-afbb-a437f26c8e6d:Drones/Materials/Drone/DroneUpper_explosion
+Skeleton: null
+~SourceHashes:
+    4b84166840563e6bcc01f1ff742900a5~../../../../../Resources/EnemyDrone/DroneFr3.fbx: c2be8e2383ba5e311d5750683309de25

@@ -1,0 +1,45 @@
+!SceneAsset
+Id: c6a4ba7f-4488-4cdd-9373-8980d5139065
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Parent: 6224d747-48a6-4736-a199-27785b9b7c3b:Levels/MainScene
+Offset: {X: -3.0, Y: 0.0, Z: -77.0}
+Hierarchy:
+    RootParts:
+        - ref!! f650e03c-a060-4807-ace6-d02e5ecb9f00
+    Parts:
+        -   Entity:
+                Id: f650e03c-a060-4807-ace6-d02e5ecb9f00
+                Name: Bridge_straight
+                Components:
+                    37dc29da7c3fdf0f684773e74664157f: !TransformComponent
+                        Id: 52d65828-b8a2-4204-98bf-a955bdf85260
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    664ff7628d1862ee23c3ee23abd3f522: !ModelComponent
+                        Id: d1d2b659-6225-468e-9be0-8e1cdf52dc49
+                        Model: bf243266-fbbe-49dc-90c6-92fff60fadb3:Levels/PrefabModels/Bridge_straight_NS
+                        Materials: {}
+                    22a5eba9b93fbc6aab0b88ab77adb820: !StaticColliderComponent
+                        Id: f77064f8-ca81-4384-a933-55cdcb4fbd0e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            daa1a5a2261702d92851120e8c2c2085: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 2.0, Z: 18.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: -9.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            b3eda8f1f489b899c934ff86382b7d46: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 2.0, Z: 18.0}
+                                LocalOffset: {X: 6.0, Y: 0.0, Z: -9.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

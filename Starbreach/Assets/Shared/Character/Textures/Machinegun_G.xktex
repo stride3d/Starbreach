@@ -1,0 +1,8 @@
+!Texture
+Id: cd627bfd-00f4-41c5-a31a-a053208f7019
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/Machinegun_R.tga
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

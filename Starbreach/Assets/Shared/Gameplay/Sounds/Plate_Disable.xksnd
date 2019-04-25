@@ -1,0 +1,8 @@
+!Sound
+Id: 730d9dfc-a657-4d5b-b5ea-8fc7e14cfa7d
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Gameplay/Plate/Disable.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

@@ -1,0 +1,8 @@
+!Texture
+Id: 9f037bc9-5239-4d2b-b4b8-7079ab7118f9
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/ExplosedCells/Cells_damaged_G.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

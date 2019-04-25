@@ -1,0 +1,6 @@
+!Texture
+Id: 45a351c4-cb4a-4498-8fce-5b5721931928
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Gameplay/Plate/Plate3R_N.png
+Type: !NormalMapTextureType {}

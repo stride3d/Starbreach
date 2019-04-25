@@ -1,0 +1,9 @@
+!Texture
+Id: b8d72a5b-f459-4cb0-9ac4-d49794970d8e
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/DPU/DPU2_D.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

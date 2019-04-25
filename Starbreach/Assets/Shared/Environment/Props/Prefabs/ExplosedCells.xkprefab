@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 0008f3de-f75a-48c8-82f5-32f2cc6bef8a
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! f32129e7-4e98-4b33-9103-6e4f994d7326
+    Parts:
+        -   Entity:
+                Id: f32129e7-4e98-4b33-9103-6e4f994d7326
+                Name: ExplosedCells
+                Components:
+                    1061813f3637113cd8ccd2647344b792: !TransformComponent
+                        Id: 47692dbe-d6e7-40c0-93fa-c281133d6513
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 0.6, Y: 1.0, Z: 0.7}
+                        Children: {}
+                    bc5e15c42183b993b70b60d1fadd778c: !ModelComponent
+                        Id: 5f6f4917-9085-43f2-b918-97777d6be5ec
+                        Model: c01825b3-7045-423b-8bae-e41ad8ef1e07:Environment/Props/Models/ExplosedCells
+                        Materials: {}

@@ -1,0 +1,23 @@
+!PrefabAsset
+Id: cf1f3352-d8df-45fa-84b7-a4d03f8b3c01
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+    Parts:
+        -   Entity:
+                Id: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: c8a1be11-ce88-447d-adaf-2845b5728fb2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: c0e46a34-ffbb-46ef-b879-b1dc2a1a2f49
+                        Model: e63af0bb-3c5c-4345-9946-2b2a16ffb435:PlatformsOld/Models/Cell_loop_half2
+                        Materials:
+                            eef1bcbc6771d94788ba09ae85ba5cf5~0: 2f5f609d-0f93-4f71-9390-2cb3d16a098c:PlatformsOld/Materials/cell01_backed

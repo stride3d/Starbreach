@@ -1,0 +1,82 @@
+!PrefabAsset
+Id: fceb0fe2-2759-4e59-80f9-ed87a1c78542
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 7c93854f-7730-487e-981f-d1c6a7278dc4
+        - ref!! f9cf91b0-4067-4ea2-b1fc-b6ad9dc29b2b
+        - ref!! 8933eda2-04ae-439c-a263-4a2ef6609e6b
+        - ref!! 5eaddd35-347f-4bb2-821f-7d205091787d
+        - ref!! 580666a4-cce3-49ae-88b8-58dca730b485
+    Parts:
+        -   Entity:
+                Id: 580666a4-cce3-49ae-88b8-58dca730b485
+                Name: Cell_Loop
+                Components:
+                    6dfdbd3820916d45fdeb5364ba2787f6: !TransformComponent
+                        Id: a372e997-c53f-4bf8-ab9f-657326c2b275
+                        Position: {X: 4.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d8426bc9166246f0e76ad053cf6fb178: !ModelComponent
+                        Id: d8f00172-fcfc-4b16-92cc-c2803a561d19
+                        Model: 1f1a7307-7912-4df6-b0c3-9dccebbe39c0:Environment/Platforms/Models/Cell_Loop
+                        Materials: {}
+        -   Entity:
+                Id: 5eaddd35-347f-4bb2-821f-7d205091787d
+                Name: Cell_Loop
+                Components:
+                    6dfdbd3820916d45fdeb5364ba2787f6: !TransformComponent
+                        Id: 5a3d1c94-afb3-4d52-ba6f-ba739927d8e7
+                        Position: {X: 2.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d8426bc9166246f0e76ad053cf6fb178: !ModelComponent
+                        Id: 69cdb389-e27a-419a-903e-5be34df6e013
+                        Model: 1f1a7307-7912-4df6-b0c3-9dccebbe39c0:Environment/Platforms/Models/Cell_Loop
+                        Materials: {}
+        -   Entity:
+                Id: 7c93854f-7730-487e-981f-d1c6a7278dc4
+                Name: Border_out_corner_90
+                Components:
+                    d92625d9413ae03df8181498a8cf4674: !TransformComponent
+                        Id: 91e3ab68-9303-44f5-95c8-a8fc84301f69
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    760a05589dffad867d432877d98a6c15: !ModelComponent
+                        Id: c473f617-0b1c-4d68-9d8b-55b8ab9de6d8
+                        Model: e2199908-ce19-4e35-843e-6ade71089032:Environment/Platforms/Models/Border_out_corner_90
+                        Materials: {}
+        -   Entity:
+                Id: 8933eda2-04ae-439c-a263-4a2ef6609e6b
+                Name: Cell_Loop
+                Components:
+                    65032974c4209fbde409581abc609fd8: !TransformComponent
+                        Id: bfbfeadf-ac60-4c92-8590-10e34303f680
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4f5edb7399687f868fff55dd3868471c: !ModelComponent
+                        Id: 6fad6b96-4b3e-483e-b6ef-2d2c961f3a24
+                        Model: 1f1a7307-7912-4df6-b0c3-9dccebbe39c0:Environment/Platforms/Models/Cell_Loop
+                        Materials: {}
+        -   Entity:
+                Id: f9cf91b0-4067-4ea2-b1fc-b6ad9dc29b2b
+                Name: Border_straight
+                Components:
+                    cd837ec50926bfc187677c460c159e34: !TransformComponent
+                        Id: 33887b8d-0f77-4410-b1e9-b7e5f1b0f8f6
+                        Position: {X: 6.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.5}
+                        Children: {}
+                    3477222ec8de7d51be389ae5a1944040: !ModelComponent
+                        Id: 8e612dd3-6e91-4151-b222-45e218e26b98
+                        Model: 8ec5ea63-3993-47b9-b6de-9f82c4a3f3c3:Environment/Platforms/Models/Border_straight
+                        Materials: {}

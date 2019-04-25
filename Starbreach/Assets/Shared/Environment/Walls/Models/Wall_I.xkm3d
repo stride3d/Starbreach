@@ -1,0 +1,14 @@
+!Model
+Id: 0e97b32d-5d02-4681-b6bd-ddc7e81a0cae
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Walls/Wall1/Wall_I.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    26fe19ed27308e84bfa6c9b302747124:
+        Name: Material
+        MaterialInstance:
+            Material: 30c692fb-2c3c-418b-a11d-1a33055e56fc:Environment/Walls/Materials/Wall1_Rust_MT
+Skeleton: null
+~SourceHashes:
+    41fa5edafa15a570c76688d73af7553c~../../../../../Resources/Walls/Wall1/Wall_I.fbx: 43da4acf439f670c17587074f7840014

@@ -1,0 +1,9 @@
+!Texture
+Id: cdb32683-27b3-4409-a589-d15fa0723ee5
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/MainCharacter_Damaged/MainCharacter_Upper_Damaged_A.tga
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,6 @@
+!Texture
+Id: 1eafe878-b0b1-4733-b9e7-0a176909fc5e
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/b_border1/b_border_normal.tga
+Type: !NormalMapTextureType {}

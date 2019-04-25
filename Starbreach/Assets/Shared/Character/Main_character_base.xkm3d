@@ -1,0 +1,22 @@
+!Model
+Id: 94618d74-a17c-486b-88e0-42a1b6c081f2
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Character/Main_character_base_04.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    6bf838ce5dd33f684a100a862c5073ea:
+        Name: lower_body
+        MaterialInstance:
+            Material: ded8cec5-0e12-4ee8-a67d-273c49d6420b:Character/Materials/Lower_part_normal
+    89c6194f50adc5a98f3e5477d5a09e9a:
+        Name: upper_body
+        MaterialInstance:
+            Material: 6b6aaf08-35b7-40b7-94a8-cf12a6c1d293:Character/Materials/Upper_part_normal
+    bd01869177a636a25a096493bf2f6cd6:
+        Name: _MACHINEGUN_Q2default
+        MaterialInstance:
+            Material: abe48172-91b9-405f-93d9-3a908c2d925f:Character/Materials/Weapon
+Skeleton: b18ce390-d277-401c-872c-917f4cb017d0:Character/Main_character_base Skeleton
+~SourceHashes:
+    17b5b9fb86db77651aa4d099646dd5e3~../../../Resources/Character/Main_character_base_04.FBX: 54a5485a88bf9236fc28110b80e788a1

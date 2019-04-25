@@ -1,0 +1,14 @@
+!Model
+Id: 2b86e7b1-e218-412d-b66e-e0dc401dc02c
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/ChargerBox/ChargerBox.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    bdea7334af620133b01a0801e68e28ab:
+        Name: default
+        MaterialInstance:
+            Material: 1f4591d2-0b07-40c2-bb2b-3cdb6200354d:Environment/Props/Materials/ChargerBox/ChargerBox_MT
+Skeleton: null
+~SourceHashes:
+    24de1d24dce5d700a8f31ea478ad9c0e~../../../../../Resources/Props/ChargerBox/ChargerBox.FBX: 5a7ab6020773d0823aeb5c17f621e36e

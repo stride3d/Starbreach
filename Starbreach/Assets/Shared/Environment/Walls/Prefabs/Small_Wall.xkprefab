@@ -1,0 +1,112 @@
+!PrefabAsset
+Id: 8a024eda-a607-4207-bad9-b3c353e02600
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 9f308573-f8ac-4c42-ad45-ae9b95cb02c6
+        - ref!! 861c51e3-cf41-4033-a7d4-00ced0cfe1be
+        - ref!! eaa6dedb-ba2b-41b8-94db-08a5f40b85eb
+        - ref!! 88a0ed64-f694-400f-bcf1-4fe7dc6f4106
+        - ref!! 892b2dc6-a42e-4c7c-bc29-1597cb48f3b7
+    Parts:
+        -   Entity:
+                Id: 861c51e3-cf41-4033-a7d4-00ced0cfe1be
+                Name: Wall_I
+                Components:
+                    4210535a1f0aea37724547aa0d92f0ea: !TransformComponent
+                        Id: c50f5f85-1689-4df2-8152-40d50a0c7df0
+                        Position*: {X: 2.0, Y: 0.0, Z: -1.0}
+                        Rotation*: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    313286d40b7a094fbe3b8c6b3b7edafd: !ModelComponent
+                        Id: ae1c4861-7c66-4fe2-b210-387425972170
+                        Model: 0e97b32d-5d02-4681-b6bd-ddc7e81a0cae:Environment/Walls/Models/Wall_I
+                        Materials: {}
+            Base:
+                BasePartAsset: 7e25e231-774f-421a-9885-4c22d5aad1cd:Environment/Walls/Prefabs/Wall_I
+                BasePartId: 7e92c051-cb83-4e8e-bbcc-7ed71a997dbb
+                InstanceId: 13449fc1-7a3d-41dc-b4e3-3332b5c500d7
+        -   Entity:
+                Id: 88a0ed64-f694-400f-bcf1-4fe7dc6f4106
+                Name: Wall_seg
+                Components:
+                    e7195b6693c22b2a7c0ca80883c9fda7: !TransformComponent
+                        Id: 03e9c34f-43d5-4c36-9ed2-20cec94c4af8
+                        Position*: {X: 2.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    26b4f26bd3b3da82ae838e7ec4d009f7: !ModelComponent
+                        Id: 40133987-7dd7-4c35-a53b-dbe4c6eea1ae
+                        Model: 5c20dc3d-d465-4fd3-ab8f-dc4e9e441ecd:Environment/Walls/Models/Wall_seg
+                        Materials: {}
+                    2a153c0879e5c170f87aacd69d2966b8*: !StaticColliderComponent
+                        Id: 899e41da-f3f3-4df6-b52e-41c7495c328d
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes: {}
+            Base:
+                BasePartAsset: 592dedcc-96f2-4d68-9dbb-69498b1d375a:Environment/Walls/Prefabs/Wall_seg
+                BasePartId: 81d1c139-d895-46be-a8a1-d6d1a1e4ff15
+                InstanceId: 99644e30-d00b-4b95-90f5-5e6733872b8c
+        -   Entity:
+                Id: 892b2dc6-a42e-4c7c-bc29-1597cb48f3b7
+                Name: Wall_seg
+                Components:
+                    e7195b6693c22b2a7c0ca80883c9fda7: !TransformComponent
+                        Id: cf09f28f-ad14-4105-b56a-0b4c22f3b1ad
+                        Position*: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    26b4f26bd3b3da82ae838e7ec4d009f7: !ModelComponent
+                        Id: cf830460-69c5-4ea2-bf2f-e56cbf1e7f83
+                        Model: 5c20dc3d-d465-4fd3-ab8f-dc4e9e441ecd:Environment/Walls/Models/Wall_seg
+                        Materials: {}
+            Base:
+                BasePartAsset: 592dedcc-96f2-4d68-9dbb-69498b1d375a:Environment/Walls/Prefabs/Wall_seg
+                BasePartId: 81d1c139-d895-46be-a8a1-d6d1a1e4ff15
+                InstanceId: 5176102a-3b30-440b-b7ff-ec52c8a55d86
+        -   Entity:
+                Id: 9f308573-f8ac-4c42-ad45-ae9b95cb02c6
+                Name: Wall_end_B
+                Components:
+                    30205b6ed13438d5333e4ddd34ee9e39: !TransformComponent
+                        Id: f59802ff-494c-4577-9963-2ea5b3875eb6
+                        Position*: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2372e7c593bb48b37a3d1d2cf5fade99: !ModelComponent
+                        Id: 259c8e58-354f-4feb-bbd0-9418f8560a83
+                        Model: d367f375-e134-4ce7-9060-cdf4fb960698:Environment/Walls/Models/Wall_end_B
+                        Materials: {}
+            Base:
+                BasePartAsset: 8be6d68d-7fac-4a71-b0f5-9cf97cfb7339:Environment/Walls/Prefabs/Wall_end_B
+                BasePartId: bad2cc9a-192b-4c91-ab37-76f4d80c8558
+                InstanceId: ca7e9426-98fc-4f89-8f12-e73dfaa04009
+        -   Entity:
+                Id: eaa6dedb-ba2b-41b8-94db-08a5f40b85eb
+                Name: Wall_end_B
+                Components:
+                    30205b6ed13438d5333e4ddd34ee9e39: !TransformComponent
+                        Id: c68c9f84-4334-4d35-a891-4f3febe64887
+                        Position*: {X: 3.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale*: {X: -1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2372e7c593bb48b37a3d1d2cf5fade99: !ModelComponent
+                        Id: 82f7a6a3-19c5-4bc7-ae5f-1d84932e5b7f
+                        Model: d367f375-e134-4ce7-9060-cdf4fb960698:Environment/Walls/Models/Wall_end_B
+                        Materials: {}
+            Base:
+                BasePartAsset: 8be6d68d-7fac-4a71-b0f5-9cf97cfb7339:Environment/Walls/Prefabs/Wall_end_B
+                BasePartId: bad2cc9a-192b-4c91-ab37-76f4d80c8558
+                InstanceId: 674b922e-b80b-45c7-9f0e-e3e16ed8e985

@@ -1,0 +1,14 @@
+!Model
+Id: e62da4ac-0fbd-43f0-86a2-3c36a1f69f96
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/DPU/DPU2.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    3e73883ab1af160661fd67cee4b55f6f:
+        Name: DPU2
+        MaterialInstance:
+            Material: 4a7c1fe9-8d67-42a4-b682-d311414e2c68:Environment/Props/Materials/DPU/DPU2_Rust_MT
+Skeleton: null
+~SourceHashes:
+    81538f3c7da44dfb760c5567cbc08ad7~../../../../../Resources/Props/DPU/DPU2.FBX: c96fc62ecb04a2562b77dc7675dd5a9b

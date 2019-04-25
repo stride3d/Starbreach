@@ -1,0 +1,14 @@
+!Model
+Id: 74ed18b5-f993-49d7-8d3e-170411c88201
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/Teleport/Teleport.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    c6cd6a74d01a29387cf5b5a3c136116b:
+        Name: default
+        MaterialInstance:
+            Material: 9a29e76a-0ee8-4437-bc3e-3a022bb56760:Environment/Props/Materials/Teleport/Teleport_MT
+Skeleton: null
+~SourceHashes:
+    6c5c2a3bdb74ed1689c542aedc761970~../../../../../Resources/Props/Teleport/Teleport.FBX: 0e990db0efd376fe0c9082a256a8661e

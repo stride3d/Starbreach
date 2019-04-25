@@ -1,0 +1,14 @@
+!Model
+Id: c032cac6-3f84-4312-bae8-5db3e585b989
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Props/Wall/Meshes/P_wall_L.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fe0f722b28c564ae044289ea044289ea:
+        Name: Material
+        MaterialInstance:
+            Material: null
+Skeleton: null
+~SourceHashes:
+    0b5386a6f72d39be2d5e9f0bdb6e7b2c~../../../Props/Wall/Meshes/P_wall_L.FBX: 00000000000000000000000000000000

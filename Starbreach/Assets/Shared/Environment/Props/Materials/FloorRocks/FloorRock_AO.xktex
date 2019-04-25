@@ -1,0 +1,8 @@
+!Texture
+Id: 7e0d129a-3f7b-4225-b735-2d93808d24b0
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/FloorRocks/FloorRock_AO.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

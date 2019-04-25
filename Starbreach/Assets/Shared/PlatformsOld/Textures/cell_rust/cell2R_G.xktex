@@ -1,0 +1,7 @@
+!Texture
+Id: 5792bebe-62ea-4adb-a1af-fcd966b232ad
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Platforms/cell/rusted/cell2R_G.tga
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

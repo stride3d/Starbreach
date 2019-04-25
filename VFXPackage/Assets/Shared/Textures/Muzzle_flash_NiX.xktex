@@ -1,0 +1,7 @@
+!Texture
+Id: 0455ae16-c507-49ba-8b06-68cd747e0155
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Textures/Muzzle_flash_NiX.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

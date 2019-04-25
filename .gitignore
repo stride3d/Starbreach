@@ -1,0 +1,17 @@
+**/Bin/
+**/obj/
+**/log/
+*.user
+*.lock
+.vs/
+_ReSharper*
+*.suo
+Starbreach.sdf
+Starbreach/Starbreach/log/
+*.psess
+*.VC.db
+*.vsp
+*.vshost.exe
+*.manifest
+**/*.fbm
+Cache/

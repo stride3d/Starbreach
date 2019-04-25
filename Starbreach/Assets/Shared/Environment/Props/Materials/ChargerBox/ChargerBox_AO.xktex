@@ -1,0 +1,8 @@
+!Texture
+Id: 2621ce13-81d7-42b7-8258-4d0919ff2ff6
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/ChargerBox/ChargerBox_AO.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

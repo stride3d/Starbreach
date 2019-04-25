@@ -1,0 +1,8 @@
+!Texture
+Id: 97099769-6928-465c-896a-2172706ec42e
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Vent/Vent_AO.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

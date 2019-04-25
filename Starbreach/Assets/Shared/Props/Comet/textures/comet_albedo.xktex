@@ -1,0 +1,7 @@
+!Texture
+Id: ff97cbb5-5385-4f23-ac03-b97950350cf2
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: comet_albedo.tga
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

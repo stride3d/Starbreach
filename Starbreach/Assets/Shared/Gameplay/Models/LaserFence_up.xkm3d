@@ -1,0 +1,14 @@
+!Model
+Id: ca14aec1-3989-485c-84c0-5d0cbf5858f4
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Gameplay/LaserFence/LaserFence_up.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    25aa2d0e5cba3e0061d240b4b6f12ed1:
+        Name: UP
+        MaterialInstance:
+            Material: 73967223-8432-4913-ae5d-469e416f556f:Environment/Props/Materials/ServerPad/ServerPad_v2_MT
+Skeleton: ca5ec736-b429-496e-8f56-f6c3b066dd27:Gameplay/Models/LaserFence_up Skeleton
+~SourceHashes:
+    f494826a2485d639ae6f8964060afefb~../../../../Resources/Gameplay/LaserFence/LaserFence_up.FBX: 26f0b76ab9b5584f663e158317168919

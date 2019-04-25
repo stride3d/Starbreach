@@ -1,0 +1,8 @@
+!Texture
+Id: 8b54f1fa-fce4-4340-b78a-b13842d54bfa
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Barrel/Barrel_M.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

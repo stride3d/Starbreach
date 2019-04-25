@@ -1,0 +1,950 @@
+!UIPageAsset
+Id: 3639cb92-9f86-4918-8715-6b56efdcaa9c
+SerializedVersion: {Xenko: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1024.0, Y: 512.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 018dd458-7711-4882-a082-d41106dedd67
+    Parts:
+        -   UIElement: !Grid
+                Id: 018dd458-7711-4882-a082-d41106dedd67
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    bb7c62fe6f4ad14181d4aa64f6897968: !ImageElement ref!! fe627cbb-4a6f-41d1-81d4-aa64f6897968
+                    96e950371b454f44878768c81c2e191f: !Grid ref!! 3750e996-451b-444f-8787-68c81c2e191f
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !ImageElement
+                Id: 02a67fc2-94d2-429f-83ea-32dae8c95163
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: 83c07e90-ab86-477f-bb0f-e354d5cbcc7a
+        -   UIElement: !Grid
+                Id: 0de9fccd-18ae-4994-a2cc-6faf157d26dc
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Stretch
+                Margin: {}
+                Name*: lifebarGrid
+                Children:
+                    d82c9c843a16d34fb9e5675d1797fcc0: !ImageElement ref!! 849c2cd8-163a-4fd3-b9e5-675d1797fcc0
+                RowDefinitions: {}
+                ColumnDefinitions:
+                    9483c3d1e1fd1748a33883a1d10c139b:
+                        SizeValue*: 100.0
+                    ba3a67a7cac7f549885f9d57aaee6668:
+                        SizeValue*: 0.0
+                LayerDefinitions: {}
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 789d1aae-6a58-41a2-8bf1-f8ec0994ee16
+                InstanceId: 9843a3d6-ac39-4c4d-b776-203c49593a63
+        -   UIElement: !ContentDecorator
+                Id: 0e4c6ee6-af27-47b5-9037-8aa9c2356438
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! b2b2c82a-8c55-422d-99f8-dc6581c3239c
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: 9d1bf057-e85a-4b0c-bb3f-a15dae49aa21
+        -   UIElement: !ImageElement
+                Id: 0eed9ef8-f979-44b7-9f77-f0719be30b85
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: 291550b4-d5d6-4263-a783-17148b85b32a
+        -   UIElement: !ImageElement
+                Id: 10428e32-a201-485d-bdc0-56d8860c4a6c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: 0e4686d2-0e03-4488-a2b0-64377a2bdf44
+        -   UIElement: !ContentDecorator
+                Id: 16e7df43-2140-4426-a701-ffb946a52ad5
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! 1b8fe5e0-0382-40e0-bcfa-dc1c6eadfcda
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: 6bf1f5f1-b736-4257-8ed3-ac342056e2d0
+        -   UIElement: !ContentDecorator
+                Id: 16f6065d-cb84-4b34-b1c7-7a919e430624
+                DependencyProperties:
+                    1979464bbe484462149955fa9f1c939d*~GridBase.RowPropertyKey: 1
+                    337678f3fa024d787963655aaf956eca*~GridBase.ColumnPropertyKey: 0
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                HorizontalAlignment*: Right
+                VerticalAlignment: Center
+                Margin*: {}
+                Name: hero
+                Padding: {}
+                Content: !ImageElement ref!! f2736ec4-50ad-4ce1-abb6-f41b0875cd6c
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 8
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: e093ca40-112d-4315-897b-c9e11e9c3296
+                InstanceId: 8fc94818-d537-447d-bd07-6dda82863e85
+        -   UIElement: !ImageElement
+                Id: 173ecb2e-00a3-45b0-9cc1-883c5733653d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: b88246c8-729f-4922-9ca3-42f899066b5d
+        -   UIElement: !ContentDecorator
+                Id: 1b849bda-73bb-4fb4-bf5a-875001e34c5a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! f17ad3bd-d4e2-4fa9-ad77-13ad13cfb7a8
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: 6bdf5ad2-ed6f-4339-9067-5b81e76d74f9
+        -   UIElement: !ImageElement
+                Id: 1b8fe5e0-0382-40e0-bcfa-dc1c6eadfcda
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: 6bf1f5f1-b736-4257-8ed3-ac342056e2d0
+        -   UIElement: !StackPanel
+                Id: 22a93633-f907-42c8-9e7f-72278ae3066b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Name: ammobarGrid
+                Children:
+                    da9b841bbb73b44fbf5a875001e34c5a: !ContentDecorator ref!! 1b849bda-73bb-4fb4-bf5a-875001e34c5a
+                    264bcc782af0ae4f981d03cf98fefe48: !ContentDecorator ref!! 78cc4b26-f02a-4fae-981d-03cf98fefe48
+                    7ace6e516346294d94c70902e900efe1: !ContentDecorator ref!! 516ece7a-4663-4d29-94c7-0902e900efe1
+                    203657f73237694aa3d9c8107aedf1be: !ContentDecorator ref!! f7573620-3732-4a69-a3d9-c8107aedf1be
+                    c589bcf9f433124a8688eb211a0729bc: !ContentDecorator ref!! f9bc89c5-33f4-4a12-8688-eb211a0729bc
+                    8b93807d51b67741ada365697abceb9a: !ContentDecorator ref!! 7d80938b-b651-4177-ada3-65697abceb9a
+                    a43ae2fd3a37124dae34767694593ae8: !ContentDecorator ref!! fde23aa4-373a-4d12-ae34-767694593ae8
+                    b756f170e1e1c746bda10e0a46119296: !ContentDecorator ref!! 70f156b7-e1e1-46c7-bda1-0e0a46119296
+                    c3a4e8340ba2354c96ffcfcf2e7a044d: !ContentDecorator ref!! 34e8a4c3-a20b-4c35-96ff-cfcf2e7a044d
+                    43dfe71640212644a701ffb946a52ad5: !ContentDecorator ref!! 16e7df43-2140-4426-a701-ffb946a52ad5
+                    f258eaf94fab224e98b12d31cd5ac96b: !ContentDecorator ref!! f9ea58f2-ab4f-4e22-98b1-2d31cd5ac96b
+                    e66e4c0e27afb54790378aa9c2356438: !ContentDecorator ref!! 0e4c6ee6-af27-47b5-9037-8aa9c2356438
+                    2960b7810249b546b6c7b48107df4b44: !ContentDecorator ref!! 81b76029-4902-46b5-b6c7-b48107df4b44
+                    5e8c00bbae1d344c9b2df08de3377ce1: !ContentDecorator ref!! bb008c5e-1dae-4c34-9b2d-f08de3377ce1
+                    5a53a3b92546f245a460b305820c1422: !ContentDecorator ref!! b9a3535a-4625-45f2-a460-b305820c1422
+                    3a02b13d25329a45ab29b9c47fe7be1a: !ContentDecorator ref!! 3db1023a-3225-459a-ab29-b9c47fe7be1a
+                    e22394d758ac4d4ba169b02d05ab0acc: !ContentDecorator ref!! d79423e2-ac58-4b4d-a169-b02d05ab0acc
+                    0df04756526af342827665da1ec8e2dc: !ContentDecorator ref!! 5647f00d-6a52-42f3-8276-65da1ec8e2dc
+                    eb9db7a64376a642bee4023a6760ddcf: !ContentDecorator ref!! a6b79deb-7643-42a6-bee4-023a6760ddcf
+                    58dd1cc4ff95dc4b85cc13644fa665d5: !ContentDecorator ref!! c41cdd58-95ff-4bdc-85cc-13644fa665d5
+                Orientation: Horizontal
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: a867e7d0-2845-4ae2-8751-bec4e36b5685
+                InstanceId: d9df338b-1e65-4330-913e-f3e43f2da214
+        -   UIElement: !ImageElement
+                Id: 2e885c09-b8fb-42b6-be87-503924541ad2
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: fc42efb8-9673-4bcb-ab97-2ff1b1e39cc1
+        -   UIElement: !ContentDecorator
+                Id: 34e8a4c3-a20b-4c35-96ff-cfcf2e7a044d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! be2cc9ad-834b-4215-8f59-61120094cb1c
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: 6bbc59d6-fe13-4df7-b9b1-6befd0fef9e1
+        -   UIElement: !ImageElement
+                Id: 36f79080-d1fa-4cbc-a40b-c1b1779e8cd3
+                DependencyProperties:
+                    5ed55b1d4f6b92bcbdd4713f9337ef43~GridBase.ColumnPropertyKey: 0
+                    2668c17a346c04c5588bcbb223256d1a~GridBase.RowPropertyKey: 3
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Right
+                Margin: {Right: 48.0}
+                Name: ammoIcon
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 3
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: None
+        -   UIElement: !Grid
+                Id: 3750e996-451b-444f-8787-68c81c2e191f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Name: rootGrid
+                Children:
+                    5d06f61684cb344bb1c77a919e430624: !ContentDecorator ref!! 16f6065d-cb84-4b34-b1c7-7a919e430624
+                    cfd509ae7e29b04eb50431f66a1b4342: !ContentDecorator ref!! ae09d5cf-297e-4eb0-b504-31f66a1b4342
+                    8090f736fad1bc4ca40bc1b1779e8cd3: !ImageElement ref!! 36f79080-d1fa-4cbc-a40b-c1b1779e8cd3
+                    2281b5e1b7728340a52eb97f0499950f: !ContentDecorator ref!! e1b58122-72b7-4083-a52e-b97f0499950f
+                    139f8dbd43f0974d97c351ae6617313b: !ContentDecorator ref!! bd8d9f13-f043-4d97-97c3-51ae6617313b
+                RowDefinitions:
+                    c2e245a462edb5489d9f20af835a842d:
+                        Type: Fixed
+                        SizeValue: 60.0
+                    419a7eeadc449344b6a11c5ed9f2a712: {}
+                    9f2219eb25c3ec4791c7b7a41fa73a80:
+                        Type: Fixed
+                        SizeValue: 60.0
+                    efaeb0c94c099de7459b6531c0eba575: {}
+                    b84fd95b11fbddb4bf639d64aeac1980:
+                        Type: Fixed
+                        SizeValue: 60.0
+                ColumnDefinitions:
+                    1335c2af6d9cc7478654432dba456d14: {}
+                    662cdee71b926945a0dc5c6d00224e60:
+                        SizeValue: 3.0
+                LayerDefinitions: {}
+        -   UIElement: !ContentDecorator
+                Id: 3db1023a-3225-459a-ab29-b9c47fe7be1a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! e20746f4-afba-47da-b2d9-a6cf9b8be986
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: 45b876fd-9dfe-460b-b42a-112350aa5e91
+        -   UIElement: !ContentDecorator
+                Id: 47c4788f-a56f-45fb-b522-60327c6278b8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                DepthAlignment: Stretch
+                Margin: {}
+                Name*: lifebarBackground
+                Padding: {}
+                Content: !Grid ref!! 0de9fccd-18ae-4994-a2cc-6faf157d26dc
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 4
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 07ede8d9-715d-458c-9d2b-d03f6e538b8b
+                InstanceId: 9843a3d6-ac39-4c4d-b776-203c49593a63
+        -   UIElement: !Grid
+                Id: 4dac6bf4-8782-48b7-b3cb-7396de6d92e4
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Stretch
+                Margin: {}
+                Name*: lifebar1Grid
+                Children:
+                    afa033583dd1b841b297a7d77bdb6868: !ImageElement ref!! 5833a0af-d13d-41b8-b297-a7d77bdb6868
+                RowDefinitions: {}
+                ColumnDefinitions:
+                    9483c3d1e1fd1748a33883a1d10c139b:
+                        SizeValue*: 100.0
+                    ba3a67a7cac7f549885f9d57aaee6668:
+                        SizeValue*: 0.0
+                LayerDefinitions: {}
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 789d1aae-6a58-41a2-8bf1-f8ec0994ee16
+                InstanceId: 39648c72-bd5c-44f8-92ef-54f693ae91ff
+        -   UIElement: !ContentDecorator
+                Id: 516ece7a-4663-4d29-94c7-0902e900efe1
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! 0eed9ef8-f979-44b7-9f77-f0719be30b85
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: 291550b4-d5d6-4263-a783-17148b85b32a
+        -   UIElement: !ContentDecorator
+                Id: 5647f00d-6a52-42f3-8276-65da1ec8e2dc
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! b330b3ef-b810-47b8-acf1-013507f1dd13
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: b1a5325b-01a8-446c-a874-db2860ee2567
+        -   UIElement: !ImageElement
+                Id: 5833a0af-d13d-41b8-b297-a7d77bdb6868
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Stretch
+                Margin: {}
+                Name: lifeFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame*: 10
+                Color*: {R: 255, G: 153, B: 0, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 10b3873b-8a29-465d-9d9a-7c72125ba2ad
+                InstanceId: 39648c72-bd5c-44f8-92ef-54f693ae91ff
+        -   UIElement: !ImageElement
+                Id: 64e78e9b-b614-4c53-93f6-313ccd29af64
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: da93cd34-880f-41cf-a235-9b3828db209e
+        -   UIElement: !ContentDecorator
+                Id: 70f156b7-e1e1-46c7-bda1-0e0a46119296
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! 02a67fc2-94d2-429f-83ea-32dae8c95163
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: 83c07e90-ab86-477f-bb0f-e354d5cbcc7a
+        -   UIElement: !ContentDecorator
+                Id: 78cc4b26-f02a-4fae-981d-03cf98fefe48
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! b86a5295-62b2-4bc9-bd72-e7d1bbdba595
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: a510a15f-641b-4514-916a-c397f21b0c0b
+        -   UIElement: !ImageElement
+                Id: 7a3d75df-4634-4233-86ad-6c5c8e045cc0
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: b4739cf7-acb8-41eb-96d9-4a58ed9a67dc
+        -   UIElement: !ContentDecorator
+                Id: 7d80938b-b651-4177-ada3-65697abceb9a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! fa8a580d-19b9-4564-a9d8-8f0737fb3aa1
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: b6ea5241-75ea-44a5-982b-873357c46519
+        -   UIElement: !ImageElement
+                Id: 7f16faa7-f315-43a1-b0be-802265de39bb
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: 4c3f7bff-d83e-429a-8c39-cd12e861be95
+        -   UIElement: !ImageElement
+                Id: 7f71bf31-1806-4373-9297-a4098c9c22c8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: bf88d35e-817f-461f-9655-4379ca8fbe2c
+        -   UIElement: !ImageElement
+                Id: 8092a487-23d5-4962-b034-bc50e7090b37
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: 86da93e8-7392-45dc-8a6e-e653cbc7e953
+        -   UIElement: !ContentDecorator
+                Id: 81b76029-4902-46b5-b6c7-b48107df4b44
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! 7a3d75df-4634-4233-86ad-6c5c8e045cc0
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: b4739cf7-acb8-41eb-96d9-4a58ed9a67dc
+        -   UIElement: !ImageElement
+                Id: 849c2cd8-163a-4fd3-b9e5-675d1797fcc0
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Stretch
+                Margin: {}
+                Name: lifeFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 5
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 10b3873b-8a29-465d-9d9a-7c72125ba2ad
+                InstanceId: 9843a3d6-ac39-4c4d-b776-203c49593a63
+        -   UIElement: !ContentDecorator
+                Id: a07f09df-4d9e-4b6a-ad9b-9048a03e531f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                DepthAlignment: Stretch
+                Margin: {}
+                Name*: lifebarBackground
+                Padding: {}
+                Content: !Grid ref!! 4dac6bf4-8782-48b7-b3cb-7396de6d92e4
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame*: 2
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 07ede8d9-715d-458c-9d2b-d03f6e538b8b
+                InstanceId: 39648c72-bd5c-44f8-92ef-54f693ae91ff
+        -   UIElement: !ContentDecorator
+                Id: a6b79deb-7643-42a6-bee4-023a6760ddcf
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! afbde780-0869-4bc8-a2e8-b7ac1ced45e7
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: 01f3cca0-1d8b-4cd8-b1f0-472c93c2910b
+        -   UIElement: !ContentDecorator
+                Id: ae09d5cf-297e-4eb0-b504-31f66a1b4342
+                DependencyProperties:
+                    d411c4c27b10da3b0f65e129da9427ce*~GridBase.RowPropertyKey: 1
+                    aa1fd689704dc33ff8c27f3db8483395*~GridBase.ColumnPropertyKey: 1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 434.0
+                Height*: 50.0
+                HorizontalAlignment*: Left
+                DepthAlignment: Stretch
+                Margin*: {}
+                Name: lifebar
+                Padding: {Top: -5.0, Right: 5.0, Bottom: 5.0}
+                Content: !ContentDecorator ref!! a07f09df-4d9e-4b6a-ad9b-9048a03e531f
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 6
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: cc1c547b-59fc-4fae-90ad-58005f3c4d78
+                InstanceId: 39648c72-bd5c-44f8-92ef-54f693ae91ff
+        -   UIElement: !ImageElement
+                Id: afbde780-0869-4bc8-a2e8-b7ac1ced45e7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: 01f3cca0-1d8b-4cd8-b1f0-472c93c2910b
+        -   UIElement: !ImageElement
+                Id: b2b2c82a-8c55-422d-99f8-dc6581c3239c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: 9d1bf057-e85a-4b0c-bb3f-a15dae49aa21
+        -   UIElement: !ImageElement
+                Id: b330b3ef-b810-47b8-acf1-013507f1dd13
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: b1a5325b-01a8-446c-a874-db2860ee2567
+        -   UIElement: !ImageElement
+                Id: b86a5295-62b2-4bc9-bd72-e7d1bbdba595
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: a510a15f-641b-4514-916a-c397f21b0c0b
+        -   UIElement: !ContentDecorator
+                Id: b9a3535a-4625-45f2-a460-b305820c1422
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! 173ecb2e-00a3-45b0-9cc1-883c5733653d
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: b88246c8-729f-4922-9ca3-42f899066b5d
+        -   UIElement: !ContentDecorator
+                Id: bb008c5e-1dae-4c34-9b2d-f08de3377ce1
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! d3bd5933-bb23-4a2b-bc31-8c4b5d9501b0
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: 0c604c8e-bd24-4f56-a88c-9ad08c3238b1
+        -   UIElement: !ContentDecorator
+                Id: bd8d9f13-f043-4d97-97c3-51ae6617313b
+                DependencyProperties:
+                    f4e3e4f6902889e0292c03abc7951269*~GridBase.RowPropertyKey: 1
+                    6fa0a54053c6cd568ab1e65fe3fc5672*~GridBase.ColumnPropertyKey: 1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 434.0
+                Height*: 50.0
+                HorizontalAlignment*: Left
+                DepthAlignment: Stretch
+                Margin*: {}
+                Name: lifebar
+                Padding: {Top: -5.0, Right: 5.0, Bottom: 5.0}
+                Content: !ContentDecorator ref!! 47c4788f-a56f-45fb-b522-60327c6278b8
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 6
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: cc1c547b-59fc-4fae-90ad-58005f3c4d78
+                InstanceId: 9843a3d6-ac39-4c4d-b776-203c49593a63
+        -   UIElement: !ImageElement
+                Id: be2cc9ad-834b-4215-8f59-61120094cb1c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: 6bbc59d6-fe13-4df7-b9b1-6befd0fef9e1
+        -   UIElement: !ContentDecorator
+                Id: c41cdd58-95ff-4bdc-85cc-13644fa665d5
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! 7f16faa7-f315-43a1-b0be-802265de39bb
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: 4c3f7bff-d83e-429a-8c39-cd12e861be95
+        -   UIElement: !ImageElement
+                Id: d3bd5933-bb23-4a2b-bc31-8c4b5d9501b0
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: 0c604c8e-bd24-4f56-a88c-9ad08c3238b1
+        -   UIElement: !ContentDecorator
+                Id: d79423e2-ac58-4b4d-a169-b02d05ab0acc
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! 10428e32-a201-485d-bdc0-56d8860c4a6c
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: 0e4686d2-0e03-4488-a2b0-64377a2bdf44
+        -   UIElement: !ContentDecorator
+                Id: e1b58122-72b7-4083-a52e-b97f0499950f
+                DependencyProperties:
+                    ef7c175b39cddd8f1c9b3ca51d153c19*~GridBase.RowPropertyKey: 3
+                    7e1c53b93834af3226d4a6908b809d9d*~GridBase.ColumnPropertyKey: 1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Height*: 50.0
+                HorizontalAlignment*: Left
+                Margin*: {}
+                Name: ammobar
+                Padding*: {Top: -5.0, Right: 5.0, Bottom: 5.0}
+                Content: !StackPanel ref!! 22a93633-f907-42c8-9e7f-72278ae3066b
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3b5e18e7-da8c-4172-aec3-0bb2f389c7b9
+                InstanceId: d9df338b-1e65-4330-913e-f3e43f2da214
+        -   UIElement: !ImageElement
+                Id: e20746f4-afba-47da-b2d9-a6cf9b8be986
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: 45b876fd-9dfe-460b-b42a-112350aa5e91
+        -   UIElement: !ImageElement
+                Id: f17ad3bd-d4e2-4fa9-ad77-13ad13cfb7a8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: 6bdf5ad2-ed6f-4339-9067-5b81e76d74f9
+        -   UIElement: !ImageElement
+                Id: f2736ec4-50ad-4ce1-abb6-f41b0875cd6c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Name: heroAvatar
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 7
+                Color: {R: 255, G: 255, B: 255, A: 255}
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 45fe50db-2a35-4800-89a5-e84422c8d2d8
+                InstanceId: 8fc94818-d537-447d-bd07-6dda82863e85
+        -   UIElement: !ContentDecorator
+                Id: f7573620-3732-4a69-a3d9-c8107aedf1be
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! 7f71bf31-1806-4373-9297-a4098c9c22c8
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: bf88d35e-817f-461f-9655-4379ca8fbe2c
+        -   UIElement: !ContentDecorator
+                Id: f9bc89c5-33f4-4a12-8688-eb211a0729bc
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! 2e885c09-b8fb-42b6-be87-503924541ad2
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: fc42efb8-9673-4bcb-ab97-2ff1b1e39cc1
+        -   UIElement: !ContentDecorator
+                Id: f9ea58f2-ab4f-4e22-98b1-2d31cd5ac96b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! 8092a487-23d5-4962-b034-bc50e7090b37
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: 86da93e8-7392-45dc-8a6e-e653cbc7e953
+        -   UIElement: !ImageElement
+                Id: fa8a580d-19b9-4564-a9d8-8f0737fb3aa1
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width*: 25.0
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 422f66e7-49c2-4b34-8610-3c157afdf692
+                InstanceId: b6ea5241-75ea-44a5-982b-873357c46519
+        -   UIElement: !ContentDecorator
+                Id: fde23aa4-373a-4d12-ae34-767694593ae8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width*: 25.0
+                Margin*: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! 64e78e9b-b614-4c53-93f6-313ccd29af64
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+            Base:
+                BasePartAsset: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9:UI/UILibrary
+                BasePartId: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                InstanceId: da93cd34-880f-41cf-a235-9b3828db209e
+        -   UIElement: !ImageElement
+                Id: fe627cbb-4a6f-41d1-81d4-aa64f6897968
+                DependencyProperties:
+                    212e48b2e3f6166b711e69872d53d42c~Panel.ZIndexPropertyKey: 0
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 9
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill

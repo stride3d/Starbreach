@@ -1,0 +1,8 @@
+!Texture
+Id: 9114fb96-55de-49d7-b20f-b9d83d958906
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Background/FloatingRocks/F_Rock02_AO.png
+Width: 25.0
+Height: 25.0
+Type: !GrayscaleTextureType {}

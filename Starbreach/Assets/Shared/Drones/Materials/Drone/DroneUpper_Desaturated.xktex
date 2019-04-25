@@ -1,0 +1,7 @@
+!Texture
+Id: 99ebf751-11b4-4a9f-ab0c-48d2c8636f07
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/Drone/DroneUpper_Desaturated.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

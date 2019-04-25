@@ -1,0 +1,76 @@
+!PrefabAsset
+Id: 72f94a89-e47c-42ae-9264-b0c9881e3840
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! e4fdb89a-c2a0-4e83-a985-c4e087628455
+    Parts:
+        -   Entity:
+                Id: e4fdb89a-c2a0-4e83-a985-c4e087628455
+                Name: FloorButton
+                Components:
+                    2bd9e5018fb815bd9e0ddf7b6c4f0377: !TransformComponent
+                        Id: 0572b912-7228-4985-8129-600b21e8f721
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a6932a4059e46dc7459b958c79f50336: !ModelComponent
+                        Id: de41b609-a408-4bb5-b310-9579f4b530fc
+                        Model: b08b5432-96b6-4259-8a89-303ff9bd12e2:Gameplay/Models/FloorButton
+                        Materials:
+                            1eb04cc22e2a20d26f26187814c7bdc3~0: 0347eda8-4648-4983-a223-713b43cea1d9:Gameplay/Materials/Plates/Plate2_Enabled_Off
+                            daf84040e6ba39f4813001d91222a07f~1: ba76b6f1-63f6-44d9-ad48-aca96fbe79a3:Gameplay/Materials/Plates/Plate3_Enabled_Off
+                    2a52917f17e18564669f46063c397a81: !Starbreach.Gameplay.PressurePlate,Starbreach
+                        Id: 48713fd1-913f-4c7a-a501-ee2427c043c8
+                        Material1EnabledOff: ba76b6f1-63f6-44d9-ad48-aca96fbe79a3:Gameplay/Materials/Plates/Plate3_Enabled_Off
+                        Material1DisabledOn: 2746f702-7dd5-4ef5-9e93-d5e758da2800:Gameplay/Materials/Plates/Plate3_Disabled_On
+                        Material1DisabledOff: d02e7fcd-9f9e-450f-bc56-6e50e9970ec2:Gameplay/Materials/Plates/Plate3_Disabled_Off
+                        Material1EnabledOn: 1163e435-4f1b-4b16-8834-da23869292b4:Gameplay/Materials/Plates/Plate3_Enabled_On
+                        Material0EnabledOff: 0347eda8-4648-4983-a223-713b43cea1d9:Gameplay/Materials/Plates/Plate2_Enabled_Off
+                        Material0DisabledOn: eff5f692-9337-4d7b-8cd8-531e3e06b852:Gameplay/Materials/Plates/Plate2_Disabled_On
+                        Material0DisabledOff: e74abd75-804a-4de0-acf7-924aa5bb3a20:Gameplay/Materials/Plates/Plate2_Disabled_Off
+                        Material0EnabledOn: 903888ae-b297-487a-a708-5fd6cd38c7c7:Gameplay/Materials/Plates/Plate2_Enabled_On
+                        Model: ref!! de41b609-a408-4bb5-b310-9579f4b530fc
+                        Trigger: ref!! 925a6c45-0e0b-4a71-8478-efb81ae7d9b5
+                        AudioEmitter: ref!! 3340a80e-3f79-4808-b7de-c28d589cfd52
+                        Enabled: true
+                        Toggle: false
+                        SingleActivation: false
+                        CurrentToggleState: false
+                        TransitionTime: 0.15
+                    48a3a1d7ea5c129742126bc8b4d7429c: !Starbreach.Gameplay.PressurePlateTrigger,Starbreach
+                        Id: 925a6c45-0e0b-4a71-8478-efb81ae7d9b5
+                        CollisionFilterGroup: CharacterFilter
+                        Trigger: ref!! d23cc4f5-5e22-4e54-a248-b68c54be0f59
+                    03c59a6169956fba8a31fd1f758dc46f: !AudioEmitterComponent
+                        Id: 3340a80e-3f79-4808-b7de-c28d589cfd52
+                        Sounds:
+                            adc799987a8ff52a579d44583cb2cde7~Enable: 5163c935-fe14-4496-8f44-eb64e8482b31:Gameplay/Sounds/Plate_Enable
+                            732e4c030c0a74345f1aed380bdb8533~Disable: 730d9dfc-a657-4d5b-b5ea-8fc7e14cfa7d:Gameplay/Sounds/Plate_Disable
+                        UseHRTF: false
+                        DirectionalFactor: 0.0
+                        Environment: Small
+                    9c600aa0b00e9640a384d3666fe41f14: !RigidbodyComponent
+                        Id: d23cc4f5-5e22-4e54-a248-b68c54be0f59
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            4c0292725ab565154826fa81493eec99: !CylinderColliderShapeDesc
+                                Height: 0.4
+                                Radius: 0.8
+                                LocalOffset: {X: 0.0, Y: 0.2, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

@@ -1,0 +1,6 @@
+!Texture
+Id: 0bc3a6fc-298b-40d3-a997-8c6130c5ff88
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/cell/cell03_normal.tga
+Type: !NormalMapTextureType {}

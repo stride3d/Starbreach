@@ -1,0 +1,6 @@
+!Texture
+Id: 1f23fec4-ff69-4850-9c03-eca79dfbcf74
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/EnergyDrone/EnergyDrone_N.png
+Type: !NormalMapTextureType {}

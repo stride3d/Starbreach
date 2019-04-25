@@ -1,0 +1,6 @@
+!Texture
+Id: 531cdcfa-00b5-4334-8dfb-42a4a1e3cb28
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: comet_normal.tga
+Type: !NormalMapTextureType {}

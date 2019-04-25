@@ -1,0 +1,14 @@
+!Model
+Id: 26f9b146-ddff-4aae-a321-42f7e86a7541
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Props/Wall/Meshes/P_wall_tube_Z.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fe0f722b28c564ae044289ea044289ea:
+        Name: Material
+        MaterialInstance:
+            Material: null
+Skeleton: null
+~SourceHashes:
+    d2edcf0dad69480d7bec30e35d50f6c8~../../../Props/Wall/Meshes/P_wall_tube_Z.FBX: 176697ff5693babbf7939fb1be43907e

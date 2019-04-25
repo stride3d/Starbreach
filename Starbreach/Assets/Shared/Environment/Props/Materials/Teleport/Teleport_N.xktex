@@ -1,0 +1,8 @@
+!Texture
+Id: ffdfeebd-0daa-4aab-a81c-fd9dcd8fd1cd
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Teleport/Teleport_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

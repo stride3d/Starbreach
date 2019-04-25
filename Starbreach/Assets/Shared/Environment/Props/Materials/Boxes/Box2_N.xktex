@@ -1,0 +1,8 @@
+!Texture
+Id: d3620f37-0e7e-4285-8aea-fb72145b8427
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Boxes/Box2_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

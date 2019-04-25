@@ -1,0 +1,155 @@
+!PrefabAsset
+Id: 926b314f-388d-4aec-93e3-f19d4d876a42
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 97931349-08c9-4210-801f-21b417472611
+    Parts:
+        -   Entity:
+                Id: 74247c8e-9fd7-4ec3-90a0-ff704dc12a33
+                Name: ShootTrail
+                Components:
+                    f58a388933e21f47a0bc2f0261d361e3: !TransformComponent
+                        Id: 89388af5-e233-471f-a0bc-2f0261d361e3
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9dcae3aa020ae04cbb5422cc6bc5d4cc: !ParticleSystemComponent
+                        Id: aae3ca9d-0a02-4ce0-bb54-22cc6bc5d4cc
+                        Control:
+                            ResetSeconds: 5.0
+                            Control: Play
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Speed: 1.0
+                        ParticleSystem:
+                            Settings: {}
+                            BoundingShape: null
+                            Emitters:
+                                adb8fcc8a1b24545b38e9baef4b601bf:
+                                    MaxParticlesOverride: 60
+                                    ParticleLifetime: {X: 0.5, Y: 0.5}
+                                    ShapeBuilder: !ShapeBuilderRibbon
+                                        SmoothingPolicy: None
+                                        Segments: 5
+                                        TextureCoordinatePolicy: AsIs
+                                        TexCoordsFactor: 1.0
+                                        UVRotate:
+                                            FlipX: false
+                                            FlipY: false
+                                            UVClockwise: Degree0
+                                    Material: !ParticleMaterialComputeColor
+                                        AlphaAdditive: 0.5
+                                        ComputeColor: !ComputeFloat4
+                                            Value: {X: 5.0, Y: 0.2, Z: 0.2, W: 1.0}
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        bad604c5ad10df4da08d741c357644da: !SpawnerPerFrame
+                                            Enabled: false
+                                            LoopCondition: Looping
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 10.0
+                                            Framerate: 60.0
+                                    Initializers:
+                                        a1cc372b3690d340a28487d1dea312ac: !InitialPositionArc
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticleRotation: true
+                                            DisplayParticlePosition: false
+                                            Target: null
+                                            DisplayParticleScaleUniform: false
+                                            DisplayParticleScale: false
+                                            FallbackTarget: {X: 0.0, Y: 0.0, Z: -1.0}
+                                            ArcHeight: 0.0
+                                            Sequential: true
+                                            FixedLength: 0
+                                            PositionMin: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            PositionMax: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            SeedOffset: 0
+                                        b2c96c3975a6fa409f49c05852d86fdb: !InitialSpawnOrderGroup
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                    Updaters:
+                                        6b4c4dcad8f329458ff22935b3a11718: !UpdaterSizeOverTime
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            SamplerMain: !ComputeCurveSamplerFloat
+                                                Curve: !ComputeAnimationCurveFloat
+                                                    KeyFrames:
+                                                        67ff742d15ab1f428f4465b8eeb864d2:
+                                                            Key: 0.0
+                                                            Value: 0.25
+                                                            TangentType: Linear
+                                                        402be62ce08d3840858b9075c0dbbaba:
+                                                            Key: 0.12
+                                                            Value: 0.1
+                                                            TangentType: Linear
+                                                        27fedde6b99c194b81b4a67060b882ac:
+                                                            Key: 1.0
+                                                            Value: 0.0
+                                                            TangentType: Linear
+                                            SamplerOptional: null
+                                            SeedOffset: 0
+                        RenderGroup: Group1
+        -   Entity:
+                Id: 80609e8f-c72c-4849-b81a-916c9ebf911e
+                Name: Point light
+                Components:
+                    f5599b1e4954624db3a69b99d1893a19: !TransformComponent
+                        Id: 1e9b59f5-5449-4d62-b3a6-9b99d1893a19
+                        Position: {X: 0.2, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    99c736503f4f2542ac643e4ce04a6290: !LightComponent
+                        Id: 5036c799-4f3f-4225-ac64-3e4ce04a6290
+                        Type: !LightPoint
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.98775, G: 0.8226877, B: 0.4136203}
+                            Radius: 3.0
+                            Shadow:
+                                Size: Small
+                                BiasParameters: {}
+                        Intensity: 10.0
+        -   Entity:
+                Id: 97931349-08c9-4210-801f-21b417472611
+                Name: ShootSource
+                Components:
+                    f0cda019ec4e5a45964644d63727a895: !TransformComponent
+                        Id: 19a0cdf0-4eec-455a-9646-44d63727a895
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            f58a388933e21f47a0bc2f0261d361e3: ref!! 89388af5-e233-471f-a0bc-2f0261d361e3
+                            f5599b1e4954624db3a69b99d1893a19: ref!! 1e9b59f5-5449-4d62-b3a6-9b99d1893a19
+                    ba979b8c3b12af4384c2fbadd984e7fc: !ModelNodeLinkComponent
+                        Id: 8c9b97ba-123b-43af-84c2-fbadd984e7fc
+                        Target: null
+                        NodeName: gun_barrel

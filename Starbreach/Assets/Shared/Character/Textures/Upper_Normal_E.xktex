@@ -1,0 +1,9 @@
+!Texture
+Id: 24cc1841-a7dc-4d67-a737-baab150c461f
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/Upper [Emissive].tga
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

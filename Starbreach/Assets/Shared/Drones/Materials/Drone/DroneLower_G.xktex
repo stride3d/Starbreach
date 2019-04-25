@@ -1,0 +1,8 @@
+!Texture
+Id: 7b400497-099f-445b-b246-3e0deea4ab76
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/Drone/DroneLower_G.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

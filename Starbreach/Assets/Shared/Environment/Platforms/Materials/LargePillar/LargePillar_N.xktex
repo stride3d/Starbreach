@@ -1,0 +1,8 @@
+!Texture
+Id: f7c7db74-edf3-4e91-89a7-eff818ae6c8e
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/LargePillar/LargePillar_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

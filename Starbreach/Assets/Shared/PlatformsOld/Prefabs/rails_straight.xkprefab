@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: fca227cf-3f9e-4d9a-96eb-db7a23bf62fd
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! d78c8476-d01e-4383-98cc-9691ec3d06e7
+    Parts:
+        -   Entity:
+                Id: d78c8476-d01e-4383-98cc-9691ec3d06e7
+                Name: Rails_tube (2)
+                Components:
+                    53aa6e32d59eeb45aabd52fde17cd48d: !TransformComponent
+                        Id: 326eaa53-9ed5-45eb-aabd-52fde17cd48d
+                        Position: {X: -0.06581557, Y: 1.219562, Z: 4.052}
+                        Rotation: {X: 0.0, Y: -0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 0.85, Z: 0.85}
+                        Children: {}
+                    0225b2a01b17f94d8b22f766fa64fa9b: !ModelComponent
+                        Id: a0b22502-171b-4df9-8b22-f766fa64fa9b
+                        Model: 40be0e1d-f941-454c-9f18-c765c7f3bc78:PlatformsOld/Models/Rails_tube
+                        Materials: {}

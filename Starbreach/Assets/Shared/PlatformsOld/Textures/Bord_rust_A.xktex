@@ -1,0 +1,7 @@
+!Texture
+Id: 3e73b216-24e7-425a-9ca0-49a778640035
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/border/rusted/Bord_rust_A.tga
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,8 @@
+!Texture
+Id: 802e6c0b-c519-4226-b2d6-5c24f677ce77
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Background/PlatformRocks/Rocks_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

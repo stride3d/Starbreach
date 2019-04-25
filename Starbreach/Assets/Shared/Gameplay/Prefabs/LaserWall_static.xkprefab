@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 899476fe-dc16-47b0-bb34-e578583d45b7
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 23aceb46-54ef-4d2e-94e0-0a343ddc1d23
+    Parts:
+        -   Entity:
+                Id: 23aceb46-54ef-4d2e-94e0-0a343ddc1d23
+                Name: LaserWall
+                Components:
+                    510e199c45458f46ba38163634aa7ab4: !TransformComponent
+                        Id: 9c190e51-4545-468f-ba38-163634aa7ab4
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b4b11b3239c74b4197854cabe0f558b3: !ModelComponent
+                        Id: 321bb1b4-c739-414b-9785-4cabe0f558b3
+                        Model: b499ae00-250f-48fa-816c-c771ea16d449:Gameplay/Models/LaserWall
+                        Materials: {}

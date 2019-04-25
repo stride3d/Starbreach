@@ -1,0 +1,6 @@
+!Texture
+Id: 9898fce9-867f-40b6-8841-71f0eaf7d961
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/RocketDrone/EnergyDrone_G.png
+Type: !GrayscaleTextureType {}

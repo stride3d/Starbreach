@@ -1,0 +1,14 @@
+!Model
+Id: 41f2c63a-dcec-4143-a665-bbc9f616a21e
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/Pillar2/Pillar2.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fd6dbc96db46c804891b3c6a1d7a44ef:
+        Name: default
+        MaterialInstance:
+            Material: fb8ea9cc-502d-4319-bb67-5ef1ebc2d8ce:Environment/Props/Materials/Pillar2/Pillar2_MT
+Skeleton: null
+~SourceHashes:
+    da9eb6c9d7fea3747814fface7e11c11~../../../../../Resources/Props/Pillar2/Pillar2.FBX: 77fdb2cb272c9984ed02a265d3cc249c

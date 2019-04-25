@@ -1,0 +1,62 @@
+!PrefabAsset
+Id: 33f4eacf-6067-4a00-9e0d-3ed6ae1bd500
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 25173063-4403-4736-8dc0-64d750dc171b
+    Parts:
+        -   Entity:
+                Id: 25173063-4403-4736-8dc0-64d750dc171b
+                Name: Pillar2_flat
+                Components:
+                    da7a4adb847246609d33226bfd434f6d: !TransformComponent
+                        Id: 1e23db26-b1a9-49f0-9fed-cda136253bf4
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            b562b38cac55869a74c5ff4cc5bf9e45: ref!! 5b24209f-84ae-49a8-85ae-e9fa0b618422
+                    ca93a075a4312c733f6220297af4b308: !ModelComponent
+                        Id: 49077108-42d6-4fb9-b06e-e30c4305d954
+                        Model: 41f2c63a-dcec-4143-a665-bbc9f616a21e:Environment/Props/Models/Pillar2_flat
+                        Materials: {}
+                    9e593e77343fc9ec938194c13e10f499: !StaticColliderComponent
+                        Id: f3fae390-5a1b-44e9-be19-56a90031e276
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            e9d57103d93cc1430a186f89f84bf0cc: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.7, Y: 6.5, Z: 0.3}
+                                LocalOffset: {X: 0.0, Y: 3.25, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 52061793-f7a6-44da-94e5-53e2f2a36c2b
+                Name: Spot light
+                Components:
+                    d12c9da95ecea194d3ecac5fbc5b9a13: !TransformComponent
+                        Id: 5b24209f-84ae-49a8-85ae-e9fa0b618422
+                        Position: {X: 0.0, Y: 6.00139236, Z: 0.9119271}
+                        Rotation: {X: 0.839381635, Y: -1.18654448E-07, Z: -9.245355E-08, W: -0.5435425}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    000af01f78b250ef4d83359d57b9aeee: !LightComponent
+                        Id: dcfb9580-890b-4539-9224-588de9d44f49
+                        Type: !LightSpot
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.5019609, G: 1.0, B: 0.831911743}
+                            Range: 100.0
+                            AngleInner: 45.0
+                            AngleOuter: 60.0
+                            UVScale: {X: 1.0, Y: 1.0}
+                            UVOffset: {X: 0.0, Y: 0.0}
+                            Shadow:
+                                BiasParameters:
+                                    DepthBias: 0.001
+                        Intensity: 150.0

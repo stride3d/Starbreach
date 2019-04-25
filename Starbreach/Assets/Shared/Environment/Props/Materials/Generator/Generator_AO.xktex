@@ -1,0 +1,8 @@
+!Texture
+Id: cde796a3-4c46-4d56-8e27-fc7064003269
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Generator/Generator_AO.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

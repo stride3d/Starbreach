@@ -1,0 +1,37 @@
+!PrefabAsset
+Id: db3e294c-5700-4c32-8d75-3730adc148a6
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 3a57c1b4-5986-43bd-8f7b-5abcd6147f10
+        - ref!! 9ab5c1e7-58e3-45cc-a82e-6b1854f8e569
+    Parts:
+        -   Entity:
+                Id: 3a57c1b4-5986-43bd-8f7b-5abcd6147f10
+                Name: DPU1
+                Components:
+                    a47bbbe0c3bdbe991ee2b8dbb211e84a: !TransformComponent
+                        Id: cd0dc27b-fcd3-42e8-949a-561a5e770ccf
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    07d88e01b901439d7f2ef8928e8a6716: !ModelComponent
+                        Id: 7c5006a3-7ce3-4c9c-a32a-ef9a9aa14c5b
+                        Model: 209893ec-48c7-4c36-ab47-d4f177f58bf6:Environment/Props/Models/DPU1
+                        Materials: {}
+        -   Entity:
+                Id: 9ab5c1e7-58e3-45cc-a82e-6b1854f8e569
+                Name: DPU2
+                Components:
+                    a719dc29f5e97bb535a855843cc57283: !TransformComponent
+                        Id: 206a65e2-ff7b-48a7-a7e5-e568b63ec293
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    343072a94d7efea6c3c792bf38ad290f: !ModelComponent
+                        Id: cfcfe6a7-1c99-4e02-a1c7-f7294a5a7d66
+                        Model: e62da4ac-0fbd-43f0-86a2-3c36a1f69f96:Environment/Props/Models/DPU2
+                        Materials: {}

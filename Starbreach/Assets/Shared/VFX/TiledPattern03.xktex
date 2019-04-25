@@ -1,0 +1,7 @@
+!Texture
+Id: e2db9578-8487-4f66-a40b-e8ddd839c409
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/VisualEffects/TiledPattern03.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

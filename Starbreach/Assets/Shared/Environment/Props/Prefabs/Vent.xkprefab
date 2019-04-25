@@ -1,0 +1,83 @@
+!PrefabAsset
+Id: b5275603-ec75-4bf7-b9cd-6613fe69d2b9
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 5c398975-e1e7-4877-af93-881930263e94
+    Parts:
+        -   Entity:
+                Id: 08e72601-63eb-4dcb-989d-5c65552896e8
+                Name: Vent
+                Components:
+                    649d145b5cd2d2498d83796837ab2e4c: !TransformComponent
+                        Id: 5b149d64-d25c-49d2-8d83-796837ab2e4c
+                        Position: {X: 0.0, Y: 0.6601438, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.258819, W: 0.9659258}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    51f9a88cd6a06144a9c30a8efc81f0d6: !ModelComponent
+                        Id: 8ca8f951-a0d6-4461-a9c3-0a8efc81f0d6
+                        Model: 9ba50f3a-f535-4ad4-982d-ff342c69fce4:Environment/Props/Models/Vent
+                        Materials: {}
+                    557237ad44bd2e4a9a6adfa72a07f828: !Starbreach.VFX.Fan,Starbreach
+                        Id: ad377255-bd44-4a2e-9a6a-dfa72a07f828
+                        RotationSpeed: 0.5
+                        VentLightModelComponent: ref!! 32816f6f-3bf0-4d9c-b90f-22a935e18733
+                        LightTexture: 2ed2808b-0693-4a27-8cd8-4cccd2d48a70:Environment/Props/Materials/Vent/Vent_inner_E
+        -   Entity:
+                Id: 5c398975-e1e7-4877-af93-881930263e94
+                Name: Vent
+                Components:
+                    9385595b1d62aa4bb2b4c469cfe0c781: !TransformComponent
+                        Id: 5b598593-621d-4baa-b2b4-c469cfe0c781
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            fef582b5ce88153fe16e0207caff2767: ref!! 1cf3bec2-0cda-4385-946d-5092d2cc4382
+                            ad7e16aa5036ddb39dd344dbe2453ee0: ref!! a095af54-a1dc-4308-911d-079ccfaa0cfd
+                            1200685bbff2fe1e5c49bf133a5e169b: ref!! 5b149d64-d25c-49d2-8d83-796837ab2e4c
+        -   Entity:
+                Id: 94fd4929-dc17-406a-b101-7d999144f384
+                Name: Vent_base
+                Components:
+                    c2bef31cda0c8543946d5092d2cc4382: !TransformComponent
+                        Id: 1cf3bec2-0cda-4385-946d-5092d2cc4382
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    74a44ff7b53fd347b1bc0108f4e39f53: !ModelComponent
+                        Id: f74fa474-3fb5-47d3-b1bc-0108f4e39f53
+                        Model: 9fb440c2-5c68-4b4c-a1c1-fe92481dc4d4:Environment/Props/Models/Vent_base
+                        Materials: {}
+                    06cf1aa272609644a75ae1164968be17: !StaticColliderComponent
+                        Id: a21acf06-6072-4496-a75a-e1164968be17
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            18cf11ad3eabc040ac2705991dacfea7: !CylinderColliderShapeDesc
+                                Height: 1.4
+                                Radius: 0.9
+                                LocalOffset: {X: 0.0, Y: 0.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 9b350f50-f364-4653-8b82-1b0bf30e2f23
+                Name: Vent_light_mesh
+                Components:
+                    54af95a0dca10843911d079ccfaa0cfd: !TransformComponent
+                        Id: a095af54-a1dc-4308-911d-079ccfaa0cfd
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6f6f8132f03b9c4db90f22a935e18733: !ModelComponent
+                        Id: 32816f6f-3bf0-4d9c-b90f-22a935e18733
+                        Model: bcf6e9e7-0e5d-45f3-ba1b-0b2025d17e1c:Environment/Props/Models/Vent_light_mesh
+                        Materials: {}

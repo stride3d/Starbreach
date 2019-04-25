@@ -1,0 +1,11 @@
+!Texture
+Id: d01b168a-9796-4964-99bb-341bcacd0b4f
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Barrel/Barrel_D.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    Alpha: None
+    PremultiplyAlpha: false

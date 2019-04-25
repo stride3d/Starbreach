@@ -1,0 +1,6 @@
+!Texture
+Id: 655b3682-a010-49c5-80c4-60209f53473d
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: comet_gloss.tga
+Type: !GrayscaleTextureType {}

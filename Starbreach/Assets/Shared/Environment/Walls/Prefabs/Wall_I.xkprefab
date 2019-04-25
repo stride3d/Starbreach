@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 7e25e231-774f-421a-9885-4c22d5aad1cd
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 7e92c051-cb83-4e8e-bbcc-7ed71a997dbb
+    Parts:
+        -   Entity:
+                Id: 7e92c051-cb83-4e8e-bbcc-7ed71a997dbb
+                Name: Wall_I
+                Components:
+                    4210535a1f0aea37724547aa0d92f0ea: !TransformComponent
+                        Id: c50f5f85-1689-4df2-8152-40d50a0c7df0
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    313286d40b7a094fbe3b8c6b3b7edafd: !ModelComponent
+                        Id: ae1c4861-7c66-4fe2-b210-387425972170
+                        Model: 0e97b32d-5d02-4681-b6bd-ddc7e81a0cae:Environment/Walls/Models/Wall_I
+                        Materials: {}

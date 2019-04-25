@@ -1,0 +1,6 @@
+!Texture
+Id: ccf166cd-37fd-4944-ae4a-4125b8d2c401
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Cells/Cell2_G.png
+Type: !GrayscaleTextureType {}

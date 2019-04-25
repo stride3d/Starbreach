@@ -1,0 +1,7 @@
+!Texture
+Id: 359d1798-dc94-43ec-b7d1-3c1187da605d
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Platforms/Cells/cell03_albedo_baked.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

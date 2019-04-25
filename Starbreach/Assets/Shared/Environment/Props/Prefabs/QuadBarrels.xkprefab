@@ -1,0 +1,37 @@
+!PrefabAsset
+Id: bceccb3f-3666-4864-aded-2230c759cbaf
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! ae3cd2c6-ef7d-4ebb-9bf1-01ff9c1b034c
+    Parts:
+        -   Entity:
+                Id: ae3cd2c6-ef7d-4ebb-9bf1-01ff9c1b034c
+                Name: QuadBarrels
+                Components:
+                    6cba76ddfd1ccfe65a4c5a140756c8d4: !TransformComponent
+                        Id: 581c15d8-e0e7-4136-b656-3bff42e5dfa2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3280e516b6ce697916b6f1c0823acd38: !ModelComponent
+                        Id: 36147c94-74a3-48af-bb70-0292d789032a
+                        Model: bd5c8df1-b6f8-4ae3-9099-b063300bc184:Environment/Props/Models/QuadBarrels
+                        Materials: {}
+                    a0046f2ff924d533f457904736235306: !StaticColliderComponent
+                        Id: 5a3e4633-3b44-47ac-ad8e-07857d167edd
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            73a42be32d471fc220f6ebc55d725e77: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 3.0, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 1.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

@@ -1,0 +1,14 @@
+!Model
+Id: ab160c30-d49c-47c7-bbc1-079f53ffd7d1
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/Meshes/border_small_C2_outside.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    516dc2b077de7afb3aef5f143aef5f14:
+        Name: border3
+        MaterialInstance:
+            Material: null
+Skeleton: null
+~SourceHashes:
+    d155ce8fb81471b5d178c0b2d65bed7b~../../Platforms/Meshes/border_small_C2_outside.FBX: 19a7a30418adb7599815303d9ecf0003

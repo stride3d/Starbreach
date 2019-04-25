@@ -1,0 +1,98 @@
+!UIPageAsset
+Id: 0126b6f2-b31b-4a1c-b097-a1427f01b5af
+SerializedVersion: {Xenko: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1920.0, Y: 1080.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! ad8ba599-7734-42a1-8656-9376479925c0
+    Parts:
+        -   UIElement: !TextBlock
+                Id: 0d20472e-da61-48f7-a72f-d8a72fc1f1f5
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Text: Hold Right Trigger to shoot
+                Font: 860ebd43-0dfb-47ff-b2ed-5c3f5b78956f:UI/SpriteFont (2)
+                TextSize: 30.0
+                TextColor: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !TextBlock
+                Id: 4b4a518c-5b20-44c7-871b-0c2871b45c93
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {Top: 50.0}
+                Text: Press Start to start playing!
+                Font: 860ebd43-0dfb-47ff-b2ed-5c3f5b78956f:UI/SpriteFont (2)
+                TextSize: 30.0
+                TextColor: {R: 255, G: 0, B: 0, A: 255}
+        -   UIElement: !TextBlock
+                Id: 5b163213-2534-4ed9-b092-ef93ac1403cc
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {Top: 50.0}
+                Text: Defend the base by killing the approaching drones!
+                Font: 860ebd43-0dfb-47ff-b2ed-5c3f5b78956f:UI/SpriteFont (2)
+                TextSize: 30.0
+                TextColor: {R: 255, G: 255, B: 50, A: 255}
+        -   UIElement: !TextBlock
+                Id: 8ddafcf0-19da-4d9f-bcf1-9153720f0f72
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Text: Hold Left Trigger to aim
+                Font: 860ebd43-0dfb-47ff-b2ed-5c3f5b78956f:UI/SpriteFont (2)
+                TextSize: 30.0
+                TextColor: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !TextBlock
+                Id: 98dfc57c-0645-4297-a6c9-dc607eba847e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Text: Press Y to reload
+                Font: 860ebd43-0dfb-47ff-b2ed-5c3f5b78956f:UI/SpriteFont (2)
+                TextSize: 30.0
+                TextColor: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !Grid
+                Id: ad8ba599-7734-42a1-8656-9376479925c0
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    a58b0cbc0a625e4dac7660c2dd222f7d: !Grid ref!! bc0c8ba5-620a-4d5e-ac76-60c2dd222f7d
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !Grid
+                Id: bc0c8ba5-620a-4d5e-ac76-60c2dd222f7d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 180}
+                Margin: {Left: 450.0, Top: 300.0, Right: 450.0, Bottom: 300.0}
+                Children:
+                    34c594d600331c4291a1eb964738a695: !StackPanel ref!! d694c534-3300-421c-91a1-eb964738a695
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: d405dde5-f86b-48af-948e-96768b4f2415
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Text: Move with the sticks
+                Font: 860ebd43-0dfb-47ff-b2ed-5c3f5b78956f:UI/SpriteFont (2)
+                TextSize: 30.0
+                TextColor: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !StackPanel
+                Id: d694c534-3300-421c-91a1-eb964738a695
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {Left: 20.0, Top: 20.0, Right: 20.0, Bottom: 20.0}
+                Children:
+                    2e47200d61daf748a72fd8a72fc1f1f5: !TextBlock ref!! 0d20472e-da61-48f7-a72f-d8a72fc1f1f5
+                    f0fcda8dda199f4dbcf19153720f0f72: !TextBlock ref!! 8ddafcf0-19da-4d9f-bcf1-9153720f0f72
+                    7cc5df9845069742a6c9dc607eba847e: !TextBlock ref!! 98dfc57c-0645-4297-a6c9-dc607eba847e
+                    e5dd05d46bf8af48948e96768b4f2415: !TextBlock ref!! d405dde5-f86b-48af-948e-96768b4f2415
+                    1332165b3425d94eb092ef93ac1403cc: !TextBlock ref!! 5b163213-2534-4ed9-b092-ef93ac1403cc
+                    8c514a4b205bc744871b0c2871b45c93: !TextBlock ref!! 4b4a518c-5b20-44c7-871b-0c2871b45c93

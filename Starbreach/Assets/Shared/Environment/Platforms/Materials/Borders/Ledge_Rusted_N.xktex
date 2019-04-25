@@ -1,0 +1,6 @@
+!Texture
+Id: c87aa7a5-2b87-40ce-ab53-5b4b128e1136
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Ledges/Ledge_Rusted_N.png
+Type: !NormalMapTextureType {}

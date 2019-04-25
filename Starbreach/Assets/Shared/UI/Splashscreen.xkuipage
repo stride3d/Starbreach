@@ -1,0 +1,29 @@
+!UIPageAsset
+Id: ab479ce2-b1df-4829-920c-c190e1accefa
+SerializedVersion: {Xenko: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1920.0, Y: 1080.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 1a659217-e6e6-47d8-8eb6-cc3fe0b9b108
+    Parts:
+        -   UIElement: !Grid
+                Id: 1a659217-e6e6-47d8-8eb6-cc3fe0b9b108
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    3be5b5406e038c47f8c0f4e6f575b45f: !ImageElement ref!! d3bfa5d8-9964-4b59-ae2e-58eea41aac73
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !ImageElement
+                Id: d3bfa5d8-9964-4b59-ae2e-58eea41aac73
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Name: Spl
+                Source: !SpriteFromSheet
+                    Sheet: f8c35f76-4066-400a-8a08-dfc9eafb9172:UI/Splash
+                Color: {R: 255, G: 255, B: 255, A: 255}

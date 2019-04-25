@@ -1,0 +1,9 @@
+!Texture
+Id: 4ebe3927-3f72-459b-b98a-09f52e7ff8f5
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/MainCharacter_Burnt/MainCharacter_Lower_Burnt_O.tga
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,8 @@
+!Sound
+Id: 732e562c-622b-4fff-8282-58a7efa0b204
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Drones/Sounds/Hit0.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

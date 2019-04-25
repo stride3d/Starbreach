@@ -1,0 +1,14 @@
+!Model
+Id: 05ea29a9-fd0d-4b79-89c6-a2c1a305ceb1
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/Generator/Generator.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    f2257d13dc7db63cfae2eac3fce67191:
+        Name: Generator
+        MaterialInstance:
+            Material: 038d4e18-53d0-4206-968a-ea77631fdc8c:Environment/Props/Materials/Generator/Generator_MT
+Skeleton: null
+~SourceHashes:
+    01d74f021b716c75b9d234d1fff3ad18~../../../../../Resources/Props/Generator/Generator.FBX: b8ae07279e7dd6d38577bbeace3f5ee8

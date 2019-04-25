@@ -1,0 +1,8 @@
+!Sound
+Id: bba0e27c-3fb8-4ce6-99be-bc45ea5e03a7
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Drones/Sounds/LaserFire0.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

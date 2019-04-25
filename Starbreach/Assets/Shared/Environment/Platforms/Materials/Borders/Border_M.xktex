@@ -1,0 +1,6 @@
+!Texture
+Id: 88911171-aabf-40ff-a1ea-b06ec25449ff
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Borders/Border_M.png
+Type: !GrayscaleTextureType {}

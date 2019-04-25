@@ -1,0 +1,9 @@
+!Texture
+Id: 1a7b73a2-20cc-4852-b874-9c464ecef00d
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Pillar2/Pillar2_D.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

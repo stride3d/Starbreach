@@ -1,0 +1,6 @@
+!Texture
+Id: 9544338a-7c49-46d1-b4f3-d1226d17fbb9
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Cells/Cell3_N.png
+Type: !NormalMapTextureType {}

@@ -1,0 +1,21 @@
+!ColliderShapeAsset
+Id: c56e06b6-ee71-4d0e-9686-811950d3f801
+SerializedVersion: {Xenko: 3.0.0.0}
+Tags: []
+ColliderShapes:
+    c19d6bea54b5acb712677dc72528ac86: !ConvexHullColliderShapeDesc
+        ConvexHulls: null
+        ConvexHullsIndices: null
+        Model: 10da9024-7c2a-4953-8242-9cb5de66fd29:Drones/Models/Fractured/DroneFr7
+        LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        Scaling: {X: 1.0, Y: 1.0, Z: 1.0}
+        Decomposition:
+            Depth: 10
+            PosSampling: 10
+            AngleSampling: 10
+            PosRefine: 5
+            AngleRefine: 5
+            Alpha: 0.01
+            Threshold: 0.01
+            Enabled: false

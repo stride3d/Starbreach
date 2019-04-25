@@ -1,0 +1,7 @@
+!Texture
+Id: cd9304cd-d7b6-48cb-bdb2-a6790795a40d
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Clouds.dds
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

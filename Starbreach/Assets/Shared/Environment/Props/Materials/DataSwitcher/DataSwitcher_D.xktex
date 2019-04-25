@@ -1,0 +1,9 @@
+!Texture
+Id: c506b612-8387-4cca-ab4d-4c6ac05cad19
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/DataSwitcher/DataSwitcher_D.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

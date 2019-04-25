@@ -1,0 +1,14 @@
+!Model
+Id: 344e3d8d-1e86-46b4-8e96-130d55ab9ac1
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/Meshes/Pillar.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    92e6147f0444332c3373b18e3373b18e:
+        Name: pillar
+        MaterialInstance:
+            Material: 2c2b37b6-fba7-4366-87c5-8e690580575d:PlatformsOld/Materials/Pillar
+Skeleton: null
+~SourceHashes:
+    12780c664267396f0a070f8a652a42be~../../Platforms/Meshes/Pillar.FBX: 8ae3eab118506124cac0e708b447a6a0

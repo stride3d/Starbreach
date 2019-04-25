@@ -1,0 +1,8 @@
+!Sound
+Id: 626af2c1-b8d2-44d0-bc4b-d30497b4a23f
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/AudioToSort/TGS Sounds/player soldier/bullet_impact_4.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

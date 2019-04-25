@@ -1,0 +1,6 @@
+!Texture
+Id: 85ab8488-bcee-4831-a28b-10af4bc00f72
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Props/Wall2/Textures/P_wall2_M.tga
+Type: !GrayscaleTextureType {}

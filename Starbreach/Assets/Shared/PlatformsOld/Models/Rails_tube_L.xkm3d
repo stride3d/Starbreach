@@ -1,0 +1,14 @@
+!Model
+Id: b2139cec-163e-4e5d-9a73-c53dbb5b0f3a
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/Meshes/Rails_tube_L.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    cf2dc2a92489591bc118fe54e3d0d234:
+        Name: rails_adv
+        MaterialInstance:
+            Material: 1212b703-b567-40a5-ad55-bee35bebbf97:PlatformsOld/Materials/Rail
+Skeleton: null
+~SourceHashes:
+    cf61d3e3a10c66143d48048b50d4ff79~../../Platforms/Meshes/Rails_tube_L.FBX: 5616c090fc4c1c69d9db5c2c1b590394

@@ -1,0 +1,14 @@
+!Model
+Id: c4f3ea64-37ea-4e8a-bac9-101665acd80c
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Background/Island1/Isl_1.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    3e7a3c829673451e5bbe9137da0da20c:
+        Name: scene_material1
+        MaterialInstance:
+            Material: aef50aaa-a5bd-4f20-a455-4a7da1f2f02a:Environment/Background/Materials/Island1/Island1_MT
+Skeleton: null
+~SourceHashes:
+    da6c7eae510de0b18ecbf530dc75422a~../../../../../Resources/Background/Island1/Isl_1.fbx: 50ef61616a293d0819f565c221605513

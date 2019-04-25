@@ -1,0 +1,14 @@
+!Model
+Id: 641ed9f1-eb2e-4c42-bd34-c5dba0faaac0
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/FloorRocks/FloorRock_4.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    ef33d1387d6be92dcce5d57d23385ed3:
+        Name: Material
+        MaterialInstance:
+            Material: a480503f-0b1d-4a11-9251-af668f22d365:Environment/Props/Materials/FloorRocks/FloorRock_MT
+Skeleton: null
+~SourceHashes:
+    d817afc071b32828e484ca3ed3b6d82b~../../../../../Resources/Props/FloorRocks/FloorRock_4.FBX: 55da59c421e0e559b6100b61b632f571

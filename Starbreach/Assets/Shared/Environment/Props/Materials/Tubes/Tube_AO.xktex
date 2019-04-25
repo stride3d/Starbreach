@@ -1,0 +1,8 @@
+!Texture
+Id: 1d8e851a-402d-4ae5-b526-289b3d13af8c
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Tube/Tube_AO.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

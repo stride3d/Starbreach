@@ -1,0 +1,8 @@
+!Texture
+Id: c8da55ab-a6a3-4042-a733-4f1b12a9a416
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/DataPad/DataPad_M.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

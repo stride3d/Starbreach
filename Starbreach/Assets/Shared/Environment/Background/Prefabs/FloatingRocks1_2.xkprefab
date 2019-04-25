@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: cb48cca7-c22e-4485-a6e6-07aa698fbf3e
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 9b604468-8d1b-431d-adf9-79f53eaab11f
+    Parts:
+        -   Entity:
+                Id: 9b604468-8d1b-431d-adf9-79f53eaab11f
+                Name: FloatingRock1_2
+                Components:
+                    f7d435da00a4f0db8567f052b2dd775b: !TransformComponent
+                        Id: 38a9473b-977f-4957-8917-987d786d8c0b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dfee743743e4c3abf742a67210a57784: !ModelComponent
+                        Id: 23bd3ced-b99e-464d-92ee-edfb93f90852
+                        Model: 6a331abf-6ede-4170-9bb4-ae1d6e7896ea:Environment/Background/Models/FloatingRock1_2
+                        Materials: {}

@@ -1,0 +1,9 @@
+!Texture
+Id: ddd97c09-1d80-433b-b0e8-79fe0e90c6cb
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/Drone/DroneUpper_A.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

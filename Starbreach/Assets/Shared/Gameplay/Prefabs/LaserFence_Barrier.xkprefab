@@ -1,0 +1,670 @@
+!PrefabAsset
+Id: b6f5ec31-ef0a-41cf-b1cb-575cbe5bdba5
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 945727d1-98d0-4a00-b29c-98f78daa9839
+    Parts:
+        -   Entity:
+                Id: 16d23f36-f4be-4509-9d47-60cb574be928
+                Name: LaserFence_Static (2)
+                Components:
+                    f08afbc357f5790406844c92d0539513: !TransformComponent
+                        Id: d755f963-c931-4c99-97e4-b973c10b0d37
+                        Position: {X: 3.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: -0.6, Y: 0.6, Z: 0.6}
+                        Children:
+                            78f46892dc105a369fcd202c189df608: ref!! 2fa4c9a4-d424-43c4-bad3-060f61018c7f
+                            5255162075021a6f951970991ca6608e: ref!! e333c6c8-d720-4699-8ba2-a8e339362d2d
+                            536240f8fb1df6f999ea4a5d4ba7f1c1: ref!! e97c6f33-1882-4429-8239-55cce7f2b5ee
+                            75e86890a45d2bdc1ba0006f7998e13e: ref!! 40df8315-9a02-468f-ab3c-a0d3453ff167
+                    20f48c676e388f5f82ad7dda1063ae2d: !StaticColliderComponent
+                        Id: f9d90e32-1564-4387-b9c1-867054f98057
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            368adb9e6793798169337ef4de98022b: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 3.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 1.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 2051137f-5c3e-4877-b418-d6730043e667
+                Name: LaserFence_up
+                Components:
+                    c8c633e320d799468ba2a8e339362d2d: !TransformComponent
+                        Id: e333c6c8-d720-4699-8ba2-a8e339362d2d
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3e4e674bd6ad2f439da54f92a29a7eec: !ModelComponent
+                        Id: 4b674e3e-add6-432f-9da5-4f92a29a7eec
+                        Model: ca14aec1-3989-485c-84c0-5d0cbf5858f4:Gameplay/Models/LaserFence_up
+                        Materials: {}
+            Base:
+                BasePartAsset: 04190d25-799d-4690-96a3-fa6f92129950:Gameplay/Prefabs/LaserFence_Static
+                BasePartId: 17b0e199-5d3f-4edc-9900-41f40432c0bd
+                InstanceId: 28f6557f-0f19-4a95-a3c8-73adac09b07c
+        -   Entity:
+                Id: 28b6b224-b4bb-48a9-bccb-71f0e16cf1be
+                Name: LaserArc
+                Components:
+                    336f7ce982182944823955cce7f2b5ee: !TransformComponent
+                        Id: 40df8315-9a02-468f-ab3c-a0d3453ff167
+                        Position*: {X: 0.5, Y: 2.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+            Base:
+                BasePartAsset: 8a4fed52-02c4-46fa-9f41-bee3decdc3d1:VFXPrefabs/vfx-LaserBeam
+                BasePartId: 6e00cd87-867f-4039-ae08-a2fcfdcf6e89
+                InstanceId: a4980687-b174-49a0-8e90-1651f1184482
+        -   Entity:
+                Id: 30a095c2-8c9f-4cd2-9784-1ba35cc22331
+                Name: LaserCylinder
+                Components:
+                    6565f891cdba2236dd5dbf1888a0f6e0: !TransformComponent
+                        Id: e0bd1232-30cf-402f-a659-169701c6bca6
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: -0.707106769, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 10.0, Z: 1.0}
+                        Children: {}
+                    cec4407060699b5ddb4eeb6f5f980024: !ModelComponent
+                        Id: cd13ccdb-9dc7-4ff0-8ad0-c22fa7317ff2
+                        Model: c11da5de-520a-4bd5-a691-5476b2a812e0:Gameplay/Models/Cylinder
+                        Materials: {}
+        -   Entity:
+                Id: 6022993f-f245-4b95-ae81-8a6e80860cd7
+                Name: LaserFence_Static
+                Components:
+                    fb9b8e052602e60735334f7419c9e54a: !TransformComponent
+                        Id: 3929b428-ffad-4566-8d64-ab7eda71a220
+                        Position: {X: -3.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.6, Y: 0.6, Z: 0.6}
+                        Children:
+                            72f98f4652f07969b02387bf80f44bb6: ref!! 81f6231f-d97e-48d4-bcde-57482ee4bd23
+                            ac54ba65908c8e57e9e7d04aaa225e10: ref!! a1b35f42-13ab-429e-b4ca-6b2b03425645
+                            c9f4bf3456ad38e4294e8f90e4bc16ba: ref!! c91aa6c2-a3cc-4c30-949c-26193b0945c4
+                            985fa8fdb9571299e3e7f9b8b1f090f1: ref!! e7df7230-8eb2-42a3-ac83-b3c34d07ec76
+                    eebd194cebc9a12cf0aa06c693e971b7: !StaticColliderComponent
+                        Id: e2a2517d-aa4f-4d08-8d2f-b9ef23a49427
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            7e00afee3484d23f207fe6d6fac12d9a: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 3.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 1.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 6072d1ec-0d92-4855-a83a-bacfa7acc501
+                Name: LaserCylinder
+                Components:
+                    6565f891cdba2236dd5dbf1888a0f6e0: !TransformComponent
+                        Id: 206a42eb-ee64-48ed-9269-f0ddc1ce4a92
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: -0.707106769, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 10.0, Z: 1.0}
+                        Children: {}
+                    cec4407060699b5ddb4eeb6f5f980024: !ModelComponent
+                        Id: 18f579ce-3fc3-4c54-b929-bce22f6af2b2
+                        Model: c11da5de-520a-4bd5-a691-5476b2a812e0:Gameplay/Models/Cylinder
+                        Materials: {}
+        -   Entity:
+                Id: 6127bf25-0b62-4e22-863f-5009c2f77592
+                Name: LaserArc
+                Components:
+                    336f7ce982182944823955cce7f2b5ee: !TransformComponent
+                        Id: e97c6f33-1882-4429-8239-55cce7f2b5ee
+                        Position*: {X: 0.5, Y: 1.75, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+            Base:
+                BasePartAsset: 8a4fed52-02c4-46fa-9f41-bee3decdc3d1:VFXPrefabs/vfx-LaserBeam
+                BasePartId: 6e00cd87-867f-4039-ae08-a2fcfdcf6e89
+                InstanceId: 8faec7b8-7a9c-41fc-8848-2539ecb9f5f2
+        -   Entity:
+                Id: 8512ce3d-9fb8-400b-bf88-7186abe432d8
+                Name*: LaserBeam
+                Components:
+                    c2a61ac9cca3304c949c26193b0945c4: !TransformComponent
+                        Id: c91aa6c2-a3cc-4c30-949c-26193b0945c4
+                        Position*: {X: 0.5, Y: 1.75, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            fe89fc524a7b9ae686e1c8c7bf6e603c: ref!! e0bd1232-30cf-402f-a659-169701c6bca6
+                    5ee7f85c3fbac746b5c31e169615a5c7: !ParticleSystemComponent
+                        Id: 5cf8e75e-ba3f-46c7-b5c3-1e169615a5c7
+                        Control:
+                            ResetSeconds: 0.0
+                            Control: Play
+                        Color*: {R: 1.0, G: 0.125490189, B: 0.125490189, A: 1.0}
+                        Speed: 6.0
+                        ParticleSystem:
+                            Settings: {}
+                            BoundingShape: null
+                            Emitters:
+                                f239db465dd7354bbc55100bd300b151:
+                                    EmitterName: sparks
+                                    ParticleLifetime: {X: 1.0, Y: 5.0}
+                                    ShapeBuilder: !ShapeBuilderBillboard
+                                        SamplerPosition: null
+                                        SamplerSize: !ComputeCurveSamplerFloat
+                                            Curve: !ComputeAnimationCurveFloat
+                                                KeyFrames:
+                                                    ba54a1971cd84340b5ba37f508a3bd2c:
+                                                        Key: 0.0
+                                                        Value: 1.0
+                                                        TangentType: Linear
+                                                    881873fa3d3a744db46ae3db16b7d133:
+                                                        Key: 1.0
+                                                        Value: 0.0
+                                                        TangentType: Linear
+                                        SamplerRotation: null
+                                    Material: !ParticleMaterialComputeColor
+                                        ComputeColor: !ComputeBinaryColor
+                                            Operator: Multiply
+                                            LeftChild: !ComputeFloat4
+                                                Value*: {X: 150.0, Y: 150.0, Z: 150.0, W: 1.0}
+                                            RightChild*: !ComputeTextureColor
+                                                Texture: 28a187b3-de84-4e71-9c87-c5facb6e2ff6:Textures/SparkLight01_0001
+                                                FallbackValue:
+                                                    Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                                Scale: {X: 1.0, Y: 1.0}
+                                                Offset: {X: 0.0, Y: 0.0}
+                                                Swizzle: null
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        946a1b5e1895434284c7dbdaa728c786: !SpawnerBurst
+                                            LoopCondition: Looping
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount*: 100
+                                    Initializers:
+                                        581d30af2592fb41a520efcb0f64656c: !InitialPositionParent
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            ParentName*: LaserEmitter02
+                                            ParentSeedOffset: 0
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            ParentControlFlag: Group00
+                                            SeedOffset: 0
+                                            PositionMin*: {X: -0.5, Y: -0.1, Z: -0.1}
+                                            PositionMax*: {X: 0.5, Y: 0.1, Z: 0.1}
+                                        0460848851abf642879131d04c839872: !InitialSizeSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 0.3
+                                            SeedOffset: 24
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            RandomSize*: {X: 0.05, Y: 0.2}
+                                        cd410cf87ddf07449ea894f8b8cb5238: !InitialVelocitySeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            VelocityMin: {X: -0.02, Y: -0.01, Z: -0.02}
+                                            VelocityMax*: {X: 0.02, Y: 0.04, Z: 0.02}
+                                        855cafaded1b164dab92516ac877abf5: !InitialColorParent
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            ParentName*: LaserEmitter02
+                                            ParentSeedOffset: 0
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            ParentControlFlag: Group00
+                                            SeedOffset*: 0
+                                            ColorMin: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                            ColorMax: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                    Updaters: {}
+                                eabed859a30c6f409b30f3e5fa9295b2:
+                                    EmitterName: LaserEmitter02
+                                    MaxParticlesOverride: 10
+                                    ParticleLifetime: {X: 0.2, Y: 0.2}
+                                    ShapeBuilder: !ShapeBuilderRibbon
+                                        SmoothingPolicy: None
+                                        Segments*: 5
+                                        TextureCoordinatePolicy: AsIs
+                                        TexCoordsFactor: 1.0
+                                        UVRotate:
+                                            FlipX: false
+                                            FlipY: false
+                                            UVClockwise: Degree0
+                                    Material: !ParticleMaterialComputeColor
+                                        AlphaAdditive: 1.0
+                                        ComputeColor: !ComputeBinaryColor
+                                            Operator: Multiply
+                                            LeftChild: !ComputeFloat4
+                                                Value: {X: 100.0, Y: 100.0, Z: 100.0, W: 1.0}
+                                            RightChild*: !ComputeTextureColor
+                                                Texture: da9b119e-ce87-4f7b-a4cc-2e93b158f137:Textures/Gradation01
+                                                FallbackValue:
+                                                    Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                                Scale: {X: 1.0, Y: 1.0}
+                                                Offset: {X: 0.0, Y: 0.0}
+                                                Swizzle: null
+                                        UVBuilder: !UVBuilderScroll
+                                            StartFrame: {X: 0.0, Y: 0.0, Z: 1.0, W: 1.0}
+                                            EndFrame: {X: 0.0, Y: 1.0, Z: 1.0, W: 2.0}
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        771c66d89d336449959f8c37915bdb0e: !SpawnerPerFrame
+                                            LoopCondition: Looping
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 10.0
+                                            Framerate: 60.0
+                                    Initializers:
+                                        af1eef0c052b814ab025d0cbeb5ef838: !InitialPositionArc
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            Target: ref!! e97c6f33-1882-4429-8239-55cce7f2b5ee
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            FallbackTarget: {X: 0.0, Y: 0.0, Z: -1.0}
+                                            DisplayParticleScaleUniform: false
+                                            ArcHeight*: 0.0
+                                            Sequential: true
+                                            FixedLength: 0
+                                            PositionMin*: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            PositionMax*: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            SeedOffset: 0
+                                        6d09f593db786145af6ba89f386f9b48: !InitialSpawnOrder
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                        d1dbc13de4fdfd44a592f202d7bed600: !InitialSizeSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale*: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 0.5
+                                            SeedOffset*: 1
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            RandomSize*: {X: 0.5, Y: 0.6}
+                                        6271b4d5a12e85478df35d9f6ee7f89b: ~(Deleted)
+                                    Updaters: {}
+                                2170ccaa483ed447ae1e60edebcc0f3b: ~(Deleted)
+                    2801c9087775c2ecc9518fa0f801c79c*: !StaticColliderComponent
+                        Id: 752fc503-5df9-47e8-addc-e2ee9d70ff6d
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            d9c023df8272c6145711f00ef8160b74: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 10.0, Y: 3.0, Z: 2.0}
+                                LocalOffset: {X: 4.5, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 8a4fed52-02c4-46fa-9f41-bee3decdc3d1:VFXPrefabs/vfx-LaserBeam
+                BasePartId: ce106045-4e8e-423f-959c-180ca5a81f04
+                InstanceId: 8faec7b8-7a9c-41fc-8848-2539ecb9f5f2
+        -   Entity:
+                Id: 945727d1-98d0-4a00-b29c-98f78daa9839
+                Name: LaserFence
+                Components:
+                    fb5e18952f86407dad838d0b5bc40bef: !TransformComponent
+                        Id: c20f4816-794a-4fd3-b2b5-521d96340c0c
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            f94a04d4dd9ca249d275be383b123cc7: ref!! 3929b428-ffad-4566-8d64-ab7eda71a220
+                            e8af797a2f73bec8e5b3b407c77a04b3: ref!! d755f963-c931-4c99-97e4-b973c10b0d37
+                    c4e1eb951c333060077478fec3e6f721: !Starbreach.Gameplay.LaserFence,Starbreach
+                        Id: d1671b0d-5ca7-4b76-ad51-509b72570f9b
+                        ParticleSystemComponents:
+                            d4e1b67fd72a014591445d886fdbd013: ref!! 5cf8e75e-ba3f-46c7-b5c3-1e169615a5c7
+                            99ad129b17a7400624a0fdde856096e0: ref!! b5fb81ae-9af0-4cad-9d22-c99fdc143c54
+                        ModelComponents:
+                            1e0b1119a150cc02dddd2f91b8f2f386: ref!! cd13ccdb-9dc7-4ff0-8ad0-c22fa7317ff2
+                            dd30ed9dc650b5d60c314f45e5431622: ref!! 18f579ce-3fc3-4c54-b929-bce22f6af2b2
+                        LasetBlockade:
+                            23ae30509c9fbe5fb438d52a1b33c4c0: ref!! 752fc503-5df9-47e8-addc-e2ee9d70ff6d
+                        Triggers:
+                            CombinationMode: Disjunction
+                            Inverted: false
+                            Activators: {}
+                        Enabled: true
+        -   Entity:
+                Id: b070b742-1285-4948-a158-2800ee11f5e7
+                Name: LaserFence_down
+                Components:
+                    a4c9a42f24d4c443bad3060f61018c7f: !TransformComponent
+                        Id: 2fa4c9a4-d424-43c4-bad3-060f61018c7f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e52519dff8a1534c8d3d763ba4d4e83e: !ModelComponent
+                        Id: df1925e5-a1f8-4c53-8d3d-763ba4d4e83e
+                        Model: 4658c1a9-b3b6-4481-b22c-ad61ea3c14d3:Gameplay/Models/LaserFence_down
+                        Materials: {}
+            Base:
+                BasePartAsset: 04190d25-799d-4690-96a3-fa6f92129950:Gameplay/Prefabs/LaserFence_Static
+                BasePartId: 466cf94d-9bd3-41b5-8ff0-3a288834f5eb
+                InstanceId: 28f6557f-0f19-4a95-a3c8-73adac09b07c
+        -   Entity:
+                Id: d0b8df39-fac2-48ce-bd8f-a2f847d3157d
+                Name*: LaserBeam
+                Components:
+                    c2a61ac9cca3304c949c26193b0945c4: !TransformComponent
+                        Id: e7df7230-8eb2-42a3-ac83-b3c34d07ec76
+                        Position*: {X: 0.5, Y: 2.5, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            9406e2b7130bca40c2c768f5946242ff: ref!! 206a42eb-ee64-48ed-9269-f0ddc1ce4a92
+                    5ee7f85c3fbac746b5c31e169615a5c7: !ParticleSystemComponent
+                        Id: b5fb81ae-9af0-4cad-9d22-c99fdc143c54
+                        Control:
+                            ResetSeconds: 0.0
+                            Control: Play
+                        Color*: {R: 1.0, G: 0.121568628, B: 0.121568628, A: 1.0}
+                        Speed: 6.0
+                        ParticleSystem:
+                            Settings: {}
+                            BoundingShape: null
+                            Emitters:
+                                f239db465dd7354bbc55100bd300b151:
+                                    EmitterName: sparks
+                                    ParticleLifetime: {X: 1.0, Y: 5.0}
+                                    ShapeBuilder: !ShapeBuilderBillboard
+                                        SamplerPosition: null
+                                        SamplerSize: !ComputeCurveSamplerFloat
+                                            Curve: !ComputeAnimationCurveFloat
+                                                KeyFrames:
+                                                    ba54a1971cd84340b5ba37f508a3bd2c:
+                                                        Key: 0.0
+                                                        Value: 1.0
+                                                        TangentType: Linear
+                                                    881873fa3d3a744db46ae3db16b7d133:
+                                                        Key: 1.0
+                                                        Value: 0.0
+                                                        TangentType: Linear
+                                        SamplerRotation: null
+                                    Material: !ParticleMaterialComputeColor
+                                        ComputeColor: !ComputeBinaryColor
+                                            Operator: Multiply
+                                            LeftChild: !ComputeFloat4
+                                                Value*: {X: 150.0, Y: 150.0, Z: 150.0, W: 1.0}
+                                            RightChild*: !ComputeTextureColor
+                                                Texture: 28a187b3-de84-4e71-9c87-c5facb6e2ff6:Textures/SparkLight01_0001
+                                                FallbackValue:
+                                                    Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                                Scale: {X: 1.0, Y: 1.0}
+                                                Offset: {X: 0.0, Y: 0.0}
+                                                Swizzle: null
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        946a1b5e1895434284c7dbdaa728c786: !SpawnerBurst
+                                            LoopCondition: Looping
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount*: 100
+                                    Initializers:
+                                        581d30af2592fb41a520efcb0f64656c: !InitialPositionParent
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            ParentName*: LaserEmitter02
+                                            ParentSeedOffset: 0
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            ParentControlFlag: Group00
+                                            SeedOffset: 0
+                                            PositionMin*: {X: -0.5, Y: -0.1, Z: -0.1}
+                                            PositionMax*: {X: 0.5, Y: 0.1, Z: 0.1}
+                                        0460848851abf642879131d04c839872: !InitialSizeSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 0.3
+                                            SeedOffset: 24
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            RandomSize*: {X: 0.05, Y: 0.2}
+                                        cd410cf87ddf07449ea894f8b8cb5238: !InitialVelocitySeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            VelocityMin: {X: -0.02, Y: -0.01, Z: -0.02}
+                                            VelocityMax*: {X: 0.02, Y: 0.04, Z: 0.02}
+                                        855cafaded1b164dab92516ac877abf5: !InitialColorParent
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            ParentName*: LaserEmitter02
+                                            ParentSeedOffset: 0
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            ParentControlFlag: Group00
+                                            SeedOffset*: 0
+                                            ColorMin: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                            ColorMax: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                    Updaters: {}
+                                eabed859a30c6f409b30f3e5fa9295b2:
+                                    EmitterName: LaserEmitter02
+                                    MaxParticlesOverride: 10
+                                    ParticleLifetime: {X: 0.2, Y: 0.2}
+                                    ShapeBuilder: !ShapeBuilderRibbon
+                                        SmoothingPolicy: None
+                                        Segments*: 5
+                                        TextureCoordinatePolicy: AsIs
+                                        TexCoordsFactor: 1.0
+                                        UVRotate:
+                                            FlipX: false
+                                            FlipY: false
+                                            UVClockwise: Degree0
+                                    Material: !ParticleMaterialComputeColor
+                                        AlphaAdditive: 1.0
+                                        ComputeColor: !ComputeBinaryColor
+                                            Operator: Multiply
+                                            LeftChild: !ComputeFloat4
+                                                Value: {X: 100.0, Y: 100.0, Z: 100.0, W: 1.0}
+                                            RightChild*: !ComputeTextureColor
+                                                Texture: da9b119e-ce87-4f7b-a4cc-2e93b158f137:Textures/Gradation01
+                                                FallbackValue:
+                                                    Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                                Scale: {X: 1.0, Y: 1.0}
+                                                Offset: {X: 0.0, Y: 0.0}
+                                                Swizzle: null
+                                        UVBuilder: !UVBuilderScroll
+                                            StartFrame: {X: 0.0, Y: 0.0, Z: 1.0, W: 1.0}
+                                            EndFrame: {X: 0.0, Y: 1.0, Z: 1.0, W: 2.0}
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        771c66d89d336449959f8c37915bdb0e: !SpawnerPerFrame
+                                            LoopCondition: Looping
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 10.0
+                                            Framerate: 60.0
+                                    Initializers:
+                                        af1eef0c052b814ab025d0cbeb5ef838: !InitialPositionArc
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            Target*: ref!! 40df8315-9a02-468f-ab3c-a0d3453ff167
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            FallbackTarget: {X: 0.0, Y: 0.0, Z: -1.0}
+                                            DisplayParticleScaleUniform: false
+                                            ArcHeight*: 0.0
+                                            Sequential: true
+                                            FixedLength: 0
+                                            PositionMin*: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            PositionMax*: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            SeedOffset: 0
+                                        6d09f593db786145af6ba89f386f9b48: !InitialSpawnOrder
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                        d1dbc13de4fdfd44a592f202d7bed600: !InitialSizeSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale*: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 0.5
+                                            SeedOffset*: 1
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            RandomSize*: {X: 0.5, Y: 0.6}
+                                        6271b4d5a12e85478df35d9f6ee7f89b: ~(Deleted)
+                                    Updaters: {}
+                                2170ccaa483ed447ae1e60edebcc0f3b: ~(Deleted)
+            Base:
+                BasePartAsset: 8a4fed52-02c4-46fa-9f41-bee3decdc3d1:VFXPrefabs/vfx-LaserBeam
+                BasePartId: ce106045-4e8e-423f-959c-180ca5a81f04
+                InstanceId: 22720498-40d6-41e9-80dc-79aede4e3624
+        -   Entity:
+                Id: e88381a2-6f10-476d-853f-56ea6884859f
+                Name: LaserFence_up
+                Components:
+                    c8c633e320d799468ba2a8e339362d2d: !TransformComponent
+                        Id: a1b35f42-13ab-429e-b4ca-6b2b03425645
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3e4e674bd6ad2f439da54f92a29a7eec: !ModelComponent
+                        Id: f71e0367-cba8-42ba-a7de-0e1368c8acad
+                        Model: ca14aec1-3989-485c-84c0-5d0cbf5858f4:Gameplay/Models/LaserFence_up
+                        Materials: {}
+            Base:
+                BasePartAsset: 04190d25-799d-4690-96a3-fa6f92129950:Gameplay/Prefabs/LaserFence_Static
+                BasePartId: 17b0e199-5d3f-4edc-9900-41f40432c0bd
+                InstanceId: 76170909-ea71-4291-a2d5-111a2c072cb6
+        -   Entity:
+                Id: fea06acd-bec3-4873-8a99-eeb324c05565
+                Name: LaserFence_down
+                Components:
+                    a4c9a42f24d4c443bad3060f61018c7f: !TransformComponent
+                        Id: 81f6231f-d97e-48d4-bcde-57482ee4bd23
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e52519dff8a1534c8d3d763ba4d4e83e: !ModelComponent
+                        Id: 7ea8171c-6eda-4994-a67b-340f0fff6d18
+                        Model: 4658c1a9-b3b6-4481-b22c-ad61ea3c14d3:Gameplay/Models/LaserFence_down
+                        Materials: {}
+            Base:
+                BasePartAsset: 04190d25-799d-4690-96a3-fa6f92129950:Gameplay/Prefabs/LaserFence_Static
+                BasePartId: 466cf94d-9bd3-41b5-8ff0-3a288834f5eb
+                InstanceId: 76170909-ea71-4291-a2d5-111a2c072cb6

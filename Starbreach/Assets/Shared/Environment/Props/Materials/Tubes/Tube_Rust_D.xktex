@@ -1,0 +1,9 @@
+!Texture
+Id: dd78174f-00af-48fa-9572-6bea616d8d61
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Tube/Tube_Rust_D.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

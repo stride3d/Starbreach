@@ -1,0 +1,7 @@
+!Texture
+Id: 869ff277-6f1d-491b-bb84-1696b5f27274
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/RocketDrone/EnergyDrone_A.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

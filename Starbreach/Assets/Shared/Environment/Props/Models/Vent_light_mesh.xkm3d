@@ -1,0 +1,14 @@
+!Model
+Id: bcf6e9e7-0e5d-45f3-ba1b-0b2025d17e1c
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/Vent/Vent_light_mesh.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    ddef966550c977356693b1e785ebb218:
+        Name: 02-Default
+        MaterialInstance:
+            Material: 26a50488-433a-44a3-b0ea-a389b26d9b45:Environment/Props/Materials/Vent/Vent_Light_MT
+Skeleton: null
+~SourceHashes:
+    0ac60c5a48b7b29d9c240fbd50a93131~../../../../../Resources/Props/Vent/Vent_light_mesh.FBX: 3958d396a54bee06f54c8a0d6023aaad

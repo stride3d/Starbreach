@@ -1,0 +1,14 @@
+!Model
+Id: 153687de-2b93-4509-b567-93852598694b
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/Column/Column.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    58485108a34bd77bdc622b5e7de40eda:
+        Name: Phong
+        MaterialInstance:
+            Material: 83304125-270c-48ae-a0b7-38986bf28e08:Environment/Props/Materials/Column/Column_MT
+Skeleton: null
+~SourceHashes:
+    1c7a5fc59f2062f523be074a6f141922~../../../../../Resources/Props/Column/Column.fbx: 08c69193b727a0e1b35c667c1e56ff81

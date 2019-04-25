@@ -1,0 +1,10 @@
+!ProceduralModelAsset
+Id: bb3a6f1b-ebdc-4dde-bdde-32221970686c
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: !CapsuleProceduralModel
+    Scale: {X: 1.0, Y: 5.0, Z: 1.0}
+    UvScale: {X: 1.0, Y: 1.0}
+    LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+    MaterialInstance:
+        Material: aa3d5ce5-2d55-440e-9da0-7fa7d8f7ca33:Character/LaserEmissive

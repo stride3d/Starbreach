@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 9640bd56-865b-463e-9e64-823cd9b58b75
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 412fc240-6fda-45a6-8e2c-85ca43ecf8cd
+    Parts:
+        -   Entity:
+                Id: 412fc240-6fda-45a6-8e2c-85ca43ecf8cd
+                Name: Barrel
+                Components:
+                    18a17b06a7e048f7bbd9f06b7f42b7c6: !TransformComponent
+                        Id: 72fe5666-1539-4972-95fe-040bf0a3d502
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8150b5fc127dd878932e86d28a5d1692: !ModelComponent
+                        Id: db0f82a4-d1c2-4f93-b71f-6903d1f7d9d1
+                        Model: 3a09548e-eda3-49bd-8b7e-49c653eb1c04:Environment/Props/Models/Barrel
+                        Materials: {}

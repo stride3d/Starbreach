@@ -1,0 +1,14 @@
+!Model
+Id: e63af0bb-3c5c-4345-9946-2b2a16ffb435
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Platforms/Cells/Cell_loop_half2.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    c7ee4fb3e99963c83f2e66e6599b9fae:
+        Name: cell2_baked
+        MaterialInstance:
+            Material: 2f5f609d-0f93-4f71-9390-2cb3d16a098c:PlatformsOld/Materials/cell01_backed
+Skeleton: null
+~SourceHashes:
+    e2b7281a899f7bb55294bf25709e20a7~../../../../Resources/Platforms/Cells/Cell_loop_half2.fbx: e6cbbd59deb8673c67b0ade78775ac55

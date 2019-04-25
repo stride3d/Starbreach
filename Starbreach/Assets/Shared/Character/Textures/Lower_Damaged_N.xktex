@@ -1,0 +1,8 @@
+!Texture
+Id: 8805c785-2d16-40ee-90e1-fe8ad113ca10
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/MainCharacter_Damaged/MainCharacter_Lower_Damaged_N.tga
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

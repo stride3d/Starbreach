@@ -1,0 +1,14 @@
+!Model
+Id: 9d6c7a9b-c609-45e8-aabe-23f98e30fb70
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Props/Wall/Meshes/P_wall_tube_conector_L.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fe0f722b28c564ae044289ea044289ea:
+        Name: Material
+        MaterialInstance:
+            Material: null
+Skeleton: null
+~SourceHashes:
+    92dec62082647218e98df94b32790120~../../../Props/Wall/Meshes/P_wall_tube_conector_L.FBX: bd67e8fcacd8d985c32e40cb2ec6a002

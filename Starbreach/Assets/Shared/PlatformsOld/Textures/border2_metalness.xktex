@@ -1,0 +1,6 @@
+!Texture
+Id: 659fe958-9f5e-44ad-9ea0-6f46c2e2c386
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/border/border2_metalness.tga
+Type: !GrayscaleTextureType {}

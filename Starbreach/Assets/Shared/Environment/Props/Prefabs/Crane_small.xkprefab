@@ -1,0 +1,41 @@
+!PrefabAsset
+Id: 00eb9a22-6040-4b56-936b-aef09a483897
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! a8c3a236-cfd6-4880-a196-a0dd2a27cbee
+    Parts:
+        -   Entity:
+                Id: a8c3a236-cfd6-4880-a196-a0dd2a27cbee
+                Name: Crane_small
+                Components:
+                    0c58a93ff0b68a3b56e86f6ce23dcce2: !TransformComponent
+                        Id: 630af0c9-1b21-4cfe-83aa-ad5f4d189bec
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a77dc0a106dbb00f08f57927becc8e32: !ModelComponent
+                        Id: 7aa12a78-b467-4923-938a-f47248cbda21
+                        Model: 6265c534-4bfd-45a2-879b-15aa84659e82:Environment/Props/Models/Crane_small
+                        Materials: {}
+                    1b3a638d4d756e78a09cd85c91a67ded: !StaticColliderComponent
+                        Id: 71e2275f-b75c-46dc-bb14-f68357dcd6a7
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            8b852c3813cdeaaeebd7fa29686a6d8e: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 3.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 1.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            965145a08bbd93aa5abf3fb115c7c6dc: !CylinderColliderShapeDesc
+                                Height: 4.0
+                                LocalOffset: {X: -0.5, Y: 5.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

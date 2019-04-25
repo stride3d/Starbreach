@@ -1,0 +1,18 @@
+!Model
+Id: b08b5432-96b6-4259-8a89-303ff9bd12e2
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Gameplay/Plate/FloorButton.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    36269dd5dff9f24f6a00d2766c6dece4:
+        Name: Material_1
+        MaterialInstance:
+            Material: e74abd75-804a-4de0-acf7-924aa5bb3a20:Gameplay/Materials/Plates/Plate2_Disabled_Off
+    854d5dcfbbccaeb76ab6e3da793c43f5:
+        Name: Material_2
+        MaterialInstance:
+            Material: d02e7fcd-9f9e-450f-bc56-6e50e9970ec2:Gameplay/Materials/Plates/Plate3_Disabled_Off
+Skeleton: null
+~SourceHashes:
+    6dc3f925afb78bcbe48254eaba1cd727~../../../../Resources/Gameplay/Plate/FloorButton.FBX: 72bc3e468b0199abd959294b5e9bd321

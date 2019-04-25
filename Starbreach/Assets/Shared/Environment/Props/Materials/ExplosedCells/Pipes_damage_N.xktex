@@ -1,0 +1,8 @@
+!Texture
+Id: 00edf65c-4db7-4e3b-ab7f-c0176d8836fd
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/ExplosedCells/Pipes_damage_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

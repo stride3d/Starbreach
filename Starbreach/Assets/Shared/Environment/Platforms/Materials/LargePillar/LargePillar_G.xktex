@@ -1,0 +1,8 @@
+!Texture
+Id: 9958a370-0ae2-4be6-ba32-92c2bf728bfa
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/LargePillar/LargePillar_G.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

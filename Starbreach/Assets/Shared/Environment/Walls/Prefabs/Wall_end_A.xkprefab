@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: b17481bc-9eda-40f6-807d-3b9762ab0a10
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 6de5d75c-013b-40c7-b579-14878b4268e5
+    Parts:
+        -   Entity:
+                Id: 6de5d75c-013b-40c7-b579-14878b4268e5
+                Name: Wall_end_A
+                Components:
+                    027068d46a5325e37db8cb0489583ae5: !TransformComponent
+                        Id: 2926b4f5-2453-4bee-b51d-f57a1d7f2893
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    77dc57da3ca1d67589017e2a9b4af1d7: !ModelComponent
+                        Id: 58bb3483-2bef-42a1-bc8f-a7151df5cf12
+                        Model: cef17e07-d24e-443c-af5b-06972f1d8a29:Environment/Walls/Models/Wall_end_A
+                        Materials: {}

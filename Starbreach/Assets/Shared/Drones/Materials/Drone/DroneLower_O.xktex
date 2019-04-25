@@ -1,0 +1,9 @@
+!Texture
+Id: 5c442183-ce18-401e-855f-ce6947ed5adb
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/Drone/DroneLower_O.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

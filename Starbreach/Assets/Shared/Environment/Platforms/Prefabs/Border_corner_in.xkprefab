@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 21ebc8de-2500-440f-9e0f-d399cc3e5896
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 4bb90be4-e7c6-4e5e-b845-2c84f915a3d9
+    Parts:
+        -   Entity:
+                Id: 4bb90be4-e7c6-4e5e-b845-2c84f915a3d9
+                Name: Border_in_corner_90
+                Components:
+                    8dd5441a9e0f7cc9cdac7e64be0bcc32: !TransformComponent
+                        Id: 1b317662-a8ff-49ad-bc68-ed13825d4d8c
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    21e6c7c4ce05ff264d998193015bbbbe: !ModelComponent
+                        Id: 53ff143b-8f73-446f-913e-e184eb6784e1
+                        Model: 1c9753bc-679d-4677-8f9f-9c88dd878d10:Environment/Platforms/Models/Border_in_corner_90
+                        Materials: {}

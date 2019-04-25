@@ -1,0 +1,14 @@
+!Model
+Id: 37a94f52-f261-4ca5-98cb-0f0e8edffb7d
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/Meshes/b_border.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    516dc2b077de7afb3aef5f143aef5f14:
+        Name: border3
+        MaterialInstance:
+            Material: null
+Skeleton: null
+~SourceHashes:
+    7b799da7042309615a1a267a8834f953~../../Platforms/Meshes/b_border.FBX: 00000000000000000000000000000000

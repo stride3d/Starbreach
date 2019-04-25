@@ -1,0 +1,14 @@
+!Model
+Id: 37c6e2d9-877b-4052-b885-d05735ee40b2
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/Satellite/Satellite.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    729e16b823d6c71b085c091c2a540eee:
+        Name: 19-Default
+        MaterialInstance:
+            Material: fcac7f82-0c02-475b-95f4-8fd1c88908bb:Environment/Props/Materials/Satellite/Satellite_MT
+Skeleton: null
+~SourceHashes:
+    e32bb43c2ceed6805a4f4b2970e0f36d~../../../../../Resources/Props/Satellite/Satellite.FBX: 3c1ada1e1f65cfc6b851f466106cb51a

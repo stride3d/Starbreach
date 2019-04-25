@@ -1,0 +1,6 @@
+!Texture
+Id: aba4a745-bb68-45dd-9e48-ad7c5e8b88da
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Ledges/Ledge_AO.png
+Type: !GrayscaleTextureType {}

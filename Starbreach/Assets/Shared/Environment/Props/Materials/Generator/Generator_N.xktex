@@ -1,0 +1,8 @@
+!Texture
+Id: 84aff4dd-ea7e-4b8e-9432-f2f5db457f33
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Generator/Generator_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

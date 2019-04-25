@@ -1,0 +1,23 @@
+!PrefabAsset
+Id: af5f9df1-3fdc-462e-a3cc-10f7747cdb87
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 2487726a-0be7-4b5b-b89b-cc73627ac945
+    Parts:
+        -   Entity:
+                Id: 2487726a-0be7-4b5b-b89b-cc73627ac945
+                Name: P_wall_X
+                Components:
+                    b64542714471bd4ea5e2b0e95406eaf4: !TransformComponent
+                        Id: 714245b6-7144-4ebd-a5e2-b0e95406eaf4
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d7aad544634b6e47a5ce0f576aeefaf8: !ModelComponent
+                        Id: 44d5aad7-4b63-476e-a5ce-0f576aeefaf8
+                        Model: 6b35d8d5-eb8f-478a-8fdb-31c4c20e9ecc:PropsOld/Wall/Meshes/P_wall_X
+                        Materials:
+                            d013d98447633c4bad49f34e9b07c9bc~0: 31837407-6612-4579-9fa1-da386ac2f461:PropsOld/Wall/Textures/P_wall

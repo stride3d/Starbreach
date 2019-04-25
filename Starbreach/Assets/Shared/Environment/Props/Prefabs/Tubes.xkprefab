@@ -1,0 +1,121 @@
+!PrefabAsset
+Id: 62e87c0b-15d8-4628-95c9-7880f4cf2fe1
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 20f03481-611c-470f-b5ca-0917bf52f59a
+    Parts:
+        -   Entity:
+                Id: 20f03481-611c-470f-b5ca-0917bf52f59a
+                Name: Tubes
+                Components:
+                    8afe5b76881b508b37d688f2116c5186: !TransformComponent
+                        Id: 1d669e58-0c84-448f-a595-ec9a0d303309
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            f8136fdaf53a03054ebf4cbb0c271085: ref!! b69de5fc-9b02-4723-ac7f-39b15af58e1b
+                            4384a3450aa69829ac2eafc573047c67: ref!! fae64ec9-fc37-4981-9b9e-5c644a080a33
+                    d0526db95b412f4714f97c9e1e008f44: !ModelComponent
+                        Id: 5c4ec356-0af5-417f-97bd-78be8db40f75
+                        Model: b71a38c2-5460-4a2e-8abf-77a0acec5aeb:Environment/Props/Models/Tubes
+                        Materials: {}
+        -   Entity:
+                Id: 33533809-4477-4c1f-90e3-f7c190afa66a
+                Name: Tubes_base
+                Components:
+                    7cdd3b1a1396bae0df8d315686b47524: !TransformComponent
+                        Id: b69de5fc-9b02-4723-ac7f-39b15af58e1b
+                        Position*: {X: 0.0, Y: 0.0, Z: -3.15}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    14c6a602fe3acc99031df8e58a62d2c8: !StaticColliderComponent
+                        Id: ed7e4fe9-f5cd-4940-add5-a979651ee514
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            2f121f88c1f6896ca79a2939aa8a095c: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 3.6, Y: 1.25, Z: 1.2}
+                                LocalOffset: {X: 0.0, Y: 0.625, Z: 0.4}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            9a70c79d932274ae3d789c1b8e505eed: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 3.6, Y: 0.7, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.35, Z: -0.5}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            c693012fa2a7a493118f8d327a097904: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 3.6, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.6, Z: -0.3}
+                                LocalRotation: {X: -0.2923717, Y: 0.0, Z: 0.0, W: 0.9563048}
+                            ec075d7b9a08dd03f4591017a4bce1a2: !CylinderColliderShapeDesc
+                                Height: 1.2
+                                LocalOffset: {X: -0.6, Y: 1.85, Z: 0.4}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            7742036734daf5a2f5497973ad25733f: !CylinderColliderShapeDesc
+                                Height: 1.2
+                                LocalOffset: {X: 0.6, Y: 1.85, Z: 0.4}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    4d4296f2a30a764d9d8fe6bea949fb8e: ~(Deleted)
+            Base:
+                BasePartAsset: a9eaf641-84b9-4fe0-bb15-bc2c8a67319b:Environment/Props/Prefabs/Tubes_base
+                BasePartId: e5249e5a-b18b-46fe-96f1-6f11a587b647
+                InstanceId: f9d24825-fd5b-4d2f-a45e-15a024417f69
+        -   Folder: null
+            Entity:
+                Id: 6b5a24fa-0d02-4afd-abf9-40cf450e9674
+                Name: Tubes_base
+                Components:
+                    7cdd3b1a1396bae0df8d315686b47524: !TransformComponent
+                        Id: fae64ec9-fc37-4981-9b9e-5c644a080a33
+                        Position*: {X: 0.0, Y: 0.0, Z: 3.15}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale*: {X: 1.0, Y: 1.0, Z: -1.0}
+                        Children: {}
+                    14c6a602fe3acc99031df8e58a62d2c8: !StaticColliderComponent
+                        Id: 324ef74a-8b1a-429c-8429-533855a97ff1
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            2f121f88c1f6896ca79a2939aa8a095c: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 3.6, Y: 1.25, Z: 1.2}
+                                LocalOffset: {X: 0.0, Y: 0.625, Z: 0.4}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            9a70c79d932274ae3d789c1b8e505eed: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 3.6, Y: 0.7, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.35, Z: -0.5}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            c693012fa2a7a493118f8d327a097904: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 3.6, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.6, Z: -0.3}
+                                LocalRotation: {X: -0.2923717, Y: 0.0, Z: 0.0, W: 0.9563048}
+                            ec075d7b9a08dd03f4591017a4bce1a2: !CylinderColliderShapeDesc
+                                Height: 1.2
+                                LocalOffset: {X: -0.6, Y: 1.85, Z: 0.4}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            7742036734daf5a2f5497973ad25733f: !CylinderColliderShapeDesc
+                                Height: 1.2
+                                LocalOffset: {X: 0.6, Y: 1.85, Z: 0.4}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    4d4296f2a30a764d9d8fe6bea949fb8e: ~(Deleted)
+            Base:
+                BasePartAsset: a9eaf641-84b9-4fe0-bb15-bc2c8a67319b:Environment/Props/Prefabs/Tubes_base
+                BasePartId: e5249e5a-b18b-46fe-96f1-6f11a587b647
+                InstanceId: 8ea27756-23fe-45bb-9ec0-d72b187ee23b

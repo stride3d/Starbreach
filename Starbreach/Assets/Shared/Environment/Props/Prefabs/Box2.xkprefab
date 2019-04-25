@@ -1,0 +1,37 @@
+!PrefabAsset
+Id: 5246c639-719c-4380-a886-7bdfb16f5cbd
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! f0b73707-1f65-435f-a5ba-5c09ec4ef144
+    Parts:
+        -   Entity:
+                Id: f0b73707-1f65-435f-a5ba-5c09ec4ef144
+                Name: box_2
+                Components:
+                    a4a1352c38d8d946adbd0a9eb22ecf7a: !TransformComponent
+                        Id: 2c35a1a4-d838-46d9-adbd-0a9eb22ecf7a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7a4dfc02f3a9234aa72a05fb7a824816: !ModelComponent
+                        Id: 02fc4d7a-a9f3-4a23-a72a-05fb7a824816
+                        Model: 41fc6c99-792b-46fe-942c-ef3763a2407a:Environment/Props/Models/Box2
+                        Materials: {}
+                    d4b4d5f2d8369d46845444c61c1e61ec: !StaticColliderComponent
+                        Id: f2d5b4d4-36d8-469d-8454-44c61c1e61ec
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            82ea61f172e46a4aab7ce970e3a3f887: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.9, Y: 0.9, Z: 0.95}
+                                LocalOffset: {X: 0.0, Y: 0.45, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

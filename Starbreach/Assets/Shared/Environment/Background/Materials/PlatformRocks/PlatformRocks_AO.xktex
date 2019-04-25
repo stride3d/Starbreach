@@ -1,0 +1,8 @@
+!Texture
+Id: 8daa906c-8f96-4480-b5d8-f2dc062d2ea8
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Background/PlatformRocks/Rocks_AO.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

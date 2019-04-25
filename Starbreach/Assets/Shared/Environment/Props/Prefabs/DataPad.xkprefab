@@ -1,0 +1,37 @@
+!PrefabAsset
+Id: 0fd37ae2-d4e3-4040-8f2b-291c3175e41c
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 5b110e2d-a241-454b-b4e7-83bcbde36f41
+    Parts:
+        -   Entity:
+                Id: 5b110e2d-a241-454b-b4e7-83bcbde36f41
+                Name: DataPad
+                Components:
+                    2f9ddeb934fea48b1c73e0b38a3375a2: !TransformComponent
+                        Id: c5ea17ca-7b90-4628-9c1b-803d3c42996d
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2e3ff6e03d10cf3dc77d70ed0a476b89: !ModelComponent
+                        Id: d619b0d2-1b8a-4035-817f-beb05da018d2
+                        Model: f5f8e1be-4e17-41c5-bf92-41e912b85697:Environment/Props/Models/DataPad
+                        Materials: {}
+                    349e286a76808eaf7a2d392bb9c4461f: !StaticColliderComponent
+                        Id: edb608bb-3be8-4b1e-85db-41cdf34d5c19
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            c06917f3e482c09bde03c9bfce95e46e: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 2.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

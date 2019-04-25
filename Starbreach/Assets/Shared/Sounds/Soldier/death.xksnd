@@ -1,0 +1,8 @@
+!Sound
+Id: 7f5bdb0e-74d0-4789-b2b5-8bbc918ee2e2
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/AudioToSort/TGS Sounds/player soldier/death.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

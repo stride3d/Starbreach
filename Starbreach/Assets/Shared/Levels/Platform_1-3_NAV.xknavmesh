@@ -1,0 +1,18 @@
+!NavigationMeshAsset
+Id: 82baba25-eddc-4983-a303-ef534133b0cc
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Scene: c19198c4-4894-4d04-bbad-e31a414da5d5:Levels/Platform_1-3
+IncludedCollisionGroups: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, SensorTrigger, CharacterFilter, CustomFilter2, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10
+BuildSettings:
+    CellHeight: 0.2
+    CellSize: 0.3
+    TileSize: 64
+    MinRegionArea: 2
+    RegionMergeArea: 20
+    MaxEdgeLen: 12.0
+    MaxEdgeError: 1.3
+    DetailSamplingDistance: 6.0
+    MaxDetailSamplingError: 1.0
+SelectedGroups:
+    6fea2d7cdb7943dc81d7e38e25242626: 665dbfaa-d91a-ee40-d176-a5eaed1268bc

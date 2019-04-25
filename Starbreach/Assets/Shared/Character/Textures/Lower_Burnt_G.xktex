@@ -1,0 +1,8 @@
+!Texture
+Id: 41c3326a-1ee9-4d80-8c89-515344b00d65
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/MainCharacter_Burnt/MainCharacter_Lower_Burnt_R.tga
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

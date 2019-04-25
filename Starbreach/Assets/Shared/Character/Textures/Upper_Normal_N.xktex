@@ -1,0 +1,8 @@
+!Texture
+Id: a264e548-ddae-415d-982d-d04486795dac
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/Upper [Normal].tga
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

@@ -1,0 +1,49 @@
+!UIPageAsset
+Id: 52177230-a906-45aa-8d74-41356acc1e19
+SerializedVersion: {Xenko: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1024.0, Y: 512.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 018dd458-7711-4882-a082-d41106dedd67
+    Parts:
+        -   UIElement: !Grid
+                Id: 018dd458-7711-4882-a082-d41106dedd67
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    fb9e4e5f001c4147b417c0005f38228f: !StackPanel ref!! 5f4e9efb-1c00-4741-b417-c0005f38228f
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !StackPanel
+                Id: 5f4e9efb-1c00-4741-b417-c0005f38228f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 180}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Children:
+                    3b38cc9709a0a5489402fdb896891310: !TextBlock ref!! 97cc383b-a009-48a5-9402-fdb896891310
+                    d9de336bb0f35b4695b1302fe6290f64: !TextBlock ref!! 6b33ded9-f3b0-465b-95b1-302fe6290f64
+        -   UIElement: !TextBlock
+                Id: 6b33ded9-f3b0-465b-95b1-302fe6290f64
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                Margin: {Top: 50.0, Bottom: 50.0}
+                Name: CountDown
+                Text: 10
+                Font: 7efbd51e-ee62-49ee-9ee1-c73901fb17a5:UI/SpriteFont
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 97cc383b-a009-48a5-9402-fdb896891310
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                Margin: {Left: 50.0, Top: 50.0, Right: 50.0}
+                Text: Respawning...
+                Font: 7efbd51e-ee62-49ee-9ee1-c73901fb17a5:UI/SpriteFont
+                TextColor: {R: 240, G: 240, B: 240, A: 255}

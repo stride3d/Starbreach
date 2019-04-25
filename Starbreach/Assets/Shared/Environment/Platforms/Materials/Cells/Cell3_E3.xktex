@@ -1,0 +1,9 @@
+!Texture
+Id: 053f0e5c-4e49-465f-ab92-b86e2cf082d2
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Cells/Cell3_E3.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    Alpha: None
+    PremultiplyAlpha: false

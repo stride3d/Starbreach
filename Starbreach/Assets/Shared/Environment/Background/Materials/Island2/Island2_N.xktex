@@ -1,0 +1,8 @@
+!Texture
+Id: 08365f28-e2b1-47b2-b55e-d332e79e38fd
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Background/Island2/Isl2_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

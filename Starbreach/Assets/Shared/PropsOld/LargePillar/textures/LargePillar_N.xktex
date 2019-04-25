@@ -1,0 +1,6 @@
+!Texture
+Id: ce4ec3e1-9acd-4332-9cb4-23d9ed7ceb5a
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Props/LargePillar/textures/LargePillar_N.tga
+Type: !NormalMapTextureType {}
