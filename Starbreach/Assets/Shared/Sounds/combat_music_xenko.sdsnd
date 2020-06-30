@@ -1,0 +1,8 @@
+!Sound
+Id: 4468824f-6749-4a15-9efd-b49da99895d7
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/AudioToSort/TGS Sounds/Misc/combat_music_xenko.wav
+CompressionRatio: 15
+StreamFromDisk: true
+Spatialized: false

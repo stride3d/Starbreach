@@ -1,6 +1,0 @@
-!Texture
-Id: 37b44996-13ce-4754-b6b4-3b58ca1773a4
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Platforms/Cells/Cell3_M.png
-Type: !GrayscaleTextureType {}

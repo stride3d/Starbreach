@@ -1,7 +1,0 @@
-!Texture
-Id: 9aa9be9a-24f6-4879-8ede-5ceec1ef39d3
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../Platforms/Pillar/pillar_occlusion.tga
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

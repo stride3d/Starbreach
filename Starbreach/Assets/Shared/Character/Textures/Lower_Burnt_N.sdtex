@@ -1,0 +1,8 @@
+!Texture
+Id: 33ecad47-0fd2-40fa-b24b-94724bdcefbd
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/MainCharacter_Burnt/MainCharacter_Lower_Burnt_N.tga
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

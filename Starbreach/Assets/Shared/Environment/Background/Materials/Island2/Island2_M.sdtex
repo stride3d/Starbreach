@@ -1,0 +1,8 @@
+!Texture
+Id: 45d7e7f5-2f9e-4fd7-8945-93726bee5202
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Background/Island2/Isl2_M.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

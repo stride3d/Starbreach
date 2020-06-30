@@ -1,8 +1,0 @@
-!Texture
-Id: bffa23d1-c999-4452-822d-f1577b3e582f
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Character/Upper [Gloss].tga
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

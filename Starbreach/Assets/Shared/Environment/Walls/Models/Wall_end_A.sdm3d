@@ -1,0 +1,14 @@
+!Model
+Id: cef17e07-d24e-443c-af5b-06972f1d8a29
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Walls/Wall1/Wall_endA.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    51133079c3a9ad585e60a6125b6649b2:
+        Name: Material
+        MaterialInstance:
+            Material: 30c692fb-2c3c-418b-a11d-1a33055e56fc:Environment/Walls/Materials/Wall1_Rust_MT
+Skeleton: null
+~SourceHashes:
+    654563960389a4ba4a3da21e61f0324c~../../../../../Resources/Walls/Wall1/Wall_endA.fbx: c319661502d5aebae825e93d86769c05

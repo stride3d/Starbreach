@@ -6,10 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Starbreach.Core;
-using Xenko.Core;
-using Xenko.Core.Mathematics;
-using Xenko.Engine;
-using Xenko.Physics;
+using Stride.Core;
+using Stride.Core.Mathematics;
+using Stride.Engine;
+using Stride.Physics;
 
 namespace Starbreach.Drones
 {

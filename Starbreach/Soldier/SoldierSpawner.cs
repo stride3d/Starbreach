@@ -2,13 +2,13 @@
 // Distributed under the MIT license. See the LICENSE.md file in the project root for more information.
 using System;
 using Starbreach.Core;
-using Xenko.Core.Mathematics;
-using Xenko.Animations;
-using Xenko.Engine;
-using Xenko.Engine.Events;
-using Xenko.Physics;
-using Xenko.Rendering.Compositing;
-using Xenko.UI.Controls;
+using Stride.Core.Mathematics;
+using Stride.Animations;
+using Stride.Engine;
+using Stride.Engine.Events;
+using Stride.Physics;
+using Stride.Rendering.Compositing;
+using Stride.UI.Controls;
 
 namespace Starbreach.Soldier
 {

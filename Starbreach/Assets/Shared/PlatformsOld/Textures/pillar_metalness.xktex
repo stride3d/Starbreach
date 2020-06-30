@@ -1,6 +1,0 @@
-!Texture
-Id: 52c59467-6bff-495c-88da-99e59f6b100a
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../Platforms/Pillar/pillar_metalness.tga
-Type: !NormalMapTextureType {}

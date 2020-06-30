@@ -1,0 +1,6 @@
+!Texture
+Id: ba449fee-0327-4e54-bf1e-df22d585fc9f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/border/rusted/Bord_rust_G.tga
+Type: !GrayscaleTextureType {}

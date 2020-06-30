@@ -1,8 +1,0 @@
-!Texture
-Id: 3a6c443a-5c09-4b74-afe7-edcb53ba9caa
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../Resources/Drones/Drone/DroneUpper_M.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

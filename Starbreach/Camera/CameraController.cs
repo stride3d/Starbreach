@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using Starbreach.Core;
 using Starbreach.Soldier;
-using Xenko.Core.Extensions;
-using Xenko.Core.Mathematics;
-using Xenko.Engine;
-using Xenko.Engine.Events;
+using Stride.Core.Extensions;
+using Stride.Core.Mathematics;
+using Stride.Engine;
+using Stride.Engine.Events;
 
 namespace Starbreach.Camera
 {

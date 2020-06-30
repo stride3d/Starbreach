@@ -1,9 +1,0 @@
-!Texture
-Id: f2243abd-7809-430e-a571-7da28defa546
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/ExplosedCells/Cells_damaged_D.png
-Width: 50.0
-Height: 50.0
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,6 +1,0 @@
-!Texture
-Id: fb501c6f-5ea0-4132-955b-b96beab65629
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Platforms/Cells/cell01_normal_baked.png
-Type: !NormalMapTextureType {}

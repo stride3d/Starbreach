@@ -1,0 +1,7 @@
+!Texture
+Id: 00d37b25-c253-496c-8ecf-2fb1a9c53e3c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/Rocket/Rocket_M.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

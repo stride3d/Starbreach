@@ -1,0 +1,457 @@
+!PrefabAsset
+Id: 44c8f228-543c-465f-b72f-e8105edeb8a2
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! f5394a39-4730-47a0-a20e-3ebc7d6296ce
+        - ref!! 352d25ea-cf1a-4815-a4dc-48bf636aff70
+        - ref!! 9f7a618e-7829-4589-bc57-0b496b86f542
+        - ref!! 6ed4515b-b3bf-4457-851e-0f0a13fe1607
+        - ref!! 4779125d-15b4-495e-b3a6-821d38708d90
+        - ref!! b01008f1-df5e-48e4-beca-98cb63e712ef
+        - ref!! 0a5e964c-b8d6-436c-b1e3-0be7d3e08008
+        - ref!! b60a5b66-4a78-496c-b8cb-3e7b78edc639
+        - ref!! 070be087-d229-495d-93c0-1ef76502b95c
+        - ref!! dc102fea-8c6b-429f-9e81-0c8826b967f1
+        - ref!! 4898b697-ac54-4f4b-af30-30287c23fe2b
+        - ref!! a8257f1c-d760-4d4f-9d62-df9cccc22e0b
+        - ref!! 866f6fbb-445e-4ca7-8ca9-bbeb5917fd84
+        - ref!! 6e147a1c-b6c5-4434-b86b-f04031270d2c
+        - ref!! f19d8dfc-1872-4485-9460-e1b9a7ece24c
+        - ref!! edf38ff4-6379-4cd1-b5fa-cad95cdb4470
+        - ref!! dff0613d-4729-41c4-b88f-00ab250e2bab
+        - ref!! 06b2e14d-d0f7-46dc-a3ce-09ddb1ef3623
+        - ref!! 47dec09c-672e-4cbf-8ecb-36f13dbd4145
+        - ref!! 9eecb8ec-5e66-4655-b258-37ccdcb826ae
+        - ref!! 79e0f94f-8f95-4e2e-8080-79f8fdca0e72
+        - ref!! 92afd80b-b12d-4b95-a361-2202e4c221e3
+        - ref!! 337bf919-6b59-4105-b623-0e63f864364b
+        - ref!! a0222416-954d-4503-91ab-f5df73e1b761
+        - ref!! 55b3fd65-4f75-4b1a-803c-ff376b8d7d31
+        - ref!! 2699af42-80fb-4bca-9edf-10a48d34978b
+    Parts:
+        -   Entity:
+                Id: 06b2e14d-d0f7-46dc-a3ce-09ddb1ef3623
+                Name: b_border_L_small
+                Components:
+                    a9820c549a615d8bfef45a92481cf633: !TransformComponent
+                        Id: d598ff72-07de-4293-9718-d250db125c2a
+                        Position: {X: 17.0, Y: 0.0, Z: -4.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    606c088c281018e2ad82a1fbbdf12757: !ModelComponent
+                        Id: 7c045225-2934-4a40-8771-814b15418ae6
+                        Model: 5d7344f6-4708-42e0-a7e5-ccaec2aa6952:PlatformsOld/Models/b_border_L_small
+                        Materials: {}
+        -   Entity:
+                Id: 070be087-d229-495d-93c0-1ef76502b95c
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: c8a1be11-ce88-447d-adaf-2845b5728fb2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: c0e46a34-ffbb-46ef-b879-b1dc2a1a2f49
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: a28cad73-9597-4935-a1a0-d8c2febcd04b
+        -   Entity:
+                Id: 0a5e964c-b8d6-436c-b1e3-0be7d3e08008
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: 373aab20-ec3c-4477-9ce3-531ad44fee4f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: 75a83f33-83fe-4c3f-9efe-61fe5cd95528
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: bff2b78e-58e0-42fb-91d4-cb8542d089f2
+        -   Entity:
+                Id: 2699af42-80fb-4bca-9edf-10a48d34978b
+                Name: border_L_large
+                Components:
+                    de7c485c17e7638c3c3ac21f2e69ccf0: !TransformComponent
+                        Id: eed9fe5f-fb5a-4bf2-853f-f5e95ee5a3e6
+                        Position: {X: 21.0, Y: -1.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e7c7cb43b1caec98fa314077afba0d50: !ModelComponent
+                        Id: 7a9b2cfb-9997-45a1-a8e8-13ef602be6f0
+                        Model: b5b3c074-7331-41cd-b88b-0d46637ffd7f:PlatformsOld/Models/border_L_large
+                        Materials: {}
+        -   Entity:
+                Id: 337bf919-6b59-4105-b623-0e63f864364b
+                Name: Border_straight
+                Components:
+                    74da46e77be575b43b410e675dd6f2fd: !TransformComponent
+                        Id: 07031da0-7fef-47d3-ab7b-74e7edeb3879
+                        Position: {X: 28.0, Y: 0.0, Z: -13.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    0cf5a68ccdaaee4b8f78863d137b8a1e: !ModelComponent
+                        Id: 2a8e7b4e-6863-43c7-a964-6505f661c15b
+                        Model: 8ec5ea63-3993-47b9-b6de-9f82c4a3f3c3:Environment/Platforms/Models/Border_straight
+                        Materials: {}
+        -   Entity:
+                Id: 352d25ea-cf1a-4815-a4dc-48bf636aff70
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: f7830e5c-aa2a-4685-99a8-bac24660dbeb
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: f3233d39-275d-4417-bed6-9b70360f2e6d
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: 9a7903fb-b5d5-4c1d-a1c2-479d040d2d12
+        -   Entity:
+                Id: 4779125d-15b4-495e-b3a6-821d38708d90
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: 182de804-5304-4203-af5b-0808f42a0c51
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: 4cf6a363-6a11-4b46-9811-6f49c370e5c0
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: 47eecd4a-62c2-47d0-9f11-2bf12f314cbf
+        -   Entity:
+                Id: 47dec09c-672e-4cbf-8ecb-36f13dbd4145
+                Name: b_border_L_large
+                Components:
+                    23085fb92a65ac313674e503a494d198: !TransformComponent
+                        Id: da2b5534-8ed5-4650-a18e-d10d899bb14f
+                        Position: {X: 21.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    43bcff651109bbe0a7544999aef957fc: !ModelComponent
+                        Id: e033301a-cf4b-471a-894f-d534c8197ba3
+                        Model: 8b962b80-b7ad-4c3c-a6a2-2c37177965e8:PlatformsOld/Models/b_border_L_large
+                        Materials: {}
+        -   Entity:
+                Id: 4898b697-ac54-4f4b-af30-30287c23fe2b
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: 25bca295-1011-4677-ad2d-c5e2930a622f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: c97a7f96-5795-4fc5-8bfd-060d793e86ac
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: 54e79db3-3b7f-4626-8ec6-3a9b848c4dde
+        -   Entity:
+                Id: 55b3fd65-4f75-4b1a-803c-ff376b8d7d31
+                Name: border_L_small
+                Components:
+                    7f24c59767099f30c37a40f1a8d497c5: !TransformComponent
+                        Id: d60ff4f1-b7de-4707-b13e-963f49891252
+                        Position: {X: 25.0, Y: 0.0, Z: -12.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c804c71282ee962528de09a98b292c42: !ModelComponent
+                        Id: 9477e903-e1dd-489e-8752-0e7508352d9f
+                        Model: e6b30dcb-e5ce-4220-9bc2-600a3651ee1d:PlatformsOld/Models/border_L_small
+                        Materials: {}
+        -   Entity:
+                Id: 6e147a1c-b6c5-4434-b86b-f04031270d2c
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: f08d247b-5232-42a3-8767-405ae637518b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: e694f24c-341a-44e2-a166-9617a001de63
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: 00f3aeb6-8c03-46c1-ac19-ebb37316de0d
+        -   Entity:
+                Id: 6ed4515b-b3bf-4457-851e-0f0a13fe1607
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: a9e95f91-a687-4af8-9939-706b6c3e270f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: b99738aa-0a19-4278-bcea-9ad80fec7154
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: a97c8092-179f-467b-8c5a-e132a23864c2
+        -   Entity:
+                Id: 79e0f94f-8f95-4e2e-8080-79f8fdca0e72
+                Name: b_border
+                Components:
+                    f63ca3fd7e6d894acf0eb9003853fded: !TransformComponent
+                        Id: fc1d00cd-2e34-44c4-be5f-ae5bddc0a528
+                        Position: {X: 21.0, Y: 0.0, Z: -4.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f3ce3898e684164668b105ebb18fe19a: !ModelComponent
+                        Id: 0c7751a9-1945-4c24-a70a-c8063ce64547
+                        Model: 37a94f52-f261-4ca5-98cb-0f0e8edffb7d:PlatformsOld/Models/b_border
+                        Materials: {}
+        -   Entity:
+                Id: 866f6fbb-445e-4ca7-8ca9-bbeb5917fd84
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: 2be9f641-30ce-4748-8b7b-b77be90c50f1
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: 0cd9447e-2bc3-4e14-b875-e823d45a6b0c
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: bdc0ed63-f4e1-4a6b-af59-d54083a73bca
+        -   Entity:
+                Id: 92afd80b-b12d-4b95-a361-2202e4c221e3
+                Name: b_border (2)
+                Components:
+                    f63ca3fd7e6d894acf0eb9003853fded: !TransformComponent
+                        Id: 16af8ee7-1fc4-4d55-9d27-5e48f93e3fe3
+                        Position: {X: 13.0, Y: 0.0, Z: -6.0}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f3ce3898e684164668b105ebb18fe19a: !ModelComponent
+                        Id: a8f8e792-d4af-4d36-92e4-c8067f062bfc
+                        Model: 37a94f52-f261-4ca5-98cb-0f0e8edffb7d:PlatformsOld/Models/b_border
+                        Materials: {}
+        -   Entity:
+                Id: 9eecb8ec-5e66-4655-b258-37ccdcb826ae
+                Name: b_border_C_small
+                Components:
+                    94f34159f99a456d43d00713e43c4009: !TransformComponent
+                        Id: 84a5ce16-c9b1-4092-8643-f6fe91b4c923
+                        Position: {X: 22.0, Y: 0.0, Z: -7.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    ad212fac72618c77117fb83ac0cdc5c8: !ModelComponent
+                        Id: eaec3e8f-05e0-4458-a502-498dd5273170
+                        Model: 488df5da-113b-4500-8075-a23fa6b44432:PlatformsOld/Models/b_border_C_small
+                        Materials: {}
+        -   Entity:
+                Id: 9f7a618e-7829-4589-bc57-0b496b86f542
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: 17cc6e48-590a-4541-b39a-df9d5ad35978
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: c3bb8a5f-8cc8-49f5-9082-a65c094fe6c3
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: 48fdde40-a823-4b1b-aa5c-32612d4e6bf8
+        -   Entity:
+                Id: a0222416-954d-4503-91ab-f5df73e1b761
+                Name: border_1
+                Components:
+                    793ca81aa6f66ec8a943c422f7ca2234: !TransformComponent
+                        Id: 18ef4e35-e46a-4063-b28a-5cf116b38d19
+                        Position: {X: 28.0, Y: -2.0, Z: -12.0}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    45a59183775e2609e37cb433d5396b29: !ModelComponent
+                        Id: a0e2c0c4-cc04-4fdf-b601-e14850ee2211
+                        Model: 7b1ec68e-fced-4198-b0b3-b77a91b265b0:PlatformsOld/Models/border_1
+                        Materials: {}
+        -   Entity:
+                Id: a8257f1c-d760-4d4f-9d62-df9cccc22e0b
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: abcb0aeb-6836-4641-83f1-75cb0dad7449
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: acd3f130-0be1-411e-a01a-b58796b773a4
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: 16e23e0b-c8ac-4e2a-913b-5b7c84801ee5
+        -   Entity:
+                Id: b01008f1-df5e-48e4-beca-98cb63e712ef
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: 7d35ba9d-82cb-4c19-8031-c18533775516
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: 9e1da41b-9933-4ce7-99c5-88dfdcbb2109
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: 5852f84e-938b-4228-9f64-e4176a85dd71
+        -   Entity:
+                Id: b60a5b66-4a78-496c-b8cb-3e7b78edc639
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: a63136c5-ce09-41f2-a0f1-a8cf8cd01315
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: c5e62fda-94c2-4cc0-9e3a-49bd23dfe72c
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: 51d0a7dc-a433-4c47-b08c-abd9990381b9
+        -   Entity:
+                Id: dc102fea-8c6b-429f-9e81-0c8826b967f1
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: 0c0bc31c-724b-4e98-ab6a-2b0171470154
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: 59102f12-6846-4857-b633-127454cc6145
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: b7fe71e6-c4b7-40a1-af35-7af691fdf4c9
+        -   Entity:
+                Id: dff0613d-4729-41c4-b88f-00ab250e2bab
+                Name: b_border_large
+                Components:
+                    462990fc34040e2037dad7d5b9ae5f09: !TransformComponent
+                        Id: 8bf722f1-94d7-412a-9944-149b51332007
+                        Position: {X: 13.0, Y: 0.0, Z: -5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b54c2ca23545b3b245ad8369cd550416: !ModelComponent
+                        Id: 8b40aaf8-2b6a-4db1-94f2-f525c0a7a674
+                        Model: 9fa0414e-ce68-407d-b576-619a87601f45:PlatformsOld/Models/b_border_large
+                        Materials: {}
+        -   Entity:
+                Id: edf38ff4-6379-4cd1-b5fa-cad95cdb4470
+                Name: b_border_small
+                Components:
+                    a9bc46dd00a454167d61a2ae8e670907: !TransformComponent
+                        Id: f5d1e9df-9908-4883-ae64-d5e021d852d9
+                        Position: {X: 13.0, Y: 0.0, Z: -8.0}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e8daa283da58c7f541ecd8b841f9e931: !ModelComponent
+                        Id: 73b5c0bb-85a7-481a-a5ac-b943ef2eb5e4
+                        Model: d867ccde-3927-4493-bdf9-b5c75b99d2c8:PlatformsOld/Models/b_border_small
+                        Materials: {}
+        -   Entity:
+                Id: f19d8dfc-1872-4485-9460-e1b9a7ece24c
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: e0e1fee0-5fcf-43ea-918a-100bb92ee0cd
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: 324b903d-dfe4-4b15-80c2-d6275e0c6f63
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: 49e29ebc-b8e6-47bd-b4bb-825dbb400acc
+        -   Entity:
+                Id: f5394a39-4730-47a0-a20e-3ebc7d6296ce
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: 88823b54-2005-47c7-bb2f-6bf87cdcf8c8
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: ea813182-ffb9-4543-84bb-35859ba8a58c
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}
+            Base:
+                BasePartAsset: 3e25b1d8-144d-4d20-a657-d652fa707e44:PlatformsOld/Prefabs/Cell_Loop
+                BasePartId: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                InstanceId: 03860c61-d7f7-4cd5-9352-82c726de2944

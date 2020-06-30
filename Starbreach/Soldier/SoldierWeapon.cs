@@ -4,17 +4,17 @@ using System;
 using System.Collections.Generic;
 using Starbreach.Camera;
 using Starbreach.Core;
-using Xenko.Core;
-using Xenko.Core.Mathematics;
-using Xenko.Audio;
-using Xenko.Engine;
-using Xenko.Engine.Events;
-using Xenko.Games;
-using Xenko.Graphics;
-using Xenko.Physics;
-using Xenko.UI;
-using Xenko.UI.Controls;
-using Xenko.UI.Panels;
+using Stride.Core;
+using Stride.Core.Mathematics;
+using Stride.Audio;
+using Stride.Engine;
+using Stride.Engine.Events;
+using Stride.Games;
+using Stride.Graphics;
+using Stride.Physics;
+using Stride.UI;
+using Stride.UI.Controls;
+using Stride.UI.Panels;
 
 namespace Starbreach.Soldier
 {
@@ -198,7 +198,8 @@ namespace Starbreach.Soldier
             var target = source + accuracyVector * 100.0f;
 
             // Cast a ray to find the collision
-            var hits = simulation.RaycastPenetrating(source, target);
+            var hits = new List<HitResult>();
+            simulation.RaycastPenetrating(source, target, hits);
             Vector3 normal = (target - source);
             normal.Normalize();
             hits.Sort(Comparer<HitResult>.Create((a,b) => Vector3.Dot(a.Point, normal).CompareTo(Vector3.Dot(b.Point, normal))));

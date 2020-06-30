@@ -1,0 +1,14 @@
+!Model
+Id: 4a2f9278-e0c6-44fb-9c01-be4b1d8df07d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Background/FloatingRocks/FloatingRock2_2.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    8849faabf01c485cc73ede89a6c6a6f5:
+        Name: FloatingRocks2
+        MaterialInstance:
+            Material: 747dcb65-a432-45d6-a55d-80d3417ccfdf:Environment/Background/Materials/FloatingRocks/FloatingRocks2_NoMineral_MT
+Skeleton: null
+~SourceHashes:
+    bb06ca16073698403b8e6e9877ce6ea5~../../../../../Resources/Background/FloatingRocks/FloatingRock2_2.FBX: 04aadf4b2690a96eaa93842d81ea9c55

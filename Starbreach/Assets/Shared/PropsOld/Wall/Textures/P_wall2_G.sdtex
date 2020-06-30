@@ -1,0 +1,6 @@
+!Texture
+Id: 79234020-36b4-4f60-bc63-49ab76062ca4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Props/Wall2/Textures/P_wall2_G.tga
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,9 @@
+!Texture
+Id: e01a3ba7-904d-4f56-9456-a3f2bb88a066
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/DPU/DPU2_Rust_D.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

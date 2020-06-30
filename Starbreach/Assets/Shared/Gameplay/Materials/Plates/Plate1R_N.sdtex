@@ -1,0 +1,6 @@
+!Texture
+Id: 5c7dedf3-7627-4797-8208-be82322903fa
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Gameplay/Plate/Plate1R_N.png
+Type: !NormalMapTextureType {}

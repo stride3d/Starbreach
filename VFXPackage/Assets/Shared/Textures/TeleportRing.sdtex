@@ -1,0 +1,9 @@
+!Texture
+Id: 8bd33d20-0a1c-4505-be78-4316d81bc076
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Textures/TeleportRing.png
+IsCompressed: false
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+GenerateMipmaps: false

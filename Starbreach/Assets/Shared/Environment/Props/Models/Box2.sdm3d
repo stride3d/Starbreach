@@ -1,0 +1,14 @@
+!Model
+Id: 41fc6c99-792b-46fe-942c-ef3763a2407a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/Boxes/Box2.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    6d8f3f4d1b0c4683e08c23e28ff2de11:
+        Name: _Lowpoly_9Material
+        MaterialInstance:
+            Material: df2dd57e-7884-41f9-90c7-6fc9ba52fce2:Environment/Props/Materials/Boxes/Box2_MT
+Skeleton: null
+~SourceHashes:
+    f364dbee5f4b1be15b40508677f4fa97~../../../../../Resources/Props/Boxes/Box2.FBX: b39978853d03d0a5cddf8201f6ed4f80

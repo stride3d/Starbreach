@@ -1,0 +1,8 @@
+!Texture
+Id: 776cc2d0-2460-49c9-9336-9f220db60252
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Pillar1/Pillar1_ M.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

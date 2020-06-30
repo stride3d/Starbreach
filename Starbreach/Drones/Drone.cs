@@ -7,14 +7,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Starbreach.Core;
 using Starbreach.Soldier;
-using Xenko.Core;
-using Xenko.Core.Mathematics;
-using Xenko.Animations;
-using Xenko.Audio;
-using Xenko.Engine;
-using Xenko.Particles.Components;
-using Xenko.Physics;
-using Xenko.Rendering;
+using Stride.Core;
+using Stride.Core.Mathematics;
+using Stride.Animations;
+using Stride.Audio;
+using Stride.Engine;
+using Stride.Particles.Components;
+using Stride.Physics;
+using Stride.Rendering;
 
 namespace Starbreach.Drones
 {

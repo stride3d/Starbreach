@@ -1,0 +1,7 @@
+!Texture
+Id: 7c17980d-1242-4ea3-921a-e87258d38f70
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Cells/cell2R_D.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

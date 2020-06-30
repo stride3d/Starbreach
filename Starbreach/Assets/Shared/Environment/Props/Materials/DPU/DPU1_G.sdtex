@@ -1,0 +1,8 @@
+!Texture
+Id: 5e307b91-fe1b-4cd9-837e-a53f6c4e2e0e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/DPU/DPU1_G.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

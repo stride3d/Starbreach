@@ -1,8 +1,0 @@
-!Texture
-Id: ff7f3f39-3291-4f18-8281-9c5c2ed41834
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/OilPump/OilPump_G.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

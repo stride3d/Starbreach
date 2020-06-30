@@ -1,0 +1,14 @@
+!Model
+Id: c508cb22-457d-4f5e-943f-ce97efd5c854
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/Pillar2/Pillar2_2.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    6daa991f878d0d201fd90e1b9f6f7a20:
+        Name: Material
+        MaterialInstance:
+            Material: fb8ea9cc-502d-4319-bb67-5ef1ebc2d8ce:Environment/Props/Materials/Pillar2/Pillar2_MT
+Skeleton: null
+~SourceHashes:
+    7fea74ecee92107979d6dce4d79c1886~../../../../../Resources/Props/Pillar2/Pillar2_2.FBX: c0dbe4ac37d59127876df5c030b6b894

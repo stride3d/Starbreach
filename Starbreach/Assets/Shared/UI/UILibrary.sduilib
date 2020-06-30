@@ -1,0 +1,138 @@
+!UILibraryAsset
+Id: 9975ce40-0a38-41bd-aa0b-f455b8e6fed9
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1024.0, Y: 512.0, Z: 1000.0}
+PublicUIElements:
+    3b5e18e7-da8c-4172-aec3-0bb2f389c7b9: ammobar
+    3f54626b-54a1-4ff5-944c-c1fb6348c0f9: ammo
+    cc1c547b-59fc-4fae-90ad-58005f3c4d78: lifebar
+    e093ca40-112d-4315-897b-c9e11e9c3296: hero
+Hierarchy:
+    RootParts:
+        - !ContentDecorator ref!! 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+        - !ContentDecorator ref!! cc1c547b-59fc-4fae-90ad-58005f3c4d78
+        - !ContentDecorator ref!! 3b5e18e7-da8c-4172-aec3-0bb2f389c7b9
+        - !ContentDecorator ref!! e093ca40-112d-4315-897b-c9e11e9c3296
+    Parts:
+        -   UIElement: !ContentDecorator
+                Id: 07ede8d9-715d-458c-9d2b-d03f6e538b8b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                DepthAlignment: Stretch
+                Margin: {}
+                Name: lifebarBackground
+                Padding: {}
+                Content: !Grid ref!! 789d1aae-6a58-41a2-8bf1-f8ec0994ee16
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 4
+        -   UIElement: !ImageElement
+                Id: 10b3873b-8a29-465d-9d9a-7c72125ba2ad
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Stretch
+                Margin: {}
+                Name: lifeFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 5
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+        -   UIElement: !ContentDecorator
+                Id: 3b5e18e7-da8c-4172-aec3-0bb2f389c7b9
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Height: 34.0
+                Margin: {}
+                Name: ammobar
+                Padding: {Top: -5.0, Right: 5.0, Bottom: 5.0}
+                Content: !StackPanel ref!! a867e7d0-2845-4ae2-8751-bec4e36b5685
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+        -   UIElement: !ContentDecorator
+                Id: 3f54626b-54a1-4ff5-944c-c1fb6348c0f9
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {Left: -2.0, Right: -2.0}
+                Name: ammo
+                Padding: {}
+                Content: !ImageElement ref!! 422f66e7-49c2-4b34-8610-3c157afdf692
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+        -   UIElement: !ImageElement
+                Id: 422f66e7-49c2-4b34-8610-3c157afdf692
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Name: ammoFill
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 1
+                Color: {R: 255, G: 255, B: 255, A: 255}
+                StretchType: Fill
+        -   UIElement: !ImageElement
+                Id: 45fe50db-2a35-4800-89a5-e84422c8d2d8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Name: heroAvatar
+                Source: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 7
+                Color: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !Grid
+                Id: 789d1aae-6a58-41a2-8bf1-f8ec0994ee16
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DepthAlignment: Stretch
+                Margin: {}
+                Name: lifebarGrid
+                Children:
+                    3b87b310298a5d469d9a7c72125ba2ad: !ImageElement ref!! 10b3873b-8a29-465d-9d9a-7c72125ba2ad
+                RowDefinitions: {}
+                ColumnDefinitions:
+                    9483c3d1e1fd1748a33883a1d10c139b:
+                        SizeValue: 50.0
+                    ba3a67a7cac7f549885f9d57aaee6668:
+                        SizeValue: 50.0
+                LayerDefinitions: {}
+        -   UIElement: !StackPanel
+                Id: a867e7d0-2845-4ae2-8751-bec4e36b5685
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Name: ammobarGrid
+                Children: {}
+                Orientation: Horizontal
+        -   UIElement: !ContentDecorator
+                Id: cc1c547b-59fc-4fae-90ad-58005f3c4d78
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                DepthAlignment: Stretch
+                Margin: {}
+                Name: lifebar
+                Padding: {Top: -5.0, Right: 5.0, Bottom: 5.0}
+                Content: !ContentDecorator ref!! 07ede8d9-715d-458c-9d2b-d03f6e538b8b
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 6
+        -   UIElement: !ContentDecorator
+                Id: e093ca40-112d-4315-897b-c9e11e9c3296
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Name: hero
+                Padding: {}
+                Content: !ImageElement ref!! 45fe50db-2a35-4800-89a5-e84422c8d2d8
+                BackgroundImage: !SpriteFromSheet
+                    Sheet: 1807b3df-712d-4671-8f58-0f378e2aa83a:UI/UIDesigns
+                    CurrentFrame: 8

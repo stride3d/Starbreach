@@ -1,7 +1,0 @@
-!Texture
-Id: e213e285-1233-4c3d-9334-10bf307eb26f
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../Platforms/Pillar/pillar_albedo.tga
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

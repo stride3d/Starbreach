@@ -1,0 +1,6 @@
+!Texture
+Id: 143597d7-fa34-4d07-8d81-45c483a952c9
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Platforms/Cells/cell04_gloss_baked.png
+Type: !GrayscaleTextureType {}

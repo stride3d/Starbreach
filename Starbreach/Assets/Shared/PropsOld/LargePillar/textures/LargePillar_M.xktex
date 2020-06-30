@@ -1,6 +1,0 @@
-!Texture
-Id: 70c0a6fa-1a6e-468e-934f-381fe9f10fdb
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../Props/LargePillar/textures/LargePillar_M.tga
-Type: !GrayscaleTextureType {}

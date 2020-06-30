@@ -1,0 +1,7 @@
+!Texture
+Id: 89005614-7e19-473e-b59f-fac93084dae2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/CheckerTexture.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

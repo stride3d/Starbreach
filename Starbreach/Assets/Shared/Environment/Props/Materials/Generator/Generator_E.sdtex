@@ -1,0 +1,9 @@
+!Texture
+Id: b9bc7147-be71-4a86-81d9-5823f58ee7df
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Generator/Generator_E.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

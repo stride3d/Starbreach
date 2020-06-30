@@ -1,8 +1,0 @@
-!Sound
-Id: 9be6b5db-16d5-44e4-87c7-4dadc8916cdb
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Drones/Sounds/RocketImpact.wav
-CompressionRatio: 15
-StreamFromDisk: false
-Spatialized: true

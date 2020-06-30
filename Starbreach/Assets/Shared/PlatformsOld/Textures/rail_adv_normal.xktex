@@ -1,6 +1,0 @@
-!Texture
-Id: c45adf88-596f-4876-aacb-14136a1adaa9
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../Platforms/rails_adv/rail_adv_normal.tga
-Type: !NormalMapTextureType {}

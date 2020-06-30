@@ -1,8 +1,0 @@
-!Texture
-Id: c7967ddb-6863-429a-97f1-11b5fe4c6995
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Character/Lower [Normal].tga
-Width: 50.0
-Height: 50.0
-Type: !NormalMapTextureType {}

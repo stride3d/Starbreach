@@ -1,0 +1,12 @@
+!ProceduralModelAsset
+Id: c80bd961-fb4b-4e59-b148-cf54564eb1ff
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: !TorusProceduralModel
+    Radius: 0.625
+    Thickness: 0.0375
+    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+    UvScale: {X: 1.0, Y: 1.0}
+    LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+    MaterialInstance:
+        Material: 39448d5c-0915-4f9b-8395-da05f9ca63bf:VFX/RedLockdown

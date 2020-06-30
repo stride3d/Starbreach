@@ -1,0 +1,22 @@
+!Model
+Id: c1428709-fa5d-40a7-8e17-d2efb546bfef
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Drones/RocketDrone/Model.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    c85c85441289f030be44c0e8be44c0e8:
+        Name: bottom
+        MaterialInstance:
+            Material: 76636c37-5239-4cd3-ac8a-953e9e4d913e:Drones/Materials/Drone/DroneLower
+    84a2b35395e6d82e95e6d82e95e6d82e:
+        Name: top
+        MaterialInstance:
+            Material: b91deeaf-43f6-434a-8400-22a1c6cb0447:Drones/Materials/Drone/DroneUpper
+    fe0f722b28c564ae044289ea044289ea:
+        Name: Material
+        MaterialInstance:
+            Material: b55d921d-b0d4-416f-85ad-2e1f468a1f7e:Drones/Materials/RocketDrone/RocketDrone
+Skeleton: 7554e710-9981-42fd-be94-d17a3957bf94:Drones/Models/RocketDrone_Skeleton
+~SourceHashes:
+    4f678c73ab27f49453c868c62832a6df~../../../../Resources/Drones/RocketDrone/Model.FBX: 39bb08c28f8f923e186132040fad9e37

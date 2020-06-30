@@ -1,6 +1,0 @@
-!Texture
-Id: adb0ea2d-fb8e-4676-bb46-d1d9263eb0ce
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Platforms/Cells/cell03_gloss_baked.png
-Type: !GrayscaleTextureType {}

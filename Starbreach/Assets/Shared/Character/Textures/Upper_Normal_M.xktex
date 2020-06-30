@@ -1,8 +1,0 @@
-!Texture
-Id: 0511e59b-552b-4978-8d14-48a5f4db5560
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Character/Upper [Metalness].tga
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

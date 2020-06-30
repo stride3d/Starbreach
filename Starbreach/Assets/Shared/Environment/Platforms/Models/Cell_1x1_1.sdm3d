@@ -1,0 +1,14 @@
+!Model
+Id: bb6a39ce-e5a0-48b5-a3ce-b43a85495c32
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Platforms/Cells/Cell_1x1_1.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    0d00e78540a2729ccad6150f924be8fe:
+        Name: cell2_baked
+        MaterialInstance:
+            Material: 0d944493-c89b-44fe-8cfe-92ca28c16657:Environment/Platforms/Materials/Cells/Cell1_Rust_MT
+Skeleton: null
+~SourceHashes:
+    b7f5acdc61aa52883a8ecaa1b7747a1d~../../../../../Resources/Platforms/Cells/Cell_1x1_1.fbx: 5ef4ea6ff91c0c3dc1219006168df3bc

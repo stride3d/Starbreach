@@ -3,11 +3,11 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Xenko.Core.Mathematics;
-using Xenko.Engine;
-using Xenko.Engine.Events;
-using Xenko.Games;
-using Xenko.UI;
+using Stride.Core.Mathematics;
+using Stride.Engine;
+using Stride.Engine.Events;
+using Stride.Games;
+using Stride.UI;
 
 namespace Starbreach.Core
 {

@@ -1,8 +1,0 @@
-!Texture
-Id: b9a33d0b-2295-474d-9ee9-85c59ef07f6c
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/ServerPad/ServerPad_v1_N.png
-Width: 50.0
-Height: 50.0
-Type: !NormalMapTextureType {}

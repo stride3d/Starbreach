@@ -1,8 +1,0 @@
-!Texture
-Id: edef3800-0015-4dc2-aaad-c3bb26e8cf68
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Background/Island2/Isl2_AO.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

@@ -1,0 +1,8 @@
+!Texture
+Id: fbd29f69-3fc1-4a1c-8e87-680bbe4d2f9e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/Machinegun_N.tga
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

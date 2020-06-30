@@ -1,7 +1,0 @@
-!Texture
-Id: 6af6e619-f78f-4345-aeaa-16f1094f9779
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../Resources/Drones/RocketDrone/RocketDrone_A.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

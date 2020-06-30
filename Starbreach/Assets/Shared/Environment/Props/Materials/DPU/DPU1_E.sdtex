@@ -1,0 +1,9 @@
+!Texture
+Id: 18b55f78-7f51-4d4e-aa23-1c3a432096ae
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/DPU/DPU1_E.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,6 +1,0 @@
-!Texture
-Id: d57bd008-2a28-4c32-8628-c260e08f1627
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../Platforms/border/border2_ao.tga
-Type: !GrayscaleTextureType {}

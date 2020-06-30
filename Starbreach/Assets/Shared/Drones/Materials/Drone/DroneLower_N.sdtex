@@ -1,0 +1,8 @@
+!Texture
+Id: 5c61c48d-a7e5-43d8-85be-0061dfaf26f6
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/Drone/DroneLower_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

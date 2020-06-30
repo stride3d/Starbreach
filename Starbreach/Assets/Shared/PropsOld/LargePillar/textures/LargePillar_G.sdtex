@@ -1,0 +1,6 @@
+!Texture
+Id: e8785ce3-8bdd-4950-866f-ccf12b4e2fa4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Props/LargePillar/textures/LargePillar_G.tga
+Type: !GrayscaleTextureType {}

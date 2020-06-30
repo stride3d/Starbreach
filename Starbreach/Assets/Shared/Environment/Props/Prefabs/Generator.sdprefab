@@ -1,0 +1,57 @@
+!PrefabAsset
+Id: bc63beb7-eb2f-4ddf-ada3-01dc3afb050e
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 6220a143-e8d6-4b49-aa8a-272b12a476d2
+    Parts:
+        -   Entity:
+                Id: 6220a143-e8d6-4b49-aa8a-272b12a476d2
+                Name: Generator
+                Components:
+                    de0fb3707925efe900b58efb81c7ad0d: !TransformComponent
+                        Id: abc9e67e-8f11-4164-8ac4-906126f0bb56
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    72403a3895b890f417b3890cc8f18086: !ModelComponent
+                        Id: 34f878c7-37f4-47f1-b155-38eef90fde44
+                        Model: 05ea29a9-fd0d-4b79-89c6-a2c1a305ceb1:Environment/Props/Models/Generator
+                        Materials: {}
+                    987e2c0ee5606415e82190e656805745: !StaticColliderComponent
+                        Id: ae8188a7-c2da-4aef-bcbb-5d622b6940d6
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            88599be37ebd4432d96d2d5886eab5ae: !CylinderColliderShapeDesc
+                                Height: 6.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: 3.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            6abfaba9bfb1775b361586d416b46ce9: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.2, Y: 0.5, Z: 1.25}
+                                LocalOffset: {X: 0.0, Y: 0.25, Z: 2.625}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            12effa6c2bcdd1cb0a0d53cdb420a1aa: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.2, Y: 0.5, Z: 1.25}
+                                LocalOffset: {X: 0.0, Y: 0.25, Z: -2.625}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            8e11d64a5d6c77764c2ed990d7cd5d58: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.25, Y: 0.5, Z: 0.2}
+                                LocalOffset: {X: 2.625, Y: 0.25, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            1d9d570accf3112d0547dd60e94f27e2: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.25, Y: 0.5, Z: 0.2}
+                                LocalOffset: {X: -2.625, Y: 0.25, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

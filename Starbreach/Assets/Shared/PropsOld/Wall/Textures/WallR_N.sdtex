@@ -1,0 +1,6 @@
+!Texture
+Id: 4c94c28a-6a12-4508-9259-9cf471ceb267
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Props/Wall/Textures/rusted/WallR_N.tga
+Type: !NormalMapTextureType {}

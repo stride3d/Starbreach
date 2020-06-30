@@ -1,0 +1,6 @@
+!PrefabModelAsset
+Id: 929f63af-6b21-4587-820c-2a19458b6d73
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Materials: {}
+Prefab: 3bac8993-d282-4c81-8305-d2f2a55bcdbc:PropsOld/Wall/P_wall_X_rust

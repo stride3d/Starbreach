@@ -1,0 +1,8 @@
+!Texture
+Id: bc05ad70-d8e3-49c8-9236-cf5a6ca0b80c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/LargePillar/LargePillar_M.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

@@ -1,9 +1,0 @@
-!Texture
-Id: afbe3f06-0784-4b86-801f-1e8759455738
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Character/Lower [Emissive].tga
-Width: 50.0
-Height: 50.0
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,8 @@
+!Texture
+Id: 49fc5df4-5458-4ac0-aa51-def934ef3b05
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Boxes/Box2_G.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

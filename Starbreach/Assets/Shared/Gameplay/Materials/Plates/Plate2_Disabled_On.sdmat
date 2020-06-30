@@ -1,0 +1,63 @@
+!MaterialAsset
+Id: eff5f692-9337-4d7b-8cd8-531e3e06b852
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Archetype: e74abd75-804a-4de0-acf7-924aa5bb3a20:Gameplay/Materials/Plates/Plate2_Disabled_Off
+Attributes:
+    Surface: !MaterialNormalMapFeature
+        NormalMap: !ComputeTextureColor
+            Texture: e13cdb6d-a5f8-4be9-a45e-9992eee591ab:Gameplay/Materials/Plates/Plate2_N
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+        IsXYNormal: true
+    MicroSurface: !MaterialGlossinessMapFeature
+        GlossinessMap: !ComputeTextureScalar
+            Texture: 251c1a44-516f-4862-aac4-919e111be7c7:Gameplay/Materials/Plates/Plate2_G
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: da8a95ec-fcc4-4903-94a4-72547bc5aec8:Gameplay/Materials/Plates/Plate2_D
+            FallbackValue:
+                Value: {R: 1.0, G: 0.8856508, B: 0.6091625, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Specular: !MaterialMetalnessMapFeature
+        MetalnessMap: !ComputeTextureScalar
+            Texture: d75c8ad8-3e4b-459d-aef6-ab04889a8829:Gameplay/Materials/Plates/Plate2_M
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+    SpecularModel: !MaterialSpecularMicrofacetModelFeature
+        Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
+        Visibility: !MaterialSpecularMicrofacetVisibilitySmithSchlickGGX {}
+        NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionGGX {}
+    Emissive*: !MaterialEmissiveMapFeature
+        EmissiveMap: !ComputeBinaryColor
+            Operator: Multiply
+            LeftChild: !ComputeTextureColor
+                Texture: eedef891-c0e2-4d32-b694-0832309148b5:Gameplay/Materials/Plates/Plate2_On_E
+                FallbackValue:
+                    Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                Scale: {X: 1.0, Y: 1.0}
+                Offset: {X: 0.0, Y: 0.0}
+                Swizzle: null
+            RightChild: !ComputeBinaryColor
+                Operator: Multiply
+                LeftChild: !ComputeColor
+                    Value: {R: 0.9411765, G: 1.0, B: 0.5019608, A: 1.0}
+                RightChild: !ComputeFloat4
+                    Value: {X: 3.0, Y: 3.0, Z: 3.0, W: 3.0}
+        Intensity: !ComputeFloat
+            Value: 30.0
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

@@ -1,0 +1,14 @@
+!Model
+Id: 9ba50f3a-f535-4ad4-982d-ff342c69fce4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/Vent/Vent.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    6668c012237de0ee6d0882d8574ab9f2:
+        Name: 02-Default
+        MaterialInstance:
+            Material: a81d0fe4-44d1-4ff2-bbba-ee744dc32d08:Environment/Props/Materials/Vent/Vent_MT
+Skeleton: null
+~SourceHashes:
+    fd4a5d1a926cd1df5a5e49d11f2b51d5~../../../../../Resources/Props/Vent/Vent.FBX: a25ed16a02502ccbe75e59b1d0cfc559

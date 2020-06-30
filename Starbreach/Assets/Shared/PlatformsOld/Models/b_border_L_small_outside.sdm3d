@@ -1,0 +1,14 @@
+!Model
+Id: 3206529c-484d-4bad-938c-2f0e2e77b6a2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/Meshes/b_border_L_small_outside.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    516dc2b077de7afb3aef5f143aef5f14:
+        Name: border3
+        MaterialInstance:
+            Material: dade43d9-ff9b-456f-a9e7-78f5a26afb39:Environment/Platforms/Materials/Borders/Border_MT
+Skeleton: null
+~SourceHashes:
+    29a455f9e604fddaa84f1f6a3bbdeb3d~../../Platforms/Meshes/b_border_L_small_outside.FBX: 8dfc2ba888cc0ccacc0202d68ad3e4ea

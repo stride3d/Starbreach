@@ -1,0 +1,6 @@
+!Texture
+Id: b1951089-ec29-4e32-b9a7-b14db6a3ca0b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Gameplay/Plate/Plate2R_M.png
+Type: !GrayscaleTextureType {}

@@ -1,6 +1,0 @@
-!Texture
-Id: cff569fc-f11a-4a2f-be47-f86edb6e2669
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../Platforms/Pillar/pillar_gloss.tga
-Type: !GrayscaleTextureType {}

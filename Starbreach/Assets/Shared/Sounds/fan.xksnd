@@ -1,8 +1,0 @@
-!Sound
-Id: 6b7bb29f-c9ae-4ba3-8818-ec168d229873
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../Resources/AudioToSort/TGS Sounds/Misc/fan.wav
-CompressionRatio: 15
-StreamFromDisk: false
-Spatialized: true

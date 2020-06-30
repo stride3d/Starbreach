@@ -1,0 +1,8 @@
+!Texture
+Id: a13a0ace-3359-46d9-95c9-fd55606a687c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Teleport/Teleport_M.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

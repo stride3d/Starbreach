@@ -1,8 +1,0 @@
-!Texture
-Id: 1c386eef-5e7e-40b9-a1a7-195e96c07ee1
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/DPU/DPU2_Rust_M.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

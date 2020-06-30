@@ -1,0 +1,6 @@
+!Texture
+Id: 34fd8296-5a42-4d98-a7e3-7bf242fffb11
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: comet_nmetalness.tga
+Type: !GrayscaleTextureType {}

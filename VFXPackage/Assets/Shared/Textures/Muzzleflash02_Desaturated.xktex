@@ -1,7 +1,0 @@
-!Texture
-Id: 2607dde5-8519-4cf3-b4d0-cac472175827
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../Resources/Textures/Muzzleflash02_Desaturated.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,83 @@
+!PrefabAsset
+Id: 06e8089a-4920-466d-82f0-85412d5326f4
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 6ab286d2-5121-47be-be37-898332db4bb1
+        - ref!! 0ad18bdc-8a1d-4479-95b4-16951a667f59
+        - ref!! 33a96197-6a7c-4e2f-b94c-dd9c6f58195e
+        - ref!! cd4328b3-cc1f-4e8c-a5f0-e83a986647d1
+    Parts:
+        -   Entity:
+                Id: 0ad18bdc-8a1d-4479-95b4-16951a667f59
+                Name: Wall_end_B
+                Components:
+                    30205b6ed13438d5333e4ddd34ee9e39: !TransformComponent
+                        Id: f59802ff-494c-4577-9963-2ea5b3875eb6
+                        Position*: {X: 0.99999994, Y: 0.0, Z: -0.9999998}
+                        Rotation*: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale*: {X: -1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2372e7c593bb48b37a3d1d2cf5fade99: !ModelComponent
+                        Id: 259c8e58-354f-4feb-bbd0-9418f8560a83
+                        Model: d367f375-e134-4ce7-9060-cdf4fb960698:Environment/Walls/Models/Wall_end_B
+                        Materials: {}
+            Base:
+                BasePartAsset: 8be6d68d-7fac-4a71-b0f5-9cf97cfb7339:Environment/Walls/Prefabs/Wall_end_B
+                BasePartId: bad2cc9a-192b-4c91-ab37-76f4d80c8558
+                InstanceId: 1b0338e9-9e68-4983-8227-9fc56f7c1d8c
+        -   Entity:
+                Id: 33a96197-6a7c-4e2f-b94c-dd9c6f58195e
+                Name: Wall_end_B
+                Components:
+                    30205b6ed13438d5333e4ddd34ee9e39: !TransformComponent
+                        Id: 1773966e-43c8-4269-acc6-6ca25154ae3f
+                        Position*: {X: 2.0, Y: 0.0, Z: 0.0}
+                        Rotation*: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2372e7c593bb48b37a3d1d2cf5fade99: !ModelComponent
+                        Id: 88188b04-d9b4-4cbd-8e3d-0af3dc06e08b
+                        Model: d367f375-e134-4ce7-9060-cdf4fb960698:Environment/Walls/Models/Wall_end_B
+                        Materials: {}
+            Base:
+                BasePartAsset: 8be6d68d-7fac-4a71-b0f5-9cf97cfb7339:Environment/Walls/Prefabs/Wall_end_B
+                BasePartId: bad2cc9a-192b-4c91-ab37-76f4d80c8558
+                InstanceId: d23b76f7-1a6e-46c9-842c-0f1ab7b826be
+        -   Entity:
+                Id: 6ab286d2-5121-47be-be37-898332db4bb1
+                Name: Wall_L
+                Components:
+                    54a679dfa359cc4a2b15407138dde2c8: !TransformComponent
+                        Id: 23dab2e9-49dd-4d97-8bb6-3ea18c64558a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d0df8eb39efa1d4dba98cc4aaa4153b3: !ModelComponent
+                        Id: 5769ef1d-d4ee-4b3a-a03c-99ed12ecfac0
+                        Model: 03b2d1c9-c632-4225-a1e2-508c734daf93:Environment/Walls/Models/Wall_L
+                        Materials: {}
+            Base:
+                BasePartAsset: 8cd4778b-3f9d-4962-b5c9-9e3ebd56a227:Environment/Walls/Prefabs/Wall_L
+                BasePartId: af21c6dc-412b-4021-af48-4e0f55992c1f
+                InstanceId: 416bf81a-232d-4fd7-a9b4-cd51f0351197
+        -   Entity:
+                Id: cd4328b3-cc1f-4e8c-a5f0-e83a986647d1
+                Name: Wall_seg
+                Components:
+                    e7195b6693c22b2a7c0ca80883c9fda7: !TransformComponent
+                        Id: 03e9c34f-43d5-4c36-9ed2-20cec94c4af8
+                        Position*: {X: 1.0, Y: 0.0, Z: -1.0}
+                        Rotation*: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    26b4f26bd3b3da82ae838e7ec4d009f7: !ModelComponent
+                        Id: 40133987-7dd7-4c35-a53b-dbe4c6eea1ae
+                        Model: 5c20dc3d-d465-4fd3-ab8f-dc4e9e441ecd:Environment/Walls/Models/Wall_seg
+                        Materials: {}
+            Base:
+                BasePartAsset: 592dedcc-96f2-4d68-9dbb-69498b1d375a:Environment/Walls/Prefabs/Wall_seg
+                BasePartId: 81d1c139-d895-46be-a8a1-d6d1a1e4ff15
+                InstanceId: 11383b73-3caa-4bf5-8cfd-d31e934411cd

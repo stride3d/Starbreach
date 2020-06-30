@@ -1,0 +1,14 @@
+!Model
+Id: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Background/PlatformRocks/RockF_B_001.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    ab4956d83d893e5a151f8d94eea285b2:
+        Name: Rocks_Floating
+        MaterialInstance:
+            Material: 51cc3f79-0eb8-4713-957f-e1d9a533845f:Environment/Background/Materials/PlatformRocks/PlatformRocks_MT
+Skeleton: null
+~SourceHashes:
+    71d1ccd16fcb8a1963158e6b28d8e1a0~../../../../../Resources/Background/PlatformRocks/RockF_B_001.FBX: 7f57571492541b19a7b1e172219b2e20

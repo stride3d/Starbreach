@@ -1,0 +1,304 @@
+!PrefabAsset
+Id: 5ef5e5c9-8812-467a-818b-e12983e4da40
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 1213c9f3-2cd0-40b1-a910-f9f108b48f16
+    Parts:
+        -   Entity:
+                Id: 1213c9f3-2cd0-40b1-a910-f9f108b48f16
+                Name: P_wall_X_rust
+                Components:
+                    022248d333a5454a9cbfe389f03f8f7e: !TransformComponent
+                        Id: d3482202-a533-4a45-9cbf-e389f03f8f7e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            eea5232e3a31fa4c9aeee0b64d77e9b0: ref!! 2e23a5ee-313a-4cfa-9aee-e0b64d77e9b0
+                            a2819c2824adfdf4aed36298abde2bbf: ref!! 14978659-3e94-414a-8e17-05f1c204be71
+                            12cfd59b4cfec3438c267ae5269cd7f7: ref!! 9bd5cf12-fe4c-43c3-8c26-7ae5269cd7f7
+                            d45b54eaaf1ec4a127508d0d73c30741: ref!! 7543706c-04b4-4839-bdd8-05260105c7c9
+                            fd583d079f37af4594c005b921b8f5b1: ref!! 073d58fd-379f-45af-94c0-05b921b8f5b1
+                            a4e332b0078f6c4b8f8a715884c2bde0: ref!! b032e3a4-8f07-4b6c-8f8a-715884c2bde0
+                            97b15e9f8c78c457020eff9d6d6cf8dc: ref!! 40675fe6-dfe2-4401-9820-a489493ad51e
+                            e212ae7b05de0a4394585da10b83701b: ref!! 7bae12e2-de05-430a-9458-5da10b83701b
+                            d6b0e407c0b0b5e7f54378c7bf481860: ref!! 7e5ba028-5749-4159-a47a-521d14c8b974
+                            9e259408748570c46d28419c1ae536b7: ref!! ad4acbb1-e8e1-464f-8723-c3f4d16e494f
+                            0c29118a98c42311203d0297a92563f4: ref!! 02b4c209-f7e7-492a-b853-c712158de651
+                            19c9d64be05457408b1622a76ad0fd5d: ref!! 4bd6c919-54e0-4057-8b16-22a76ad0fd5d
+                            b32c6b681545ef5fb64f5b1b312cfd06: ref!! cf982104-7e1e-4f24-a096-ebb52f30597b
+                            4d77e2f7b5c771ea7b9e5505837f1d5b: ref!! c59eb6f8-f401-4b2b-a0ac-50ab04c228b4
+                            9fdcae65e8233e72116cf26f075b6725: ref!! fc7e85ef-eab5-410c-8483-0844e845fb04
+        -   Entity:
+                Id: 1c453881-20fe-4f46-98c8-37db0a8875a2
+                Name: P_wall_tube_conector_L (3)
+                Components:
+                    fd583d079f37af4594c005b921b8f5b1: !TransformComponent
+                        Id: 073d58fd-379f-45af-94c0-05b921b8f5b1
+                        Position: {X: -1.78813934E-07, Y: 1.55, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e5de8274fdcc444cb52600d7c047b9bb: !ModelComponent
+                        Id: 7482dee5-ccfd-4c44-b526-00d7c047b9bb
+                        Model: 9d6c7a9b-c609-45e8-aabe-23f98e30fb70:PropsOld/Wall/Meshes/P_wall_tube_conector_L
+                        Materials:
+                            31e238b8d8a76a43ae0d06492a9913b5~0: 0d9c0fb7-4927-4400-b598-3d44026fdbbc:PropsOld/Wall/Textures/wall_rust
+            Base:
+                BasePartAsset: 3bac8993-d282-4c81-8305-d2f2a55bcdbc:PropsOld/Wall/P_wall_X_rust
+                BasePartId: 787518a6-ec10-4742-8aa0-ec923b7ce864
+                InstanceId: 8d8f2aea-85ef-406d-927e-48da80d992d3
+        -   Entity:
+                Id: 1e1d810a-14e7-47a5-b6f5-50cc85edc793
+                Name: P_wall_seg (2)
+                Components:
+                    a4e332b0078f6c4b8f8a715884c2bde0: !TransformComponent
+                        Id: 40675fe6-dfe2-4401-9820-a489493ad51e
+                        Position: {X: 0.5, Y: 0.0, Z: 2.0}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4678bb4dde1249489c0444cfa9a54bb8: !ModelComponent
+                        Id: 4dbb7846-12de-4849-9c04-44cfa9a54bb8
+                        Model: 1258a62c-c6b5-4b44-84fc-adfe6ecdf910:PropsOld/Wall/Meshes/P_wall_seg
+                        Materials:
+                            31e238b8d8a76a43ae0d06492a9913b5~0: 0d9c0fb7-4927-4400-b598-3d44026fdbbc:PropsOld/Wall/Textures/wall_rust
+            Base:
+                BasePartAsset: 3bac8993-d282-4c81-8305-d2f2a55bcdbc:PropsOld/Wall/P_wall_X_rust
+                BasePartId: 7182f336-78d7-4454-aa3f-7eb311f75a48
+                InstanceId: 8d8f2aea-85ef-406d-927e-48da80d992d3
+        -   Entity:
+                Id: 307360ac-1bc6-484e-a757-9b163df2b590
+                Name: P_wall_tube_conector_L
+                Components:
+                    0b05302b9afdeecd623f38a1e8b9bf2f: !TransformComponent
+                        Id: c59eb6f8-f401-4b2b-a0ac-50ab04c228b4
+                        Position: {X: 1.0, Y: 1.55, Z: 0.0}
+                        Rotation: {X: 0.0, Y: -0.707106769, Z: 0.0, W: -0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    10652ded82f96896d7e92f08b8f7b0ef: !ModelComponent
+                        Id: 1a19dc3f-04c4-4c1b-8830-fcd84448aa85
+                        Model: 9d6c7a9b-c609-45e8-aabe-23f98e30fb70:PropsOld/Wall/Meshes/P_wall_tube_conector_L
+                        Materials: {}
+        -   Entity:
+                Id: 34ced92c-d6ea-4510-a802-c0dc8e4d3c68
+                Name: P_wall_tube_U
+                Components:
+                    12cfd59b4cfec3438c267ae5269cd7f7: !TransformComponent
+                        Id: 9bd5cf12-fe4c-43c3-8c26-7ae5269cd7f7
+                        Position: {X: 2.38418579E-07, Y: 1.55, Z: 0.9999999}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3d93903657654f4196ec3b63e6ceef70: !ModelComponent
+                        Id: 3690933d-6557-414f-96ec-3b63e6ceef70
+                        Model: 4dc8839a-9ea2-4727-9564-6708fd7cc727:PropsOld/Wall/Meshes/P_wall_tube_U
+                        Materials:
+                            31e238b8d8a76a43ae0d06492a9913b5~0: 0d9c0fb7-4927-4400-b598-3d44026fdbbc:PropsOld/Wall/Textures/wall_rust
+            Base:
+                BasePartAsset: 3bac8993-d282-4c81-8305-d2f2a55bcdbc:PropsOld/Wall/P_wall_X_rust
+                BasePartId: 82a4fd78-e776-4ffd-b687-b5f21bb4dcd4
+                InstanceId: 8d8f2aea-85ef-406d-927e-48da80d992d3
+        -   Entity:
+                Id: 39b55f64-8c0b-4455-8d9a-b9226bc0eca0
+                Name: P_wall_cap (7)
+                Components:
+                    e212ae7b05de0a4394585da10b83701b: !TransformComponent
+                        Id: 02b4c209-f7e7-492a-b853-c712158de651
+                        Position: {X: -0.6840113, Y: 2.17, Z: 0.294247359}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c02ffd559c106145bd5594cac66c73a6: !ModelComponent
+                        Id: 55fd2fc0-109c-4561-bd55-94cac66c73a6
+                        Model: 7912af33-2365-4cc0-be49-4f175c901fb5:PropsOld/Wall/Meshes/P_wall_cap
+                        Materials:
+                            d013d98447633c4bad49f34e9b07c9bc~0: 31837407-6612-4579-9fa1-da386ac2f461:PropsOld/Wall/Textures/P_wall
+            Base:
+                BasePartAsset: 3bac8993-d282-4c81-8305-d2f2a55bcdbc:PropsOld/Wall/P_wall_X_rust
+                BasePartId: 577a6bef-5d23-4760-94e2-e318b6ab08fa
+                InstanceId: 8d8f2aea-85ef-406d-927e-48da80d992d3
+        -   Entity:
+                Id: 600aecd4-40ad-4d32-bf00-929cb97e711c
+                Name: P_wall_L
+                Components:
+                    19c9d64be05457408b1622a76ad0fd5d: !TransformComponent
+                        Id: 4bd6c919-54e0-4057-8b16-22a76ad0fd5d
+                        Position: {X: 1.0, Y: 0.0, Z: 1.0}
+                        Rotation: {X: 0.0, Y: -1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b4d0e9b68050d2438355f4b94bd0cc8e: !ModelComponent
+                        Id: b6e9d0b4-5080-43d2-8355-f4b94bd0cc8e
+                        Model: c032cac6-3f84-4312-bae8-5db3e585b989:PropsOld/Wall/Meshes/P_wall_L
+                        Materials:
+                            54e5bc0411cb4a429cb44f0ddb5d4655~0: 0d9c0fb7-4927-4400-b598-3d44026fdbbc:PropsOld/Wall/Textures/wall_rust
+        -   Entity:
+                Id: 88ca69f0-d56e-4af4-bca1-6f133b9488b4
+                Name: P_wall_cap (6)
+                Components:
+                    e212ae7b05de0a4394585da10b83701b: !TransformComponent
+                        Id: ad4acbb1-e8e1-464f-8723-c3f4d16e494f
+                        Position: {X: -0.6840113, Y: 2.17, Z: 0.6793509}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c02ffd559c106145bd5594cac66c73a6: !ModelComponent
+                        Id: f2521f91-1ed2-4868-9e0f-6e42d58ab30b
+                        Model: 7912af33-2365-4cc0-be49-4f175c901fb5:PropsOld/Wall/Meshes/P_wall_cap
+                        Materials:
+                            d013d98447633c4bad49f34e9b07c9bc~0: 31837407-6612-4579-9fa1-da386ac2f461:PropsOld/Wall/Textures/P_wall
+            Base:
+                BasePartAsset: 3bac8993-d282-4c81-8305-d2f2a55bcdbc:PropsOld/Wall/P_wall_X_rust
+                BasePartId: ad49bb83-c61d-48f4-991d-b06000c95a98
+                InstanceId: 8d8f2aea-85ef-406d-927e-48da80d992d3
+        -   Entity:
+                Id: 8cb45688-d52c-4a75-8ef1-48e80edc0fad
+                Name: P_wall_cap (4)
+                Components:
+                    e212ae7b05de0a4394585da10b83701b: !TransformComponent
+                        Id: 7e5ba028-5749-4159-a47a-521d14c8b974
+                        Position: {X: 0.3007442, Y: 2.17, Z: 1.66093063}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c02ffd559c106145bd5594cac66c73a6: !ModelComponent
+                        Id: 06d0925f-2cfd-4e27-8291-c58a8c0a718b
+                        Model: 7912af33-2365-4cc0-be49-4f175c901fb5:PropsOld/Wall/Meshes/P_wall_cap
+                        Materials:
+                            d013d98447633c4bad49f34e9b07c9bc~0: 31837407-6612-4579-9fa1-da386ac2f461:PropsOld/Wall/Textures/P_wall
+            Base:
+                BasePartAsset: 3bac8993-d282-4c81-8305-d2f2a55bcdbc:PropsOld/Wall/P_wall_X_rust
+                BasePartId: 963754ca-2d94-4914-87cb-30964dd2c72a
+                InstanceId: 8d8f2aea-85ef-406d-927e-48da80d992d3
+        -   Entity:
+                Id: 9e284401-f65d-44d3-96e1-25c3ebb3fb13
+                Name: P_wall_end (3)
+                Components:
+                    eea5232e3a31fa4c9aeee0b64d77e9b0: !TransformComponent
+                        Id: 14978659-3e94-414a-8e17-05f1c204be71
+                        Position: {X: 0.0, Y: 0.0, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fe83c02c163e3041820e4e943213f620: !ModelComponent
+                        Id: 2cc083fe-3e16-4130-820e-4e943213f620
+                        Model: e99c64c1-a606-4c30-a535-17d2cde88dfd:PropsOld/Wall/Meshes/P_wall_end
+                        Materials:
+                            31e238b8d8a76a43ae0d06492a9913b5~0: 0d9c0fb7-4927-4400-b598-3d44026fdbbc:PropsOld/Wall/Textures/wall_rust
+            Base:
+                BasePartAsset: 3bac8993-d282-4c81-8305-d2f2a55bcdbc:PropsOld/Wall/P_wall_X_rust
+                BasePartId: 2c4f6ef1-9a33-4b25-8268-9539825572b3
+                InstanceId: 8d8f2aea-85ef-406d-927e-48da80d992d3
+        -   Entity:
+                Id: b9d68f2b-d7a1-4b5b-abc8-6086a53a420c
+                Name: P_wall_seg
+                Components:
+                    a4e332b0078f6c4b8f8a715884c2bde0: !TransformComponent
+                        Id: b032e3a4-8f07-4b6c-8f8a-715884c2bde0
+                        Position: {X: -1.0, Y: 0.0, Z: 0.50000006}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4678bb4dde1249489c0444cfa9a54bb8: !ModelComponent
+                        Id: 5e865780-548a-457b-9681-5e265e8d0a94
+                        Model: 1258a62c-c6b5-4b44-84fc-adfe6ecdf910:PropsOld/Wall/Meshes/P_wall_seg
+                        Materials:
+                            31e238b8d8a76a43ae0d06492a9913b5~0: 0d9c0fb7-4927-4400-b598-3d44026fdbbc:PropsOld/Wall/Textures/wall_rust
+            Base:
+                BasePartAsset: 3bac8993-d282-4c81-8305-d2f2a55bcdbc:PropsOld/Wall/P_wall_X_rust
+                BasePartId: cfdcc402-f53d-4623-9343-49f48bfe4329
+                InstanceId: 8d8f2aea-85ef-406d-927e-48da80d992d3
+        -   Entity:
+                Id: c65ebba6-5002-4670-8948-d57c25031d95
+                Name: P_wall_tube_I
+                Components:
+                    4fcaae55df1c0f627cf022a23aefc25e: !TransformComponent
+                        Id: fc7e85ef-eab5-410c-8483-0844e845fb04
+                        Position: {X: 0.0, Y: 1.55, Z: 0.0166564528}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    457fc3d906b4ceaf22cad44e41b8b931: !ModelComponent
+                        Id: 1448aeb4-6e38-4c47-b7bb-7693d7568d91
+                        Model: c6a447f9-775a-4726-a733-e69897aeb090:PropsOld/Wall/Meshes/P_wall_tube_I
+                        Materials: {}
+        -   Entity:
+                Id: e56a80f2-b9bd-43de-a670-983a4e67f4b5
+                Name: P_wall_cap (3)
+                Components:
+                    e212ae7b05de0a4394585da10b83701b: !TransformComponent
+                        Id: 7bae12e2-de05-430a-9458-5da10b83701b
+                        Position: {X: 0.710801542, Y: 2.17, Z: 1.66093063}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c02ffd559c106145bd5594cac66c73a6: !ModelComponent
+                        Id: c8398036-ab19-4874-9d43-93413891bb52
+                        Model: 7912af33-2365-4cc0-be49-4f175c901fb5:PropsOld/Wall/Meshes/P_wall_cap
+                        Materials:
+                            d013d98447633c4bad49f34e9b07c9bc~0: 31837407-6612-4579-9fa1-da386ac2f461:PropsOld/Wall/Textures/P_wall
+            Base:
+                BasePartAsset: 3bac8993-d282-4c81-8305-d2f2a55bcdbc:PropsOld/Wall/P_wall_X_rust
+                BasePartId: a927e6e2-dc89-431f-920c-5f707661deda
+                InstanceId: 8d8f2aea-85ef-406d-927e-48da80d992d3
+        -   Entity:
+                Id: ecb9a62e-d69a-4df4-9174-8135da988ea2
+                Name: P_wall_tube_U (2)
+                Components:
+                    12cfd59b4cfec3438c267ae5269cd7f7: !TransformComponent
+                        Id: 7543706c-04b4-4839-bdd8-05260105c7c9
+                        Position: {X: 1.00000024, Y: 1.55, Z: 0.9999999}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3d93903657654f4196ec3b63e6ceef70: !ModelComponent
+                        Id: 553c9f2f-ecfa-4d34-982d-f2d16fd13e6a
+                        Model: 4dc8839a-9ea2-4727-9564-6708fd7cc727:PropsOld/Wall/Meshes/P_wall_tube_U
+                        Materials:
+                            31e238b8d8a76a43ae0d06492a9913b5~0: 0d9c0fb7-4927-4400-b598-3d44026fdbbc:PropsOld/Wall/Textures/wall_rust
+            Base:
+                BasePartAsset: 3bac8993-d282-4c81-8305-d2f2a55bcdbc:PropsOld/Wall/P_wall_X_rust
+                BasePartId: 8ad59f64-9faa-4059-8d1f-26fd54959118
+                InstanceId: 8d8f2aea-85ef-406d-927e-48da80d992d3
+        -   Entity:
+                Id: fe15990b-72d4-4cdf-823d-81ae82387dd3
+                Name: P_wall_tube_U
+                Components:
+                    12cfd59b4cfec3438c267ae5269cd7f7: !TransformComponent
+                        Id: cf982104-7e1e-4f24-a096-ebb52f30597b
+                        Position: {X: 2.38418579E-07, Y: 1.55, Z: 0.9999999}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3d93903657654f4196ec3b63e6ceef70: !ModelComponent
+                        Id: 5c3daf26-d1de-4aee-9001-90f44480e608
+                        Model: 4dc8839a-9ea2-4727-9564-6708fd7cc727:PropsOld/Wall/Meshes/P_wall_tube_U
+                        Materials:
+                            31e238b8d8a76a43ae0d06492a9913b5~0: 0d9c0fb7-4927-4400-b598-3d44026fdbbc:PropsOld/Wall/Textures/wall_rust
+            Base:
+                BasePartAsset: 3bac8993-d282-4c81-8305-d2f2a55bcdbc:PropsOld/Wall/P_wall_X_rust
+                BasePartId: 82a4fd78-e776-4ffd-b687-b5f21bb4dcd4
+                InstanceId: 9368b4be-3641-4b6b-bff2-6c54641b97d5
+        -   Entity:
+                Id: ff876453-dc8f-43d9-b731-08538d220185
+                Name: P_wall_end
+                Components:
+                    eea5232e3a31fa4c9aeee0b64d77e9b0: !TransformComponent
+                        Id: 2e23a5ee-313a-4cfa-9aee-e0b64d77e9b0
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fe83c02c163e3041820e4e943213f620: !ModelComponent
+                        Id: 2b8673f9-c525-433e-a443-562e6d3915c3
+                        Model: e99c64c1-a606-4c30-a535-17d2cde88dfd:PropsOld/Wall/Meshes/P_wall_end
+                        Materials:
+                            31e238b8d8a76a43ae0d06492a9913b5~0: 0d9c0fb7-4927-4400-b598-3d44026fdbbc:PropsOld/Wall/Textures/wall_rust
+            Base:
+                BasePartAsset: 3bac8993-d282-4c81-8305-d2f2a55bcdbc:PropsOld/Wall/P_wall_X_rust
+                BasePartId: 8b246af5-aa84-4232-a57e-b248bd6fb106
+                InstanceId: 8d8f2aea-85ef-406d-927e-48da80d992d3

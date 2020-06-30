@@ -1,0 +1,11 @@
+!Skeleton
+Id: ca5ec736-b429-496e-8f56-f6c3b066dd27
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Gameplay/LaserFence/LaserFence_up.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    f9ba0174f07e5c3469fdcfa969fcd2a7: {Name: RootNode, Depth: 0}
+    4b02b24ed41a2175af34245fe983b105: {Name: Up, Depth: 1}
+~SourceHashes:
+    b75aa1b1447efd210d246454e656a5bb~../../../../Resources/Gameplay/LaserFence/LaserFence_up.FBX: 26f0b76ab9b5584f663e158317168919

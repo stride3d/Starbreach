@@ -1,0 +1,38 @@
+!SceneAsset
+Id: 0e041445-76b6-4cb6-aca7-6716c51880de
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 4917590d-53d5-4448-b06a-439ac05c1ae9
+    Parts:
+        -   Entity:
+                Id: 4917590d-53d5-4448-b06a-439ac05c1ae9
+                Name: UI
+                Components:
+                    0229d8d8352fa3458dd78cd3c084444a: !TransformComponent
+                        Id: d8d82902-2f35-45a3-8dd7-8cd3c084444a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            c271aa56e7650441b4e04bce07894092: ref!! 56aa71c2-65e7-4104-b4e0-4bce07894092
+        -   Entity:
+                Id: 815a97f9-904c-421e-973a-72f2c2dbf313
+                Name: Page
+                Components:
+                    c271aa56e7650441b4e04bce07894092: !TransformComponent
+                        Id: 56aa71c2-65e7-4104-b4e0-4bce07894092
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fa65b1e2069ba741ad2980e430c484f2: !UIComponent
+                        Id: e2b165fa-9b06-41a7-ad29-80e430c484f2
+                        Page: eec4a797-8783-450f-88d3-cc355c8b620c:UI/ControlsVR
+                        Resolution: {X: 1024.0, Y: 512.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                        IsBillboard: false
+                        RenderGroup: Group31

@@ -1,0 +1,6 @@
+!Texture
+Id: 43b6f56b-a7f6-41dc-9e9d-b4094f77068a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Platforms/Cells/cell03_metalness_baked.png
+Type: !GrayscaleTextureType {}

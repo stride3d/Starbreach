@@ -1,8 +1,0 @@
-!Sound
-Id: d9f83c4b-b23e-4673-b6b1-109f0c8f4656
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/AudioToSort/TGS Sounds/player soldier/reload.wav
-CompressionRatio: 15
-StreamFromDisk: false
-Spatialized: true

@@ -1,0 +1,9 @@
+!Texture
+Id: 79a5ef8e-3e2b-452f-9df2-df1c8487a988
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Crane/Crane_D.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

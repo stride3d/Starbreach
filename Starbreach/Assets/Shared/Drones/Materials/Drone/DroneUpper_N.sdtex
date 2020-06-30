@@ -1,0 +1,8 @@
+!Texture
+Id: 58403429-2337-4882-9a2e-f412996ec5ed
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/Drone/DroneUpper_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

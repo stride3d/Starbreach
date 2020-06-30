@@ -1,0 +1,8 @@
+!Texture
+Id: 3debc723-784e-404d-b52b-22fce4a7d9e6
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Pillar2/Pillar2_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

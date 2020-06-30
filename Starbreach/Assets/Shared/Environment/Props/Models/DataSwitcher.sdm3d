@@ -1,0 +1,14 @@
+!Model
+Id: 87c540c8-80aa-4d46-a28f-6f99109347f6
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/DataSwitcher/DataSwitcher.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    9ac10bd4db467f5db18bf551cccb8b66:
+        Name: Material
+        MaterialInstance:
+            Material: 3967af78-1f53-4383-898f-f8451c92176e:Environment/Props/Materials/DataSwitcher/DataSwitcher_MT
+Skeleton: null
+~SourceHashes:
+    a2eaa94ce80786e8cac47a01a556f0e7~../../../../../Resources/Props/DataSwitcher/DataSwitcher.FBX: ed097928e0fff9948758e693597055b3

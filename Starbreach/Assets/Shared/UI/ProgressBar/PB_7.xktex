@@ -1,7 +1,0 @@
-!Texture
-Id: 79fc34c5-127f-4153-9670-5d6ea8146e8b
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../Drones/VRdrone/ProgressBar/PB_7.tga
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,47 @@
+!PrefabAsset
+Id: 30719772-588f-43d9-8fbf-4c95890b45c5
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! ebe39ff9-e539-434c-aceb-a4e2b5d43168
+    Parts:
+        -   Entity:
+                Id: d2d61d5d-b01b-44d9-9689-3e1776ba65ae
+                Name: Spot light
+                Components:
+                    aec05779d34a67a67d8bf31c750df76a: !TransformComponent
+                        Id: 1f191629-7fee-4438-afba-4a6294254c2b
+                        Position: {X: 0.0, Y: 5.82179832, Z: 1.01816416}
+                        Rotation: {X: 0.819152057, Y: -1.05148075E-07, Z: -1.05148075E-07, W: -0.57357645}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c4c2f44797d398d8ebd83d42c062f1ed: !LightComponent
+                        Id: 94eee3ac-735a-4339-b0c6-e0c1797479cd
+                        Type: !LightSpot
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Range: 100.0
+                            AngleInner: 45.0
+                            AngleOuter: 60.0
+                            UVScale: {X: 1.0, Y: 1.0}
+                            UVOffset: {X: 0.0, Y: 0.0}
+                            Shadow:
+                                BiasParameters:
+                                    DepthBias: 0.001
+                        Intensity: 100.0
+        -   Entity:
+                Id: ebe39ff9-e539-434c-aceb-a4e2b5d43168
+                Name: Pillar2_curved
+                Components:
+                    2e5abe373ee89c6d2e730ca3612768af: !TransformComponent
+                        Id: a6a30510-01db-415d-bf29-628308fe0752
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            0d44961a60843e49c90a40dfb70ca55d: ref!! 1f191629-7fee-4438-afba-4a6294254c2b
+                    1ee1208ed5119f8545bbdde55af7c382: !ModelComponent
+                        Id: 0f921523-c76c-49bd-968c-f3f4525371d9
+                        Model: c508cb22-457d-4f5e-943f-ce97efd5c854:Environment/Props/Models/Pillar2_curved
+                        Materials: {}

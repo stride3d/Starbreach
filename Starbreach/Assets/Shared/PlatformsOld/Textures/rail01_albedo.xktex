@@ -1,7 +1,0 @@
-!Texture
-Id: eea15ead-9d19-4148-a554-32bccd0a3462
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../Platforms/rails_adv/rail01_albedo.tga
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

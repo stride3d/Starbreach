@@ -5,19 +5,19 @@ using System.Threading.Tasks;
 using Starbreach.Camera;
 using Starbreach.Core;
 using Starbreach.Drones;
-using Xenko.Core;
-using Xenko.Core.Annotations;
-using Xenko.Core.Mathematics;
-using Xenko.Engine;
-using Xenko.Engine.Events;
-using Xenko.Physics;
+using Stride.Core;
+using Stride.Core.Annotations;
+using Stride.Core.Mathematics;
+using Stride.Engine;
+using Stride.Engine.Events;
+using Stride.Physics;
 using System.Collections.Generic;
-using Xenko.Core.Collections;
-using Xenko.Audio;
-using Xenko.Particles;
-using Xenko.UI;
-using Xenko.UI.Controls;
-using Xenko.UI.Panels;
+using Stride.Core.Collections;
+using Stride.Audio;
+using Stride.Particles;
+using Stride.UI;
+using Stride.UI.Controls;
+using Stride.UI.Panels;
 
 namespace Starbreach.Soldier
 {
@@ -175,7 +175,8 @@ namespace Starbreach.Soldier
             Vector3 sweepDirection = -AnimationComponent.Entity.Transform.WorldMatrix.Forward;
             Matrix sweepStart = sphereCastOrigin.Transform.WorldMatrix;
             Matrix sweepEnd = sphereCastOrigin.Transform.WorldMatrix * Matrix.Translation(sweepDirection * 2.0f);
-            var sphereHits = this.GetSimulation().ShapeSweepPenetrating(usableOverlapShape, sweepStart, sweepEnd);
+            var sphereHits = new List<HitResult>();
+            this.GetSimulation().ShapeSweepPenetrating(usableOverlapShape, sweepStart, sweepEnd, sphereHits);
             float closestUsableDistance = float.MaxValue;
             IUsable closestUsable = null;
             Vector3 castOriginPosition = sphereCastOrigin.Transform.WorldMatrix.TranslationVector;

@@ -1,0 +1,8 @@
+!Texture
+Id: 3daff7e0-4c6d-4720-bdcc-5f95e10660ce
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/ExplosedCells/Pipes_damage_M.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

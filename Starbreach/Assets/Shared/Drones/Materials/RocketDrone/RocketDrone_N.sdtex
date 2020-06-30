@@ -1,0 +1,6 @@
+!Texture
+Id: 42b6c52d-217a-413a-9fe0-f0073240b2f2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/RocketDrone/RocketDrone_N.png
+Type: !NormalMapTextureType {}

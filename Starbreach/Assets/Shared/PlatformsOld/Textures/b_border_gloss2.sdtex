@@ -1,0 +1,6 @@
+!Texture
+Id: b8ad34c3-67a1-4dda-a7a2-d98e27618f67
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/b_border1/b_border_gloss2.tga
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 29d13e5f-59dc-48d3-90fd-5b98939827d3
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+    Parts:
+        -   Entity:
+                Id: 4316bcaa-2539-4f3a-87a7-a35e248c93c5
+                Name: FloatingRock1_1
+                Components:
+                    4eb1e899f0420cb437485b0c397af954: !TransformComponent
+                        Id: 6e10900a-bcbb-46eb-b404-8108125abd8c
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8178b4303bd1ecfde7f3858f4b9e328d: !ModelComponent
+                        Id: 99182495-59c6-45e2-8121-1894c9078fc0
+                        Model: b5ed7a0b-a015-43af-bd56-7d0964e9eb9a:Environment/Background/Models/FloatingRock1_1
+                        Materials: {}

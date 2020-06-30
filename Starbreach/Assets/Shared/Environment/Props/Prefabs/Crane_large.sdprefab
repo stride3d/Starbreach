@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 0b0338a0-a2d1-487c-8af2-c96ff530e3c6
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 21276485-acdb-4d9d-9fb2-6c55c029fe0d
+    Parts:
+        -   Entity:
+                Id: 21276485-acdb-4d9d-9fb2-6c55c029fe0d
+                Name: Crane_large
+                Components:
+                    b59ade46cd2ad91766675fcde40267d3: !TransformComponent
+                        Id: 33c67571-d5f6-451e-8d77-14d0c00ccb00
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e0f5d721ab947932f380a7867f7e9af3: !ModelComponent
+                        Id: ab348f1f-b76c-455f-ad68-e1fe65c058eb
+                        Model: 821a1210-f5e0-4389-9e42-72886ebccaf5:Environment/Props/Models/Crane_large
+                        Materials: {}

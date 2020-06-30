@@ -1,0 +1,7 @@
+!Texture
+Id: eae93d0c-346b-4399-adf7-ab193c2688d9
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Character/Target.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

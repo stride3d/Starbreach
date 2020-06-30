@@ -1,0 +1,7 @@
+!Texture
+Id: e8e429a8-28b4-427e-85b4-e2358e18ef2e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Gameplay/Plate/Plate3R_D.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

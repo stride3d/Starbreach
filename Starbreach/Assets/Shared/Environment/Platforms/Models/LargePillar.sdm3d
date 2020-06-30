@@ -1,0 +1,14 @@
+!Model
+Id: 258dfd07-ef55-4f3e-a0a8-afc05e4ca37b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Platforms/LargePillar/LargePillar.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    71494202e953f5cdf8496cc1d0443b40:
+        Name: Material
+        MaterialInstance:
+            Material: 8297fec7-c06b-4a9e-8579-aa22792a18fb:Environment/Platforms/Materials/LargePillar/LargePillar_MT
+Skeleton: null
+~SourceHashes:
+    c855d3a5a2b2bb652b2b6778306aa29e~../../../../../Resources/Platforms/LargePillar/LargePillar.FBX: 890e1c863965a9865542d320801fcb0f

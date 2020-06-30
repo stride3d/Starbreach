@@ -1,0 +1,47 @@
+!PrefabAsset
+Id: bdf4ab4d-73bd-4722-9158-c7d19b5a4602
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 1f8be153-d7e6-4961-880b-44efc358b7cb
+    Parts:
+        -   Entity:
+                Id: 1f8be153-d7e6-4961-880b-44efc358b7cb
+                Name: Small_Angle
+                Components:
+                    f59e2ade343b886c0ca1f125a2504c1c: !TransformComponent
+                        Id: 064248f8-8097-4a3f-9b7c-1a39949d7846
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    55d6ee3d08a260c07fdcbe9efb9741fe: !ModelComponent
+                        Id: 542883d0-ff9a-40e5-b829-bdfb8ecbb377
+                        Model: 26958e5a-54e8-4c78-915b-ff9b33a6e742:Environment/Walls/PrefabModels/Small_Angle
+                        Materials: {}
+                    d9656997474c6f7b8bbd23de2fa86f31: !StaticColliderComponent
+                        Id: 5287dbed-ba2b-4827-a3e9-0fdd0d8a20eb
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            c222d643bda9467ac12372fe4e854a41: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 2.0, Z: 1.0}
+                                LocalOffset: {X: 1.0, Y: 1.0, Z: 0.5}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            5ac88fde6f08e8fabb87c9bd14c8f2b7: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 2.0, Z: 1.0}
+                                LocalOffset: {X: 0.5, Y: 1.0, Z: -0.5}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            11f45f58b26e798879e9e2b7a3c6160b: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 0.8, Y: 1.2, Z: 0.8}
+                                LocalOffset: {X: 0.5, Y: 0.0, Z: -1.0}
+                                LocalRotation: {X: 0.2923717, Y: 0.0, Z: 0.0, W: 0.9563048}

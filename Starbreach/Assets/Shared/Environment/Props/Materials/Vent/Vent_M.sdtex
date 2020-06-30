@@ -1,0 +1,8 @@
+!Texture
+Id: 8acb8fc9-a74d-4bca-9e0f-883a4e5380b3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Vent/Vent_M.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,8 @@
+!Texture
+Id: 21bad6f2-016d-452c-a1f1-175f45a4636e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Background/FloatingRocks/F_Rock01_N.png
+Width: 25.0
+Height: 25.0
+Type: !NormalMapTextureType {}

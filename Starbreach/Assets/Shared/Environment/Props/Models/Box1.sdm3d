@@ -1,0 +1,14 @@
+!Model
+Id: 46441ab3-67fb-40d4-8b72-8dd1db5d988e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/Boxes/Box1.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    341b31c252351cb9c6e8cdb67d4baaf7:
+        Name: _boxyUnwrapChecker
+        MaterialInstance:
+            Material: f3165b56-a18b-4cac-8e09-96f2da350f71:Environment/Props/Materials/Boxes/Box1_MT
+Skeleton: null
+~SourceHashes:
+    a011615a684db7aaeec48c5da417d5f5~../../../../../Resources/Props/Boxes/Box1.FBX: 80319752f8649c18b086bb09f1c791f1

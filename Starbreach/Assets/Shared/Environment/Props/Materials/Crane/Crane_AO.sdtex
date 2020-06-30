@@ -1,0 +1,8 @@
+!Texture
+Id: c8e72b5a-f0c5-4464-9601-51e2f3491064
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Crane/Crane_AO.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

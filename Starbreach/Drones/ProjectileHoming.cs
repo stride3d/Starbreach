@@ -1,8 +1,8 @@
 // Copyright (c) Silicon Studio Corp. (https://www.siliconstudio.co.jp)
 // Distributed under the MIT license. See the LICENSE.md file in the project root for more information.
-using Xenko.Core;
-using Xenko.Core.Mathematics;
-using Xenko.Engine;
+using Stride.Core;
+using Stride.Core.Mathematics;
+using Stride.Engine;
 
 namespace Starbreach.Drones
 {

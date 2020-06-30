@@ -1,0 +1,14 @@
+!Model
+Id: e6b30dcb-e5ce-4220-9bc2-600a3651ee1d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/Meshes/border_L_small.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fe0f722b28c564ae044289ea044289ea:
+        Name: Material
+        MaterialInstance:
+            Material: 58a81ffa-b3ac-444f-8aab-63c4a61d130b:PlatformsOld/Materials/Bord_rusted
+Skeleton: null
+~SourceHashes:
+    b5b72cdb51a518f91273318b9ea23add~../../Platforms/Meshes/border_L_small.FBX: 1ef810fda93386639682ac1eac65126a

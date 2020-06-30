@@ -1,7 +1,0 @@
-!Texture
-Id: 1bfb51c4-3584-42b7-b185-0751c708c460
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../Resources/Drones/Rocket/Explosion_Fire_Grayscale.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

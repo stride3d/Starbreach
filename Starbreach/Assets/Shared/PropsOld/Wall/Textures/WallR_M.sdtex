@@ -1,0 +1,6 @@
+!Texture
+Id: b14faeed-117c-4ee7-82ad-2d004389651b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Props/Wall/Textures/rusted/WallR_M.tga
+Type: !GrayscaleTextureType {}

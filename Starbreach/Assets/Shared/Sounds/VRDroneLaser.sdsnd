@@ -1,0 +1,8 @@
+!Sound
+Id: 4f4fcf44-dd48-4fe1-b23e-f8a40f1048c0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/AudioToSort/TGS Sounds/Corner Effects section1 125bpm Em.wav
+CompressionRatio: 20
+StreamFromDisk: false
+Spatialized: true

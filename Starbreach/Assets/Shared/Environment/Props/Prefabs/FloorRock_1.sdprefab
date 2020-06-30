@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: d2cbf9e2-a94c-4e52-ac93-63e675b95937
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 5ca3ff24-e2b2-43c8-b718-ae47472e2500
+    Parts:
+        -   Entity:
+                Id: 5ca3ff24-e2b2-43c8-b718-ae47472e2500
+                Name: FloorRock_1
+                Components:
+                    3259a3cec1df5c9703800ac98af9cae4: !TransformComponent
+                        Id: f5054eff-2e66-4de2-9188-8458cd9dfe91
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f981478ff0f286d79e08ad377b3fdb91: !ModelComponent
+                        Id: 742a2ba0-ef2c-43c4-901a-72c55a42fb3f
+                        Model: 2d77c29d-be73-4a4f-a7b5-7e68e0ce3453:Environment/Props/Models/FloorRock_1
+                        Materials: {}

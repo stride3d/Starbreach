@@ -1,6 +1,0 @@
-!Texture
-Id: 24c80f8e-0ba8-442f-8c9e-9aa17670cba7
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../Platforms/border/rusted/Bord_rust_M.tga
-Type: !GrayscaleTextureType {}

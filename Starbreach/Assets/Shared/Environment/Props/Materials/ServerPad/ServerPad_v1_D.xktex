@@ -1,9 +1,0 @@
-!Texture
-Id: e1615cfa-223c-4eee-a975-2774c33bb85b
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/ServerPad/ServerPad_v1_D.png
-Width: 50.0
-Height: 50.0
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

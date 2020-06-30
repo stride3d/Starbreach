@@ -1,0 +1,8 @@
+!Texture
+Id: 5d189ea9-c619-4c32-aa26-6a019d88ebff
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/DPU/DPU1_Rust_G.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

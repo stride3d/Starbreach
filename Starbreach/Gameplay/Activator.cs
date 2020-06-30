@@ -4,10 +4,10 @@ using System;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
-using Xenko.Core;
-using Xenko.Core.Collections;
-using Xenko.Engine;
-using Xenko.Engine.Events;
+using Stride.Core;
+using Stride.Core.Collections;
+using Stride.Engine;
+using Stride.Engine.Events;
 
 namespace Starbreach.Gameplay
 {

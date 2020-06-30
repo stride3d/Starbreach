@@ -5,13 +5,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Starbreach.Gameplay;
-using Xenko.Core.Mathematics;
-using Xenko.Engine;
-using Xenko.Input;
-using Xenko.Particles;
-using Xenko.Particles.Components;
-using Xenko.Particles.Initializers;
-using Xenko.Physics;
+using Stride.Core.Mathematics;
+using Stride.Engine;
+using Stride.Input;
+using Stride.Particles;
+using Stride.Particles.Components;
+using Stride.Particles.Initializers;
+using Stride.Physics;
 
 namespace Starbreach.Gameplay
 {

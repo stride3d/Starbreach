@@ -1,12 +1,12 @@
-﻿// Copyright (c) Silicon Studio Corp. (https://www.siliconstudio.co.jp)
+// Copyright (c) Silicon Studio Corp. (https://www.siliconstudio.co.jp)
 // Distributed under the MIT license. See the LICENSE.md file in the project root for more information.
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Starbreach;
-using Xenko.Engine;
-using Xenko.Games;
-using Xenko.Graphics;
+using Stride.Engine;
+using Stride.Games;
+using Stride.Graphics;
 
 namespace Starbreach
 {

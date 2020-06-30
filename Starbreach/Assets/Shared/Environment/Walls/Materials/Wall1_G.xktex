@@ -1,6 +1,0 @@
-!Texture
-Id: 8f44f202-a786-489f-b85c-8b8b74dc24e9
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../Resources/Walls/Wall1/Wall1_G.png
-Type: !GrayscaleTextureType {}

@@ -1,9 +1,0 @@
-!Texture
-Id: 0ef69f8d-c307-4935-a39c-76ab85e1ae69
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Character/Lower [AlbedoM].tga
-Width: 50.0
-Height: 50.0
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,9 @@
+!Texture
+Id: aeac0702-fdc7-4c64-8598-4771b4681a1f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/MainCharacter_Damaged/MainCharacter_Lower_Damaged_A.tga
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

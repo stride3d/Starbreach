@@ -1,7 +1,0 @@
-!Texture
-Id: ed2a0e2b-7e79-430b-8946-35aaf3ebc155
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Platforms/Cells/cell03_emissive4_baked.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

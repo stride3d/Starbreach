@@ -1,0 +1,8 @@
+!Texture
+Id: 69b766d6-9260-42f7-8121-9564d09c8b91
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Generator/Generator_M.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,42 @@
+!PrefabAsset
+Id: 3c61102a-5dc0-471f-a335-3867cce63a58
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 8c5d250c-4fa1-4f19-ad6d-0b45f1a170da
+    Parts:
+        -   Entity:
+                Id: 8c5d250c-4fa1-4f19-ad6d-0b45f1a170da
+                Name: OilPump
+                Components:
+                    1e1dbb8ad45c1000b406d2c95a67fe88: !TransformComponent
+                        Id: 01561b0b-69df-456e-932d-416cc7ae28bd
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9e5be4c29b440208b1403c78726c5be4: !ModelComponent
+                        Id: db72cb5e-9646-4603-8f88-24acafa70d00
+                        Model: 3cb8df31-ea42-4f2e-91b1-1039224a533e:Environment/Props/Models/OilPump
+                        Materials: {}
+                    e68190618f2d000e1d116af97f48ccfe: !StaticColliderComponent
+                        Id: fb680528-8c39-4fa7-ad75-dbe0163c27c5
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            39e080c9500338f09ef88c62b2722b4c: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.5, Y: 2.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 1.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            b17e1d474b1370727693a6ebe1daddeb: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.5, Y: 0.2, Z: 1.5}
+                                LocalOffset: {X: -0.25, Y: 0.1, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

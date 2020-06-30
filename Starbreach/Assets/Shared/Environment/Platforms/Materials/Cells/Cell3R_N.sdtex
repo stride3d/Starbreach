@@ -1,0 +1,6 @@
+!Texture
+Id: 3d4477ea-98b0-4bb6-84fc-5969d89b2b4f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Cells/cell3R_N.png
+Type: !NormalMapTextureType {}

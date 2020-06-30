@@ -1,8 +1,0 @@
-!Sound
-Id: 4a57c7d7-e8f9-418f-b490-2db486f46141
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Drones/Sounds/Engine1.wav
-CompressionRatio: 15
-StreamFromDisk: false
-Spatialized: true

@@ -1,0 +1,9 @@
+!Texture
+Id: c90a8172-e5f6-4618-b7b4-72c2ea19aebd
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Walls/Wall1/Wall1_Rust_D.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    Alpha: None
+    PremultiplyAlpha: false

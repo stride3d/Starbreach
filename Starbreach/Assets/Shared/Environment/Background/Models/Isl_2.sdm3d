@@ -1,0 +1,22 @@
+!Model
+Id: ec7a2cf2-8f68-4ea4-ae3b-f411798da431
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Background/Island2/Isl_2.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    889e0106f87fdabdda58d992df7751f3:
+        Name: Scene_Material
+        MaterialInstance:
+            Material: edbf420d-72db-41f5-82ad-b0d0a822751e:Environment/Background/Materials/Island2/Island2_MT
+    401444070169d1e23fc764e058a84061:
+        Name: Isl_2_scene_material
+        MaterialInstance:
+            Material: edbf420d-72db-41f5-82ad-b0d0a822751e:Environment/Background/Materials/Island2/Island2_MT
+    0cb49060bd0f09d88063f0e38c80dff9:
+        Name: Isl_add1_scene_material
+        MaterialInstance:
+            Material: edbf420d-72db-41f5-82ad-b0d0a822751e:Environment/Background/Materials/Island2/Island2_MT
+Skeleton: null
+~SourceHashes:
+    cc3a02a8fa0501598806ef9e558bbf71~../../../../../Resources/Background/Island2/Isl_2.fbx: bb12c54e9ea931325a1862cab64a94c9

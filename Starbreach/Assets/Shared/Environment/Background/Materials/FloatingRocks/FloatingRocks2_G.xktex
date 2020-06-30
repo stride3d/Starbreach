@@ -1,8 +1,0 @@
-!Texture
-Id: 4cc8c786-f607-4406-ad8f-4f1c6635f7a7
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Background/FloatingRocks/F_Rock02_G.png
-Width: 25.0
-Height: 25.0
-Type: !GrayscaleTextureType {}

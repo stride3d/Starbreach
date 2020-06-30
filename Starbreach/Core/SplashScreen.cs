@@ -3,14 +3,14 @@
 using System.Threading.Tasks;
 using Starbreach.Camera;
 using Starbreach.Soldier;
-using Xenko.Core.Mathematics;
-using Xenko.Engine;
-using Xenko.Particles.Components;
-using Xenko.Physics;
-using Xenko.Rendering.Compositing;
-using Xenko.Rendering.Images;
-using Xenko.UI;
-using Xenko.UI.Controls;
+using Stride.Core.Mathematics;
+using Stride.Engine;
+using Stride.Particles.Components;
+using Stride.Physics;
+using Stride.Rendering.Compositing;
+using Stride.Rendering.Images;
+using Stride.UI;
+using Stride.UI.Controls;
 
 namespace Starbreach.Core
 {

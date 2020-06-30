@@ -1,0 +1,86 @@
+!SpriteSheet
+Id: 1807b3df-712d-4671-8f58-0f378e2aa83a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: UI
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+GenerateMipmaps: true
+Packing: {}
+Sprites:
+    7d5f39b5d2b23f47bf52a7fff7fda51c:
+        Source: ../../../Resources/UI/HUD/ammo_BG.png
+        Name: ammo_background
+        TextureRegion: {X: 0, Y: 0, Width: 32, Height: 34}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 10.0, Y: 0.0, Z: 10.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    34d38b257f327b41803b7fc874f9e55b:
+        Source: ../../../Resources/UI/HUD/Ammo_fill.png
+        Name: ammo_fill
+        TextureRegion: {X: 0, Y: 0, Width: 32, Height: 34}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 10.0, Y: 0.0, Z: 10.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    5d34a7c740a89a46ad7eac4a9578aae4:
+        Source: ../../../Resources/UI/HUD/Ammo_shadow.png
+        Name: ammo_shadow
+        TextureRegion: {X: 0, Y: 0, Width: 32, Height: 34}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 10.0, Y: 0.0, Z: 10.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    186fbd806ac82249985fb4d791d437e2:
+        Source: ../../../Resources/UI/HUD/ammo_icon.png
+        Name: ammo_icon
+        TextureRegion: {X: 0, Y: 0, Width: 61, Height: 62}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    b9419b1ab8434d4f98a7ca199aac00e4:
+        Source: ../../../Resources/UI/HUD/Life_BG.png
+        Name: life_background
+        TextureRegion: {X: 0, Y: 0, Width: 32, Height: 34}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 10.0, Y: 0.0, Z: 10.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e3a83abcd5cc9d4d9521c2de104cb4cd:
+        Source: ../../../Resources/UI/HUD/Life_fill.png
+        Name: life_fill
+        TextureRegion: {X: 0, Y: 0, Width: 32, Height: 34}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 10.0, Y: 0.0, Z: 10.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    bd1601804bc06a49859c964e7d977dbb:
+        Source: ../../../Resources/UI/HUD/Life_shadow.png
+        Name: life_shadow
+        TextureRegion: {X: 0, Y: 0, Width: 32, Height: 34}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 10.0, Y: 0.0, Z: 10.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    96b9d7a2e370af4b93391f49270cdd40:
+        Source: ../../../Resources/UI/HUD/Hero_avatar.png
+        Name: hero
+        TextureRegion: {X: 0, Y: 0, Width: 236, Height: 277}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    8e9b921a919c314192ab4d0fda14c613:
+        Source: ../../../Resources/UI/HUD/Hero_avatar_shadow.png
+        Name: hero_shadow
+        TextureRegion: {X: 0, Y: 0, Width: 235, Height: 273}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    60c223cfab3f244eaf0831a2e91f9705:
+        Source: ../../../Resources/UI/HUD/Panel_BG.png
+        Name: panel_background
+        TextureRegion: {X: 0, Y: 0, Width: 85, Height: 168}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    f5bc9b9e8a0f272da0ae08ac0dd20223:
+        Source: ../../../Resources/UI/HUD/General_fill.png
+        Name: general_fill
+        TextureRegion: {X: 0, Y: 0, Width: 32, Height: 34}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 10.0, Y: 0.0, Z: 10.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

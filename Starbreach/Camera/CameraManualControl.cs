@@ -2,9 +2,9 @@
 // Distributed under the MIT license. See the LICENSE.md file in the project root for more information.
 using System;
 using Starbreach.Core;
-using Xenko.Core.Mathematics;
-using Xenko.Engine;
-using Xenko.Input;
+using Stride.Core.Mathematics;
+using Stride.Engine;
+using Stride.Input;
 
 namespace Starbreach.Camera
 {

@@ -1,0 +1,667 @@
+!PrefabAsset
+Id: dce5b120-1b3a-4d6f-b98c-08416594d757
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 952136ae-adcb-44e2-a1d8-52dea6aea30e
+        - ref!! 290d0ce0-dfce-4f05-a938-5cc5c6e8b437
+        - ref!! 8055f49e-ed5d-4eb7-bd50-23dd48d0628f
+        - ref!! 8a1eb40a-7fa4-4c1a-b247-855b912fee1f
+        - ref!! f49ff062-0417-4cf0-b4dd-c5bd01d0c67b
+        - ref!! 2f233c8d-8eed-42db-baa4-02b307876518
+        - ref!! c391b670-d56d-43e9-8a93-2f5e59748586
+        - ref!! 80e1b3cd-57ec-4936-bd1d-f4c6506de733
+        - ref!! c8fe73c0-00b3-4c18-92cd-80ac9f2ed4b8
+        - ref!! 0a43c427-a25c-438e-ad08-44cb03b6c8aa
+        - ref!! 850c6890-1ea3-4186-ab10-bd66a37c7104
+        - ref!! f51edc0f-a192-46d1-a3bf-19ca60b636c2
+        - ref!! 1d21ed93-3193-4445-8aca-dd7f84bcdae9
+        - ref!! e1ded3bb-c9bd-43f8-8da8-d12bdca1871e
+        - ref!! 1b0aea3e-e5e7-4658-a83e-fd163605e6e0
+        - ref!! abeba8d8-a87e-48a2-82c8-9c86bf803577
+        - ref!! 8dea363d-d1d4-4672-82fd-a5085eda7774
+        - ref!! 7c8e5cc8-729d-4e03-b0d0-a9a68d4dc7f7
+        - ref!! 175c872b-3518-46c8-a2f6-046fb59f7c35
+        - ref!! 5fc1637f-9598-41fa-8b57-bc97b87b04ec
+        - ref!! a875aec1-353b-422e-a55d-d6ee382da241
+        - ref!! 5a712b06-3e67-4c6a-a284-5cd2bada1a52
+        - ref!! 8145acf0-3993-4390-9a09-a6bcf3dd5de7
+        - ref!! 6d67b905-370e-43b2-a66c-ad0ac6e4ba70
+        - ref!! 602aaeca-e89b-4a99-8578-dfc79622221d
+        - ref!! 776bc95b-94e3-453e-8ad2-ffe1c0040efd
+        - ref!! 9a02e48c-eed8-4576-a4f4-041365c730c9
+        - ref!! 0dc4ecef-ca0e-4d44-b9ef-4eed6c543fd7
+        - ref!! a403536e-c5ae-4139-8306-ad64d0c0419e
+        - ref!! ef604cfc-4567-414b-96ce-9e5e51065456
+        - ref!! 36a05741-c745-45ab-b054-9d4ba5eca812
+        - ref!! 26cf843c-3f82-4678-84e5-33747b9b484b
+        - ref!! 6f179b6d-f510-4dfe-add3-ba3df61fef30
+    Parts:
+        -   Folder: Vertical
+            Entity:
+                Id: 0a43c427-a25c-438e-ad08-44cb03b6c8aa
+                Name: PlatformRocks1 (9)
+                Components:
+                    62b716c6f8a4ce8170cef83343c8cc44: !TransformComponent
+                        Id: 96bd7eeb-b4b0-42a5-8771-caf42fe67ce3
+                        Position: {X: -8.471179, Y: -5.36619, Z: -23.2049751}
+                        Rotation: {X: 0.0, Y: -0.2386237, Z: 0.0, W: 0.9711121}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    a73b5b2d7d904c6f8b1f9087dba8cca9: !ModelComponent
+                        Id: 0887672e-975d-45a9-98bf-53a2d45bcf5a
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: dd2b12bd-5f67-4dd1-aec1-618f8e0ce410
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 0dc4ecef-ca0e-4d44-b9ef-4eed6c543fd7
+                Name: PlatformRocks2 (4)
+                Components:
+                    d2f30a7d88eeff69a462a2384736cee9: !TransformComponent
+                        Id: 2a7d53dc-5a46-48d7-82d7-9ca0d1f4d651
+                        Position: {X: 8.788324, Y: -4.67764139, Z: -14.0912457}
+                        Rotation: {X: 0.0, Y: -0.6292836, Z: 0.0, W: 0.7771758}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d16ca2c04fba1e70e8d3fbb933e6e2f0: !ModelComponent
+                        Id: b0dc0d36-4e2a-4a2e-8f67-56e4f75c19cf
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: e7dab970-3bad-4f54-9224-69f1be7272fc
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 175c872b-3518-46c8-a2f6-046fb59f7c35
+                Name: PlatformRocks2 (15)
+                Components:
+                    5d6dfabb1793137b2d756e15309165c5: !TransformComponent
+                        Id: c5d51426-d611-42a4-84fe-a7cd6144c8aa
+                        Position: {X: -3.28532815, Y: -4.641446, Z: 5.52101326}
+                        Rotation: {X: 0.0, Y: 0.5671285, Z: 0.0, W: 0.8236293}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8f3aa943a9fc379c7fed85869cfe01ff: !ModelComponent
+                        Id: 9fdab0b2-460b-4563-9567-90e24fac6ad5
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: fa06742c-b45b-464b-bfc1-2da901cfd7d4
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 1b0aea3e-e5e7-4658-a83e-fd163605e6e0
+                Name: PlatformRocks2 (14)
+                Components:
+                    5d6dfabb1793137b2d756e15309165c5: !TransformComponent
+                        Id: 09ddc8fc-a745-4717-b0fb-d4c3acd0a0c5
+                        Position: {X: -0.3453523, Y: -4.641446, Z: 5.45715332}
+                        Rotation: {X: 0.0, Y: -0.210367471, Z: 0.0, W: 0.97762233}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8f3aa943a9fc379c7fed85869cfe01ff: !ModelComponent
+                        Id: ce093660-fe6b-445d-a642-dcb369d8aa7e
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: e1e69d43-6736-426b-8e38-9275670ca567
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 1d21ed93-3193-4445-8aca-dd7f84bcdae9
+                Name: PlatformRocks2 (5)
+                Components:
+                    5d6dfabb1793137b2d756e15309165c5: !TransformComponent
+                        Id: 64d49a3a-5f53-4358-aa2a-f85ec79f789f
+                        Position: {X: -8.809109, Y: -4.641446, Z: -15.049983}
+                        Rotation: {X: 0.0, Y: 0.367331266, Z: 0.0, W: 0.9300902}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8f3aa943a9fc379c7fed85869cfe01ff: !ModelComponent
+                        Id: fe4a3931-7102-4610-837d-118cb1191607
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 166914ee-c972-4d37-9faa-6264f4634ea6
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 26cf843c-3f82-4678-84e5-33747b9b484b
+                Name: PlatformRocks3 (2)
+                Components:
+                    abc93c36ff7f22bf4736a260f4c5ff87: !TransformComponent
+                        Id: 4b15568f-baee-4bdf-be00-e4297e360e59
+                        Position: {X: 3.30032229, Y: -2.77054119, Z: 3.917765}
+                        Rotation: {X: 0.49999997, Y: 0.49999997, Z: -0.49999997, W: 0.49999997}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    271699a9ddd50282f7aee6ddabf0cf6b: !ModelComponent
+                        Id: 89dc4205-ecda-49c2-85a2-babd6a3ee923
+                        Model: 28b26550-fec0-4807-b432-3a95fc153485:Environment/Background/Models/PlatformRocks3
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 2cc5129e-4c4f-4c67-a0c7-34aa4775ae53
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 290d0ce0-dfce-4f05-a938-5cc5c6e8b437
+                Name: PlatformRocks1 (14)
+                Components:
+                    62b716c6f8a4ce8170cef83343c8cc44: !TransformComponent
+                        Id: 0367d97f-3b3a-4903-87f3-34e21e85aa19
+                        Position: {X: 2.59996986, Y: -5.33552361, Z: 4.943921}
+                        Rotation: {X: 0.0, Y: -0.998639345, Z: 0.0, W: 0.05214858}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    a73b5b2d7d904c6f8b1f9087dba8cca9: !ModelComponent
+                        Id: f4333bf6-1319-4f59-8a85-55e486ef82ad
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 7308c154-68cc-4672-bcd0-ee0a21848512
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 2f233c8d-8eed-42db-baa4-02b307876518
+                Name: PlatformRocks1 (12)
+                Components:
+                    62b716c6f8a4ce8170cef83343c8cc44: !TransformComponent
+                        Id: f48b8f1b-113f-487a-814c-e5775cd49d1a
+                        Position: {X: -8.184768, Y: -5.33552361, Z: -5.618162}
+                        Rotation: {X: 0.0, Y: -0.9785403, Z: 0.0, W: -0.206055388}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    a73b5b2d7d904c6f8b1f9087dba8cca9: !ModelComponent
+                        Id: 133a96cd-98a2-460c-aa96-2305e35e79af
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: dda9adda-7f6d-4d9f-9b53-679a1233ea66
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 36a05741-c745-45ab-b054-9d4ba5eca812
+                Name: PlatformRocks2 (10)
+                Components:
+                    d2f30a7d88eeff69a462a2384736cee9: !TransformComponent
+                        Id: 61ed057a-7f1e-4197-b6b6-753c91bd2815
+                        Position: {X: 2.01637173, Y: -4.67764139, Z: -26.9746742}
+                        Rotation: {X: 0.0, Y: -0.6292836, Z: 0.0, W: 0.7771758}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d16ca2c04fba1e70e8d3fbb933e6e2f0: !ModelComponent
+                        Id: 5d11d5f5-6a1b-4f95-8b18-b7ee88fbf1d3
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 62cad650-fd02-4064-8a3a-aecfac2a1d28
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 5a712b06-3e67-4c6a-a284-5cd2bada1a52
+                Name: PlatformRocks1 (2)
+                Components:
+                    1651bba9aeb3a47a09b36fa078093f26: !TransformComponent
+                        Id: 75d86c88-4a31-405b-b270-1d01375fbadb
+                        Position: {X: 8.667949, Y: -4.917043, Z: -4.923714}
+                        Rotation: {X: 0.0, Y: 0.838257432, Z: 0.0, W: 0.545274734}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    c31be1e87de87749efbb223612f277b6: !ModelComponent
+                        Id: 96f177ac-08c2-404c-9078-94028ff0ba62
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 0aa46795-1cb1-4525-8957-5c232a1ca769
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 5fc1637f-9598-41fa-8b57-bc97b87b04ec
+                Name: PlatformRocks2 (7)
+                Components:
+                    5d6dfabb1793137b2d756e15309165c5: !TransformComponent
+                        Id: 274ed9bf-9816-4e77-bade-34959f022355
+                        Position: {X: 8.599807, Y: -4.641446, Z: -21.7788944}
+                        Rotation: {X: 0.0, Y: 0.42013818, Z: 0.0, W: 0.907460153}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8f3aa943a9fc379c7fed85869cfe01ff: !ModelComponent
+                        Id: ca40f551-ab1b-4eca-be73-e1415b2e6b84
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 4e57d2d6-d370-4f60-94f1-31691fdfff70
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 602aaeca-e89b-4a99-8578-dfc79622221d
+                Name: PlatformRocks1 (8)
+                Components:
+                    1651bba9aeb3a47a09b36fa078093f26: !TransformComponent
+                        Id: aaf717d8-45e5-4066-9864-cb57933bda85
+                        Position: {X: 8.838218, Y: -4.917043, Z: -27.48044}
+                        Rotation: {X: 0.0, Y: 0.9963041, Z: 0.0, W: -0.08589688}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    c31be1e87de87749efbb223612f277b6: !ModelComponent
+                        Id: 1d98911a-3243-4a03-9339-eedc40720e3a
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: d16658a6-b274-4c53-9ac9-3e2fcd7f7d81
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 6d67b905-370e-43b2-a66c-ad0ac6e4ba70
+                Name: PlatformRocks1 (6)
+                Components:
+                    1651bba9aeb3a47a09b36fa078093f26: !TransformComponent
+                        Id: fffd7ab4-b7d9-42f4-ae11-f4f392c76500
+                        Position: {X: -5.09498739, Y: -4.917043, Z: -26.8496552}
+                        Rotation: {X: 0.0, Y: 0.838257432, Z: 0.0, W: 0.545274734}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    c31be1e87de87749efbb223612f277b6: !ModelComponent
+                        Id: f1e77c20-f50a-4e7d-9f68-8e57b53a0957
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: c9aba1e7-d184-4e69-9b66-1c67d3a9ee77
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 6f179b6d-f510-4dfe-add3-ba3df61fef30
+                Name: PlatformRocks3 (3)
+                Components:
+                    abc93c36ff7f22bf4736a260f4c5ff87: !TransformComponent
+                        Id: eaa4f055-733e-4f7f-845f-b45c7b329518
+                        Position: {X: -2.06136012, Y: -2.770542, Z: 3.917765}
+                        Rotation: {X: 0.49999997, Y: 0.49999997, Z: -0.49999997, W: 0.49999997}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    271699a9ddd50282f7aee6ddabf0cf6b: !ModelComponent
+                        Id: 4ecfa08e-e798-4ce6-992b-36e181ff07ba
+                        Model: 28b26550-fec0-4807-b432-3a95fc153485:Environment/Background/Models/PlatformRocks3
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: ac13c6a8-af16-491f-b2f3-06fa4dcbe6b9
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 776bc95b-94e3-453e-8ad2-ffe1c0040efd
+                Name: PlatformRocks1 (10)
+                Components:
+                    1651bba9aeb3a47a09b36fa078093f26: !TransformComponent
+                        Id: 52ff299b-acd7-403f-9522-8771ddc3bbfe
+                        Position: {X: 5.933956, Y: -4.917043, Z: -26.5461731}
+                        Rotation: {X: 0.0, Y: 0.838257432, Z: 0.0, W: 0.545274734}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    c31be1e87de87749efbb223612f277b6: !ModelComponent
+                        Id: e92a10da-82ab-409c-9587-baae4abe83d8
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 96b047a3-5343-4ca3-b3a1-d438ba56e6a3
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 7c8e5cc8-729d-4e03-b0d0-a9a68d4dc7f7
+                Name: PlatformRocks2 (12)
+                Components:
+                    5d6dfabb1793137b2d756e15309165c5: !TransformComponent
+                        Id: 5eee821b-78e9-4c2b-bebb-560b74dc0796
+                        Position: {X: -8.265016, Y: -4.641446, Z: 5.51033}
+                        Rotation: {X: 0.0, Y: 0.894592345, Z: 0.0, W: 0.4468831}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8f3aa943a9fc379c7fed85869cfe01ff: !ModelComponent
+                        Id: ca0ab874-a8e2-4125-adc8-a284ff29bb39
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 1e0b423a-1fc6-4d91-8c56-d0dda2872b7a
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 8055f49e-ed5d-4eb7-bd50-23dd48d0628f
+                Name: PlatformRocks1 (3)
+                Components:
+                    62b716c6f8a4ce8170cef83343c8cc44: !TransformComponent
+                        Id: 740bd3df-9f65-4fc5-ba2d-7f194aea881b
+                        Position: {X: 8.068466, Y: -5.33552361, Z: -8.656889}
+                        Rotation: {X: 0.0, Y: -0.372084469, Z: 0.0, W: 0.9281989}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    a73b5b2d7d904c6f8b1f9087dba8cca9: !ModelComponent
+                        Id: ddd0380e-b3e9-41af-86ef-c68c24395ff0
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 8a1a571d-a97c-4ff0-98bf-d39ad37a02e6
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 80e1b3cd-57ec-4936-bd1d-f4c6506de733
+                Name: PlatformRocks1 (15)
+                Components:
+                    62b716c6f8a4ce8170cef83343c8cc44: !TransformComponent
+                        Id: 95a1ecee-a740-45f0-8529-20423a3877ce
+                        Position: {X: -5.952998, Y: -5.33552361, Z: 4.745269}
+                        Rotation: {X: 0.0, Y: -0.372084469, Z: 0.0, W: 0.9281989}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    a73b5b2d7d904c6f8b1f9087dba8cca9: !ModelComponent
+                        Id: 3a31c39e-62bd-4bd8-ad4c-837fcc2acf48
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: dd516b87-3bba-4293-99bc-cd48008943d9
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 8145acf0-3993-4390-9a09-a6bcf3dd5de7
+                Name: PlatformRocks1 (4)
+                Components:
+                    1651bba9aeb3a47a09b36fa078093f26: !TransformComponent
+                        Id: 169a657a-366a-4d2c-9219-f9130b85acdb
+                        Position: {X: 8.933571, Y: -4.917043, Z: -17.4514256}
+                        Rotation: {X: 0.0, Y: -0.27981, Z: 0.0, W: 0.9600554}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    c31be1e87de87749efbb223612f277b6: !ModelComponent
+                        Id: debdc842-3279-4a17-bda5-8e6fad3d7de9
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 601c75f4-5cf9-416d-8a4d-e0eda5939ea1
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 850c6890-1ea3-4186-ab10-bd66a37c7104
+                Name: PlatformRocks2
+                Components:
+                    5d6dfabb1793137b2d756e15309165c5: !TransformComponent
+                        Id: 3b489cd8-2491-4d18-87af-9103bc5cb108
+                        Position: {X: 8.194585, Y: -4.641446, Z: 1.68188107}
+                        Rotation: {X: 0.0, Y: 0.5671285, Z: 0.0, W: 0.8236293}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8f3aa943a9fc379c7fed85869cfe01ff: !ModelComponent
+                        Id: fe86ea14-21e4-481c-a383-8e56473398ce
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 377ffdf0-ea78-464a-85e5-800f08816350
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 8a1eb40a-7fa4-4c1a-b247-855b912fee1f
+                Name: PlatformRocks1 (5)
+                Components:
+                    62b716c6f8a4ce8170cef83343c8cc44: !TransformComponent
+                        Id: c291b624-ec20-49b5-af26-aa5460217107
+                        Position: {X: -8.73216152, Y: -5.33552361, Z: -19.05401}
+                        Rotation: {X: 0.0, Y: -0.8817965, Z: 0.0, W: -0.47163}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    a73b5b2d7d904c6f8b1f9087dba8cca9: !ModelComponent
+                        Id: 18c94e3c-ddc7-4bec-b7e2-9671dab42874
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 6e6574a9-828f-4b70-863c-891cca8a3f4b
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 8dea363d-d1d4-4672-82fd-a5085eda7774
+                Name: PlatformRocks2 (16)
+                Components:
+                    5d6dfabb1793137b2d756e15309165c5: !TransformComponent
+                        Id: 5c4fad3b-c1a8-451d-88d8-53244cf5fced
+                        Position: {X: -8.591589, Y: -4.641446, Z: -12.20644}
+                        Rotation: {X: 0.0, Y: 0.7596207, Z: 0.0, W: 0.6503663}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8f3aa943a9fc379c7fed85869cfe01ff: !ModelComponent
+                        Id: 525081e7-5bae-4290-9501-698aeb4da118
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 6aedea1b-498c-4004-a223-78ab95e73256
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 952136ae-adcb-44e2-a1d8-52dea6aea30e
+                Name: PlatformRocks1
+                Components:
+                    62b716c6f8a4ce8170cef83343c8cc44: !TransformComponent
+                        Id: 02a48488-b0f9-4ad3-8726-2972a33afa78
+                        Position: {X: 7.904121, Y: -5.33552361, Z: 3.962504}
+                        Rotation: {X: 0.0, Y: -0.372084469, Z: 0.0, W: 0.9281989}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    a73b5b2d7d904c6f8b1f9087dba8cca9: !ModelComponent
+                        Id: 8faaad70-7da9-45e2-ac77-8257436885ee
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 74af9c07-70cf-4690-adcc-702e1bd16e67
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: 9a02e48c-eed8-4576-a4f4-041365c730c9
+                Name: PlatformRocks2 (2)
+                Components:
+                    d2f30a7d88eeff69a462a2384736cee9: !TransformComponent
+                        Id: 89f6012c-05f7-4f67-8065-6c62492c9ec5
+                        Position: {X: 8.623979, Y: -4.67764139, Z: -1.471852}
+                        Rotation: {X: 0.0, Y: -0.6292836, Z: 0.0, W: 0.7771758}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d16ca2c04fba1e70e8d3fbb933e6e2f0: !ModelComponent
+                        Id: 1daca0ef-c4d8-4aae-9954-bf07e249defa
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 5e927946-6e20-40bc-9fb2-cb4fb1879f77
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: a403536e-c5ae-4139-8306-ad64d0c0419e
+                Name: PlatformRocks2 (6)
+                Components:
+                    d2f30a7d88eeff69a462a2384736cee9: !TransformComponent
+                        Id: 48425134-1af2-4317-bc71-5ca68081d6d8
+                        Position: {X: -8.354319, Y: -4.67764139, Z: -26.81233}
+                        Rotation: {X: 0.0, Y: -0.6292836, Z: 0.0, W: 0.7771758}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d16ca2c04fba1e70e8d3fbb933e6e2f0: !ModelComponent
+                        Id: 61e5bb2d-c008-47e8-984d-9e0825412930
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: d14ee7cb-35ff-41d7-be44-99b3759d91d5
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: a875aec1-353b-422e-a55d-d6ee382da241
+                Name: PlatformRocks2 (9)
+                Components:
+                    5d6dfabb1793137b2d756e15309165c5: !TransformComponent
+                        Id: 3f5c3195-9ea6-4099-9c6c-fd9cae981428
+                        Position: {X: -1.32431126, Y: -4.641446, Z: -26.8336849}
+                        Rotation: {X: 0.0, Y: 0.5671285, Z: 0.0, W: 0.8236293}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8f3aa943a9fc379c7fed85869cfe01ff: !ModelComponent
+                        Id: cf654419-6eec-49d1-875f-a0c03f8fb7a1
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 8b5c788f-bf44-46c7-8fe8-41284bd0d526
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: abeba8d8-a87e-48a2-82c8-9c86bf803577
+                Name: PlatformRocks2 (11)
+                Components:
+                    5d6dfabb1793137b2d756e15309165c5: !TransformComponent
+                        Id: beba234e-5d72-4ec1-b4a7-3c8cbc7786ef
+                        Position: {X: -8.252377, Y: -4.641446, Z: -1.74448407}
+                        Rotation: {X: 0.0, Y: 0.7596207, Z: 0.0, W: 0.6503663}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8f3aa943a9fc379c7fed85869cfe01ff: !ModelComponent
+                        Id: 61b80b72-0312-4b8d-ac55-113994ed5f6e
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: d7eaa454-f6a4-41f8-8e18-5508365a04a0
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: c391b670-d56d-43e9-8a93-2f5e59748586
+                Name: PlatformRocks1 (13)
+                Components:
+                    62b716c6f8a4ce8170cef83343c8cc44: !TransformComponent
+                        Id: 39b9ac3d-62ad-45ce-a487-5c8feb07cb0c
+                        Position: {X: -8.513287, Y: -5.33552361, Z: 2.25101638}
+                        Rotation: {X: 0.0, Y: -0.621628761, Z: 0.0, W: 0.783311963}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    a73b5b2d7d904c6f8b1f9087dba8cca9: !ModelComponent
+                        Id: b179b76a-7b12-40a7-b4ac-1ce170dcf33f
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: c262a6e7-cd35-4ee5-b4fa-f8b1d7285255
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: c8fe73c0-00b3-4c18-92cd-80ac9f2ed4b8
+                Name: PlatformRocks1 (7)
+                Components:
+                    62b716c6f8a4ce8170cef83343c8cc44: !TransformComponent
+                        Id: 42347380-0105-4b9f-b63f-eece6fd18244
+                        Position: {X: 9.167204, Y: -5.33552361, Z: -19.7566547}
+                        Rotation: {X: 0.0, Y: -0.372084469, Z: 0.0, W: 0.9281989}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    a73b5b2d7d904c6f8b1f9087dba8cca9: !ModelComponent
+                        Id: d8256b43-d7a8-4bd6-bd6a-2ff74dac3c0b
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 5798e7db-3eeb-4733-b8a0-5038b6cd291d
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: e1ded3bb-c9bd-43f8-8da8-d12bdca1871e
+                Name: PlatformRocks2 (13)
+                Components:
+                    5d6dfabb1793137b2d756e15309165c5: !TransformComponent
+                        Id: 6576b55f-91f1-48b8-9749-0841b6ba0781
+                        Position: {X: 5.714934, Y: -4.641446, Z: 5.59207773}
+                        Rotation: {X: 0.0, Y: -0.245246142, Z: 0.0, W: 0.969460845}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8f3aa943a9fc379c7fed85869cfe01ff: !ModelComponent
+                        Id: aa71aa05-73c3-4f33-a26b-b86f3f55a655
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 9a4d4beb-a66f-410b-b9e9-1334c3c52f41
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: ef604cfc-4567-414b-96ce-9e5e51065456
+                Name: PlatformRocks2 (8)
+                Components:
+                    d2f30a7d88eeff69a462a2384736cee9: !TransformComponent
+                        Id: b2740f4a-649b-4907-9f78-a44d60c57cb3
+                        Position: {X: 9.045102, Y: -4.67764139, Z: -24.7992115}
+                        Rotation: {X: 0.0, Y: -0.659727454, Z: 0.0, W: -0.751504958}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d16ca2c04fba1e70e8d3fbb933e6e2f0: !ModelComponent
+                        Id: 58fb8c5c-56fd-46cb-9037-8fcb1d6ffb7c
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: f09ecf9b-a307-4c67-967f-6906018ee4f4
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: f49ff062-0417-4cf0-b4dd-c5bd01d0c67b
+                Name: PlatformRocks1 (11)
+                Components:
+                    62b716c6f8a4ce8170cef83343c8cc44: !TransformComponent
+                        Id: a7f8981e-813c-4c73-b293-a6fd5076fa9e
+                        Position: {X: -8.375341, Y: -5.33552361, Z: -9.527828}
+                        Rotation: {X: 0.0, Y: 0.0992037654, Z: 0.0, W: 0.9950671}
+                        Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                        Children: {}
+                    a73b5b2d7d904c6f8b1f9087dba8cca9: !ModelComponent
+                        Id: 9b2b8b6e-2420-4649-98bc-57a42f58ebc8
+                        Model: 88704cb9-cfd9-4c56-aab4-9c6aa622b44a:Environment/Background/Models/PlatformRocks1
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 5e2341bf-ca95-4da6-b63e-7fbc0cba6da1
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c
+        -   Folder: Vertical
+            Entity:
+                Id: f51edc0f-a192-46d1-a3bf-19ca60b636c2
+                Name: PlatformRocks2 (3)
+                Components:
+                    5d6dfabb1793137b2d756e15309165c5: !TransformComponent
+                        Id: 318ee545-f0aa-4ff5-88a1-493ed31f2d20
+                        Position: {X: 8.358931, Y: -4.641446, Z: -10.9375124}
+                        Rotation: {X: 0.0, Y: 0.5671285, Z: 0.0, W: 0.8236293}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8f3aa943a9fc379c7fed85869cfe01ff: !ModelComponent
+                        Id: fdba0cfe-3c48-4ede-a3c6-cfd42398e000
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+            Base:
+                BasePartAsset: 45b47313-a4c8-46a9-83ef-2a5cda23ebf1:Levels/Prefabs/Level_1-1_PlatformRocks
+                BasePartId: 05047a1c-ca27-4214-8169-7ff28f3c6c11
+                InstanceId: 0134ac17-ee19-444f-8b14-f6222fa7052c

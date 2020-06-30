@@ -1,8 +1,0 @@
-!Sound
-Id: b2f2e90c-4bc1-44fb-91ad-eaf2ace40cb6
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/AudioToSort/TGS Sounds/player soldier/take_damage1.wav
-CompressionRatio: 15
-StreamFromDisk: false
-Spatialized: true

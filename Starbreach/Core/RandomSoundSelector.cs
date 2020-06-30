@@ -2,8 +2,8 @@
 // Distributed under the MIT license. See the LICENSE.md file in the project root for more information.
 using System;
 using System.Linq;
-using Xenko.Audio;
-using Xenko.Engine;
+using Stride.Audio;
+using Stride.Engine;
 
 namespace Starbreach.Core
 {

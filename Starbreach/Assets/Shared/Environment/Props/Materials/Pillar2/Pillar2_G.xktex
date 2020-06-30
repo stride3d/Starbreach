@@ -1,8 +1,0 @@
-!Texture
-Id: 9ae3183f-9b85-4624-a15d-c5610f0a8be7
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/Pillar2/Pillar2_G.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

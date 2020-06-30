@@ -1,0 +1,14 @@
+!Model
+Id: 71e12b5e-4d32-43af-956c-5c6c336baa52
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/Meshes/border_C_large.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fe0f722b28c564ae044289ea044289ea:
+        Name: Material
+        MaterialInstance:
+            Material: 14acd6d5-f6d1-42a7-928d-5add6341bedf:PlatformsOld/Materials/border
+Skeleton: null
+~SourceHashes:
+    04f639b9ee34eceb1e8aa693d9d407a3~../../Platforms/Meshes/border_C_large.FBX: 264c50954a724190a5bbe99c1c38ec32

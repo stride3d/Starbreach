@@ -1,8 +1,0 @@
-!Texture
-Id: 5c1afd6c-d9c7-462a-a100-9dc2fa99badb
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Background/Island1/Isl1_AO.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

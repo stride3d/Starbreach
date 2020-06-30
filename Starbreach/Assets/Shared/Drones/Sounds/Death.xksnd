@@ -1,8 +1,0 @@
-!Sound
-Id: 4c9333d4-d4d5-4f61-9390-6b2e2602cf1b
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Drones/Sounds/Death.wav
-CompressionRatio: 15
-StreamFromDisk: false
-Spatialized: true

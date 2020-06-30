@@ -1,8 +1,0 @@
-!Texture
-Id: 6dc49aff-167c-4de8-9fc9-bf2f8050b565
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/Tube/Tube_Rust_M.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

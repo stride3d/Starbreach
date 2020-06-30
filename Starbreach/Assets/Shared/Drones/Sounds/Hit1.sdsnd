@@ -1,0 +1,8 @@
+!Sound
+Id: 973a4551-7cd6-4b8d-8a53-5a61ca9e461b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Drones/Sounds/Hit1.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

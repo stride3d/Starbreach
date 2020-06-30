@@ -1,0 +1,6 @@
+!Texture
+Id: e9cdccbf-a048-4cc9-8dfc-3ff66f728e80
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Borders/Border_G.png
+Type: !GrayscaleTextureType {}

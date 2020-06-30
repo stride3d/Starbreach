@@ -1,9 +1,0 @@
-!Texture
-Id: 4a0089eb-b333-4f2b-a6aa-b6384b0b18b9
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/Column/Column_D.png
-Width: 50.0
-Height: 50.0
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

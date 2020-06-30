@@ -1,0 +1,9 @@
+!Texture
+Id: bafe58bf-c14b-4d41-bbec-2839031b95dd
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/Drone/DroneLower_E.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
