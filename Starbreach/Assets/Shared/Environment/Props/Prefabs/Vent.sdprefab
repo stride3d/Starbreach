@@ -61,6 +61,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             18cf11ad3eabc040ac2705991dacfea7: !CylinderColliderShapeDesc
                                 Height: 1.4

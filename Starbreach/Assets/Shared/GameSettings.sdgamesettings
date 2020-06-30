@@ -9,7 +9,7 @@ Defaults:
         DefaultBackBufferWidth: 1920
         DefaultBackBufferHeight: 1080
         AdaptBackBufferToScreen: false
-        DefaultGraphicsProfile: Level_10_0
+        DefaultGraphicsProfile: Level_11_0
         ColorSpace: Linear
         DisplayOrientation: LandscapeRight
     - !Stride.Assets.EditorSettings,Stride.Assets
@@ -17,7 +17,7 @@ Defaults:
     - !Stride.Assets.Textures.TextureSettings,Stride.Assets
         TextureQuality: Fast
     - !Stride.Physics.PhysicsSettings,Stride.Physics
-        Flags: ContinuosCollisionDetection
+        Flags: ContinuousCollisionDetection
         MaxSubSteps: 4
         FixedTimeStep: 0.0166666675
     - !Stride.Audio.AudioEngineSettings,Stride.Audio

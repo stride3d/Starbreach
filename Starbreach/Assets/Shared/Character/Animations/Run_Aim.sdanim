@@ -2,7 +2,7 @@
 Id: 1e7a8c41-9c80-416c-9115-2c82991d9751
 SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
-Source: ../../../../Resources/Character/Animations/08-05-2016/run_gun_aim.FBX
+Source: !file ../../../../Resources/Character/Animations/08-05-2016/run_gun_aim.FBX
 ClipDuration:
     Enabled: false
     StartAnimationTime: 0:00:00:00.0000000
@@ -14,4 +14,6 @@ Skeleton: b18ce390-d277-401c-872c-917f4cb017d0:Character/Main_character_base Ske
 RootMotion: false
 PreviewModel: 94618d74-a17c-486b-88e0-42a1b6c081f2:Character/Main_character_base
 AnimationTimeMinimum: 0:00:00:00.0000000
-AnimationTimeMaximum: 0:00:30:00.0000000
+AnimationTimeMaximum: 0:00:00:00.9670000
+~SourceHashes:
+    a4e3eee23b3b081bb4f7031f220a233e~../../../../Resources/Character/Animations/08-05-2016/run_gun_aim.FBX: a5f2f421e67686e4b4a246df32894623

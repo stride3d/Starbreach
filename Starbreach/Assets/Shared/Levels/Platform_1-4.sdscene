@@ -108,6 +108,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             3c185efd0ffe017392955bb13e2b575c: !BoxColliderShapeDesc
                                 Is2D: false
@@ -161,6 +162,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             30ff71837d20084985383f3411cf2ed8: !BoxColliderShapeDesc
                                 Is2D: false
@@ -354,6 +356,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             c40463507837835195777deb473f14de: !BoxColliderShapeDesc
                                 Is2D: false
@@ -417,6 +420,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             82ea61f172e46a4aab7ce970e3a3f887: !BoxColliderShapeDesc
                                 Is2D: false
@@ -451,6 +455,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             2f121f88c1f6896ca79a2939aa8a095c: !BoxColliderShapeDesc
                                 Is2D: false
@@ -503,6 +508,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             3c185efd0ffe017392955bb13e2b575c: !BoxColliderShapeDesc
                                 Is2D: false
@@ -659,6 +665,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             30ff71837d20084985383f3411cf2ed8: !BoxColliderShapeDesc
                                 Is2D: false
@@ -890,6 +897,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             d9c023df8272c6145711f00ef8160b74: !BoxColliderShapeDesc
                                 Is2D: false
@@ -979,6 +987,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             2f121f88c1f6896ca79a2939aa8a095c: !BoxColliderShapeDesc
                                 Is2D: false
@@ -1490,6 +1499,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             368adb9e6793798169337ef4de98022b: !BoxColliderShapeDesc
                                 Is2D: false
@@ -1524,6 +1534,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             30ff71837d20084985383f3411cf2ed8: !BoxColliderShapeDesc
                                 Is2D: false
@@ -1558,6 +1569,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             30ff71837d20084985383f3411cf2ed8: !BoxColliderShapeDesc
                                 Is2D: false
@@ -1641,6 +1653,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             c40463507837835195777deb473f14de: !BoxColliderShapeDesc
                                 Is2D: false
@@ -1686,6 +1699,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             91dcaff8c24c3dcc4c6c422b0c46a843: !BoxColliderShapeDesc
                                 Is2D: false
@@ -2018,6 +2032,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             2f121f88c1f6896ca79a2939aa8a095c: !BoxColliderShapeDesc
                                 Is2D: false
@@ -2070,6 +2085,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             73a42be32d471fc220f6ebc55d725e77: !BoxColliderShapeDesc
                                 Is2D: false
@@ -2261,6 +2277,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             30ff71837d20084985383f3411cf2ed8: !BoxColliderShapeDesc
                                 Is2D: false
@@ -2290,6 +2307,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             2f121f88c1f6896ca79a2939aa8a095c: !BoxColliderShapeDesc
                                 Is2D: false
@@ -2337,6 +2355,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             2f121f88c1f6896ca79a2939aa8a095c: !BoxColliderShapeDesc
                                 Is2D: false
@@ -2703,6 +2722,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             1d67cc52a11e0847caf11de57e6ad84e: !BoxColliderShapeDesc
                                 Is2D: false
@@ -2755,6 +2775,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             c40463507837835195777deb473f14de: !BoxColliderShapeDesc
                                 Is2D: false
@@ -3243,6 +3264,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             30ff71837d20084985383f3411cf2ed8: !BoxColliderShapeDesc
                                 Is2D: false
@@ -3273,6 +3295,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             2f121f88c1f6896ca79a2939aa8a095c: !BoxColliderShapeDesc
                                 Is2D: false
@@ -3343,6 +3366,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             7e00afee3484d23f207fe6d6fac12d9a: !BoxColliderShapeDesc
                                 Is2D: false
@@ -3735,6 +3759,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             91dcaff8c24c3dcc4c6c422b0c46a843: !BoxColliderShapeDesc
                                 Is2D: false
@@ -3879,6 +3904,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             c40463507837835195777deb473f14de: !BoxColliderShapeDesc
                                 Is2D: false
@@ -3923,6 +3949,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             c40463507837835195777deb473f14de: !BoxColliderShapeDesc
                                 Is2D: false
@@ -4075,6 +4102,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             73a42be32d471fc220f6ebc55d725e77: !BoxColliderShapeDesc
                                 Is2D: false
@@ -4141,6 +4169,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             2f121f88c1f6896ca79a2939aa8a095c: !BoxColliderShapeDesc
                                 Is2D: false
@@ -4193,6 +4222,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             30ff71837d20084985383f3411cf2ed8: !BoxColliderShapeDesc
                                 Is2D: false
@@ -4315,6 +4345,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             4c32acecb9c8dda8e7090dfff42e9550: !BoxColliderShapeDesc
                                 Is2D: false
@@ -4378,6 +4409,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             82ea61f172e46a4aab7ce970e3a3f887: !BoxColliderShapeDesc
                                 Is2D: false
@@ -4455,6 +4487,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             2f121f88c1f6896ca79a2939aa8a095c: !BoxColliderShapeDesc
                                 Is2D: false
@@ -4785,6 +4818,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             2f121f88c1f6896ca79a2939aa8a095c: !BoxColliderShapeDesc
                                 Is2D: false
@@ -4859,6 +4893,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             18cf11ad3eabc040ac2705991dacfea7: !CylinderColliderShapeDesc
                                 Height: 1.4
@@ -4892,6 +4927,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             18cf11ad3eabc040ac2705991dacfea7: !CylinderColliderShapeDesc
                                 Height: 1.4
@@ -5021,6 +5057,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             95d55168ece39fce6c45fb238bb81ddd: !CylinderColliderShapeDesc
                                 Height: 0.5
@@ -5275,6 +5312,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             30ff71837d20084985383f3411cf2ed8: !BoxColliderShapeDesc
                                 Is2D: false
@@ -5326,6 +5364,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             18cf11ad3eabc040ac2705991dacfea7: !CylinderColliderShapeDesc
                                 Height: 1.4
@@ -5610,6 +5649,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             40ee7ddde5e60f8c314a36175b8b8dbe: !BoxColliderShapeDesc
                                 Is2D: false
@@ -6085,6 +6125,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             3c185efd0ffe017392955bb13e2b575c: !BoxColliderShapeDesc
                                 Is2D: false
@@ -6195,6 +6236,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             c40463507837835195777deb473f14de: !BoxColliderShapeDesc
                                 Is2D: false
@@ -6254,6 +6296,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             c222d643bda9467ac12372fe4e854a41: !BoxColliderShapeDesc
                                 Is2D: false
@@ -6298,6 +6341,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             73a42be32d471fc220f6ebc55d725e77: !BoxColliderShapeDesc
                                 Is2D: false
@@ -6331,6 +6375,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             18cf11ad3eabc040ac2705991dacfea7: !CylinderColliderShapeDesc
                                 Height: 1.4
@@ -6361,6 +6406,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             2f121f88c1f6896ca79a2939aa8a095c: !BoxColliderShapeDesc
                                 Is2D: false
@@ -6452,6 +6498,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             c222d643bda9467ac12372fe4e854a41: !BoxColliderShapeDesc
                                 Is2D: false
@@ -6720,6 +6767,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             73a42be32d471fc220f6ebc55d725e77: !BoxColliderShapeDesc
                                 Is2D: false
@@ -6753,6 +6801,7 @@ Hierarchy:
                         CcdMotionThreshold: 0.0
                         CcdSweptSphereRadius: 0.0
                         IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
                         ColliderShapes:
                             18cf11ad3eabc040ac2705991dacfea7: !CylinderColliderShapeDesc
                                 Height: 1.4
