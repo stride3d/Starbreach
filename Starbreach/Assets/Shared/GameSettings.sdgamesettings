@@ -5,24 +5,24 @@ Tags: []
 DefaultScene: 6224d747-48a6-4736-a199-27785b9b7c3b:Levels/MainScene
 GraphicsCompositor: 25ba6790-1bea-4921-a62e-6cf18e677ed9:GraphicsCompositor
 Defaults:
-    - !Stride.Graphics.RenderingSettings,Xenko.Graphics
+    - !Stride.Graphics.RenderingSettings,Stride.Graphics
         DefaultBackBufferWidth: 1920
         DefaultBackBufferHeight: 1080
         AdaptBackBufferToScreen: false
         DefaultGraphicsProfile: Level_10_0
         ColorSpace: Linear
         DisplayOrientation: LandscapeRight
-    - !Stride.Assets.EditorSettings,Xenko.Assets
+    - !Stride.Assets.EditorSettings,Stride.Assets
         RenderingMode: HDR
-    - !Stride.Assets.Textures.TextureSettings,Xenko.Assets
+    - !Stride.Assets.Textures.TextureSettings,Stride.Assets
         TextureQuality: Fast
-    - !Stride.Physics.PhysicsSettings,Xenko.Physics
+    - !Stride.Physics.PhysicsSettings,Stride.Physics
         Flags: ContinuosCollisionDetection
         MaxSubSteps: 4
         FixedTimeStep: 0.0166666675
-    - !Stride.Audio.AudioEngineSettings,Xenko.Audio
+    - !Stride.Audio.AudioEngineSettings,Stride.Audio
         HrtfSupport: false
-    - !Stride.Navigation.NavigationSettings,Xenko.Navigation
+    - !Stride.Navigation.NavigationSettings,Stride.Navigation
         EnableDynamicNavigationMesh: false
         IncludedCollisionGroups: AllFilter
         BuildSettings:
