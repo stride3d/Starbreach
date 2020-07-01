@@ -1,0 +1,8 @@
+!Texture
+Id: 2afa9da4-f91d-4d5b-a16b-7106e5b61bb8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/QuadBarrels/QuadBarrels_M.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

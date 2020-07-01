@@ -1,0 +1,7 @@
+!Texture
+Id: e1a40892-f48e-4757-bf1f-18ee30a230d4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/VisualEffects/circle1.tif
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

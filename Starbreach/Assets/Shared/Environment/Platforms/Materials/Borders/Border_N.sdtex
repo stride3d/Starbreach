@@ -1,0 +1,6 @@
+!Texture
+Id: ae37972e-8953-4004-884b-241994bd018b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Borders/Border_N.png
+Type: !NormalMapTextureType {}

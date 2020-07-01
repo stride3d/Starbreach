@@ -1,0 +1,6 @@
+!Texture
+Id: 0466581b-d91a-41d0-9d7f-43f1d6802247
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Platforms/Cells/cell03_normal_baked.png
+Type: !NormalMapTextureType {}

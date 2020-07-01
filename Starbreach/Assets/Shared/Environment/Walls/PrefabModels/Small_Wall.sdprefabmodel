@@ -1,0 +1,6 @@
+!PrefabModelAsset
+Id: 5d139f33-5b0c-4e35-ab70-78b928020552
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Materials: {}
+Prefab: 8a024eda-a607-4207-bad9-b3c353e02600:Environment/Walls/Prefabs/Small_Wall

@@ -1,6 +1,0 @@
-!Texture
-Id: 9a2cbb70-451a-4135-931e-4ec470e9309b
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../Resources/Walls/Wall1/Wall1_Rust_M.png
-Type: !GrayscaleTextureType {}

@@ -1,0 +1,14 @@
+!Model
+Id: 7d1af772-77f7-4269-b42a-f18cade29935
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Props/Wall/Meshes/P_wall_tube_conector.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fe0f722b28c564ae044289ea044289ea:
+        Name: Material
+        MaterialInstance:
+            Material: null
+Skeleton: null
+~SourceHashes:
+    2899bdf4e8c81cbf9597f88d8ba5a33b~../../../Props/Wall/Meshes/P_wall_tube_conector.FBX: ca32e94e4b8e14ae4b865e4f1b0fe5f4

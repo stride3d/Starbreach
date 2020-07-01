@@ -1,0 +1,18 @@
+!Model
+Id: dbf4d217-7261-4460-b520-520c15b6d009
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Gameplay/LaserFence/LaserFenceAnim.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    5996446d805362ac6bc962936689e205:
+        Name: Material_1
+        MaterialInstance:
+            Material: 3967af78-1f53-4383-898f-f8451c92176e:Environment/Props/Materials/DataSwitcher/DataSwitcher_MT
+    662ff957d86dd4b889705aeba2fbcd97:
+        Name: Material_2
+        MaterialInstance:
+            Material: 73967223-8432-4913-ae5d-469e416f556f:Environment/Props/Materials/ServerPad/ServerPad_v2_MT
+Skeleton: null
+~SourceHashes:
+    90322384e255f293668ad6ed97c1fbcb~../../../../Resources/Gameplay/LaserFence/LaserFenceAnim.FBX: b25b2508453e5401598356c70c67806d

@@ -1,0 +1,8 @@
+!Sound
+Id: e879b7ba-0a56-49cf-920a-c21c74026532
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Drones/Sounds/LaserImpact0.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

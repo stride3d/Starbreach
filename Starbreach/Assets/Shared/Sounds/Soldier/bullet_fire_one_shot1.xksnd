@@ -1,8 +1,0 @@
-!Sound
-Id: 59256dc3-bb1f-441e-81e7-acb8f86c9530
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/AudioToSort/TGS Sounds/player soldier/bullet_fire_one_shot1.wav
-CompressionRatio: 15
-StreamFromDisk: false
-Spatialized: true

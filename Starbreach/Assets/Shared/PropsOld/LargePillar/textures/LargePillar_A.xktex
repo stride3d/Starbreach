@@ -1,7 +1,0 @@
-!Texture
-Id: 16bdb2d8-df0e-4e8e-ad49-9ec6e65becf0
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../Props/LargePillar/textures/LargePillar_A.tga
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

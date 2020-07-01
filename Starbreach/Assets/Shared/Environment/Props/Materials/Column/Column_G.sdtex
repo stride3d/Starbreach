@@ -1,0 +1,8 @@
+!Texture
+Id: dddfdfed-1422-47e8-a260-80d0faf83075
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Column/Column_G.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

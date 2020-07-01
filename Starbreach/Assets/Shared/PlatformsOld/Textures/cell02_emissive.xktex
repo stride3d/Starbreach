@@ -1,7 +1,0 @@
-!Texture
-Id: a6b44706-45b0-42b1-8112-4fe306fa02ac
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../Platforms/cell/cell02_emissive.tga
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,8 @@
+!Sound
+Id: 10ee8241-9a28-45b6-aba4-00c4c39106b6
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Drones/Sounds/LaserFire1.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

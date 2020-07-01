@@ -1,0 +1,7 @@
+!Texture
+Id: 1eb0221a-54cf-42bb-afbe-b827737b3998
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Platforms/cell/rusted/cell1R_A.tga
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

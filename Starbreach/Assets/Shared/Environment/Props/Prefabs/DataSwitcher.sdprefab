@@ -1,0 +1,41 @@
+!PrefabAsset
+Id: 18a16e3d-5140-4db4-85a5-cd34e4fe1640
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! bde5e4a6-c956-4cfd-9fa5-4f689c001ab2
+    Parts:
+        -   Entity:
+                Id: bde5e4a6-c956-4cfd-9fa5-4f689c001ab2
+                Name: DataSwitcher
+                Components:
+                    ec3ee182ea7a0c1b20b9962a69b81666: !TransformComponent
+                        Id: e2868b41-a96f-42f8-af81-249ba393e8a2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    30a5b8bb417210df31819b03c22e9bb4: !ModelComponent
+                        Id: f09d4b11-a506-4e03-ab4d-04f9fa6cd2b0
+                        Model: 87c540c8-80aa-4d46-a28f-6f99109347f6:Environment/Props/Models/DataSwitcher
+                        Materials: {}
+                    726c862c3e01529c1975b308e9ee07f4: !StaticColliderComponent
+                        Id: 733c11ff-7f48-4529-9529-557bc4ed4984
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            3c185efd0ffe017392955bb13e2b575c: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 2.0, Y: 7.0, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 3.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                            a3452e015314c275217bf6b46bc100a4: !CylinderColliderShapeDesc
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 0.5, Z: -2.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

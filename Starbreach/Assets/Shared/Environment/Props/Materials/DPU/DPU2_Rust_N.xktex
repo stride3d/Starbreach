@@ -1,8 +1,0 @@
-!Texture
-Id: 5dd29117-daeb-4cda-8df0-7351cebb7988
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/DPU/DPU2_Rust_N.png
-Width: 50.0
-Height: 50.0
-Type: !NormalMapTextureType {}

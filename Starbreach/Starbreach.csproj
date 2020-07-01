@@ -1,24 +1,20 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
     <RootNamespace>PBRGame</RootNamespace>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Xenko.Core" Version="3.1.0.1-beta02-0609" PrivateAssets="contentfiles;analyzers" />
-    <PackageReference Include="Xenko.Core.Assets.CompilerApp" Version="3.1.0.1-beta02-0609" PrivateAssets="contentfiles;analyzers" IncludeAssets="build" />
-    <PackageReference Include="Xenko.Engine" Version="3.1.0.1-beta02-0609" PrivateAssets="contentfiles;analyzers" />
-    <PackageReference Include="Xenko.Navigation" Version="3.1.0.1-beta02-0609" PrivateAssets="contentfiles;analyzers" />
-    <PackageReference Include="Xenko.Particles" Version="3.1.0.1-beta02-0609" PrivateAssets="contentfiles;analyzers" />
-    <PackageReference Include="Xenko.Physics" Version="3.1.0.1-beta02-0609" PrivateAssets="contentfiles;analyzers" />
-    <PackageReference Include="Xenko.UI" Version="3.1.0.1-beta02-0609" PrivateAssets="contentfiles;analyzers" />
-    <PackageReference Include="Xenko.Video" Version="3.1.0.1-beta02-0609" PrivateAssets="contentfiles;analyzers" />
+    <PackageReference Include="Stride.Core" Version="4.0.0.1-beta04-1207" PrivateAssets="contentfiles;analyzers" />
+    <PackageReference Include="Stride.Core.Assets.CompilerApp" Version="4.0.0.1-beta04-1207" PrivateAssets="contentfiles;analyzers" IncludeAssets="build" />
+    <PackageReference Include="Stride.Engine" Version="4.0.0.1-beta04-1207" PrivateAssets="contentfiles;analyzers" />
+    <PackageReference Include="Stride.Navigation" Version="4.0.0.1-beta04-1207" PrivateAssets="contentfiles;analyzers" />
+    <PackageReference Include="Stride.Particles" Version="4.0.0.1-beta04-1207" PrivateAssets="contentfiles;analyzers" />
+    <PackageReference Include="Stride.Physics" Version="4.0.0.1-beta04-1207" PrivateAssets="contentfiles;analyzers" />
+    <PackageReference Include="Stride.UI" Version="4.0.0.1-beta04-1207" PrivateAssets="contentfiles;analyzers" />
+    <PackageReference Include="Stride.Video" Version="4.0.0.1-beta04-1207" PrivateAssets="contentfiles;analyzers" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="VFX\ComputeColorTextureScrollH.xksl">
-      <Generator>XenkoShaderKeyGenerator</Generator>
-      <LastGenOutput>ComputeColorTextureScrollH.cs</LastGenOutput>
-    </None>
     <None Include="VFX\ComputeColorTextureScrollParam.xksl">
       <Generator>XenkoShaderKeyGenerator</Generator>
       <LastGenOutput>ComputeColorTextureScrollParam1.cs</LastGenOutput>
@@ -32,12 +28,6 @@
     <ProjectReference Include="..\VFXPackage\VFXPackage.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="VFX\ComputeColorTextureScrollH.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>ComputeColorTextureScrollH.xksl</DependentUpon>
-    </Compile>
     <Compile Update="VFX\ComputeColorTextureScrollParam1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

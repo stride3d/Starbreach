@@ -3,10 +3,10 @@
 using System;
 using System.Threading.Tasks;
 using Starbreach.Core;
-using Xenko.Core.Collections;
-using Xenko.Core.Mathematics;
-using Xenko.Animations;
-using Xenko.Engine;
+using Stride.Core.Collections;
+using Stride.Core.Mathematics;
+using Stride.Animations;
+using Stride.Engine;
 
 namespace Starbreach.Drones
 {

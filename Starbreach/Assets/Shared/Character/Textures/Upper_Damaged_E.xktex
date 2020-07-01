@@ -1,9 +1,0 @@
-!Texture
-Id: 7fb3e39b-bb19-481f-86e6-fca87e24a3c7
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Character/MainCharacter_Damaged/MainCharacter_Upper_Damaged_E.tga
-Width: 50.0
-Height: 50.0
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

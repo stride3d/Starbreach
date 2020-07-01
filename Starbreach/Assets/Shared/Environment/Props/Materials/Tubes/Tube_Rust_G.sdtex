@@ -1,0 +1,8 @@
+!Texture
+Id: effc1095-d8d7-4795-ba81-a36a21f21fba
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Tube/Tube_Rust_G.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

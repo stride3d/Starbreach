@@ -1,8 +1,0 @@
-!Texture
-Id: 9846a9ae-7587-4571-969d-004d0064c758
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/Crane/Crane_G.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

@@ -1,0 +1,10 @@
+!ProceduralModelAsset
+Id: 2f4e806b-c1eb-4e53-8c68-0e1f551d324d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: !SphereProceduralModel
+    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+    UvScale: {X: 1.0, Y: 1.0}
+    LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+    MaterialInstance:
+        Material: c7c78c11-a78f-491c-a82d-30adbe324f9f:VFX/BlueLockdown

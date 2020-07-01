@@ -1,8 +1,0 @@
-!Sound
-Id: 936a2dbe-31df-40cc-836b-18793ffcea22
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Drones/Sounds/Explosion.wav
-CompressionRatio: 15
-StreamFromDisk: false
-Spatialized: true

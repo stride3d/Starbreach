@@ -1,0 +1,8 @@
+!Sound
+Id: 1d4673e5-cfbf-45eb-a34f-6d0c93074702
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Drones/Sounds/Engine0.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

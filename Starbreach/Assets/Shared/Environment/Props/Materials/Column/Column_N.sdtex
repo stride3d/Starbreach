@@ -1,0 +1,8 @@
+!Texture
+Id: 66ec87ad-f905-415f-80d3-7ad6cc3d55ad
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Column/Column_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

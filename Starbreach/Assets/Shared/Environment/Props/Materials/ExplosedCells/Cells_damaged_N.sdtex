@@ -1,0 +1,8 @@
+!Texture
+Id: 0bbe7033-757c-44a1-89e8-bf53e467b33c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/ExplosedCells/Cells_damaged_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

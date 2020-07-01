@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 8be6d68d-7fac-4a71-b0f5-9cf97cfb7339
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! bad2cc9a-192b-4c91-ab37-76f4d80c8558
+    Parts:
+        -   Entity:
+                Id: bad2cc9a-192b-4c91-ab37-76f4d80c8558
+                Name: Wall_end_B
+                Components:
+                    30205b6ed13438d5333e4ddd34ee9e39: !TransformComponent
+                        Id: f59802ff-494c-4577-9963-2ea5b3875eb6
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2372e7c593bb48b37a3d1d2cf5fade99: !ModelComponent
+                        Id: 259c8e58-354f-4feb-bbd0-9418f8560a83
+                        Model: d367f375-e134-4ce7-9060-cdf4fb960698:Environment/Walls/Models/Wall_end_B
+                        Materials: {}

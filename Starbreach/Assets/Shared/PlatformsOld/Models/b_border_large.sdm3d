@@ -1,0 +1,14 @@
+!Model
+Id: 9fa0414e-ce68-407d-b576-619a87601f45
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/Meshes/b_border_large.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    516dc2b077de7afb3aef5f143aef5f14:
+        Name: border3
+        MaterialInstance:
+            Material: null
+Skeleton: null
+~SourceHashes:
+    4adddefb8b9be78c7cd933a73dc34487~../../Platforms/Meshes/b_border_large.FBX: de096db1801ec6f756d93a3afc85a32a

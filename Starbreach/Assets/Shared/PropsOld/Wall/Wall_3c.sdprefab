@@ -1,0 +1,37 @@
+!PrefabAsset
+Id: e8e530f1-2c26-4155-b41e-a302db6b4a83
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! d9095823-691f-4917-a125-d0e9cce77afb
+    Parts:
+        -   Entity:
+                Id: d9095823-691f-4917-a125-d0e9cce77afb
+                Name: Wall_3
+                Components:
+                    84ccbe71ab5e2b4bab804b3733c71f89: !TransformComponent
+                        Id: 71becc84-5eab-4b2b-ab80-4b3733c71f89
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9acc88eff98e2748a005763e19440347: !ModelComponent
+                        Id: ef88cc9a-8ef9-4827-a005-763e19440347
+                        Model: null
+                        Materials: {}
+                    32de86f2bfc2ae479831512cfb69ed13: !StaticColliderComponent
+                        Id: f286de32-c2bf-47ae-9831-512cfb69ed13
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            06fc4a5eb33e0d47b9d0b9bab1d3c422: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 9.0, Y: 2.5, Z: 1.0}
+                                LocalOffset: {X: -3.0, Y: 1.25, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

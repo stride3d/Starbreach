@@ -1,6 +1,0 @@
-!Texture
-Id: 73ea530d-a858-4db2-a3d8-510eea31d6d5
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../Resources/Walls/Wall1/Wall1_Rust_N.png
-Type: !NormalMapTextureType {}

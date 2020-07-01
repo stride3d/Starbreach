@@ -1,0 +1,6 @@
+!Texture
+Id: 95a2f237-aa4c-4062-9696-b7cc63ebe30a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/rails_adv/rail01_gloss.tga
+Type: !GrayscaleTextureType {}

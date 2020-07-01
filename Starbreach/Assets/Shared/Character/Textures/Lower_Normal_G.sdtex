@@ -1,0 +1,8 @@
+!Texture
+Id: 049878fd-2382-47eb-b274-337471de4428
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/Lower [Gloss].tga
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

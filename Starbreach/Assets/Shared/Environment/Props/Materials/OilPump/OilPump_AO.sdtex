@@ -1,0 +1,8 @@
+!Texture
+Id: 3ef89101-9c0c-4932-b73e-dd47124a2308
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/OilPump/OilPump_AO.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

@@ -4,14 +4,14 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Starbreach.Core;
-using Xenko.Core;
-using Xenko.Core.Mathematics;
-using Xenko.Audio;
-using Xenko.Engine;
-using Xenko.Navigation;
-using Xenko.Particles.Components;
-using Xenko.Physics;
-using Xenko.Rendering;
+using Stride.Core;
+using Stride.Core.Mathematics;
+using Stride.Audio;
+using Stride.Engine;
+using Stride.Navigation;
+using Stride.Particles.Components;
+using Stride.Physics;
+using Stride.Rendering;
 
 namespace Starbreach.Drones
 {

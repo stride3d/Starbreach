@@ -1,0 +1,8 @@
+!Sound
+Id: 96a6a59f-dec9-465d-9f01-e426b0eab295
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/AudioToSort/TGS Sounds/player soldier/take_damage2.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

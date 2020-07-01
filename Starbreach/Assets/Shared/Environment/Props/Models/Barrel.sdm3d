@@ -1,0 +1,14 @@
+!Model
+Id: 3a09548e-eda3-49bd-8b7e-49c653eb1c04
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/Barrel/Barrel.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    eb03cd17ff3ee8dd056b65c9d0fd9d57:
+        Name: Material
+        MaterialInstance:
+            Material: 199874d6-47b5-4a3a-8f3f-0051947d2b0a:Environment/Props/Materials/Barrel/Barrel_MT
+Skeleton: null
+~SourceHashes:
+    6b05b08912b61a681f5fd2e796a2a7ca~../../../../../Resources/Props/Barrel/Barrel.FBX: 2f6b62af644bfada5fbed0496fa9bec6

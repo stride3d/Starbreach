@@ -1,11 +1,11 @@
 // Copyright (c) Silicon Studio Corp. (https://www.siliconstudio.co.jp)
 // Distributed under the MIT license. See the LICENSE.md file in the project root for more information.
 using System;
-using Xenko.Core;
-using Xenko.Engine;
-using Xenko.Engine.Events;
-using Xenko.Rendering;
-using MathUtil = Xenko.Core.Mathematics.MathUtil;
+using Stride.Core;
+using Stride.Engine;
+using Stride.Engine.Events;
+using Stride.Rendering;
+using MathUtil = Stride.Core.Mathematics.MathUtil;
 
 namespace Starbreach.Gameplay
 {

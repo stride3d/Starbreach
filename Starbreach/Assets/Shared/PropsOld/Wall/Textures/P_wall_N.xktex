@@ -1,6 +1,0 @@
-!Texture
-Id: 30d79764-cafb-4123-957d-8c21513e0e42
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../Props/Wall/Textures/P_wall_N.tga
-Type: !NormalMapTextureType {}

@@ -1,0 +1,6 @@
+!PrefabModelAsset
+Id: d4b80dc1-d62f-49a4-ad5d-32d4f47612ff
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Materials: {}
+Prefab: f61931ad-a946-4e01-a913-6f11671bb52b:Levels/Prefabs/Level_1-3_Platform

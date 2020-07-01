@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xenko.Core.Mathematics;
-using Xenko.Engine;
-using Xenko.Physics;
+using Stride.Core.Mathematics;
+using Stride.Engine;
+using Stride.Physics;
 
 namespace Starbreach.Core
 {

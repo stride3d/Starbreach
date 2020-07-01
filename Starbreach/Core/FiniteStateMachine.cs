@@ -3,7 +3,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using Xenko.Engine.Processors;
+using Stride.Engine.Processors;
 
 namespace Starbreach.Core
 {

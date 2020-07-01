@@ -1,0 +1,14 @@
+!Model
+Id: 2bdf4195-335f-4e98-93b4-c55bb8c9f9c7
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/Meshes/border_small_C2.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fe0f722b28c564ae044289ea044289ea:
+        Name: Material
+        MaterialInstance:
+            Material: null
+Skeleton: null
+~SourceHashes:
+    a376ef1c60af0a88dba015765e9ea760~../../Platforms/Meshes/border_small_C2.FBX: 3395761318b4779f90554754d37f710a

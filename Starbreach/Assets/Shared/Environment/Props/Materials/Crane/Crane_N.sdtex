@@ -1,0 +1,8 @@
+!Texture
+Id: a9bbbf59-277c-42ad-8ea1-c07c47d32893
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Crane/Crane_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

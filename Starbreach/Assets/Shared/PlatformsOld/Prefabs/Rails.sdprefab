@@ -1,0 +1,37 @@
+!PrefabAsset
+Id: 21f6ebc2-07d3-4cdd-89e9-07b0a2713904
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 6f8eaba3-b78e-445f-8ba5-f22f43244c5b
+    Parts:
+        -   Entity:
+                Id: 6f8eaba3-b78e-445f-8ba5-f22f43244c5b
+                Name: Rails
+                Components:
+                    f51f59cfaabba24aa10acbe24b1577c2: !TransformComponent
+                        Id: cf591ff5-bbaa-4aa2-a10a-cbe24b1577c2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6bb42ae176ba9d449398275f18ac377c: !ModelComponent
+                        Id: e12ab46b-ba76-449d-9398-275f18ac377c
+                        Model: b144c0e0-a473-485a-97a9-99c8440543f9:PlatformsOld/Models/Rails
+                        Materials: {}
+                    c3490972a36d22459d73d5e05679a26c: !StaticColliderComponent
+                        Id: 720949c3-6da3-4522-9d73-d5e05679a26c
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            8e2989441024a842bae572fd1895b241: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 3.0, Y: 1.5, Z: 0.25}
+                                LocalOffset: {X: 0.0, Y: 0.75, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

@@ -1,0 +1,23 @@
+!PrefabAsset
+Id: e11a6c2e-3d60-43a9-b54b-5c126b9b8f64
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! ea106d9d-1797-471b-b347-75767df9d559
+    Parts:
+        -   Entity:
+                Id: ea106d9d-1797-471b-b347-75767df9d559
+                Name: Cell
+                Components:
+                    803571f73b40b944a0bc88cb20e67b4a: !TransformComponent
+                        Id: f7713580-403b-44b9-a0bc-88cb20e67b4a
+                        Position: {X: 0.0, Y: 0.01, Z: 0.0}
+                        Rotation: {X: 0.0, Y: -0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    39a6aabd84b00246acbaf4bd2fe7caa3: !ModelComponent
+                        Id: bdaaa639-b084-4602-acba-f4bd2fe7caa3
+                        Model: 93eb4db8-c550-4028-911a-eecf037f8f2d:PlatformsOld/Models/Cell
+                        Materials:
+                            85dbab117089e6449dd170e6ebf51f67~0: ec7eeef7-c6bf-4edf-b5e8-90c115d1b689:PlatformsOld/Materials/cell02_off

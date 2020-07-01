@@ -1,0 +1,9 @@
+!Texture
+Id: e578ff96-e636-441b-b03a-1c852c81139b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/ChargerBox/ChargerBox_E.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

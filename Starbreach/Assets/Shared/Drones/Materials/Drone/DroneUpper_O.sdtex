@@ -1,0 +1,9 @@
+!Texture
+Id: 8f0145d3-376a-4e88-a144-7a25eab2753c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/Drone/DroneUpper_O.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

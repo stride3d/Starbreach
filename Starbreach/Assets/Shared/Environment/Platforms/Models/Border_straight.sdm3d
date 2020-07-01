@@ -1,0 +1,18 @@
+!Model
+Id: 8ec5ea63-3993-47b9-b6de-9f82c4a3f3c3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Platforms/Borders/Border_straight.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    b8a55f36f4d41085fec71413453ec411:
+        Name: Ledge
+        MaterialInstance:
+            Material: 9e3f4553-c2c6-4b3c-8bbe-99e49d11c87b:Environment/Platforms/Materials/Borders/Ledge_Rusted_MT
+    f0339ede06cdfb2cd98cf3fc433d15f5:
+        Name: Border
+        MaterialInstance:
+            Material: dade43d9-ff9b-456f-a9e7-78f5a26afb39:Environment/Platforms/Materials/Borders/Border_MT
+Skeleton: null
+~SourceHashes:
+    dc6feb091cb6f86e199893285e70f9a5~../../../../../Resources/Platforms/Borders/Border_straight.fbx: 9c1da2c7c1f357295fcbde9331d8b936

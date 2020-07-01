@@ -1,9 +1,0 @@
-!Texture
-Id: 427add2a-a6df-4aff-9386-c184f2b2a201
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Platforms/Ledges/Ledge_Rusted_D.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
-    Alpha: None
-    PremultiplyAlpha: false

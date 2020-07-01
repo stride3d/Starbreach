@@ -1,0 +1,7 @@
+!Texture
+Id: 6d0e34dc-565f-4a64-9835-52114389b718
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Platforms/Cells/cell01_albedo_baked.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

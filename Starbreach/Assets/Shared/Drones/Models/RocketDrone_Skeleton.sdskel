@@ -1,0 +1,27 @@
+!Skeleton
+Id: 7554e710-9981-42fd-be94-d17a3957bf94
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Drones/RocketDrone/Model.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    2b83a4a0d5dde6216f7c2fe8b32bbfe2: {Name: RootNode, Depth: 0}
+    5313a8c347ec655703d514afff2a064a: {Name: Drone_bottom, Depth: 1}
+    31d72cd05d6e68b593beedc1d6cbd862: {Name: Drone_top, Depth: 1}
+    aa0e709ee9d11a77a9300486e270b693: {Name: Bone_base, Depth: 1}
+    1b03e388f467a6bae7e2a8f55a4cc4aa: {Name: Bone_turret_ring, Depth: 1}
+    8797a5c6511c3b84552d4b3d331f164d: {Name: Bone_turret_orientation, Depth: 2}
+    fa8f8dbc9a684cb72b32db7f754c6554: {Name: Bone_turret, Depth: 3}
+    f77d64089c5c4995c8f50e81d1291d82: {Name: Bone_rocket, Depth: 4}
+    205ca53f5528759ea2740450cf35ef36: {Name: Bone_rocket001, Depth: 4}
+    33fc5f881ba3631a3d711707c6209660: {Name: Bone_rocket002, Depth: 4}
+    04e5390f93ddfd78f34321826e4a6bd5: {Name: Bone_rocket003, Depth: 4}
+    c7e0b0332c5d86a5c34cf6c9bd5a980b: {Name: Bone_rocket004, Depth: 4}
+    47fc997c0af1b9d7ce2eac2566d31d8e: {Name: Bone_rocket005, Depth: 4}
+    429937b38a3072f7701f3482cb9a4ed9: {Name: Bone_rocket006, Depth: 4}
+    0b98a108e06dee0ff472d3091cb0a4c0: {Name: Bone_rocket007, Depth: 4}
+    73c6414019c42439fd95d3f89ff70635: {Name: Bone_rocket008, Depth: 4}
+    7ae5e26dbeda6a5606c0960b847a99b4: {Name: Drone Missile, Depth: 1}
+    dc216b285b93723eae6c160522d38c24: {Name: Object047, Depth: 1}
+~SourceHashes:
+    4c4d79b9d726d6ff1194205441c56d6d~../../../../Resources/Drones/RocketDrone/Model.FBX: 39bb08c28f8f923e186132040fad9e37

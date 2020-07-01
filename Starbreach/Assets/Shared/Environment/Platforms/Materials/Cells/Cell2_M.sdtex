@@ -1,0 +1,6 @@
+!Texture
+Id: 20bd3dfe-03d9-4510-9c7b-a70264421d1b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Cells/Cell2_M.png
+Type: !GrayscaleTextureType {}

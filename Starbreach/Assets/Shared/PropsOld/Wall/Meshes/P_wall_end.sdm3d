@@ -1,0 +1,14 @@
+!Model
+Id: e99c64c1-a606-4c30-a535-17d2cde88dfd
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Props/Wall/Meshes/P_wall_end.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fe0f722b28c564ae044289ea044289ea:
+        Name: Material
+        MaterialInstance:
+            Material: null
+Skeleton: null
+~SourceHashes:
+    f13127a33c10054b4656cdfe4c9b909b~../../../Props/Wall/Meshes/P_wall_end.FBX: 00000000000000000000000000000000

@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 3e25b1d8-144d-4d20-a657-d652fa707e44
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+    Parts:
+        -   Entity:
+                Id: b9692c73-a7ed-42c2-a7c2-5ff0b3451ec5
+                Name: Cell_Loop
+                Components:
+                    11bea1c888ce7d44adaf2845b5728fb2: !TransformComponent
+                        Id: c8a1be11-ce88-447d-adaf-2845b5728fb2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    346ae4c0bbffef46b879b1dc2a1a2f49: !ModelComponent
+                        Id: c0e46a34-ffbb-46ef-b879-b1dc2a1a2f49
+                        Model: e3fa4405-a073-4a01-a959-1b0b57028bbb:PlatformsOld/Models/Cell_Loop
+                        Materials: {}

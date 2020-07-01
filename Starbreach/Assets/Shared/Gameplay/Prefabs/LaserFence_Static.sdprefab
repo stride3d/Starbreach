@@ -1,0 +1,37 @@
+!PrefabAsset
+Id: 04190d25-799d-4690-96a3-fa6f92129950
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 466cf94d-9bd3-41b5-8ff0-3a288834f5eb
+        - ref!! 17b0e199-5d3f-4edc-9900-41f40432c0bd
+    Parts:
+        -   Entity:
+                Id: 17b0e199-5d3f-4edc-9900-41f40432c0bd
+                Name: LaserFence_up
+                Components:
+                    c8c633e320d799468ba2a8e339362d2d: !TransformComponent
+                        Id: e333c6c8-d720-4699-8ba2-a8e339362d2d
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3e4e674bd6ad2f439da54f92a29a7eec: !ModelComponent
+                        Id: 4b674e3e-add6-432f-9da5-4f92a29a7eec
+                        Model: ca14aec1-3989-485c-84c0-5d0cbf5858f4:Gameplay/Models/LaserFence_up
+                        Materials: {}
+        -   Entity:
+                Id: 466cf94d-9bd3-41b5-8ff0-3a288834f5eb
+                Name: LaserFence_down
+                Components:
+                    a4c9a42f24d4c443bad3060f61018c7f: !TransformComponent
+                        Id: 2fa4c9a4-d424-43c4-bad3-060f61018c7f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e52519dff8a1534c8d3d763ba4d4e83e: !ModelComponent
+                        Id: df1925e5-a1f8-4c53-8d3d-763ba4d4e83e
+                        Model: 4658c1a9-b3b6-4481-b22c-ad61ea3c14d3:Gameplay/Models/LaserFence_down
+                        Materials: {}

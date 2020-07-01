@@ -1,6 +1,0 @@
-!Texture
-Id: d425536d-0e90-43fb-a899-8f2e0d794df3
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../Resources/Drones/Rocket/Rocket_G.png
-Type: !GrayscaleTextureType {}

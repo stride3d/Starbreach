@@ -1,8 +1,0 @@
-!Texture
-Id: 95646de9-2700-435b-b325-39506662ab70
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/Pillar1/Pillar1_Rust_N.png
-Width: 50.0
-Height: 50.0
-Type: !NormalMapTextureType {}

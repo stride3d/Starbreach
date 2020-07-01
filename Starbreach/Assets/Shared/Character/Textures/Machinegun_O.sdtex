@@ -1,0 +1,9 @@
+!Texture
+Id: f06fbb11-a6b7-4356-94ce-97d35d085a7b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Character/Machinegun_O.tga
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

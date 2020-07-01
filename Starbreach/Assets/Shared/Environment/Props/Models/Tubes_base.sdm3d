@@ -1,0 +1,14 @@
+!Model
+Id: 734077ff-795c-4d1b-9f8c-688d142c4007
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/Tube/tube_eng03.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    d8bb6c69d173505c3066b0bfc4df5989:
+        Name: Generic
+        MaterialInstance:
+            Material: 030cd707-87a5-445d-84ae-41df4bb1db76:Environment/Props/Materials/Tubes/Tube_MT
+Skeleton: null
+~SourceHashes:
+    f0a0cd4fef27d685902e5f41108c8b64~../../../../../Resources/Props/Tube/tube_eng03.FBX: 94fb0c5b104194bb8c7b46d6a723afd5

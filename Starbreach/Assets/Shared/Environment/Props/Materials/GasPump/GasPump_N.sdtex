@@ -1,0 +1,8 @@
+!Texture
+Id: 72092071-d96f-4acd-a140-069f9b47120c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/GasPump/GasPump_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

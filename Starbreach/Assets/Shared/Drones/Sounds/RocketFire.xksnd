@@ -1,8 +1,0 @@
-!Sound
-Id: 3de4a0e3-c642-4aa1-9801-7583f510ed44
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Drones/Sounds/RocketFire.wav
-CompressionRatio: 15
-StreamFromDisk: false
-Spatialized: true

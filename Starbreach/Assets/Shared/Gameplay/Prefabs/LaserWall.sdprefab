@@ -1,0 +1,63 @@
+!PrefabAsset
+Id: 030c10a7-3493-418c-a898-20b68599187c
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 8b8988b9-9b07-4b55-884c-3677f953ad2a
+    Parts:
+        -   Entity:
+                Id: 1bae4cc3-3c2e-49bd-832b-4c9822020b1e
+                Name: Plane
+                Components:
+                    57cb1586f1f0c44b6fb990dfcbf45c78: !TransformComponent
+                        Id: 7d598f49-924d-4076-89a0-513c6787d5b2
+                        Position: {X: 0.0, Y: 1.99999976, Z: 0.0}
+                        Rotation: {X: 0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 4.0, Y: 1.0, Z: 2.0}
+                        Children: {}
+                    75dc807261754c60976de1590bc10ffa: !ModelComponent
+                        Id: 2f36c7ff-f687-45f0-9e58-bd820071e66d
+                        Model: a1a2ed8b-15d7-42ce-861c-8e3f05556f2d:Gameplay/Models/Plane
+                        Materials: {}
+        -   Entity:
+                Id: 74ed23a7-6433-44c4-8519-96ab4a730e85
+                Name: LaserWall (2)
+                Components:
+                    5b452a81cc8b752aed9f673a11c3cfd3: !TransformComponent
+                        Id: 29a1459b-7ff2-4392-99ee-06a7b72247fd
+                        Position: {X: 2.5, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    94dc20993fcf2e2604f633278fc157f3: !ModelComponent
+                        Id: 74377466-0cd2-4f3b-9a06-ea84c0ae5df0
+                        Model: b499ae00-250f-48fa-816c-c771ea16d449:Gameplay/Models/LaserWall
+                        Materials: {}
+        -   Entity:
+                Id: 8500ee4e-8ea7-400e-a1c3-97321ff4c703
+                Name: LaserWall
+                Components:
+                    2d0c23e7926409b9612247352aa08bba: !TransformComponent
+                        Id: 718ef7ae-2b52-4546-b849-76dc8f2e7683
+                        Position: {X: -2.5, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: -1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    0a6e6211a0ab67f05833c708949aad2e: !ModelComponent
+                        Id: c31e8c68-2d9b-4c46-b189-f1d883be9af2
+                        Model: b499ae00-250f-48fa-816c-c771ea16d449:Gameplay/Models/LaserWall
+                        Materials: {}
+        -   Entity:
+                Id: 8b8988b9-9b07-4b55-884c-3677f953ad2a
+                Name: LaserWall
+                Components:
+                    a7666ce6f9820ff6e3033f336fedd82d: !TransformComponent
+                        Id: 45acbb42-0c1f-49f6-9250-df0eae3bf007
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            7eb27dba381200122cb8f5403a7d7702: ref!! 718ef7ae-2b52-4546-b849-76dc8f2e7683
+                            0327c1bfd074e98267a621c16e28b339: ref!! 29a1459b-7ff2-4392-99ee-06a7b72247fd
+                            69f828cadbc14ee9633f1aaa02981718: ref!! 7d598f49-924d-4076-89a0-513c6787d5b2

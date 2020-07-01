@@ -1,0 +1,8 @@
+!Texture
+Id: 4248cda5-f7b3-4cc3-b7eb-6d44adbc3d14
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Tube/Tube_Rust_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

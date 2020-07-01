@@ -1,8 +1,0 @@
-!Texture
-Id: 1b28aebd-2db6-4ddd-ab0e-15f724ba58d5
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/DPU/DPU2_AO.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

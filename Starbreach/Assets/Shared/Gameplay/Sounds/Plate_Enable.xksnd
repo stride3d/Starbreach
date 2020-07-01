@@ -1,8 +1,0 @@
-!Sound
-Id: 5163c935-fe14-4496-8f44-eb64e8482b31
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Gameplay/Plate/Enable.wav
-CompressionRatio: 15
-StreamFromDisk: false
-Spatialized: true

@@ -5,11 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Starbreach.Core;
-using Xenko.Core.Mathematics;
-using Xenko.Audio;
-using Xenko.Engine;
-using Xenko.Physics;
-using Xenko.Rendering;
+using Stride.Core.Mathematics;
+using Stride.Audio;
+using Stride.Engine;
+using Stride.Physics;
+using Stride.Rendering;
 
 namespace Starbreach.Drones
 {

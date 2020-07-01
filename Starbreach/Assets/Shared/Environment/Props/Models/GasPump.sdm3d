@@ -1,0 +1,14 @@
+!Model
+Id: 83bd9601-ccff-4c98-b01a-f02691a402f0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Props/GasPump/GasPump.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    b62947da96510417a1c982b3efb6bcb2:
+        Name: GasPump
+        MaterialInstance:
+            Material: f5c8377d-bce8-40d3-a337-200fc95a6d7d:Environment/Props/Materials/GasPump/GasPump_MT
+Skeleton: null
+~SourceHashes:
+    1ec4503ec1b2789e2456e9b50d16e65f~../../../../../Resources/Props/GasPump/GasPump.FBX: efea6fc8d2a222868cd1be1be32b907d

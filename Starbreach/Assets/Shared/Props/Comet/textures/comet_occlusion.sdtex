@@ -1,0 +1,7 @@
+!Texture
+Id: 82025a7c-4a6e-4d7d-bd39-9ff68f5bee63
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: comet_occlusion.tga
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

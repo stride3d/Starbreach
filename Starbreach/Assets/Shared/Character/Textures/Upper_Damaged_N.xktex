@@ -1,8 +1,0 @@
-!Texture
-Id: 07e796c0-9e11-4f2d-8115-3bad57c0c954
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Character/MainCharacter_Damaged/MainCharacter_Upper_Damaged_N.tga
-Width: 50.0
-Height: 50.0
-Type: !NormalMapTextureType {}

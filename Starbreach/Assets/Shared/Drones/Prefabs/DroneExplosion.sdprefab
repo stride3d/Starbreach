@@ -1,0 +1,1032 @@
+!PrefabAsset
+Id: d1f82cfd-900e-4757-958c-1dd35a4ec775
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! d1037b0d-ded4-4cc0-9518-fee80c7a4f7d
+        - ref!! 1e1bc631-3b0d-4cc2-ae9b-5e892c7302a0
+        - ref!! ba094ec6-2049-4678-afe1-e8b99cc42841
+        - ref!! ecba7093-1f48-4af3-903a-be0fb751021c
+        - ref!! 8728999b-ecb3-4c98-8af5-99e2edbd36db
+        - ref!! 59697044-c73d-48e3-bb20-2578364981b6
+        - ref!! 82d9262f-6abc-4e5b-8f84-7a8fe71ec7c3
+        - ref!! 013b2d47-66fc-4bf7-8e3e-9fcb9efe7df4
+        - ref!! 2b6ecfe9-9601-468f-bf33-3307f6f31aba
+        - ref!! bc751f5a-02b3-4000-ab68-dcf6119bc83c
+        - ref!! c7effe18-5885-4898-87fe-06ed9ea75ee8
+        - ref!! a5459f8a-ba00-49c7-9020-5ceb3361cbec
+    Parts:
+        -   Entity:
+                Id: 013b2d47-66fc-4bf7-8e3e-9fcb9efe7df4
+                Name: DroneFr5
+                Components:
+                    99ea39c7415646882adbf82f8e1d1379: !TransformComponent
+                        Id: 93face13-71c6-4171-a728-02328ac5133e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    ce7081d0bee4ebae6c3020ce9e665b05: !ModelComponent
+                        Id: c3af5ca2-82eb-4e0a-8f15-a1ae8a67619d
+                        Model: 989928aa-feb2-48b5-b4d6-cb9aaadde1ef:Drones/Models/Fractured/DroneFr5
+                        Materials: {}
+                    701cdbae08beb73648ec6db27809d591: !RigidbodyComponent
+                        Id: 4ca70017-f46d-46db-a9b2-8baf865cd6d5
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            9a16dd66fce999435e8f1c89c570f7c9: !ColliderShapeAssetDesc
+                                Shape: 42812d1d-d028-463c-b505-5491c50c532c:Drones/Models/Fractured/Hull5
+        -   Entity:
+                Id: 1e1bc631-3b0d-4cc2-ae9b-5e892c7302a0
+                Name: DroneBody
+                Components:
+                    cc0c64f113223baf269d499329b51b4c: !TransformComponent
+                        Id: 1bac5795-14a5-4b37-a975-d26976986a4f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    df2ab3e7316ada0dd547d70f4f5750fa: !ModelComponent
+                        Id: daf14bb7-9098-43da-9c2c-7277a32ac3c1
+                        Model: f7b718d5-2ba7-4aaa-aea3-5017d7bc2e0a:Drones/Models/Fractured/DroneFrBody
+                        Materials: {}
+                    d9104c9dcf0253da9d1c659de63c85bb: !RigidbodyComponent
+                        Id: 630aadff-6ad7-4156-8153-9df759ec20b1
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            69bcdbfef58c90f250dc04ed018381e8: !ColliderShapeAssetDesc
+                                Shape: d078694d-d632-4b8b-9b03-d1f80554b28a:Drones/Models/Fractured/HullBody
+        -   Entity:
+                Id: 2b6ecfe9-9601-468f-bf33-3307f6f31aba
+                Name: DroneFr4
+                Components:
+                    bce209bc24766885face874a0fd1c276: !TransformComponent
+                        Id: 36b52099-6f94-4983-9d1f-88062c164d46
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c8ebcd503f326a599fe33be0f992afec: !ModelComponent
+                        Id: 4eae862a-ddb8-401b-9aab-3647dd8c9121
+                        Model: a21761f7-f5de-4067-80e0-ee90b962e08a:Drones/Models/Fractured/DroneFr4
+                        Materials: {}
+                    e188e10d59dbe1bfca2e4590d002e2e9: !RigidbodyComponent
+                        Id: eac0f77b-6f2e-445e-ad27-a3da30ad6b08
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            32403ec03034509509b2c358ce29f842: !ColliderShapeAssetDesc
+                                Shape: e079d921-3201-4291-a00b-b2de55a55236:Drones/Models/Fractured/Hull4
+        -   Entity:
+                Id: 59697044-c73d-48e3-bb20-2578364981b6
+                Name: DroneFr7
+                Components:
+                    cac2913e7c8f29993c36afa9551160e3: !TransformComponent
+                        Id: a0bfee3b-bc0f-47e9-a23b-e17542204679
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    919d49437be76a91a3a42a68bfd6caa2: !ModelComponent
+                        Id: 68f8a29d-92b1-48f6-adda-732bff76e80a
+                        Model: 10da9024-7c2a-4953-8242-9cb5de66fd29:Drones/Models/Fractured/DroneFr7
+                        Materials: {}
+                    151fa065304c8ddfc89209dfe9ee2fab: !RigidbodyComponent
+                        Id: 98547da5-31fc-4655-af9c-5adabdf1938d
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            403cd8acfc61e7c720c1649962f2802c: !ColliderShapeAssetDesc
+                                Shape: c56e06b6-ee71-4d0e-9686-811950d3f801:Drones/Models/Fractured/Hull7
+        -   Entity:
+                Id: 82d9262f-6abc-4e5b-8f84-7a8fe71ec7c3
+                Name: DroneFr6
+                Components:
+                    f9a6154df301793e40b1a82cb669d3e5: !TransformComponent
+                        Id: d7b3d86c-e69e-4cd1-a626-2f65306b1b6c
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    776bdd7da6f572083df9febc2cb15320: !ModelComponent
+                        Id: 07f577bf-1f1f-4ca1-92cd-93d4b249bff1
+                        Model: d237b486-a5d5-4847-9cff-ccf95fac0456:Drones/Models/Fractured/DroneFr6
+                        Materials: {}
+                    ed6d70ead20b301805a16bbb8d001051: !RigidbodyComponent
+                        Id: a9427d01-788d-40bc-b6b0-102fe11aacc7
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            24a26ef6616421f52005b93e4b4e51a5: !ColliderShapeAssetDesc
+                                Shape: 5e850645-5ae6-4af1-a297-1ebcd47f36f3:Drones/Models/Fractured/Hull6
+        -   Entity:
+                Id: 8728999b-ecb3-4c98-8af5-99e2edbd36db
+                Name: DroneFr8
+                Components:
+                    8cfbf3f945bc14808953d63891b161ab: !TransformComponent
+                        Id: 89b466a9-c447-4fcd-9997-f304d5a40c41
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    5ed02e5eddb3753efd8edce686628aa0: !ModelComponent
+                        Id: 209aa6b6-778e-4a85-b8d6-ec75ec409168
+                        Model: 50b1e536-58f2-487f-84c9-48e034f4c6bb:Drones/Models/Fractured/DroneFr8
+                        Materials: {}
+                    a3821e07c2bb21c2a595a20378d2e55a: !RigidbodyComponent
+                        Id: 47a939cc-45bf-443b-b85f-359c5c415bec
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            a754253f95cd379e91a434679ebac134: !ColliderShapeAssetDesc
+                                Shape: 77a731c2-b1f4-4f69-b28d-929496e30fd0:Drones/Models/Fractured/Hull8
+        -   Entity:
+                Id: a5459f8a-ba00-49c7-9020-5ceb3361cbec
+                Name: DroneFr1
+                Components:
+                    5f74d4e6a6c7059b82919dac841e3845: !TransformComponent
+                        Id: fc419100-0231-44bd-a257-3b00e35a9bc0
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    0379fa8778225d1c06b3808d172634a8: !ModelComponent
+                        Id: e3189337-70ac-4aa5-85e4-58e07c4e88e3
+                        Model: 65a2213f-b68b-4af9-bd50-009fa5a2f8cb:Drones/Models/Fractured/DroneFr1
+                        Materials: {}
+                    31f726f5a0b6aa25e6de939010259c60: !RigidbodyComponent
+                        Id: 7723c848-5e44-4b23-b0d8-d6707323a76e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            d1579af295c3280fe8f86df7265efcf3: !ColliderShapeAssetDesc
+                                Shape: 8e2b9665-ad04-4fcc-8b9c-fdd99db3b256:Drones/Models/Fractured/Hull1
+        -   Entity:
+                Id: ba094ec6-2049-4678-afe1-e8b99cc42841
+                Name: DroneFr10
+                Components:
+                    29b03c6fc46e050153f361f9b7e1290c: !TransformComponent
+                        Id: eaffd62c-7b31-4ca8-8c45-1b36ad9e481e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fadb044435ecb6727c44599d32723967: !ModelComponent
+                        Id: 47d2dd8e-1651-48a4-8b71-e84fcfb5ed2f
+                        Model: b75b3f6f-5467-42a2-8f59-65f7f1f7fa05:Drones/Models/Fractured/DroneFr10
+                        Materials: {}
+                    90cd6d09c5df32584c08e083b3675ad2: !RigidbodyComponent
+                        Id: 8f2814b9-6161-4501-aff6-4adf51bbec14
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            34bb5ec6d5145b849ac888eb56c26f10: !ColliderShapeAssetDesc
+                                Shape: 53477a51-7952-46ef-8822-413027a095b9:Drones/Models/Fractured/Hull10
+        -   Entity:
+                Id: bc751f5a-02b3-4000-ab68-dcf6119bc83c
+                Name: DroneFr3
+                Components:
+                    6b0728ee11f66105957b2edd80ea7e37: !TransformComponent
+                        Id: ad480667-1443-4970-80c3-801e2d5a393b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9500a518b456b199ba4503727d6502d2: !ModelComponent
+                        Id: db6e58ca-e203-47c2-8bd6-aa5e694ae3e4
+                        Model: ed1b5a97-2888-497c-b2d5-5c9392ce011b:Drones/Models/Fractured/DroneFr3
+                        Materials: {}
+                    897a064c1f4865dffba0556f00851ab5: !RigidbodyComponent
+                        Id: b571de48-3608-4e19-9d38-28d0026bba83
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            809a95eca209df065f7c26bbec2d5937: !ColliderShapeAssetDesc
+                                Shape: bd15ca12-fac8-4e0c-916e-fdd0656ce223:Drones/Models/Fractured/Hull3
+        -   Entity:
+                Id: c7effe18-5885-4898-87fe-06ed9ea75ee8
+                Name: DroneFr2
+                Components:
+                    b0e0173d3de3a4b0f20e716c258469f4: !TransformComponent
+                        Id: 2abed9d9-03d8-4c62-8268-1377f1ea17f7
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6f1a54d53fb80457e81ceff640e7f790: !ModelComponent
+                        Id: 5211153d-3edd-4b12-8b9e-b11e686640ea
+                        Model: c30e2a73-7c97-463a-8ffd-45d0c5183685:Drones/Models/Fractured/DroneFr2
+                        Materials: {}
+                    5426d4a50116e6bd1bfbe9c5d4f46c90: !RigidbodyComponent
+                        Id: 50816c32-ce5d-4c6a-aafa-4cb0f627eb08
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            6b5125efc1f6f1c4407a77b6059f03e1: !ColliderShapeAssetDesc
+                                Shape: 3d207d60-6803-41ef-b089-60b351bb4b99:Drones/Models/Fractured/Hull2
+        -   Entity:
+                Id: ca8de680-c9c9-450c-a1db-3d3b9e4ece4e
+                Name: Explosion
+                Components:
+                    fa8f95b220b7df4e8f0019f95a5d1eef: !TransformComponent
+                        Id: b2958ffa-b720-4edf-8f00-19f95a5d1eef
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    39b07e196ff99a4d957dbebeb153ad2c: !ParticleSystemComponent
+                        Id: 197eb039-f96f-4d9a-957d-bebeb153ad2c
+                        Control:
+                            ResetSeconds: 3.0
+                            Control: Play
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Speed: 1.0
+                        ParticleSystem:
+                            Settings: {}
+                            BoundingShape: null
+                            Emitters:
+                                eb5ed7aa88fb514bba1d3d103de25130:
+                                    EmitterName: explosionfire
+                                    ParticleLifetime: {X: 1.0, Y: 1.3}
+                                    DrawPriority: 5
+                                    ShapeBuilder: !ShapeBuilderBillboard
+                                        SamplerPosition: null
+                                        SamplerSize: null
+                                        SamplerRotation: null
+                                    Material: !ParticleMaterialComputeColor
+                                        ZOffset: 0.3
+                                        ComputeColor: !ComputeBinaryColor
+                                            Operator: Multiply
+                                            LeftChild: !ComputeFloat4
+                                                Value: {X: 50.0, Y: 50.0, Z: 50.0, W: 1.0}
+                                            RightChild: !ComputeBinaryColor
+                                                Operator: Multiply
+                                                LeftChild: !ComputeTextureColor
+                                                    Texture: 24a1fa27-5ec5-4eb6-bf4d-918005b0fb24:Textures/EXP001
+                                                    FallbackValue:
+                                                        Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                                    Scale: {X: 1.0, Y: 1.0}
+                                                    Offset: {X: 0.0, Y: 0.0}
+                                                    Swizzle: null
+                                                RightChild: !ComputeVertexStreamColor
+                                                    Stream: !ColorVertexStreamDefinition {}
+                                        UVBuilder: !UVBuilderFlipbook
+                                            XDivisions: 8
+                                            YDivisions: 8
+                                            StartingFrame: 8
+                                            AnimationSpeed: 56
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        165f1e4629d4e94dbd8b07106bba4094: !SpawnerBurst
+                                            LoopCondition: OneShot
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 10
+                                    Initializers:
+                                        970c04baec3d9446b004b8b395b4e55c: !InitialSizeSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            RandomSize: {X: 1.0, Y: 2.0}
+                                        9954f868fd1b684bace8a8bcb5b40077: !InitialPositionSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            ScaleUniform: 1.0
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            PositionMin: {X: -0.2, Y: 0.0, Z: -0.2}
+                                            PositionMax: {X: 0.2, Y: 0.0, Z: 0.2}
+                                            Interpolate: false
+                                        2d3a6f731037fb4fabce65b7a4d9e699: !InitialVelocitySeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            VelocityMin: {X: -0.5, Y: -0.2, Z: -0.5}
+                                            VelocityMax: {X: 0.5, Y: 0.5, Z: 0.5}
+                                        e72f33e3e3dbc34a97a52bb1518ad1d7: !InitialRotationSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            AngularRotation: {X: -360.0, Y: 360.0}
+                                    Updaters:
+                                        8d180206ee158549a2761d2780549f34: !UpdaterColorOverTime
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            SamplerMain: !ComputeCurveSamplerColor4
+                                                Curve: !ComputeAnimationCurveColor4
+                                                    KeyFrames:
+                                                        27419d94c90c0148b5946367e7e9596c:
+                                                            Key: 0.0
+                                                            Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                                            TangentType: Linear
+                                                        ad146079d1b1ae4b911db781ac5990b1:
+                                                            Key: 0.5
+                                                            Value: {R: 0.3, G: 0.3, B: 0.3, A: 0.25}
+                                                            TangentType: Linear
+                                                        3feb08a0affa9e439cfe3d30cfdd7f06:
+                                                            Key: 1.0
+                                                            Value: {R: 0.0, G: 0.0, B: 0.0, A: 0.0}
+                                                            TangentType: Linear
+                                            SamplerOptional: null
+                                            SeedOffset: 0
+                                5af7f013ba6565478604ad770eb2d79b:
+                                    EmitterName: explosionsmoke01
+                                    ParticleLifetime: {X: 2.0, Y: 2.0}
+                                    DrawPriority: 10
+                                    ShapeBuilder: !ShapeBuilderBillboard
+                                        SamplerPosition: null
+                                        SamplerSize: !ComputeCurveSamplerFloat
+                                            Curve: !ComputeAnimationCurveFloat
+                                                KeyFrames:
+                                                    6c44bc7750f4f84dbc608cf07e7c2746:
+                                                        Key: 0.0
+                                                        Value: 1.0
+                                                        TangentType: Linear
+                                                    6a4fef6ba2a55e4197a3c969d09ff2ed:
+                                                        Key: 0.1
+                                                        Value: 2.0
+                                                        TangentType: Linear
+                                                    aa24e7b496ddf143b46f3fbb8993e7c5:
+                                                        Key: 1.0
+                                                        Value: 3.0
+                                                        TangentType: Linear
+                                        SamplerRotation: null
+                                    Material: !ParticleMaterialComputeColor
+                                        ZOffset: 0.3
+                                        ComputeColor: !ComputeBinaryColor
+                                            Operator: Multiply
+                                            LeftChild: !ComputeFloat4
+                                                Value: {X: 30.0, Y: 25.0, Z: 20.0, W: 1.0}
+                                            RightChild: !ComputeBinaryColor
+                                                Operator: Multiply
+                                                LeftChild: !ComputeTextureColor
+                                                    Texture: 8ab2edfe-0ead-489f-a899-97a8112807f7:Textures/Smoke02
+                                                    FallbackValue:
+                                                        Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                                    Scale: {X: 1.0, Y: 1.0}
+                                                    Offset: {X: 0.0, Y: 0.0}
+                                                    Swizzle: null
+                                                RightChild: !ComputeVertexStreamColor
+                                                    Stream: !ColorVertexStreamDefinition {}
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        3896be20cd20964e8c2588e75eb168e3: !SpawnerBurst
+                                            LoopCondition: OneShot
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 5
+                                    Initializers:
+                                        a610a3236a6e9a4881ab8e8cf3c173c0: !InitialPositionSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            ScaleUniform: 1.0
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            PositionMin: {X: -0.15, Y: -0.15, Z: -0.15}
+                                            PositionMax: {X: 0.15, Y: 0.15, Z: 0.15}
+                                            Interpolate: false
+                                        481a0c50e2cdd24db2aaee92ae6d123e: !InitialVelocitySeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            VelocityMin: {X: -0.5, Y: -0.5, Z: -0.5}
+                                            VelocityMax: {X: 0.5, Y: 0.5, Z: 0.5}
+                                    Updaters:
+                                        c084855f635b064a9472035e0844893c: !UpdaterColorOverTime
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            SamplerMain: !ComputeCurveSamplerColor4
+                                                Curve: !ComputeAnimationCurveColor4
+                                                    KeyFrames:
+                                                        4a5fc68d580326498f44faec012fbef4:
+                                                            Key: 0.0
+                                                            Value: {R: 1.0, G: 0.5, B: 0.199999988, A: 1.0}
+                                                            TangentType: Linear
+                                                        28960ea9445c6e409b9c3cfc147cf310:
+                                                            Key: 0.08
+                                                            Value: {R: 1.0, G: 0.5, B: 0.2, A: 0.01}
+                                                            TangentType: Linear
+                                                        10753de7bd280b4a95fd92ce9ab074d2:
+                                                            Key: 1.0
+                                                            Value: {R: 0.5, G: 0.2, B: 0.1, A: 0.0}
+                                                            TangentType: Linear
+                                            SamplerOptional: null
+                                            SeedOffset: 0
+                                1410f2689a31a14c8019f0f7c9cfbf1a:
+                                    EmitterName: explosionsmoke02
+                                    ParticleLifetime: {X: 1.0, Y: 2.0}
+                                    ShapeBuilder: !ShapeBuilderBillboard
+                                        SamplerPosition: null
+                                        SamplerSize: !ComputeCurveSamplerFloat
+                                            Curve: !ComputeAnimationCurveFloat
+                                                KeyFrames:
+                                                    3e866549c2cb6a4daacb90f0bf831502:
+                                                        Key: 0.0
+                                                        Value: 1.0
+                                                        TangentType: Linear
+                                                    71e90623a5ba0e4f94572b38dbac3796:
+                                                        Key: 1.0
+                                                        Value: 2.0
+                                                        TangentType: Linear
+                                        SamplerRotation: null
+                                    Material: !ParticleMaterialComputeColor
+                                        ZOffset: 0.3
+                                        ComputeColor: !ComputeBinaryColor
+                                            Operator: Multiply
+                                            LeftChild: !ComputeFloat4
+                                                Value: {X: 1.0, Y: 1.0, Z: 1.0, W: 1.0}
+                                            RightChild: !ComputeBinaryColor
+                                                Operator: Multiply
+                                                LeftChild: !ComputeTextureColor
+                                                    Texture: fa1018e4-c74d-4495-9535-134f5a06e4cd:Textures/SMO001
+                                                    FallbackValue:
+                                                        Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                                    Scale: {X: 1.0, Y: 1.0}
+                                                    Offset: {X: 0.0, Y: 0.0}
+                                                    Swizzle: null
+                                                RightChild: !ComputeVertexStreamColor
+                                                    Stream: !ColorVertexStreamDefinition {}
+                                        UVBuilder: !UVBuilderFlipbook
+                                            XDivisions: 8
+                                            YDivisions: 8
+                                            StartingFrame: 0
+                                            AnimationSpeed: 64
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        47416577012cb541a89c0af842ed0a78: !SpawnerBurst
+                                            LoopCondition: OneShot
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 10
+                                    Initializers:
+                                        7a67faa43612c044bcb0ceafca3c1980: !InitialVelocitySeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            VelocityMin: {X: -0.4, Y: -0.4, Z: -0.4}
+                                            VelocityMax: {X: 0.4, Y: 0.4, Z: 0.4}
+                                        44b42d9fe0db524bb1608fa15c426c92: !InitialRotationSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            AngularRotation: {X: -360.0, Y: 360.0}
+                                        31c1fff3ce08fd42b625e9620a75a410: !InitialPositionSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            ScaleUniform: 1.0
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            PositionMin: {X: -0.3, Y: -0.3, Z: -0.3}
+                                            PositionMax: {X: 0.3, Y: 0.3, Z: 0.3}
+                                            Interpolate: false
+                                    Updaters:
+                                        d46f4ae2805dc94b93cda65de7715f54: !UpdaterColorOverTime
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            SamplerMain: !ComputeCurveSamplerColor4
+                                                Curve: !ComputeAnimationCurveColor4
+                                                    KeyFrames:
+                                                        e4e848b71c5d344a94c4d5f651bf4e83:
+                                                            Key: 0.0
+                                                            Value: {R: 0.5, G: 0.25, B: 0.1, A: 1.0}
+                                                            TangentType: Linear
+                                                        930d8a2b2d2445448cfb1729782f16d6:
+                                                            Key: 0.5
+                                                            Value: {R: 0.5, G: 0.2, B: 0.1, A: 0.7}
+                                                            TangentType: Linear
+                                                        a045b91bb4837c42b4058100893916e5:
+                                                            Key: 1.0
+                                                            Value: {R: 0.1, G: 0.1, B: 0.1, A: 0.0}
+                                                            TangentType: Linear
+                                            SamplerOptional: null
+                                            SeedOffset: 0
+                                cfa68e0360198c449c8508789d2e698f:
+                                    EmitterName: sparks
+                                    ParticleLifetime: {X: 0.7, Y: 1.4}
+                                    ShapeBuilder: !ShapeBuilderBillboard
+                                        SamplerPosition: null
+                                        SamplerSize: !ComputeCurveSamplerFloat
+                                            Curve: !ComputeAnimationCurveFloat
+                                                KeyFrames:
+                                                    de2510d5fd44ff4aa2491947f98e2470:
+                                                        Key: 0.0
+                                                        Value: 1.0
+                                                        TangentType: Linear
+                                                    5e73e50106cc4541abf62d1aff2bed31:
+                                                        Key: 1.0
+                                                        Value: 0.1
+                                                        TangentType: Linear
+                                        SamplerRotation: null
+                                    Material: !ParticleMaterialComputeColor
+                                        ComputeColor: !ComputeBinaryColor
+                                            Operator: Multiply
+                                            LeftChild: !ComputeFloat4
+                                                Value: {X: 100.0, Y: 40.0, Z: 40.0, W: 1.0}
+                                            RightChild: !ComputeBinaryColor
+                                                Operator: Multiply
+                                                LeftChild: !ComputeTextureColor
+                                                    Texture: 91119660-137e-4be0-bcb9-32f8aeee6ca8:Textures/dota
+                                                    FallbackValue:
+                                                        Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                                    Scale: {X: 1.0, Y: 1.0}
+                                                    Offset: {X: 0.0, Y: 0.0}
+                                                    Swizzle: null
+                                                RightChild: !ComputeVertexStreamColor
+                                                    Stream: !ColorVertexStreamDefinition {}
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        9c09411daafbac478a3a27646840aee4: !SpawnerBurst
+                                            LoopCondition: OneShot
+                                            Delay: {X: 0.5, Y: 0.5}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 50
+                                    Initializers:
+                                        dfb1a4fa455fd5458c8758b302cc5011: !InitialVelocitySeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            VelocityMin: {X: -0.5, Y: -0.5, Z: -0.5}
+                                            VelocityMax: {X: 0.5, Y: 0.5, Z: 0.5}
+                                        baa8a2a1459ce84f8be9542a80c9c9bd: !InitialSizeSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 0.1
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            RandomSize: {X: 0.1, Y: 0.2}
+                                        3ad9c7d485619e4f9d8e2be0b7046bd2: !InitialPositionSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            ScaleUniform: 1.0
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            PositionMin: {X: -0.6, Y: -0.6, Z: -0.6}
+                                            PositionMax: {X: 0.6, Y: 0.6, Z: 0.6}
+                                            Interpolate: false
+                                        11906182baabda4aab60a117befd904b: !InitialColorSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            ColorMin: {R: 1.0, G: 0.18187499, B: 0.0375000238, A: 1.0}
+                                            ColorMax: {R: 1.0, G: 0.3, B: 0.0, A: 1.0}
+                                    Updaters:
+                                        abe14565ea671640b23e478d067dd5d8: !UpdaterForceField
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            ScaleUniform: 1.0
+                                            Scale: {X: 2.0, Y: 2.0, Z: 2.0}
+                                            DisplayParticleRotation: true
+                                            DisplayParticlePosition: true
+                                            FieldShape: !FieldShapeSphere
+                                                Radius: 1.0
+                                            DisplayParticleScale: true
+                                            DisplayParticleScaleUniform: false
+                                            FieldFalloff:
+                                                StrengthInside: 1.0
+                                                FalloffStart: 0.1
+                                                StrengthOutside: 0.0
+                                                FalloffEnd: 0.9
+                                            EnergyConservation: 0.5
+                                            ForceDirected: 0.3
+                                            ForceVortex: 0.5
+                                            ForceRepulsive: -0.3
+                                            ForceFixed: {X: 0.0, Y: 0.0, Z: 0.0}
+                                b5cedd623bce604099cb47871db40684:
+                                    EmitterName: explosionsmoke03
+                                    ParticleLifetime: {X: 1.0, Y: 1.5}
+                                    ShapeBuilder: !ShapeBuilderBillboard
+                                        SamplerPosition: null
+                                        SamplerSize: !ComputeCurveSamplerFloat
+                                            Curve: !ComputeAnimationCurveFloat
+                                                KeyFrames:
+                                                    8a08f695e107b4488ca7a7991a7fb325:
+                                                        Key: 0.0
+                                                        Value: 1.0
+                                                        TangentType: Linear
+                                                    f6eb8711c87144438e694499547b1831:
+                                                        Key: 1.0
+                                                        Value: 2.0
+                                                        TangentType: Linear
+                                        SamplerRotation: !ComputeCurveSamplerFloat
+                                            Curve: !ComputeAnimationCurveFloat
+                                                KeyFrames:
+                                                    59b7b5ec9861c445b1b3558255d3325d:
+                                                        Key: 0.0
+                                                        Value: 0.0
+                                                        TangentType: Linear
+                                                    c03fea4e42fdd04c9d069925ad89de2e:
+                                                        Key: 1.0
+                                                        Value: 30.0
+                                                        TangentType: Linear
+                                    Material: !ParticleMaterialComputeColor
+                                        AlphaAdditive: 1.0
+                                        ZOffset: 0.3
+                                        ComputeColor: !ComputeBinaryColor
+                                            Operator: Multiply
+                                            LeftChild: !ComputeFloat4
+                                                Value: {X: 50.0, Y: 11.0, Z: 0.5, W: 1.0}
+                                            RightChild: !ComputeBinaryColor
+                                                Operator: Multiply
+                                                LeftChild: !ComputeTextureColor
+                                                    Texture: 8dbe2382-769c-45fe-9604-98c5ae5c434c:Textures/SMO001_3
+                                                    FallbackValue:
+                                                        Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                                    Scale: {X: 1.0, Y: 1.0}
+                                                    Offset: {X: 0.0, Y: 0.0}
+                                                    Swizzle: null
+                                                RightChild: !ComputeVertexStreamColor
+                                                    Stream: !ColorVertexStreamDefinition {}
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        6b2ae1cdda05e44382e9b234b33baa99: !SpawnerBurst
+                                            LoopCondition: OneShot
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 5
+                                    Initializers:
+                                        9000f9d978246049b41d3c659be5bad3: !InitialRotationSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            AngularRotation: {X: -360.0, Y: 360.0}
+                                        a7aa65c6f62d6545a0df7b410f241198: !InitialPositionSeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            ScaleUniform: 1.0
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            PositionMin: {X: -0.2, Y: -0.2, Z: -0.2}
+                                            PositionMax: {X: 0.2, Y: 0.2, Z: 0.2}
+                                            Interpolate: false
+                                        e16f3ca37b2d5a4ca3d259ad28ee8c04: !InitialVelocitySeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            VelocityMin: {X: -0.2, Y: -0.2, Z: -0.2}
+                                            VelocityMax: {X: 0.2, Y: 0.2, Z: 0.2}
+                                    Updaters:
+                                        d0cd4314fa204547a067c82f1617f51d: !UpdaterColorOverTime
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            SamplerMain: !ComputeCurveSamplerColor4
+                                                Curve: !ComputeAnimationCurveColor4
+                                                    KeyFrames:
+                                                        695a36ed6b47f64a80e5513d1a1331fa:
+                                                            Key: 0.0
+                                                            Value: {R: 1.0, G: 1.0, B: 1.0, A: 0.0}
+                                                            TangentType: Linear
+                                                        aaed0ceebb6bc6408f2cb7eba355998a:
+                                                            Key: 0.5
+                                                            Value: {R: 1.0, G: 1.0, B: 1.0, A: 0.03}
+                                                            TangentType: Linear
+                                                        f57e4def19b7a04892597661194881b7:
+                                                            Key: 1.0
+                                                            Value: {R: 1.0, G: 1.0, B: 1.0, A: 0.0}
+                                                            TangentType: Linear
+                                            SamplerOptional: null
+                                            SeedOffset: 0
+            Base:
+                BasePartAsset: 22ae5484-30af-4633-8e35-a4f5a177188e:VFXPrefabs/vfx-Explosion
+                BasePartId: a561f593-5d34-4ddc-9c89-8328527c4ac0
+                InstanceId: 4ca3bbf9-91bb-4ace-aa9c-d8b27536e07a
+        -   Entity:
+                Id: d1037b0d-ded4-4cc0-9518-fee80c7a4f7d
+                Name: vfx-Explosion
+                Components:
+                    1c25ee2c7bcbb048bff70a2cf49b3549: !TransformComponent
+                        Id: 2cee251c-cb7b-48b0-bff7-0a2cf49b3549
+                        Position: {X: 0.0, Y: 0.7154081, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            fa8f95b220b7df4e8f0019f95a5d1eef: ref!! b2958ffa-b720-4edf-8f00-19f95a5d1eef
+        -   Entity:
+                Id: ecba7093-1f48-4af3-903a-be0fb751021c
+                Name: DroneFr9
+                Components:
+                    5b44f495ae1a302cbd4eeea6a67cd4be: !TransformComponent
+                        Id: 85b55b1a-8a39-4601-ae71-9286a87ca41f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    0de51be324e9237e81eb8b1fe26bb9a6: !ModelComponent
+                        Id: 93655f84-b25d-4c90-a56a-dc641d25d5ae
+                        Model: edf4d60e-6c77-4ff5-8ff6-df873d26cf3e:Drones/Models/Fractured/DroneFr9
+                        Materials: {}
+                    bfb134b13999f8ed3b5afc60086ab616: !RigidbodyComponent
+                        Id: 62b18c04-b258-447b-ba12-7b1bb22476bd
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            337378e12bb077f2d542b843b39aa27a: !ColliderShapeAssetDesc
+                                Shape: 6f9f0a9b-020a-4cb7-aff8-010ca09e4765:Drones/Models/Fractured/Hull9

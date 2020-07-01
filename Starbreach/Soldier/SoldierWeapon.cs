@@ -4,17 +4,17 @@ using System;
 using System.Collections.Generic;
 using Starbreach.Camera;
 using Starbreach.Core;
-using Xenko.Core;
-using Xenko.Core.Mathematics;
-using Xenko.Audio;
-using Xenko.Engine;
-using Xenko.Engine.Events;
-using Xenko.Games;
-using Xenko.Graphics;
-using Xenko.Physics;
-using Xenko.UI;
-using Xenko.UI.Controls;
-using Xenko.UI.Panels;
+using Stride.Core;
+using Stride.Core.Mathematics;
+using Stride.Audio;
+using Stride.Engine;
+using Stride.Engine.Events;
+using Stride.Games;
+using Stride.Graphics;
+using Stride.Physics;
+using Stride.UI;
+using Stride.UI.Controls;
+using Stride.UI.Panels;
 
 namespace Starbreach.Soldier
 {

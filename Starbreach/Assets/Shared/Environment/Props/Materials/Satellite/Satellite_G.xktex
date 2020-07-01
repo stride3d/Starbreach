@@ -1,8 +1,0 @@
-!Texture
-Id: e8933804-4954-4986-bc4d-804c5f452f7b
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/Satellite/Satellite_G.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

@@ -1,8 +1,0 @@
-!Texture
-Id: c3a718cd-94e5-461a-972f-b7ef4458962b
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Character/Lower [Metalness].tga
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

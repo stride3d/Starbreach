@@ -1,8 +1,0 @@
-!Texture
-Id: c0e47ff3-fea3-4c3d-ba90-221626d0cb7b
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/Tube/Tube_G.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

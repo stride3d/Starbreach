@@ -1,0 +1,6 @@
+!Texture
+Id: 6dacfa60-8400-4029-ae9b-6d22e1bb550d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../Props/Wall2/Textures/P_wall2_N.tga
+Type: !NormalMapTextureType {}

@@ -1,0 +1,9 @@
+!Texture
+Id: 56569c59-7477-42b1-aa6f-445d1b9d8249
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/Column/Column_E.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

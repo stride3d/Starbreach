@@ -1,0 +1,7 @@
+!Texture
+Id: 574ef289-b4a0-47ad-be13-e75075685820
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/RocketDrone/RocketDrone_O.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

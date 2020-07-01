@@ -1,9 +1,0 @@
-!Texture
-Id: 1416be63-6473-426d-9a5a-d7081f5d2b52
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/Generator/Generator_D.png
-Width: 50.0
-Height: 50.0
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

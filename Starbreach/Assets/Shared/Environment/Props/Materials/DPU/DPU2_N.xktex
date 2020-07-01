@@ -1,8 +1,0 @@
-!Texture
-Id: fe8454ae-71af-491e-8cc2-73ef474b4745
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/DPU/DPU2_N.png
-Width: 50.0
-Height: 50.0
-Type: !NormalMapTextureType {}

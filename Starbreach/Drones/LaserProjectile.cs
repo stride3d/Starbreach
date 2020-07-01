@@ -2,9 +2,9 @@
 // Distributed under the MIT license. See the LICENSE.md file in the project root for more information.
 using System.Threading.Tasks;
 using Starbreach.Core;
-using Xenko.Engine;
-using Xenko.Particles.Components;
-using Xenko.Physics;
+using Stride.Engine;
+using Stride.Particles.Components;
+using Stride.Physics;
 
 namespace Starbreach.Drones
 {

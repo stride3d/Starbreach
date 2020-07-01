@@ -1,0 +1,87 @@
+!PrefabAsset
+Id: 112e3bcb-2a13-428b-9313-1a52be2f69a7
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 845e23af-f910-44ce-80ea-8b5449795cbc
+        - ref!! 4d9d9f8f-e668-48d9-9b7f-6275165e88a1
+        - ref!! 4e232b39-91e9-4923-b4b9-2635a310a92f
+        - ref!! f2d39b17-53cb-4ece-a15e-2798fe3eec03
+        - ref!! 0446b086-2c89-40cf-b986-4fdae75d1899
+    Parts:
+        -   Entity:
+                Id: 0446b086-2c89-40cf-b986-4fdae75d1899
+                Name: Rails_adv (2)
+                Components:
+                    cce77c729b864b448e1c26d95433cb49: !TransformComponent
+                        Id: 727ce7cc-869b-444b-8e1c-26d95433cb49
+                        Position: {X: 5.0, Y: -2.0, Z: 5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    657e2f72bd7b374b8bb6efbd6bc61608: !ModelComponent
+                        Id: 722f7e65-7bbd-4b37-8bb6-efbd6bc61608
+                        Model: 6c557c7e-7142-44f1-808d-acaf80a392fb:PlatformsOld/Models/Rails_adv
+                        Materials:
+                            bcddad59903b0a4b8eeeeea4b1344717~0: df4fd775-8301-4a81-9edb-2c9ce04eb2c2:PlatformsOld/Materials/raild_adv
+        -   Entity:
+                Id: 4d9d9f8f-e668-48d9-9b7f-6275165e88a1
+                Name: b_border_large
+                Components:
+                    cbcc8bcf8abe2742bfad875eecdb81e9: !TransformComponent
+                        Id: cf8bcccb-be8a-4227-bfad-875eecdb81e9
+                        Position: {X: 0.0, Y: -2.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f8ecc54829e73147b85e355c99072393: !ModelComponent
+                        Id: 48c5ecf8-e729-4731-b85e-355c99072393
+                        Model: 9fa0414e-ce68-407d-b576-619a87601f45:PlatformsOld/Models/b_border_large
+                        Materials:
+                            1b1bc585faa2c247a39a5c8c07d577dc~0: 545cfd6f-b0c6-4a6f-8838-b383d7198bf5:PlatformsOld/Materials/b_border3
+        -   Entity:
+                Id: 4e232b39-91e9-4923-b4b9-2635a310a92f
+                Name: Rails_tube_C_large
+                Components:
+                    e2c02bdf36129343b958e3cc11458931: !TransformComponent
+                        Id: df2bc0e2-1236-4393-b958-e3cc11458931
+                        Position: {X: -0.08036609, Y: 1.182862, Z: 0.0748438463}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1ac04d75057ca64295485066ff6df2cf: !ModelComponent
+                        Id: 754dc01a-7c05-42a6-9548-5066ff6df2cf
+                        Model: d4e25abb-0b9f-490f-91f4-af70270c98c6:PlatformsOld/Models/Rails_tube_C_large
+                        Materials:
+                            bcddad59903b0a4b8eeeeea4b1344717~0: df4fd775-8301-4a81-9edb-2c9ce04eb2c2:PlatformsOld/Materials/raild_adv
+        -   Entity:
+                Id: 845e23af-f910-44ce-80ea-8b5449795cbc
+                Name: border_C_large
+                Components:
+                    f9a081d85da8b745abd2d659e8071009: !TransformComponent
+                        Id: d881a0f9-a85d-45b7-abd2-d659e8071009
+                        Position: {X: 0.0, Y: -2.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    532ace0f04433645b5a746916cd5c303: !ModelComponent
+                        Id: 0fce2a53-4304-4536-b5a7-46916cd5c303
+                        Model: 71e12b5e-4d32-43af-956c-5c6c336baa52:PlatformsOld/Models/border_C_large
+                        Materials:
+                            1bfd8835bd05be4bab9d5ea9b927c049~0: 58a81ffa-b3ac-444f-8aab-63c4a61d130b:PlatformsOld/Materials/Bord_rusted
+        -   Entity:
+                Id: f2d39b17-53cb-4ece-a15e-2798fe3eec03
+                Name: Rails_adv
+                Components:
+                    cce77c729b864b448e1c26d95433cb49: !TransformComponent
+                        Id: 5df9100a-75e9-4ee4-981f-e3dab91f26ac
+                        Position: {X: 0.0, Y: -2.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: -0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    657e2f72bd7b374b8bb6efbd6bc61608: !ModelComponent
+                        Id: dec8938a-771e-44ee-8595-ad565fce9fda
+                        Model: 6c557c7e-7142-44f1-808d-acaf80a392fb:PlatformsOld/Models/Rails_adv
+                        Materials:
+                            bcddad59903b0a4b8eeeeea4b1344717~0: df4fd775-8301-4a81-9edb-2c9ce04eb2c2:PlatformsOld/Materials/raild_adv

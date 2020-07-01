@@ -2,11 +2,11 @@
 // Distributed under the MIT license. See the LICENSE.md file in the project root for more information.
 using System;
 using System.Threading.Tasks;
-using Xenko.Core.Mathematics;
-using Xenko.Core.Diagnostics;
-using Xenko.Input;
-using Xenko.Engine;
-using Xenko.Profiling;
+using Stride.Core.Mathematics;
+using Stride.Core.Diagnostics;
+using Stride.Input;
+using Stride.Engine;
+using Stride.Profiling;
 
 namespace Starbreach
 {

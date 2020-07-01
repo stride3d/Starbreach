@@ -1,6 +1,0 @@
-!Texture
-Id: c6fd9d53-85bf-4bdc-9e5a-35a8939e6d7e
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../Resources/Drones/RocketDrone/RocketDrone_M.png
-Type: !GrayscaleTextureType {}

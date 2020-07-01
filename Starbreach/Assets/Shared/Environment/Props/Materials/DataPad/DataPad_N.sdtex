@@ -1,0 +1,8 @@
+!Texture
+Id: 1d515f14-9527-46c8-8fa1-3629b1039cc7
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/DataPad/DataPad_N.png
+Width: 50.0
+Height: 50.0
+Type: !NormalMapTextureType {}

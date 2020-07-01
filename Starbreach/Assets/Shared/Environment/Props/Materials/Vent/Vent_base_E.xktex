@@ -1,9 +1,0 @@
-!Texture
-Id: b8f3733c-0a5b-4cbe-b7fc-7ce0aea774c2
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/Vent/Vent_base_E.png
-Width: 50.0
-Height: 50.0
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

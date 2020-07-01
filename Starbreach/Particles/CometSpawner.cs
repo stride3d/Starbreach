@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Starbreach.Core;
-using Xenko.Core.Mathematics;
-using Xenko.Input;
-using Xenko.Engine;
+using Stride.Core.Mathematics;
+using Stride.Input;
+using Stride.Engine;
 
 namespace Particles
 {

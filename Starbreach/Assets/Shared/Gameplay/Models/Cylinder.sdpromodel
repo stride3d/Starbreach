@@ -1,0 +1,10 @@
+!ProceduralModelAsset
+Id: c11da5de-520a-4bd5-a691-5476b2a812e0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: !CylinderProceduralModel
+    Scale: {X: 0.1, Y: 1.0, Z: 0.1}
+    UvScale: {X: 1.0, Y: 1.0}
+    LocalOffset: {X: 0.0, Y: 0.5, Z: 0.0}
+    MaterialInstance:
+        Material: 4ef4c751-78ae-4c83-bfa3-f71a4bbd85de:Gameplay/Materials/LaserWall/HotLaserMaterial

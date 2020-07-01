@@ -1,9 +1,0 @@
-!Texture
-Id: 351f44e2-b2fa-460a-8b3b-61075a69bcaa
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/ExplosedCells/Pipes_damage_D.png
-Width: 50.0
-Height: 50.0
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

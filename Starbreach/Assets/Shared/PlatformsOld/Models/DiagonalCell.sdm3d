@@ -1,0 +1,14 @@
+!Model
+Id: 53f290b6-d53c-4d2b-9ccd-767bdffe6695
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Platforms/Cells/DiagonalCell.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    c7ee4fb3e99963c83f2e66e6599b9fae:
+        Name: cell2_baked
+        MaterialInstance:
+            Material: 2f5f609d-0f93-4f71-9390-2cb3d16a098c:PlatformsOld/Materials/cell01_backed
+Skeleton: null
+~SourceHashes:
+    91413254301af350c4631e339042ede4~../../../../Resources/Platforms/Cells/DiagonalCell.fbx: 13519cb61725e0301dfe773f9e429152

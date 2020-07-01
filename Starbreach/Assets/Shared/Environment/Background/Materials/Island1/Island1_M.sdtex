@@ -1,0 +1,8 @@
+!Texture
+Id: a2039d8b-ba67-49fa-a46e-51766ee65d9e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Background/Island1/Isl1_M.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,6 @@
+!Texture
+Id: 7949f76c-553f-4992-9053-d7da3a6b4568
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/border/border2_normal.tga
+Type: !NormalMapTextureType {}

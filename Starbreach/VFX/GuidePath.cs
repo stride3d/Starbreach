@@ -5,8 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xenko.Engine;
-using Xenko.Rendering;
+using Stride.Engine;
+using Stride.Rendering;
 
 namespace Starbreach.VFX
 {

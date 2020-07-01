@@ -1,9 +1,0 @@
-!Texture
-Id: 50ea10e9-13cd-46fd-975e-86b36653fd8a
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/DPU/DPU1_Rust_D.png
-Width: 50.0
-Height: 50.0
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

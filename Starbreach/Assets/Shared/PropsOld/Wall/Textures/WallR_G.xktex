@@ -1,6 +1,0 @@
-!Texture
-Id: 31368813-dcd4-404b-a619-3c79f85e93f2
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../Props/Wall/Textures/rusted/WallR_G.tga
-Type: !GrayscaleTextureType {}

@@ -1,8 +1,0 @@
-!Texture
-Id: db8b098e-43fe-43bf-a336-19eef84ff5cd
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/GasPump/GasPump_M.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

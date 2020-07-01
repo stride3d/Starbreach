@@ -1,8 +1,0 @@
-!Texture
-Id: 74236956-2cb6-4b6b-872c-8bb8d1a393e8
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/QuadBarrels/QuadBarrels_AO.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

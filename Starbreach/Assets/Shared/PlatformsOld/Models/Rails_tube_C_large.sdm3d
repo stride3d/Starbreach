@@ -1,0 +1,14 @@
+!Model
+Id: d4e25abb-0b9f-490f-91f4-af70270c98c6
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/Meshes/Rails_tube_C_large.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    cf2dc2a92489591bc118fe54e3d0d234:
+        Name: rails_adv
+        MaterialInstance:
+            Material: 1212b703-b567-40a5-ad55-bee35bebbf97:PlatformsOld/Materials/Rail
+Skeleton: null
+~SourceHashes:
+    317ef3bdca29835610f3d984f591db57~../../Platforms/Meshes/Rails_tube_C_large.FBX: 454702caf9c99fae692fa8329b0900e3

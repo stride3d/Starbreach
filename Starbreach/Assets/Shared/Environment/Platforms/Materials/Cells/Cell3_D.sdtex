@@ -1,0 +1,9 @@
+!Texture
+Id: 2a5d5f9d-0ee6-45b5-b655-aae7f423dfd8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Cells/Cell3_D.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    Alpha: None
+    PremultiplyAlpha: false

@@ -4,11 +4,11 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Starbreach.Core;
-using Xenko.Core.Extensions;
-using Xenko.Core.Mathematics;
-using Xenko.Animations;
-using Xenko.Engine;
-using Xenko.Engine.Events;
+using Stride.Core.Extensions;
+using Stride.Core.Mathematics;
+using Stride.Animations;
+using Stride.Engine;
+using Stride.Engine.Events;
 
 namespace Starbreach.Soldier
 {

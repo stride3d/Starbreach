@@ -1,0 +1,8 @@
+!Sound
+Id: 29858800-765e-4589-b3a3-4ded9910549f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/AudioToSort/TGS Sounds/player soldier/bullet_impact_2.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: true

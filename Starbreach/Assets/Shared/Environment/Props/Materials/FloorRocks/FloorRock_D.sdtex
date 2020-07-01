@@ -1,0 +1,9 @@
+!Texture
+Id: 59a27bc0-34f7-4508-9ee5-b766711720b6
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/FloorRocks/FloorRock_D.png
+Width: 50.0
+Height: 50.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

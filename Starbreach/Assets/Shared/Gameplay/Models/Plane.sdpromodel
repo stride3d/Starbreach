@@ -1,0 +1,13 @@
+!ProceduralModelAsset
+Id: a1a2ed8b-15d7-42ce-861c-8e3f05556f2d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: !PlaneProceduralModel
+    Size: {X: 1.0, Y: 1.0}
+    Tessellation: {X: 1, Y: 1}
+    Normal: UpY
+    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+    UvScale: {X: 1.0, Y: 1.0}
+    LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+    MaterialInstance:
+        Material: c8f9bd79-a393-4e4c-9bab-05096c4f32d8:Gameplay/Materials/LaserWall/LaserWall_MT

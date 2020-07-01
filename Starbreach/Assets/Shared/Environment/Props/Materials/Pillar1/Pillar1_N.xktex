@@ -1,8 +1,0 @@
-!Texture
-Id: bb994af5-a59f-4257-beca-530b6ebdf882
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/Pillar1/Pillar1_N.png
-Width: 50.0
-Height: 50.0
-Type: !NormalMapTextureType {}

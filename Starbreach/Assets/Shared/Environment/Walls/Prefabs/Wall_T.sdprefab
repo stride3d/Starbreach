@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: f4eb7cd9-993e-42ff-9cc3-a43f95d3cb26
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! ea6ac8d2-2e7e-4b41-a5cb-38f0f2ea203f
+    Parts:
+        -   Entity:
+                Id: ea6ac8d2-2e7e-4b41-a5cb-38f0f2ea203f
+                Name: Wall_T
+                Components:
+                    f44f16ca7569b497bd974772ca0c003b: !TransformComponent
+                        Id: fc52cae6-6496-4693-9b3d-dd5a6fa796de
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    47853ef5e3ff3e0a1f9c4ca0bd6f3082: !ModelComponent
+                        Id: 2e095c10-c589-4405-a7e6-bb95482304ba
+                        Model: 04fb4026-855e-452a-8823-1b0faf958684:Environment/Walls/Models/Wall_T
+                        Materials: {}

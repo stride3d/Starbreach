@@ -1,0 +1,19 @@
+!Skeleton
+Id: 6f6f6e23-78c1-481d-ba5d-42ecd7f0a413
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Drones/EnergyDrone/Model.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    2b83a4a0d5dde6216f7c2fe8b32bbfe2: {Name: RootNode, Depth: 0}
+    5313a8c347ec655703d514afff2a064a: {Name: Drone_bottom, Depth: 1}
+    31d72cd05d6e68b593beedc1d6cbd862: {Name: Drone_top, Depth: 1}
+    aa0e709ee9d11a77a9300486e270b693: {Name: Bone_base, Depth: 1}
+    1b03e388f467a6bae7e2a8f55a4cc4aa: {Name: Bone_turret_ring, Depth: 1}
+    8797a5c6511c3b84552d4b3d331f164d: {Name: Bone_turret_orientation, Depth: 2}
+    fa8f8dbc9a684cb72b32db7f754c6554: {Name: Bone_turret, Depth: 3}
+    dde796c1a1b3d4f4eb4c0481c853faf5: {Name: Bone_rocket_rotor, Depth: 4}
+    f66b0de41b5e9e8683d744101124d0a6: {Name: Bone_blast, Depth: 4}
+    2e307e0a230330e43b9eec540b30325a: {Name: DroneEnergy, Depth: 1}
+~SourceHashes:
+    7f3cab2496de51be8974c5ab01053ecd~../../../../Resources/Drones/EnergyDrone/Model.FBX: 9bcd5d6cd93c724f59e1bb73313de491

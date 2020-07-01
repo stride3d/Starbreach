@@ -1,0 +1,187 @@
+!PrefabAsset
+Id: 3b073657-9884-4200-8c07-b279d681ca21
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 15292c10-a923-474c-b33f-9ce20dfef300
+        - ref!! 68c223af-71cd-4645-9271-8b54a19b28ee
+        - ref!! 9a6c7cee-1908-4e49-a261-eeae81facb2c
+        - ref!! 5e33085b-ce59-4b36-ab9c-9e35f0ec4abe
+        - ref!! 650d4eff-13bd-425c-91d8-7cddaaddde22
+        - ref!! 7c610ba4-df42-4a15-a9e8-10ab9018e3b2
+        - ref!! 121aae14-3f09-4f72-af67-1180ca8ebb9c
+        - ref!! e1762914-de93-4c0a-99de-f4575d37cee4
+        - ref!! 173b421e-739a-4fc2-a9a5-63da5cd2a934
+        - ref!! 47429974-ff2e-405e-a45d-14f1b0fc19bb
+        - ref!! 6c4e64ce-45f5-4358-8c12-ee723a056189
+        - ref!! d51ed6fe-7c89-404a-ad42-648cab68bbaf
+    Parts:
+        -   Entity:
+                Id: 121aae14-3f09-4f72-af67-1180ca8ebb9c
+                Name: PlatformRocks2 (4)
+                Components:
+                    2384131a71811280cbd34ba170b7feb6: !TransformComponent
+                        Id: fb0e0419-dab5-4052-a5ee-dd20714b2b72
+                        Position: {X: 22.9272919, Y: -25.7528648, Z: -8.704959}
+                        Rotation: {X: 0.0, Y: -0.733628, Z: 0.0, W: 0.679551363}
+                        Scale: {X: 8.0, Y: 8.0, Z: 8.0}
+                        Children: {}
+                    14bb1742949911f368906188a326c460: !ModelComponent
+                        Id: c530cbcb-20e9-4b5b-b52b-3f126d4947d8
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+        -   Entity:
+                Id: 15292c10-a923-474c-b33f-9ce20dfef300
+                Name: Isl_1
+                Components:
+                    f73d0ddc039cbadb2f47fbe855fe7e96: !TransformComponent
+                        Id: 251271ce-4bcc-4bb2-9c7b-01e521128991
+                        Position: {X: 0.0, Y: -1.15709841, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1b620604547c76b3dd11de80fad3d800: !ModelComponent
+                        Id: 48472beb-48fc-4f45-84d4-15c5314ea680
+                        Model: c4f3ea64-37ea-4e8a-bac9-101665acd80c:Environment/Background/Models/Isl_1
+                        Materials: {}
+        -   Entity:
+                Id: 173b421e-739a-4fc2-a9a5-63da5cd2a934
+                Name: PlatformRocks3 (2)
+                Components:
+                    0a386328baa0eec4c0f804bce393ec60: !TransformComponent
+                        Id: 5508b87e-f0cf-4549-874b-fc8646e96fad
+                        Position: {X: -0.5792875, Y: -12.4886408, Z: 16.7266426}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 8.0, Y: 8.0, Z: 8.0}
+                        Children: {}
+                    80ebad7eedc69e9e2213edd1b02746ca: !ModelComponent
+                        Id: 92dd668c-4d72-4a7f-9b6e-319bdfec2818
+                        Model: 28b26550-fec0-4807-b432-3a95fc153485:Environment/Background/Models/PlatformRocks3
+                        Materials: {}
+        -   Entity:
+                Id: 47429974-ff2e-405e-a45d-14f1b0fc19bb
+                Name: PlatformRocks3 (3)
+                Components:
+                    0a386328baa0eec4c0f804bce393ec60: !TransformComponent
+                        Id: ed0604df-021f-455d-aefe-8ecdd72ee302
+                        Position: {X: -9.719631, Y: -13.2785158, Z: 17.2399864}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 8.0, Y: 8.0, Z: 8.0}
+                        Children: {}
+                    80ebad7eedc69e9e2213edd1b02746ca: !ModelComponent
+                        Id: 772314fa-bc36-492d-8bd2-7327c2ac6e18
+                        Model: 28b26550-fec0-4807-b432-3a95fc153485:Environment/Background/Models/PlatformRocks3
+                        Materials: {}
+        -   Entity:
+                Id: 5e33085b-ce59-4b36-ab9c-9e35f0ec4abe
+                Name: PlatformRocks2 (6)
+                Components:
+                    2384131a71811280cbd34ba170b7feb6: !TransformComponent
+                        Id: c3471f70-a4f4-4af8-ae45-6f2bc77842d3
+                        Position: {X: 3.508162, Y: -24.7043877, Z: -15.1030674}
+                        Rotation: {X: 0.0, Y: -0.2006756, Z: 0.0, W: 0.97965765}
+                        Scale: {X: 8.0, Y: 8.0, Z: 8.0}
+                        Children: {}
+                    14bb1742949911f368906188a326c460: !ModelComponent
+                        Id: e07802f8-23a7-4df2-bd3f-a165f27e27fb
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+        -   Entity:
+                Id: 650d4eff-13bd-425c-91d8-7cddaaddde22
+                Name: PlatformRocks2 (2)
+                Components:
+                    2384131a71811280cbd34ba170b7feb6: !TransformComponent
+                        Id: caaac61d-6511-40f9-8100-841a908e0526
+                        Position: {X: 20.1136, Y: -24.4032421, Z: 11.8339653}
+                        Rotation: {X: 0.0, Y: -0.919045031, Z: 0.0, W: -0.394152522}
+                        Scale: {X: 8.0, Y: 8.0, Z: 8.0}
+                        Children: {}
+                    14bb1742949911f368906188a326c460: !ModelComponent
+                        Id: ef886cb5-0d04-4fb8-b9ae-57d357307de0
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+        -   Entity:
+                Id: 68c223af-71cd-4645-9271-8b54a19b28ee
+                Name: PlatformRocks2
+                Components:
+                    2384131a71811280cbd34ba170b7feb6: !TransformComponent
+                        Id: c4028e50-caaa-4d53-8cea-dd1289153e16
+                        Position: {X: -23.0603142, Y: -24.7043877, Z: 4.035959}
+                        Rotation: {X: 0.0, Y: 0.7696357, Z: 0.0, W: -0.638483047}
+                        Scale: {X: 8.0, Y: 8.0, Z: 8.0}
+                        Children: {}
+                    14bb1742949911f368906188a326c460: !ModelComponent
+                        Id: 209c1a0a-144c-4fc4-87f7-17f3cee9bdcd
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+        -   Entity:
+                Id: 6c4e64ce-45f5-4358-8c12-ee723a056189
+                Name: PlatformRocks3 (4)
+                Components:
+                    0a386328baa0eec4c0f804bce393ec60: !TransformComponent
+                        Id: 4be688ec-ea81-4f12-8741-a64c30edd56a
+                        Position: {X: -17.2342415, Y: -13.2785158, Z: 15.4903374}
+                        Rotation: {X: 0.0, Y: 0.6809715, Z: 0.0, W: -0.732309937}
+                        Scale: {X: 8.0, Y: 8.0, Z: 8.0}
+                        Children: {}
+                    80ebad7eedc69e9e2213edd1b02746ca: !ModelComponent
+                        Id: 4f359090-444d-4391-9383-fc029a5cf070
+                        Model: 28b26550-fec0-4807-b432-3a95fc153485:Environment/Background/Models/PlatformRocks3
+                        Materials: {}
+        -   Entity:
+                Id: 7c610ba4-df42-4a15-a9e8-10ab9018e3b2
+                Name: PlatformRocks2 (5)
+                Components:
+                    2384131a71811280cbd34ba170b7feb6: !TransformComponent
+                        Id: 5d22174f-894b-415c-8574-e39682631546
+                        Position: {X: -5.761159, Y: -26.6521473, Z: 14.861186}
+                        Rotation: {X: 0.0, Y: -0.456781924, Z: 0.0, W: 0.8895787}
+                        Scale: {X: 8.0, Y: 8.0, Z: 8.0}
+                        Children: {}
+                    14bb1742949911f368906188a326c460: !ModelComponent
+                        Id: 18cbfbc1-a13f-4b30-a7cd-2d4d71445d1f
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+        -   Entity:
+                Id: 9a6c7cee-1908-4e49-a261-eeae81facb2c
+                Name: PlatformRocks2 (3)
+                Components:
+                    2384131a71811280cbd34ba170b7feb6: !TransformComponent
+                        Id: e140a478-46d5-4fc6-b463-26f90ec065a7
+                        Position: {X: -12.2410936, Y: -25.7013, Z: -13.7352266}
+                        Rotation: {X: 0.0, Y: 0.283583671, Z: 0.0, W: 0.9589474}
+                        Scale: {X: 8.0, Y: 8.0, Z: 8.0}
+                        Children: {}
+                    14bb1742949911f368906188a326c460: !ModelComponent
+                        Id: 7351344c-8778-4340-931d-a6fd84e6058e
+                        Model: e9e1b7fa-03a2-4cc9-806c-466c159f7e2a:Environment/Background/Models/PlatformRocks2
+                        Materials: {}
+        -   Entity:
+                Id: d51ed6fe-7c89-404a-ad42-648cab68bbaf
+                Name: PlatformRocks3 (5)
+                Components:
+                    0a386328baa0eec4c0f804bce393ec60: !TransformComponent
+                        Id: 4f11a78d-ad0d-45ee-b0d5-768cbccf5849
+                        Position: {X: -11.2671633, Y: -13.2785158, Z: -20.5549622}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 8.0, Y: 8.0, Z: 8.0}
+                        Children: {}
+                    80ebad7eedc69e9e2213edd1b02746ca: !ModelComponent
+                        Id: 287449c5-0704-43b8-9c1f-fc00cab16996
+                        Model: 28b26550-fec0-4807-b432-3a95fc153485:Environment/Background/Models/PlatformRocks3
+                        Materials: {}
+        -   Entity:
+                Id: e1762914-de93-4c0a-99de-f4575d37cee4
+                Name: PlatformRocks3
+                Components:
+                    0a386328baa0eec4c0f804bce393ec60: !TransformComponent
+                        Id: 5eed3717-a18b-4243-b963-d6b072870f4f
+                        Position: {X: 4.50396824, Y: -12.4886408, Z: 14.3248091}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 8.0, Y: 8.0, Z: 8.0}
+                        Children: {}
+                    80ebad7eedc69e9e2213edd1b02746ca: !ModelComponent
+                        Id: abf45f20-38e3-41fc-a4ea-8d199a085f15
+                        Model: 28b26550-fec0-4807-b432-3a95fc153485:Environment/Background/Models/PlatformRocks3
+                        Materials: {}

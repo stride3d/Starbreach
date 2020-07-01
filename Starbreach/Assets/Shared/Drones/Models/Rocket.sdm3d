@@ -1,0 +1,14 @@
+!Model
+Id: e32d2bc5-e8cb-42be-b405-f2ffb60f15d4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Drones/Rocket/Rocket.fbx
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fe0f722b28c564ae044289ea044289ea:
+        Name: Material
+        MaterialInstance:
+            Material: 6aec840c-1173-4374-bfce-5886fe37ad16:Drones/Materials/Rocket/Rocket
+Skeleton: null
+~SourceHashes:
+    0da5845d08f2f7a6cafb7b1c34fefacf~../../../../Resources/Drones/Rocket/Rocket.fbx: 119daf934b3086e1609428c925e3c519

@@ -1,8 +1,0 @@
-!Texture
-Id: 9f527cab-3262-4a2d-b8ac-76feb4fc3a31
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/FloorRocks/FloorRock_N.png
-Width: 50.0
-Height: 50.0
-Type: !NormalMapTextureType {}

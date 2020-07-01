@@ -1,0 +1,8 @@
+!Texture
+Id: 1a6cb278-a32e-44b3-a26d-d4e8cb82997a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Props/GasPump/GasPump_G.png
+Width: 50.0
+Height: 50.0
+Type: !GrayscaleTextureType {}

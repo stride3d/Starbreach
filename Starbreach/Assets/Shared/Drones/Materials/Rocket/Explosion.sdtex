@@ -1,0 +1,7 @@
+!Texture
+Id: dcae3aac-de6d-4d07-a287-200dd2f4b064
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Drones/Rocket/Explosion.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

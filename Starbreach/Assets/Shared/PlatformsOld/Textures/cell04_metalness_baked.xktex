@@ -1,6 +1,0 @@
-!Texture
-Id: 4cdb90fc-84e9-44ea-8c2d-53bc7cc40a51
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../Resources/Platforms/Cells/cell04_metalness_baked.png
-Type: !GrayscaleTextureType {}

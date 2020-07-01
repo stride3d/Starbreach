@@ -1,7 +1,0 @@
-!Texture
-Id: 71b39b34-e669-43a4-801c-3e066825a698
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../Resources/Drones/Rocket/Rocket_O.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

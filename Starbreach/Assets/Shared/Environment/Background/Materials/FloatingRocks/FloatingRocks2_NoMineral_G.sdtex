@@ -1,0 +1,8 @@
+!Texture
+Id: 84b42ff3-f988-4f3e-9dc6-676f8da2972c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Background/FloatingRocks/F_Rock02-NoMineral_G.png
+Width: 25.0
+Height: 25.0
+Type: !GrayscaleTextureType {}

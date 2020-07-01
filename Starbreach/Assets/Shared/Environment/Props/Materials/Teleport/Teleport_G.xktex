@@ -1,8 +1,0 @@
-!Texture
-Id: 8142cadb-a823-4fe1-8d2b-268d701181c0
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../Resources/Props/Teleport/Teleport_G.png
-Width: 50.0
-Height: 50.0
-Type: !GrayscaleTextureType {}

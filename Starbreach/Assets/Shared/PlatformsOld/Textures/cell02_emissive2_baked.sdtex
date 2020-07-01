@@ -1,0 +1,7 @@
+!Texture
+Id: 1e2dd2f1-744d-462d-a46e-534b49097cbd
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Platforms/Cells/cell02_emissive2_baked.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -5,10 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xenko.Engine;
-using Xenko.Graphics;
-using Xenko.Input;
-using Xenko.Rendering;
+using Stride.Engine;
+using Stride.Graphics;
+using Stride.Input;
+using Stride.Rendering;
 using System.IO;
 
 namespace Starbreach.VFX

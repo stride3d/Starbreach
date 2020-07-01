@@ -1,0 +1,6 @@
+!Texture
+Id: 134e6010-42aa-4ca0-9452-a48a1a16d7f2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../Platforms/rails_adv/rail01_metalness.tga
+Type: !GrayscaleTextureType {}

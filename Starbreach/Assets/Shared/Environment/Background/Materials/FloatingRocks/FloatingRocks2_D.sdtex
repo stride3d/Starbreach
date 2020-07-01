@@ -1,0 +1,11 @@
+!Texture
+Id: 1f7a4e66-7f1e-4183-8feb-80b3040af4f1
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Background/FloatingRocks/F_Rock02_D.png
+Width: 25.0
+Height: 25.0
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    Alpha: None
+    PremultiplyAlpha: false

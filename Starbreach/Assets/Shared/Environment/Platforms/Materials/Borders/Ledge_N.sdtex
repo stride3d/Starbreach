@@ -1,0 +1,6 @@
+!Texture
+Id: 87d317f0-9738-4507-83bc-2b9c4fb4fbd9
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Resources/Platforms/Ledges/Ledge_N.png
+Type: !NormalMapTextureType {}
