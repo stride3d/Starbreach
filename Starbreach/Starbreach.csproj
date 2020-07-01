@@ -15,30 +15,6 @@
     <PackageReference Include="Stride.Video" Version="4.0.0.1-beta04-1207" PrivateAssets="contentfiles;analyzers" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="VFX\ComputeColorTextureScrollParam.xksl">
-      <Generator>XenkoShaderKeyGenerator</Generator>
-      <LastGenOutput>ComputeColorTextureScrollParam1.cs</LastGenOutput>
-    </None>
-    <None Include="VFX\ComputeColorTextureScrollV.xksl">
-      <Generator>XenkoShaderKeyGenerator</Generator>
-      <LastGenOutput>ComputeColorTextureScrollV1.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\VFXPackage\VFXPackage.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="VFX\ComputeColorTextureScrollParam1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>ComputeColorTextureScrollParam.xksl</DependentUpon>
-    </Compile>
-    <Compile Update="VFX\ComputeColorTextureScrollV1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>ComputeColorTextureScrollV.xksl</DependentUpon>
-    </Compile>
   </ItemGroup>
 </Project>

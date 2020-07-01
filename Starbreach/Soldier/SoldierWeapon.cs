@@ -198,7 +198,8 @@ namespace Starbreach.Soldier
             var target = source + accuracyVector * 100.0f;
 
             // Cast a ray to find the collision
-            var hits = simulation.RaycastPenetrating(source, target);
+            var hits = new List<HitResult>();
+            simulation.RaycastPenetrating(source, target, hits);
             Vector3 normal = (target - source);
             normal.Normalize();
             hits.Sort(Comparer<HitResult>.Create((a,b) => Vector3.Dot(a.Point, normal).CompareTo(Vector3.Dot(b.Point, normal))));

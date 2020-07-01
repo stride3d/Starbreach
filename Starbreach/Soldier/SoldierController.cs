@@ -175,7 +175,8 @@ namespace Starbreach.Soldier
             Vector3 sweepDirection = -AnimationComponent.Entity.Transform.WorldMatrix.Forward;
             Matrix sweepStart = sphereCastOrigin.Transform.WorldMatrix;
             Matrix sweepEnd = sphereCastOrigin.Transform.WorldMatrix * Matrix.Translation(sweepDirection * 2.0f);
-            var sphereHits = this.GetSimulation().ShapeSweepPenetrating(usableOverlapShape, sweepStart, sweepEnd);
+            var sphereHits = new List<HitResult>();
+            this.GetSimulation().ShapeSweepPenetrating(usableOverlapShape, sweepStart, sweepEnd, sphereHits);
             float closestUsableDistance = float.MaxValue;
             IUsable closestUsable = null;
             Vector3 castOriginPosition = sphereCastOrigin.Transform.WorldMatrix.TranslationVector;
