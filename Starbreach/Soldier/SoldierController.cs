@@ -75,7 +75,11 @@ namespace Starbreach.Soldier
         [DataMemberRange(0, 1, 0.05, 0.1, 3)]
         public float RotationSpeed { get; set; } = 0.2f;
 
-        public float YawSpeedDuringAim { get; set; } = 45.0f;
+        public float RollMax { get; set; } = 0.35f;
+
+        public float RollAccel { get; set; } = 160f;
+
+        public float RollDecreaseSpeed { get; set; } = 10f;
 
         public CameraComponent Camera { get; set; }
 
@@ -90,7 +94,17 @@ namespace Starbreach.Soldier
         public new SoldierPlayerInput Input;
 
         [DataMemberIgnore]
-        public float Yaw { get; set; }
+        public Quaternion Rotation
+        {
+            get
+            {
+                return AnimationComponent.Entity.Transform.Rotation;
+            }
+            set
+            {
+                AnimationComponent.Entity.Transform.Rotation = value;
+            }
+        }
 
         [DataMemberIgnore]
         public bool IsAlive { get; private set; } = true;
@@ -282,7 +296,8 @@ namespace Starbreach.Soldier
         {
             // Stop moving
             Move(0.0f);
-            AnimationComponent.Entity.Transform.Rotation = Quaternion.RotationYawPitchRoll(MathUtil.DegreesToRadians(Yaw), 0, 0);
+            
+            SmoothRotate(0f);
         }
 
         private void UpdateRun()
@@ -295,8 +310,6 @@ namespace Starbreach.Soldier
 
         private Task StartWalk(State arg)
         {
-            // Reset the yaw of the SoldierController to match the camera yaw
-            Yaw = CameraController.Yaw;
             return Task.FromResult(0);
         }
 
@@ -306,26 +319,41 @@ namespace Starbreach.Soldier
             Move(WalkSpeed);
 
             // Update yaw from aim direction
-            var dt = (float)Game.UpdateTime.Elapsed.TotalSeconds;
-            Yaw += -AimDirection.X * YawSpeedDuringAim * dt;
-
-            AnimationComponent.Entity.Transform.Rotation = Quaternion.RotationYawPitchRoll(MathUtil.DegreesToRadians(Yaw), 0, 0);
-
-            CameraController.Yaw = Yaw;
-            // TODO: make this customizable
-            CameraController.Pitch = 10.0f;
+            AnimationComponent.Entity.Transform.Rotation = Quaternion.RotationYawPitchRoll(MathUtil.DegreesToRadians(CameraController.Yaw), 0, 0);
         }
-
+        
         private void SmoothRotate(float speed)
         {
-            // Compute target yaw from the movement direction
-            var targetYaw = (float)Math.Atan2(-MoveDirection.Z, MoveDirection.X) + MathUtil.PiOverTwo;
-            // Update the orientation of the soldier (lower pass filter to smooth rotation)
-            float yawRadians = Utils.LerpYaw(MathUtil.DegreesToRadians(Yaw), targetYaw, speed);
-            // Update the soldier rotation according to the yaw
-            AnimationComponent.Entity.Transform.Rotation = Quaternion.RotationYawPitchRoll(MathUtil.DegreesToRadians(Yaw), 0, 0);
+            float dt = (float) Game.UpdateTime.Elapsed.TotalSeconds;
+            float perFrameChange = speed * dt * 20f;
 
-            Yaw = MathUtil.RadiansToDegrees(yawRadians);
+            // Increase rotation rate based on velocity to avoid hysteresis for tiny movement
+            perFrameChange *= AverageVelocity.Length();
+            perFrameChange = perFrameChange > 1f ? 1f : perFrameChange;
+            
+            // Compute target direction from actual movement direction
+            var targetDir = AverageVelocity;
+            targetDir.Y = 0f; // Ignore gravity
+            targetDir = Vector3.Normalize(targetDir);
+
+            Vector3 axis = Vector3.UnitZ;
+            var currentDir = Vector3.Transform(axis, AnimationComponent.Entity.Transform.Rotation);
+            var currentRot = Quaternion.BetweenDirections(axis, currentDir);
+            var targetRot = Quaternion.BetweenDirections(axis, targetDir);
+            var newRot = Quaternion.Slerp(currentRot, targetRot, perFrameChange);
+            
+            // Roll based on sharpness of turn (i.e.: amount of change from current to new)
+            var roll = Quaternion.Dot(currentRot, newRot);
+            roll = 1f - (roll*0.5f+0.5f); // remap dot [-1,1] -> [1,0]
+            roll *= RollAccel;
+            // Roll either way based on direction
+            roll = Vector3.Dot(Vector3.Cross(targetDir, currentDir), Vector3.UnitY) > 0f ? roll : -roll;
+            
+            currentRoll += roll;
+            currentRoll = MathUtil.Lerp(currentRoll, 0f, MathF.Min(dt*RollDecreaseSpeed, 1f));
+            currentRoll = MathUtil.Clamp(currentRoll, -RollMax, RollMax);
+
+            AnimationComponent.Entity.Transform.Rotation = Quaternion.RotationAxis(Vector3.UnitZ, currentRoll) * newRot;
         }
 
         private void Move(float speed)
