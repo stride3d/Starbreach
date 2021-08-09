@@ -137,13 +137,13 @@ Hierarchy:
                             ValueAtRun: 45.0
                             ValueAtAim: 40.0
                         Pan:
-                            ValueAtRun: {X: 0.0, Y: 1.2}
-                            ValueAtAim: {X: -0.6, Y: 1.4}
+                            ValueAtRun: {X: 0.0, Y: 1.5}
+                            ValueAtAim: {X: -0.6, Y: 1.5}
                         Pitch: 20.0
                         Yaw: 45.0
                         PitchSpeed: 60.0
                         YawSpeed: 180.0
-                        PitchRange: {X: 0.0, Y: 80.0}
+                        PitchRange: {X: -80.0, Y: 80.0}
                     b73787fb7505194fb6bb7884dfe525c6: !Starbreach.Soldier.SoldierController,Starbreach
                         Id: fb8737b7-0575-4f19-b6bb-7884dfe525c6
                         Input: ref!! 4313e795-081a-45e9-9528-083db5f1662e
