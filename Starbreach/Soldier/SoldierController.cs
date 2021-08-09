@@ -37,12 +37,26 @@ namespace Starbreach.Soldier
         public DamageTakenHandler OnDamageTaken;
 
         public Vector3 MoveDirection { get; private set; }
+        /// <summary>
+        /// Velocity per second averaged, the averaging window is 0.25 of a second.
+        /// </summary>
+        public Vector3 AverageVelocity { get; private set; }
+        /// <summary>
+        /// Average distance travelled scaled to a second,
+        /// difference with <see cref="AverageVelocity"/> is that
+        /// going back and forth still increases this value.
+        /// </summary>
+        public float DistanceTravelledAverage { get; private set; }
         public Vector2 AimDirection { get; private set; }
+        
         private FiniteStateMachine stateMachine;
         private int controllerIndex;
         private Entity sphereCastOrigin;
         private CharacterComponent character;
         private SphereColliderShape usableOverlapShape = new SphereColliderShape(false, 0.5f);
+        private Queue<(Vector3 vel, float dt)> rollingVelocities = new Queue<(Vector3, float)>();
+        private Vector3 lastFramePos;
+        private float currentRoll;
 
         // Sounds
         private AudioEmitterSoundController[] hitSounds;
@@ -133,6 +147,39 @@ namespace Starbreach.Soldier
 
         public override void Update()
         {
+            var dt = (float)Game.UpdateTime.Elapsed.TotalSeconds;
+            var deltaPos = Entity.Transform.Position - lastFramePos;
+            lastFramePos = Entity.Transform.Position;
+            rollingVelocities.Enqueue( (deltaPos, dt) );
+            
+            // Recompute every frame instead of storing to avoid values slowly drifting 
+            // through floating point imprecision
+            float totalDt = 0f;
+            Vector3 aggregatedVel = default;
+            Vector3 aggregatedAbsVel = default;
+            foreach (var (v, oldDt) in rollingVelocities)
+            {
+                totalDt += oldDt;
+                aggregatedVel += v;
+                aggregatedAbsVel += new Vector3(MathF.Abs(v.X), MathF.Abs(v.Y), MathF.Abs(v.Z));
+            }
+
+            // We average over 0.25 of a second as if the data was for a full second,
+            // Provides smoothed out but still useful data.
+            while (totalDt > .25f)
+            {
+                // Remove data out of that time frame.
+                var (v, oldDt) = rollingVelocities.Dequeue();
+                totalDt -= oldDt;
+                aggregatedVel -= v;
+                aggregatedAbsVel -= new Vector3(MathF.Abs(v.X), MathF.Abs(v.Y), MathF.Abs(v.Z));
+            }
+
+            // Division by totalDt scales the result as if it was a full second,
+            // easier to work with those kinds of ranges and easier to maintain if the averaging window changes 
+            AverageVelocity = totalDt == 0f || aggregatedVel == default ? default : aggregatedVel / totalDt;
+            DistanceTravelledAverage = totalDt == 0f || aggregatedAbsVel == default ? default : aggregatedAbsVel.Length() / totalDt;
+            
             UpdateUI();
 
             if (!IsEnabled)
