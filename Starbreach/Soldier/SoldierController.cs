@@ -79,7 +79,7 @@ namespace Starbreach.Soldier
 
         public float RollAccel { get; set; } = 160f;
 
-        public float RollDecreaseSpeed { get; set; } = 10f;
+        public float RollDecreaseSpeed { get; set; } = 2f;
 
         public CameraComponent Camera { get; set; }
 
@@ -321,7 +321,9 @@ namespace Starbreach.Soldier
             // Update yaw from aim direction
             AnimationComponent.Entity.Transform.Rotation = Quaternion.RotationYawPitchRoll(MathUtil.DegreesToRadians(CameraController.Yaw), 0, 0);
         }
-        
+
+
+
         private void SmoothRotate(float speed)
         {
             float dt = (float) Game.UpdateTime.Elapsed.TotalSeconds;
@@ -340,7 +342,7 @@ namespace Starbreach.Soldier
             var currentDir = Vector3.Transform(axis, AnimationComponent.Entity.Transform.Rotation);
             var currentRot = Quaternion.BetweenDirections(axis, currentDir);
             var targetRot = Quaternion.BetweenDirections(axis, targetDir);
-            var newRot = Quaternion.Slerp(currentRot, targetRot, perFrameChange);
+            var newRot = RotateTowardsEased(currentRot, targetRot, perFrameChange);
             
             // Roll based on sharpness of turn (i.e.: amount of change from current to new)
             var roll = Quaternion.Dot(currentRot, newRot);
@@ -350,10 +352,48 @@ namespace Starbreach.Soldier
             roll = Vector3.Dot(Vector3.Cross(targetDir, currentDir), Vector3.UnitY) > 0f ? roll : -roll;
             
             currentRoll += roll;
-            currentRoll = MathUtil.Lerp(currentRoll, 0f, MathF.Min(dt*RollDecreaseSpeed, 1f));
+            currentRoll = MoveToZeroExp(currentRoll, dt * RollDecreaseSpeed);
             currentRoll = MathUtil.Clamp(currentRoll, -RollMax, RollMax);
 
             AnimationComponent.Entity.Transform.Rotation = Quaternion.RotationAxis(Vector3.UnitZ, currentRoll) * newRot;
+        }
+
+
+
+        static float Angle(in Quaternion a, in Quaternion b)
+        {
+            return MathF.Acos(MathF.Min(MathF.Abs(Quaternion.Dot(a, b)), 1f)) * 2f;
+        }
+        
+        static Quaternion RotateTowardsEased(Quaternion current, Quaternion target, float angle, float easingRange = 2f)
+        {
+            var maxAngle = Angle(current, target);
+            if (maxAngle == 0f)
+                return target;
+            var v = MoveToZeroExp(maxAngle, angle, easingRange) / maxAngle;
+            return Quaternion.Slerp(current, target, 1f-v);
+        }
+        
+        /// <summary>
+        /// Moves <paramref name="distance"/> towards zero, the further away it is the larger the displacement.
+        /// Framerate independent.
+        /// </summary>
+        /// <param name="distance">The value you want to move towards zero</param>
+        /// <param name="timeDelta">The time between last and current call, multiply it to go faster</param>
+        /// <param name="easingRange">A constant which controls the speed increase per distance curve</param>
+        /// <remarks>
+        /// Time taken to travel is non-linear so for 100 units it'll take 10 sec but 200 is 14.1 sec.
+        /// </remarks>
+        static float MoveToZeroExp(float distance, float timeDelta, float easingRange = 2f)
+        {
+            var sign = MathF.Sign(distance);
+            double d = Math.Abs(distance);
+            d = Math.Pow(d, 1d / easingRange);
+            d -= timeDelta;
+            d = d < 0d ? 0d : d;
+            d = Math.Pow(d, easingRange);
+            d *= sign;
+            return (float)d;
         }
 
         private void Move(float speed)
