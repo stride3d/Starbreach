@@ -37,12 +37,26 @@ namespace Starbreach.Soldier
         public DamageTakenHandler OnDamageTaken;
 
         public Vector3 MoveDirection { get; private set; }
+        /// <summary>
+        /// Velocity per second averaged, the averaging window is 0.25 of a second.
+        /// </summary>
+        public Vector3 AverageVelocity { get; private set; }
+        /// <summary>
+        /// Average distance travelled scaled to a second,
+        /// difference with <see cref="AverageVelocity"/> is that
+        /// going back and forth still increases this value.
+        /// </summary>
+        public float DistanceTravelledAverage { get; private set; }
         public Vector2 AimDirection { get; private set; }
+        
         private FiniteStateMachine stateMachine;
         private int controllerIndex;
         private Entity sphereCastOrigin;
         private CharacterComponent character;
         private SphereColliderShape usableOverlapShape = new SphereColliderShape(false, 0.5f);
+        private Queue<(Vector3 vel, float dt)> rollingVelocities = new Queue<(Vector3, float)>();
+        private Vector3 lastFramePos;
+        private float currentRoll;
 
         // Sounds
         private AudioEmitterSoundController[] hitSounds;
@@ -61,7 +75,11 @@ namespace Starbreach.Soldier
         [DataMemberRange(0, 1, 0.05, 0.1, 3)]
         public float RotationSpeed { get; set; } = 0.2f;
 
-        public float YawSpeedDuringAim { get; set; } = 45.0f;
+        public float RollMax { get; set; } = 0.35f;
+
+        public float RollAccel { get; set; } = 160f;
+
+        public float RollDecreaseSpeed { get; set; } = 2f;
 
         public CameraComponent Camera { get; set; }
 
@@ -76,7 +94,17 @@ namespace Starbreach.Soldier
         public new SoldierPlayerInput Input;
 
         [DataMemberIgnore]
-        public float Yaw { get; set; }
+        public Quaternion Rotation
+        {
+            get
+            {
+                return AnimationComponent.Entity.Transform.Rotation;
+            }
+            set
+            {
+                AnimationComponent.Entity.Transform.Rotation = value;
+            }
+        }
 
         [DataMemberIgnore]
         public bool IsAlive { get; private set; } = true;
@@ -133,6 +161,39 @@ namespace Starbreach.Soldier
 
         public override void Update()
         {
+            var dt = (float)Game.UpdateTime.Elapsed.TotalSeconds;
+            var deltaPos = Entity.Transform.Position - lastFramePos;
+            lastFramePos = Entity.Transform.Position;
+            rollingVelocities.Enqueue( (deltaPos, dt) );
+            
+            // Recompute every frame instead of storing to avoid values slowly drifting 
+            // through floating point imprecision
+            float totalDt = 0f;
+            Vector3 aggregatedVel = default;
+            Vector3 aggregatedAbsVel = default;
+            foreach (var (v, oldDt) in rollingVelocities)
+            {
+                totalDt += oldDt;
+                aggregatedVel += v;
+                aggregatedAbsVel += new Vector3(MathF.Abs(v.X), MathF.Abs(v.Y), MathF.Abs(v.Z));
+            }
+
+            // We average over 0.25 of a second as if the data was for a full second,
+            // Provides smoothed out but still useful data.
+            while (totalDt > .25f)
+            {
+                // Remove data out of that time frame.
+                var (v, oldDt) = rollingVelocities.Dequeue();
+                totalDt -= oldDt;
+                aggregatedVel -= v;
+                aggregatedAbsVel -= new Vector3(MathF.Abs(v.X), MathF.Abs(v.Y), MathF.Abs(v.Z));
+            }
+
+            // Division by totalDt scales the result as if it was a full second,
+            // easier to work with those kinds of ranges and easier to maintain if the averaging window changes 
+            AverageVelocity = totalDt == 0f || aggregatedVel == default ? default : aggregatedVel / totalDt;
+            DistanceTravelledAverage = totalDt == 0f || aggregatedAbsVel == default ? default : aggregatedAbsVel.Length() / totalDt;
+            
             UpdateUI();
 
             if (!IsEnabled)
@@ -235,7 +296,8 @@ namespace Starbreach.Soldier
         {
             // Stop moving
             Move(0.0f);
-            AnimationComponent.Entity.Transform.Rotation = Quaternion.RotationYawPitchRoll(MathUtil.DegreesToRadians(Yaw), 0, 0);
+            
+            SmoothRotate(0f);
         }
 
         private void UpdateRun()
@@ -248,8 +310,6 @@ namespace Starbreach.Soldier
 
         private Task StartWalk(State arg)
         {
-            // Reset the yaw of the SoldierController to match the camera yaw
-            Yaw = CameraController.Yaw;
             return Task.FromResult(0);
         }
 
@@ -259,26 +319,81 @@ namespace Starbreach.Soldier
             Move(WalkSpeed);
 
             // Update yaw from aim direction
-            var dt = (float)Game.UpdateTime.Elapsed.TotalSeconds;
-            Yaw += -AimDirection.X * YawSpeedDuringAim * dt;
-
-            AnimationComponent.Entity.Transform.Rotation = Quaternion.RotationYawPitchRoll(MathUtil.DegreesToRadians(Yaw), 0, 0);
-
-            CameraController.Yaw = Yaw;
-            // TODO: make this customizable
-            CameraController.Pitch = 10.0f;
+            AnimationComponent.Entity.Transform.Rotation = Quaternion.RotationYawPitchRoll(MathUtil.DegreesToRadians(CameraController.Yaw), 0, 0);
         }
+
+
 
         private void SmoothRotate(float speed)
         {
-            // Compute target yaw from the movement direction
-            var targetYaw = (float)Math.Atan2(-MoveDirection.Z, MoveDirection.X) + MathUtil.PiOverTwo;
-            // Update the orientation of the soldier (lower pass filter to smooth rotation)
-            float yawRadians = Utils.LerpYaw(MathUtil.DegreesToRadians(Yaw), targetYaw, speed);
-            // Update the soldier rotation according to the yaw
-            AnimationComponent.Entity.Transform.Rotation = Quaternion.RotationYawPitchRoll(MathUtil.DegreesToRadians(Yaw), 0, 0);
+            float dt = (float) Game.UpdateTime.Elapsed.TotalSeconds;
+            float perFrameChange = speed * dt * 20f;
 
-            Yaw = MathUtil.RadiansToDegrees(yawRadians);
+            // Increase rotation rate based on velocity to avoid hysteresis for tiny movement
+            perFrameChange *= AverageVelocity.Length();
+            perFrameChange = perFrameChange > 1f ? 1f : perFrameChange;
+            
+            // Compute target direction from actual movement direction
+            var targetDir = AverageVelocity;
+            targetDir.Y = 0f; // Ignore gravity
+            targetDir = Vector3.Normalize(targetDir);
+
+            Vector3 axis = Vector3.UnitZ;
+            var currentDir = Vector3.Transform(axis, AnimationComponent.Entity.Transform.Rotation);
+            var currentRot = Quaternion.BetweenDirections(axis, currentDir);
+            var targetRot = Quaternion.BetweenDirections(axis, targetDir);
+            var newRot = RotateTowardsEased(currentRot, targetRot, perFrameChange);
+            
+            // Roll based on sharpness of turn (i.e.: amount of change from current to new)
+            var roll = Quaternion.Dot(currentRot, newRot);
+            roll = 1f - (roll*0.5f+0.5f); // remap dot [-1,1] -> [1,0]
+            roll *= RollAccel;
+            // Roll either way based on direction
+            roll = Vector3.Dot(Vector3.Cross(targetDir, currentDir), Vector3.UnitY) > 0f ? roll : -roll;
+            
+            currentRoll += roll;
+            currentRoll = MoveToZeroExp(currentRoll, dt * RollDecreaseSpeed);
+            currentRoll = MathUtil.Clamp(currentRoll, -RollMax, RollMax);
+
+            AnimationComponent.Entity.Transform.Rotation = Quaternion.RotationAxis(Vector3.UnitZ, currentRoll) * newRot;
+        }
+
+
+
+        static float Angle(in Quaternion a, in Quaternion b)
+        {
+            return MathF.Acos(MathF.Min(MathF.Abs(Quaternion.Dot(a, b)), 1f)) * 2f;
+        }
+        
+        static Quaternion RotateTowardsEased(Quaternion current, Quaternion target, float angle, float easingRange = 2f)
+        {
+            var maxAngle = Angle(current, target);
+            if (maxAngle == 0f)
+                return target;
+            var v = MoveToZeroExp(maxAngle, angle, easingRange) / maxAngle;
+            return Quaternion.Slerp(current, target, 1f-v);
+        }
+        
+        /// <summary>
+        /// Moves <paramref name="distance"/> towards zero, the further away it is the larger the displacement.
+        /// Framerate independent.
+        /// </summary>
+        /// <param name="distance">The value you want to move towards zero</param>
+        /// <param name="timeDelta">The time between last and current call, multiply it to go faster</param>
+        /// <param name="easingRange">A constant which controls the speed increase per distance curve</param>
+        /// <remarks>
+        /// Time taken to travel is non-linear so for 100 units it'll take 10 sec but 200 is 14.1 sec.
+        /// </remarks>
+        static float MoveToZeroExp(float distance, float timeDelta, float easingRange = 2f)
+        {
+            var sign = MathF.Sign(distance);
+            double d = Math.Abs(distance);
+            d = Math.Pow(d, 1d / easingRange);
+            d -= timeDelta;
+            d = d < 0d ? 0d : d;
+            d = Math.Pow(d, easingRange);
+            d *= sign;
+            return (float)d;
         }
 
         private void Move(float speed)

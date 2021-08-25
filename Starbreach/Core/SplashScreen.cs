@@ -38,7 +38,7 @@ namespace Starbreach.Core
                 SoldierModel.Enabled = true;
                 Soldier.Entity.Get<CharacterComponent>().Teleport(initialPosition);
                 Soldier.Entity.Get<CameraController>().Yaw = initialCamYaw;
-                Soldier.Yaw = initialYaw;
+                Soldier.Rotation = Quaternion.RotationYawPitchRoll(MathUtil.DegreesToRadians(initialYaw), 0f, 0f);
 
                 // Wait to reach the end
                 while (true)

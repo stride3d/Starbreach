@@ -80,7 +80,6 @@ namespace Starbreach.Soldier
                 rot.X = rot.Z = 0.0f;
                 rot.Normalize();
                 var yaw = MathUtil.RadiansToDegrees(2 * (float)Math.Acos(rot.W));
-                currentSoldier.Yaw = yaw;
                 currentSoldier.CameraController.Yaw = yaw;
                 ActiveCamera = currentSoldier.Camera;
             }

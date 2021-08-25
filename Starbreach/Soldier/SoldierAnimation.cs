@@ -53,6 +53,10 @@ namespace Starbreach.Soldier
 
         public float WalkCrossfadeDuration { get; set; } = 0.2f;
 
+        public float RunAnimSpeed { get; set; } = 0.3f;
+
+        public float WalkAnimSpeed { get; set; } = 0.9f;
+
         public CameraComponent Camera { get; set; }
 
         public AnimationComponent AnimationComponent { get; set; }
@@ -113,7 +117,7 @@ namespace Starbreach.Soldier
         public override void Update()
         {
             // Check movement status and update states
-            if (SoldierController.MoveDirection == Vector3.Zero)
+            if (SoldierController.AverageVelocity.LengthSquared() < 0.1f)
             {
                 if (IsRun)
                 {
@@ -127,7 +131,7 @@ namespace Starbreach.Soldier
                 {
                     lowerStateMachine?.SwitchTo(LowerRunState);
                 }
-                moveDirection = SoldierController.MoveDirection;
+                moveDirection = Vector3.Normalize(SoldierController.AverageVelocity);
             }
             
             bool reloading = soldierWeapon.IsReloading;
@@ -193,6 +197,11 @@ namespace Starbreach.Soldier
                     SwapLowerAnimation(AnimKeys.IdleAim, AnimKeys.IdleLow, true);
                     SwapLowerAnimation(AnimKeys.RunAim, AnimKeys.RunLow, true);
                 }
+                foreach (var anim in AnimationComponent.PlayingAnimations.Take(LowerAnimCount))
+                {
+                    if (anim.Name == AnimKeys.RunLow || anim.Name == AnimKeys.RunAim)
+                        anim.TimeFactor = SoldierController.DistanceTravelledAverage * RunAnimSpeed;
+                }
             };
 
             Action<State> exitLowerIdleOrRun = to =>
@@ -214,13 +223,14 @@ namespace Starbreach.Soldier
 
             Action updateLowerWalk = () =>
             {
-                var dot = Vector3.Dot(moveDirection, aimDirection);
+                var facingDirection = Vector3.Transform(-Vector3.UnitZ, AnimationComponent.Entity.Transform.Rotation);
+                var dot = Vector3.Dot(moveDirection, facingDirection);
                 string lowerAnimToPlay;
                 var forwardThreshold = Math.Cos(MathUtil.DegreesToRadians(WalkAngleThreshold.X));
                 var backwardThreshold = Math.Cos(MathUtil.DegreesToRadians(WalkAngleThreshold.Y));
                 var crossfadeFactor = Game.UpdateTime.Elapsed.TotalSeconds / WalkCrossfadeDuration;
                 // Find out which anim should be played
-                if (moveDirection == Vector3.Zero)
+                if (moveDirection.LengthSquared() < 0.1f)
                 {
                     lowerAnimToPlay = AnimKeys.IdleAim;
                 }
@@ -240,6 +250,7 @@ namespace Starbreach.Soldier
 
                 foreach (var anim in AnimationComponent.PlayingAnimations.Take(LowerAnimCount))
                 {
+                    anim.TimeFactor = SoldierController.DistanceTravelledAverage * WalkAnimSpeed;
                     if (anim.Name == lowerAnimToPlay)
                         anim.Weight = (float)Math.Min(anim.Weight + crossfadeFactor, 1.0f);
                     else
